@@ -1,0 +1,10 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/NFSMWSave.App/NFSMWSave.App.csproj" />
+    <Project Path="src/NFSMWSave.Core/NFSMWSave.Core.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/NFSMWSave.Check/NFSMWSave.Check.csproj" />
+    <Project Path="tests/NFSMWSave.Shots/NFSMWSave.Shots.csproj" />
+  </Folder>
+</Solution>
