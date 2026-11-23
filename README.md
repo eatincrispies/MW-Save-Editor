@@ -61,7 +61,7 @@ Importing cars replaces every car in that save. If a part doesn't exist in the n
 
 ## Hex editing
 
-If you'd rather do things by hand, the [`hashes`](hashes) folder lists the hex values for cars, parts, paints, vinyls, races, markers and flags, plus where they live in the save. Start with `Read Me First.txt`.
+If you'd rather do things by hand, the [`hashes`](hashes) folder lists the hex values for cars, parts, paints, vinyls, races, markers and flags, plus where they live in the save.
 
 Hex editing breaks the save's checksums. When you're done, open the file in the editor and press **Ctrl+S** to fix them.
 
