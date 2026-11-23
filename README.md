@@ -75,15 +75,11 @@ Hex editing breaks the save's checksums. When you're done, open the file in the 
 - Aliases can be up to 7 letters or numbers. Changing one on PC also renames the profile folder.
 - Deleting a car works like selling it without the cash. Its bounty and Rap Sheet numbers stay on your career.
 
-## Building it yourself
 
-[Releases page](https://github.com/eatincrispies/MW-Save-Editor/releases/latest). You'll also need the [.NET 10 Desktop Runtime](https://dotnet.microsoft.com/download/dotnet/10.0), or it won't open.
+## Credits
 
-```
-dotnet build NFSMWSaveEditor.slnx -c Release
-```
-
-To make a single `.exe`, run `publish.bat`. It goes in `publish\NFSMWSaveEditor`.
+- Made by eatincrispies.
+- Testing/Feedback by Roskler
 
 
-Made by eatincrispies. This is a fan project and isn't affiliated with or endorsed by Electronic Arts. Need for Speed and all car names and logos belong to their owners.
+This is a fan project and isn't affiliated with or endorsed by Electronic Arts. Need for Speed and all car names and logos belong to their owners.
