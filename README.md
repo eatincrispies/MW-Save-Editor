@@ -65,7 +65,7 @@ If you'd rather do things by hand, the [`hashes`](hashes) folder lists the hex v
 
 Hex editing breaks the save's checksums. When you're done, open the file in the editor and press **Ctrl+S** to fix them.
 
-## Good to know
+## Things to know
 
 - A real Xbox 360 won't accept an edited save until you rehash and resign it with something like Horizon. Xenia doesn't need this.
 - Original Xbox saves keep the kind of signature they came with, so a save made in xbased stays valid in xbased. Their alias can't be changed.
@@ -73,7 +73,6 @@ Hex editing breaks the save's checksums. When you're done, open the file in the 
 - Some PAL PS2 saves use an older layout, so Add Car and the Rap Sheet are turned off for them.
 - If the PC game rejects a save from someone else, try **Tools > Match My Game's Car List**. A heavily modded garage still might not line up.
 - Aliases can be up to 7 letters or numbers. Changing one on PC also renames the profile folder.
-- If you use NFSMW Unlimiter, saving also updates the car's file in your `Presets` folder.
 - Deleting a car works like selling it without the cash. Its bounty and Rap Sheet numbers stay on your career.
 
 ## Building it yourself
@@ -86,10 +85,5 @@ dotnet build NFSMWSaveEditor.slnx -c Release
 
 To make a single `.exe`, run `publish.bat`. It goes in `publish\NFSMWSaveEditor`.
 
-## Found a bug?
-
-Open an issue and tell me which version of the game you're on and what you changed. If you can attach the save too, even better.
-
----
 
 Made by eatincrispies. This is a fan project and isn't affiliated with or endorsed by Electronic Arts. Need for Speed and all car names and logos belong to their owners.
