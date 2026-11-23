@@ -77,7 +77,7 @@ Hex editing breaks the save's checksums. When you're done, open the file in the 
 
 ## Building it yourself
 
-You'll need the [.NET 10 SDK](https://dotnet.microsoft.com/download/dotnet/10.0).
+[Releases page](https://github.com/eatincrispies/MW-Save-Editor/releases/latest). You'll also need the [.NET 10 Desktop Runtime](https://dotnet.microsoft.com/download/dotnet/10.0), or it won't open.
 
 ```
 dotnet build NFSMWSaveEditor.slnx -c Release
