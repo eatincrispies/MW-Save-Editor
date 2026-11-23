@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <RootNamespace>NFSMWSave.Core</RootNamespace>
+    <AssemblyName>NFSMWSave.Core</AssemblyName>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="Data\Races.txt" LogicalName="Races.txt" />
+    <EmbeddedResource Include="Data\CarCatalog.bin" LogicalName="CarCatalog.bin" />
+    <EmbeddedResource Include="Data\CarPaints.txt" LogicalName="CarPaints.txt" />
+    <EmbeddedResource Include="Data\CarParts.gz" LogicalName="CarParts.gz" />
+    <EmbeddedResource Include="Data\CarPresets.gz" LogicalName="CarPresets.gz" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <InternalsVisibleTo Include="NFSMWSave.Hashes" />
+  </ItemGroup>
+
+</Project>
