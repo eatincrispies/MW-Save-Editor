@@ -1,0 +1,27 @@
+Markers
+=======
+
+Each marker record starts with its type. Set +08 to 1 so the game counts it as owned.
+
+Marker                ID  Type      PC/PS2 Bytes  360/GC Bytes
+--------------------  --  --------  ------------  ------------
+Get Out of Jail       17  00000011  11 00 00 00   00 00 00 11
+Impound Strike        20  00000014  14 00 00 00   00 00 00 14
+Impound Release       21  00000015  15 00 00 00   00 00 00 15
+Engine                2   00000002  02 00 00 00   00 00 00 02
+Transmission          7   00000007  07 00 00 00   00 00 00 07
+Suspension            5   00000005  05 00 00 00   00 00 00 05
+Nitrous               3   00000003  03 00 00 00   00 00 00 03
+Tires                 6   00000006  06 00 00 00   00 00 00 06
+Brakes                1   00000001  01 00 00 00   00 00 00 01
+Turbo / Supercharger  4   00000004  04 00 00 00   00 00 00 04
+Body Kit              8   00000008  08 00 00 00   00 00 00 08
+Hood                  9   00000009  09 00 00 00   00 00 00 09
+Spoiler               10  0000000A  0A 00 00 00   00 00 00 0A
+Rims                  11  0000000B  0B 00 00 00   00 00 00 0B
+Roof Scoop            12  0000000C  0C 00 00 00   00 00 00 0C
+Custom HUD            13  0000000D  0D 00 00 00   00 00 00 0D
+Vinyl                 14  0000000E  0E 00 00 00   00 00 00 0E
+Decal                 15  0000000F  0F 00 00 00   00 00 00 0F
+Paint                 16  00000010  10 00 00 00   00 00 00 10
+

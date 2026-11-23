@@ -1,0 +1,46 @@
+Stock Cars
+==========
+
+The Vehicle Key goes at +08 of a car record and the Frontend Key at +04. See Save Layout\Car Records.txt.
+
+Name                              ID           Vehicle Key  PC/PS2 Bytes  360/GC Bytes  Frontend Key  PC/PS2 Bytes  360/GC Bytes  Status
+--------------------------------  -----------  -----------  ------------  ------------  ------------  ------------  ------------  --------
+Aston Martin DB9                  db9          A4B61C6A     6A 1C B6 A4   A4 B6 1C 6A   A4B61C6A      6A 1C B6 A4   A4 B6 1C 6A   Drivable
+Audi A3 3.2 quattro               a3           D5C414E5     E5 14 C4 D5   D5 C4 14 E5   7B72C17B      7B C1 72 7B   7B 72 C1 7B   Drivable
+Audi A4 3.2 FSI quattro           a4           9B7E42BF     BF 42 7E 9B   9B 7E 42 BF   F8F64B7B      7B 4B F6 F8   F8 F6 4B 7B   Drivable
+Audi TT 3.2 quattro               tt           193A8BC8     C8 8B 3A 19   19 3A 8B C8   193A8BC8      C8 8B 3A 19   19 3A 8B C8   Drivable
+BMW M3 GTR                        bmwm3gtre46  4E085FB3     B3 5F 08 4E   4E 08 5F B3   23CC4A4E      4E 4A CC 23   23 CC 4A 4E   Drivable
+BMW M3 GTR (Street)               bmwm3gtr     CD88083F     3F 08 88 CD   CD 88 08 3F   81C2FEA6      A6 FE C2 81   81 C2 FE A6   Drivable
+Cadillac CTS                      cts          DF186520     20 65 18 DF   DF 18 65 20   DF186520      20 65 18 DF   DF 18 65 20   Drivable
+Chevrolet Camaro SS               camaro       90944519     19 45 94 90   90 94 45 19   90944519      19 45 94 90   90 94 45 19   Drivable
+Chevrolet Cobalt SS               cobaltss     5A784095     95 40 78 5A   5A 78 40 95   5A784095      95 40 78 5A   5A 78 40 95   Drivable
+Chevrolet Corvette C6             corvette     46118CE4     E4 8C 11 46   46 11 8C E4   22E582CF      CF 82 E5 22   22 E5 82 CF   Drivable
+Chevrolet Corvette C6.R           corvettec6r  0165579E     9E 57 65 01   01 65 57 9E   0165579E      9E 57 65 01   01 65 57 9E   Drivable
+Dodge Viper SRT-10                viper        6EBED408     08 D4 BE 6E   6E BE D4 08   6EBED408      08 D4 BE 6E   6E BE D4 08   Drivable
+Fiat Punto                        punto        A6EE7A11     11 7A EE A6   A6 EE 7A 11   A6EE7A11      11 7A EE A6   A6 EE 7A 11   Drivable
+Ford GT                           fordgt       42C0A5EA     EA A5 C0 42   42 C0 A5 EA   42C0A5EA      EA A5 C0 42   42 C0 A5 EA   Drivable
+Ford Mustang GT                   mustanggt    9B93FD4D     4D FD 93 9B   9B 93 FD 4D   9B93FD4D      4D FD 93 9B   9B 93 FD 4D   Drivable
+Lamborghini Gallardo              gallardo     7B2CC40B     0B C4 2C 7B   7B 2C C4 0B   7B2CC40B      0B C4 2C 7B   7B 2C C4 0B   Drivable
+Lamborghini Murcielago            murcielago   C1CD77EB     EB 77 CD C1   C1 CD 77 EB   C1CD77EB      EB 77 CD C1   C1 CD 77 EB   Drivable
+Lexus IS 300                      is300        5BFF2FB0     B0 2F FF 5B   5B FF 2F B0   5BFF2FB0      B0 2F FF 5B   5B FF 2F B0   Drivable
+Lotus Elise                       elise        313D4936     36 49 3D 31   31 3D 49 36   313D4936      36 49 3D 31   31 3D 49 36   Drivable
+Mazda RX-7                        rx7          8E09C833     33 C8 09 8E   8E 09 C8 33   8E09C833      33 C8 09 8E   8E 09 C8 33   Drivable
+Mazda RX-8                        rx8          D6334437     37 44 33 D6   D6 33 44 37   D6334437      37 44 33 D6   D6 33 44 37   Drivable
+Mercedes-Benz CLK 500             clk500       8277AF2F     2F AF 77 82   82 77 AF 2F   8277AF2F      2F AF 77 82   82 77 AF 2F   Drivable
+Mercedes-Benz SL 500              sl500        A800B5BB     BB B5 00 A8   A8 00 B5 BB   A800B5BB      BB B5 00 A8   A8 00 B5 BB   Drivable
+Mercedes-Benz SL 65 AMG           sl65         7147F9A1     A1 F9 47 71   71 47 F9 A1   7147F9A1      A1 F9 47 71   71 47 F9 A1   Drivable
+Mercedes-Benz SLR McLaren         slr          E32AD9BB     BB D9 2A E3   E3 2A D9 BB   E32AD9BB      BB D9 2A E3   E3 2A D9 BB   Drivable
+Mitsubishi Eclipse GT             eclipsegt    A2D70BBD     BD 0B D7 A2   A2 D7 0B BD   A2D70BBD      BD 0B D7 A2   A2 D7 0B BD   Drivable
+Mitsubishi Lancer Evolution VIII  lancerevo8   CCEEFBB6     B6 FB EE CC   CC EE FB B6   CCEEFBB6      B6 FB EE CC   CC EE FB B6   Drivable
+Pontiac GTO                       gto          AA483DC6     C6 3D 48 AA   AA 48 3D C6   AA483DC6      C6 3D 48 AA   AA 48 3D C6   Drivable
+Porsche 911 Carrera S             997s         3C4DA7DA     DA A7 4D 3C   3C 4D A7 DA   3C4DA7DA      DA A7 4D 3C   3C 4D A7 DA   Drivable
+Porsche 911 GT2                   911gt2       9B3EF46F     6F F4 3E 9B   9B 3E F4 6F   9B3EF46F      6F F4 3E 9B   9B 3E F4 6F   Drivable
+Porsche 911 Turbo S               911turbo     D27D5B8D     8D 5B 7D D2   D2 7D 5B 8D   D27D5B8D      8D 5B 7D D2   D2 7D 5B 8D   Drivable
+Porsche Carrera GT                carreragt    67063DD4     D4 3D 06 67   67 06 3D D4   C4869992      92 99 86 C4   C4 86 99 92   Drivable
+Porsche Cayman S                  caymans      41555BEB     EB 5B 55 41   41 55 5B EB   41555BEB      EB 5B 55 41   41 55 5B EB   Drivable
+Renault Clio V6                   clio         EB1867EB     EB 67 18 EB   EB 18 67 EB   EB1867EB      EB 67 18 EB   EB 18 67 EB   Drivable
+Subaru Impreza WRX STi            imprezawrx   5F3B560D     0D 56 3B 5F   5F 3B 56 0D   198C8934      34 89 8C 19   19 8C 89 34   Drivable
+Toyota Supra                      supra        66F13434     34 34 F1 66   66 F1 34 34   66F13434      34 34 F1 66   66 F1 34 34   Drivable
+Vauxhall Monaro VXR               monaro       D8D3E1A1     A1 E1 D3 D8   D8 D3 E1 A1   D8D3E1A1      A1 E1 D3 D8   D8 D3 E1 A1   Drivable
+Volkswagen Golf GTI               gti          79054B53     53 4B 05 79   79 05 4B 53   79054B53      53 4B 05 79   79 05 4B 53   Drivable
+

@@ -1,0 +1,24 @@
+Blacklist Ranks
+===============
+
+One byte at the Blacklist rank offset. Changing only this byte leaves your races and milestones out of step, so the Blacklist tab is the safer way.
+
+Rank      Rival    Car                               Byte
+--------  -------  --------------------------------  ----
+Prologue                                             10
+#15       Sonny    Volkswagen Golf GTI               0F
+#14       Taz      Lexus IS 300                      0E
+#13       Vic      Toyota Supra                      0D
+#12       Izzy     Mazda RX-8                        0C
+#11       Big Lou  Mitsubishi Eclipse GT             0B
+#10       Baron    Porsche Cayman S                  0A
+#9        Earl     Mitsubishi Lancer Evolution VIII  09
+#8        Jewels   Ford Mustang GT                   08
+#7        Kaze     Mercedes-Benz CLK 500             07
+#6        JV       Dodge Viper SRT-10                06
+#5        Webster  Chevrolet Corvette C6             05
+#4        Ming     Lamborghini Gallardo              04
+#3        Bull     Mercedes-Benz SLR McLaren         03
+#2        Ronnie   Aston Martin DB9                  02
+#1        Razor    BMW M3 GTR                        01
+

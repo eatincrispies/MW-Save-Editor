@@ -1,0 +1,19 @@
+Custom Gauges
+=============
+
+Put the 2-byte Save Value in part slot 132.
+
+Type  Name           Save Value  PC/PS2 Bytes  360/GC Bytes  Name Hash
+----  -------------  ----------  ------------  ------------  ---------
+      Stock          2754        54 27         27 54         03B83203
+      Sonic          2755        55 27         27 55         612237A0
+      Apex           2756        56 27         27 56         612237A1
+      Warp           2757        57 27         27 57         612237A2
+      Vision         2758        58 27         27 58         612237A3
+      Boost          2759        59 27         27 59         612237A4
+      Double-Clutch  275A        5A 27         27 5A         612237A5
+      Brakestand     275B        5B 27         27 5B         612237A6
+      Hairpin        275C        5C 27         27 5C         612237A7
+      Glint          275D        5D 27         27 5D         612237A8
+      Slipstream     275E        5E 27         27 5E         612237C0
+

@@ -1,0 +1,36 @@
+Traffic
+=======
+
+The Vehicle Key goes at +08 of a car record and the Frontend Key at +04. See Save Layout\Car Records.txt.
+These weren't made for the player, and they share a generic Frontend Key.
+
+Name                       ID                   Vehicle Key  PC/PS2 Bytes  360/GC Bytes  Frontend Key  PC/PS2 Bytes  360/GC Bytes  Status
+-------------------------  -------------------  -----------  ------------  ------------  ------------  ------------  ------------  ----------
+Ambulance                  trafamb              6F67F7F5     F5 F7 67 6F   6F 67 F7 F5   C1C32DAF      AF 2D C3 C1   C1 C3 2D AF   AI vehicle
+Camper                     trafcamper           68451621     21 16 45 68   68 45 16 21   C1C32DAF      AF 2D C3 C1   C1 C3 2D AF   AI vehicle
+Cement Truck               trafcemtr            46334D6A     6A 4D 33 46   46 33 4D 6A   C1C32DAF      AF 2D C3 C1   C1 C3 2D AF   AI vehicle
+Cement Truck (Challenge)   cs_trafcement        51D9FFFA     FA FF D9 51   51 D9 FF FA   C1C32DAF      AF 2D C3 C1   C1 C3 2D AF   Drivable
+Coupe                      trafficcoup          531A3488     88 34 1A 53   53 1A 34 88   C1C32DAF      AF 2D C3 C1   C1 C3 2D AF   AI vehicle
+Courier Van                trafcourt            E67C8836     36 88 7C E6   E6 7C 88 36   C1C32DAF      AF 2D C3 C1   C1 C3 2D AF   AI vehicle
+Dump Truck                 trafdmptr            C56C1339     39 13 6C C5   C5 6C 13 39   C1C32DAF      AF 2D C3 C1   C1 C3 2D AF   AI vehicle
+Fire Truck                 traffire             08C7ECE0     E0 EC C7 08   08 C7 EC E0   C1C32DAF      AF 2D C3 C1   C1 C3 2D AF   AI vehicle
+Garbage Truck              trafgarb             CC361A94     94 1A 36 CC   CC 36 1A 94   C1C32DAF      AF 2D C3 C1   C1 C3 2D AF   AI vehicle
+Garbage Truck (Challenge)  cs_trafgarb          A7471AC7     C7 1A 47 A7   A7 47 1A C7   C1C32DAF      AF 2D C3 C1   C1 C3 2D AF   Drivable
+Hatchback                  trafha               A0C7BB59     59 BB C7 A0   A0 C7 BB 59   C1C32DAF      AF 2D C3 C1   C1 C3 2D AF   AI vehicle
+Minivan                    trafminivan          E6D4BEE9     E9 BE D4 E6   E6 D4 BE E9   C1C32DAF      AF 2D C3 C1   C1 C3 2D AF   AI vehicle
+Minivan (Challenge)        cs_cts_traf_minivan  71ECE0D8     D8 E0 EC 71   71 EC E0 D8   C1C32DAF      AF 2D C3 C1   C1 C3 2D AF   Drivable
+News Van                   trafnews             DBB93C72     72 3C B9 DB   DB B9 3C 72   C1C32DAF      AF 2D C3 C1   C1 C3 2D AF   AI vehicle
+Pickup Truck               trafpickupa          7DBE89DD     DD 89 BE 7D   7D BE 89 DD   C1C32DAF      AF 2D C3 C1   C1 C3 2D AF   AI vehicle
+Pickup Truck (Challenge)   cs_cts_traffictruck  743B3949     49 39 3B 74   74 3B 39 49   C1C32DAF      AF 2D C3 C1   C1 C3 2D AF   Drivable
+Pizza Van                  trafpizza            EBAF2926     26 29 AF EB   EB AF 29 26   C1C32DAF      AF 2D C3 C1   C1 C3 2D AF   AI vehicle
+Pizza Van (Challenge)      cs_clio_trafpizza    C5F2C74B     4B C7 F2 C5   C5 F2 C7 4B   C1C32DAF      AF 2D C3 C1   C1 C3 2D AF   Drivable
+Sedan A                    traf4dseda           DF9B16D9     D9 16 9B DF   DF 9B 16 D9   C1C32DAF      AF 2D C3 C1   C1 C3 2D AF   AI vehicle
+Sedan B                    traf4dsedb           662B2923     23 29 2B 66   66 2B 29 23   C1C32DAF      AF 2D C3 C1   C1 C3 2D AF   AI vehicle
+Sedan C                    traf4dsedc           5EC98756     56 87 C9 5E   5E C9 87 56   C1C32DAF      AF 2D C3 C1   C1 C3 2D AF   AI vehicle
+Semi Truck                 semi                 D50B48BA     BA 48 0B D5   D5 0B 48 BA   C1C32DAF      AF 2D C3 C1   C1 C3 2D AF   AI vehicle
+Station Wagon              trafstwag            43CE4BC3     C3 4B CE 43   43 CE 4B C3   C1C32DAF      AF 2D C3 C1   C1 C3 2D AF   AI vehicle
+SUV                        trafsuva             3E8EA090     90 A0 8E 3E   3E 8E A0 90   C1C32DAF      AF 2D C3 C1   C1 C3 2D AF   AI vehicle
+Taxi                       traftaxi             D601789E     9E 78 01 D6   D6 01 78 9E   C1C32DAF      AF 2D C3 C1   C1 C3 2D AF   AI vehicle
+Taxi (Challenge)           cs_clio_traftaxi     7AF01AF1     F1 1A F0 7A   7A F0 1A F1   C1C32DAF      AF 2D C3 C1   C1 C3 2D AF   Drivable
+Van                        trafvanb             53E7AF7A     7A AF E7 53   53 E7 AF 7A   C1C32DAF      AF 2D C3 C1   C1 C3 2D AF   AI vehicle
+

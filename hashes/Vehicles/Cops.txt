@@ -1,0 +1,23 @@
+Cops
+====
+
+The Vehicle Key goes at +08 of a car record and the Frontend Key at +04. See Save Layout\Car Records.txt.
+These weren't made for the player, and they share a generic Frontend Key.
+
+Name                         ID                   Vehicle Key  PC/PS2 Bytes  360/GC Bytes  Frontend Key  PC/PS2 Bytes  360/GC Bytes  Status
+---------------------------  -------------------  -----------  ------------  ------------  ------------  ------------  ------------  ----------
+Police Corvette              copsport             7A49CCCB     CB CC 49 7A   7A 49 CC CB   C1C32DAF      AF 2D C3 C1   C1 C3 2D AF   AI vehicle
+Police Corvette (Challenge)  cs_c6_copsporthench  8F6C070C     0C 07 6C 8F   8F 6C 07 0C   C1C32DAF      AF 2D C3 C1   C1 C3 2D AF   Drivable
+Police Corvette (Hench)      copsporthench        B2F32FE2     E2 2F F3 B2   B2 F3 2F E2   C1C32DAF      AF 2D C3 C1   C1 C3 2D AF   AI vehicle
+Police Cruiser               copmidsize           BB9B2938     38 29 9B BB   BB 9B 29 38   C1C32DAF      AF 2D C3 C1   C1 C3 2D AF   AI vehicle
+Police Cruiser (Challenge)   cs_viper_copmidsize  70667EF5     F5 7E 66 70   70 66 7E F5   C1C32DAF      AF 2D C3 C1   C1 C3 2D AF   Drivable
+Police GTO                   copgto               CC985356     56 53 98 CC   CC 98 53 56   C1C32DAF      AF 2D C3 C1   C1 C3 2D AF   AI vehicle
+Police GTO (Challenge)       cs_gto_copgto        6949DC95     95 DC 49 69   69 49 DC 95   C1C32DAF      AF 2D C3 C1   C1 C3 2D AF   Drivable
+Police SUV                   copsuv               38B38226     26 82 B3 38   38 B3 82 26   C1C32DAF      AF 2D C3 C1   C1 C3 2D AF   AI vehicle
+Police SUV (Challenge)       cs_mustang_copsuv    28E675AE     AE 75 E6 28   28 E6 75 AE   C1C32DAF      AF 2D C3 C1   C1 C3 2D AF   Drivable
+Police SUV (Light)           copsuvl              54B10E38     38 0E B1 54   54 B1 0E 38   C1C32DAF      AF 2D C3 C1   C1 C3 2D AF   AI vehicle
+Sgt. Cross's Corvette        copcross             D37C806D     6D 80 7C D3   D3 7C 80 6D   C1C32DAF      AF 2D C3 C1   C1 C3 2D AF   Drivable
+Undercover Corvette          copsportghost        A4EB6688     88 66 EB A4   A4 EB 66 88   C1C32DAF      AF 2D C3 C1   C1 C3 2D AF   AI vehicle
+Undercover Cruiser           copghost             A3A1D182     82 D1 A1 A3   A3 A1 D1 82   C1C32DAF      AF 2D C3 C1   C1 C3 2D AF   AI vehicle
+Undercover GTO               copgtoghost          E9EC1DF6     F6 1D EC E9   E9 EC 1D F6   C1C32DAF      AF 2D C3 C1   C1 C3 2D AF   AI vehicle
+

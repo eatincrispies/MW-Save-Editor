@@ -1,0 +1,24 @@
+Blacklist Bosses
+================
+
+The Vehicle Key goes at +08 of a car record and the Frontend Key at +04. See Save Layout\Car Records.txt.
+The Preset Hash is the handle the game gives its own preset record.
+
+Name                                        Preset       Preset Hash  PC/PS2 Bytes  360/GC Bytes  Vehicle Key  PC/PS2 Bytes  360/GC Bytes  Frontend Key  PC/PS2 Bytes  360/GC Bytes
+------------------------------------------  -----------  -----------  ------------  ------------  -----------  ------------  ------------  ------------  ------------  ------------
+#1 Razor (BMW M3 GTR)                       E3_DEMO_BMW  03A94520     20 45 A9 03   03 A9 45 20   4E085FB3     B3 5F 08 4E   4E 08 5F B3   23CC4A4E      4E 4A CC 23   23 CC 4A 4E
+#2 Ronnie (Aston Martin DB9)                BL3          00009660     60 96 00 00   00 00 96 60   A4B61C6A     6A 1C B6 A4   A4 B6 1C 6A   A4B61C6A      6A 1C B6 A4   A4 B6 1C 6A
+#3 Bull (Mercedes-Benz SLR McLaren)         BL2          0000965F     5F 96 00 00   00 00 96 5F   E32AD9BB     BB D9 2A E3   E3 2A D9 BB   E32AD9BB      BB D9 2A E3   E3 2A D9 BB
+#4 Ming (Lamborghini Gallardo)              BL6          00009663     63 96 00 00   00 00 96 63   7B2CC40B     0B C4 2C 7B   7B 2C C4 0B   7B2CC40B      0B C4 2C 7B   7B 2C C4 0B
+#5 Webster (Chevrolet Corvette C6)          BL5          00009662     62 96 00 00   00 00 96 62   46118CE4     E4 8C 11 46   46 11 8C E4   22E582CF      CF 82 E5 22   22 E5 82 CF
+#6 JV (Dodge Viper SRT-10)                  BL4          00009661     61 96 00 00   00 00 96 61   6EBED408     08 D4 BE 6E   6E BE D4 08   6EBED408      08 D4 BE 6E   6E BE D4 08
+#7 Kaze (Mercedes-Benz CLK 500)             BL7          00009664     64 96 00 00   00 00 96 64   8277AF2F     2F AF 77 82   82 77 AF 2F   8277AF2F      2F AF 77 82   82 77 AF 2F
+#8 Jewels (Ford Mustang GT)                 BL8          00009665     65 96 00 00   00 00 96 65   9B93FD4D     4D FD 93 9B   9B 93 FD 4D   9B93FD4D      4D FD 93 9B   9B 93 FD 4D
+#9 Earl (Mitsubishi Lancer Evolution VIII)  BL9          00009666     66 96 00 00   00 00 96 66   CCEEFBB6     B6 FB EE CC   CC EE FB B6   CCEEFBB6      B6 FB EE CC   CC EE FB B6
+#10 Baron (Porsche Cayman S)                BL10         0013624E     4E 62 13 00   00 13 62 4E   41555BEB     EB 5B 55 41   41 55 5B EB   41555BEB      EB 5B 55 41   41 55 5B EB
+#11 Big Lou (Mitsubishi Eclipse GT)         BL11         0013624F     4F 62 13 00   00 13 62 4F   A2D70BBD     BD 0B D7 A2   A2 D7 0B BD   A2D70BBD      BD 0B D7 A2   A2 D7 0B BD
+#12 Izzy (Mazda RX-8)                       BL12         00136250     50 62 13 00   00 13 62 50   D6334437     37 44 33 D6   D6 33 44 37   D6334437      37 44 33 D6   D6 33 44 37
+#13 Vic (Toyota Supra)                      BL13         00136251     51 62 13 00   00 13 62 51   66F13434     34 34 F1 66   66 F1 34 34   66F13434      34 34 F1 66   66 F1 34 34
+#14 Taz (Lexus IS 300)                      BL14         00136252     52 62 13 00   00 13 62 52   5BFF2FB0     B0 2F FF 5B   5B FF 2F B0   5BFF2FB0      B0 2F FF 5B   5B FF 2F B0
+#15 Sonny (Volkswagen Golf GTI)             BL15         00136253     53 62 13 00   00 13 62 53   79054B53     53 4B 05 79   79 05 4B 53   79054B53      53 4B 05 79   79 05 4B 53
+

@@ -1,0 +1,18 @@
+Door Numbers (Right Digit)
+==========================
+
+Put the 2-byte Save Value in part slots 106 and 114.
+
+Type   Name  Save Value  PC/PS2 Bytes  360/GC Bytes  Name Hash
+-----  ----  ----------  ------------  ------------  ---------
+Right  0     0C8F        8F 0C         0C 8F         4AB32E54
+Right  1     0C90        90 0C         0C 90         4AB32E55
+Right  2     0C91        91 0C         0C 91         4AB32E56
+Right  3     0C92        92 0C         0C 92         4AB32E57
+Right  4     0C93        93 0C         0C 93         4AB32E58
+Right  5     0C94        94 0C         0C 94         4AB32E59
+Right  6     0C95        95 0C         0C 95         4AB32E5A
+Right  7     0C96        96 0C         0C 96         4AB32E5B
+Right  8     0C97        97 0C         0C 97         4AB32E5C
+Right  9     0C98        98 0C         0C 98         4AB32E5D
+

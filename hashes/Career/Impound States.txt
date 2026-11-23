@@ -1,0 +1,13 @@
+Impound States
+==============
+
+One byte at +04 of a career car record.
+
+State          Byte
+-------------  ----
+None           00
+BustedByCross  01
+StrikeLimit    02
+NoFunds        03
+Released       04
+

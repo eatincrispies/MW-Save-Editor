@@ -1,0 +1,30 @@
+Other Vehicles
+==============
+
+The Vehicle Key goes at +08 of a car record and the Frontend Key at +04. See Save Layout\Car Records.txt.
+Anything marked May crash really can crash the game, so keep a backup.
+The ones marked Not in Add Car are in the game's saves but aren't meant to be driven.
+
+Name                          ID                 Vehicle Key  PC/PS2 Bytes  360/GC Bytes  Frontend Key  PC/PS2 Bytes  360/GC Bytes  Status
+----------------------------  -----------------  -----------  ------------  ------------  ------------  ------------  ------------  --------------
+BMW M3 GTR (Speed Test)       speedtest          4C23EB8B     8B EB 23 4C   4C 23 EB 8B   C1C32DAF      AF 2D C3 C1   C1 C3 2D AF   Drivable
+Cement Trailer                trailercmt         370DFA46     46 FA 0D 37   37 0D FA 46   C1C32DAF      AF 2D C3 C1   C1 C3 2D AF   May crash
+Container Trailer             trailercon         45C6AA31     31 AA C6 45   45 C6 AA 31   C1C32DAF      AF 2D C3 C1   C1 C3 2D AF   May crash
+Crate Trailer                 trailercrate       A0EE61C6     C6 61 EE A0   A0 EE 61 C6   C1C32DAF      AF 2D C3 C1   C1 C3 2D AF   May crash
+Ford Mustang GT (Demo)        mustang_demo       F9DC5F64     64 5F DC F9   F9 DC 5F 64   C1C32DAF      AF 2D C3 C1   C1 C3 2D AF   Drivable
+Log Trailer                   trailerlog         DCFBF79E     9E F7 FB DC   DC FB F7 9E   C1C32DAF      AF 2D C3 C1   C1 C3 2D AF   May crash
+Mazda RX-8 (Speed Team)       rx8speedt          72123CD9     D9 3C 12 72   72 12 3C D9   C1C32DAF      AF 2D C3 C1   C1 C3 2D AF   AI vehicle
+Police Helicopter             copheli            06465EB2     B2 5E 46 06   06 46 5E B2   C1C32DAF      AF 2D C3 C1   C1 C3 2D AF   May crash
+Trailer A                     trailera           00D82F8A     8A 2F D8 00   00 D8 2F 8A   C1C32DAF      AF 2D C3 C1   C1 C3 2D AF   May crash
+Trailer B                     trailerb           1CAA5B90     90 5B AA 1C   1C AA 5B 90   C1C32DAF      AF 2D C3 C1   C1 C3 2D AF   May crash
+Police SUV (Patrol)           copsuvpatrol       2E149EAC     AC 9E 14 2E   2E 14 9E AC                                             Not in Add Car
+Police Cruiser (Cutscene)     copmidsize_nis     9537ACB7     B7 AC 37 95   95 37 AC B7                                             Not in Add Car
+Police Cruiser (Cutscene LD)  copmidsize_nis_ld  5D6E3E54     54 3E 6E 5D   5D 6E 3E 54                                             Not in Add Car
+Semi A                        semia              DD4D5C2C     2C 5C 4D DD   DD 4D 5C 2C                                             Not in Add Car
+Semi B                        semib              A9B509C4     C4 09 B5 A9   A9 B5 09 C4                                             Not in Add Car
+Semi (Cement)                 semicmt            C027E7C2     C2 E7 27 C0   C0 27 E7 C2                                             Not in Add Car
+Semi (Container)              semicon            250DFAFA     FA FA 0D 25   25 0D FA FA                                             Not in Add Car
+Semi (Crate)                  semicrate          E8F93B21     21 3B F9 E8   E8 F9 3B 21                                             Not in Add Car
+Semi (Log)                    semilog            0A92CC67     67 CC 92 0A   0A 92 CC 67                                             Not in Add Car
+Semi (Challenge)              cs_semi            347EDF46     46 DF 7E 34   34 7E DF 46                                             Not in Add Car
+

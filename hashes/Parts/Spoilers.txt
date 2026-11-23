@@ -1,0 +1,2468 @@
+Spoilers
+========
+
+Put the 2-byte Save Value in part slot 44.
+These values are for the unmodded game. Mods that add parts can shift them.
+
+[Aston Martin DB9]
+Type          Name          Save Value  PC/PS2 Bytes  360/GC Bytes  Name Hash
+------------  ------------  ----------  ------------  ------------  ---------
+Stock         Stock         0343        43 03         03 43         9806A3FB
+Tuner         Arrow         2659        59 26         26 59         45F08571
+Tuner         Barracuda     265A        5A 26         26 5A         45F08572
+Sport         Reaper        265B        5B 26         26 5B         45F08575
+Sport         Slingshot     265C        5C 26         26 5C         45F08596
+Tuner         Switchblade   265D        5D 26         26 5D         45F085D2
+Sport         Groundmaster  265E        5E 26         26 5E         45F085D1
+Tuner Carbon  Arrow         265F        5F 26         26 5F         091DF8D9
+Tuner Carbon  Barracuda     2660        60 26         26 60         091E853A
+Sport Carbon  Reaper        2661        61 26         26 61         09202A5D
+Sport Carbon  Slingshot     2662        62 26         26 62         093242DE
+Tuner Carbon  Switchblade   2663        63 26         26 63         0953299A
+Sport Carbon  Groundmaster  2664        64 26         26 64         09529D39
+Tuner         Jorgen        2665        65 26         26 65         45F0856E
+Sport         Rocker 5      2666        66 26         26 66         45F0856F
+Tuner         Scarab        2667        67 26         26 67         45F085F1
+Sport         Fishtail      2668        68 26         26 68         45F085F2
+Sport         Viper         2669        69 26         26 69         45F085F3
+Tuner         Lynx          266A        6A 26         26 6A         45F085F5
+Tuner Carbon  Jorgen        266B        6B 26         26 6B         091C53B6
+Sport Carbon  Rocker 5      266C        6C 26         26 6C         091CE017
+Tuner Carbon  Scarab        266D        6D 26         26 6D         09642959
+Sport Carbon  Fishtail      266E        6E 26         26 6E         0964B5BA
+Sport Carbon  Viper         266F        6F 26         26 6F         0965421B
+Tuner Carbon  Lynx          2670        70 26         26 70         09665ADD
+Sport         Ripper        2671        71 26         26 71         45F08574
+Tuner         Borra         2672        72 26         26 72         45F08576
+Tuner         Ghost         2673        73 26         26 73         45F0858E
+Sport         Banshee       2674        74 26         26 74         45F08593
+Tuner         Tornado       2675        75 26         26 75         45F085B5
+Tuner         Fishtail      2676        76 26         26 76         45F085B8
+Sport Carbon  Ripper        2677        77 26         26 77         091F9DFC
+Tuner Carbon  Borra         2678        78 26         26 78         0920B6BE
+Tuner Carbon  Ghost         2679        79 26         26 79         092DDFD6
+Sport Carbon  Banshee       267A        7A 26         26 7A         09309DBB
+Tuner Carbon  Tornado       267B        7B 26         26 7B         0943429D
+Tuner Carbon  Fishtail      267C        7C 26         26 7C         0944E7C0
+Sport         Airforce      267D        7D 26         26 7D         45F08570
+Tuner         Wildfire      267E        7E 26         26 7E         45F08573
+Sport         Dragon        267F        7F 26         26 7F         45F0858F
+Tuner         Tandem        2680        80 26         26 80         45F08591
+Sport         Mystic        2681        81 26         26 81         45F08594
+Tuner         Joker         2682        82 26         26 82         45F085D6
+Sport Carbon  Airforce      2683        83 26         26 83         091D6C78
+Tuner Carbon  Wildfire      2684        84 26         26 84         091F119B
+Sport Carbon  Dragon        2685        85 26         26 85         092E6C37
+Tuner Carbon  Tandem        2686        86 26         26 86         092F84F9
+Sport Carbon  Mystic        2687        87 26         26 87         09312A1C
+Tuner Carbon  Joker         2688        88 26         26 88         09555B1E
+Tuner         Venom         2689        89 26         26 89         45F085B6
+Tuner         Impact        268A        8A 26         26 8A         45F085D0
+Tuner Carbon  Venom         268B        8B 26         26 8B         0943CEFE
+Tuner Carbon  Impact        268C        8C 26         26 8C         095210D8
+Sport         Specter       268D        8D 26         26 8D         45F08595
+Sport         Dynamo        268E        8E 26         26 8E         45F085D4
+Tuner         Phoenix       268F        8F 26         26 8F         45F085D8
+Sport         Edge          2690        90 26         26 90         45F085F4
+Sport Carbon  Specter       2691        91 26         26 91         0931B67D
+Sport Carbon  Dynamo        2692        92 26         26 92         0954425C
+Tuner Carbon  Phoenix       2693        93 26         26 93         095673E0
+Sport Carbon  Edge          2694        94 26         26 94         0965CE7C
+
+[Audi A3 3.2 quattro]
+Type          Name          Save Value  PC/PS2 Bytes  360/GC Bytes  Name Hash
+------------  ------------  ----------  ------------  ------------  ---------
+Stock         Stock         0047        47 00         00 47         1807EFB0
+Tuner         Arrow         2CC6        C6 2C         2C C6         D8CB2118
+Tuner         Barracuda     2CC7        C7 2C         2C C7         25C55DD9
+Sport         Reaper        2CC8        C8 2C         2C C8         0CB4141C
+Sport         Slingshot     2CC9        C9 2C         2C C9         F8F5E8FD
+Tuner         Switchblade   2CCA        CA 2C         2C CA         E537BDDE
+Sport         Groundmaster  2CCB        CB 2C         2C CB         B6A1E978
+Tuner Carbon  Arrow         2CCC        CC 2C         2C CC         3B124720
+Tuner Carbon  Barracuda     2CCD        CD 2C         2C CD         3F1CD841
+Sport Carbon  Reaper        2CCE        CE 2C         2C CE         4B3C8BA4
+Sport Carbon  Slingshot     2CCF        CF 2C         2C CF         D09940E5
+Tuner Carbon  Switchblade   2CD0        D0 2C         2C D0         55F5F626
+Sport Carbon  Groundmaster  2CD1        D1 2C         2C D1         BF08B380
+Tuner         Jorgen        2CD2        D2 2C         2C D2         F1DC6AD5
+Sport         Rocker 5      2CD3        D3 2C         2C D3         3ED6A796
+Tuner         Scarab        2CD4        D4 2C         2C D4         55E98198
+Sport         Fishtail      2CD5        D5 2C         2C D5         A2E3BE59
+Sport         Viper         2CD6        D6 2C         2C D6         EFDDFB1A
+Tuner         Lynx          2CD7        D7 2C         2C D7         89D2749C
+Tuner Carbon  Jorgen        2CD8        D8 2C         2C D8         2EF293BD
+Sport Carbon  Rocker 5      2CD9        D9 2C         2C D9         32FD24DE
+Tuner Carbon  Scarab        2CDA        DA 2C         2C DA         405AD7A0
+Sport Carbon  Fishtail      2CDB        DB 2C         2C DB         446568C1
+Sport Carbon  Viper         2CDC        DC 2C         2C DC         486FF9E2
+Tuner Carbon  Lynx          2CDD        DD 2C         2C DD         50851C24
+Sport         Ripper        2CDE        DE 2C         2C DE         BFB9D75B
+Tuner         Borra         2CDF        DF 2C         2C DF         59AE50DD
+Tuner         Ghost         2CE0        E0 2C         2C E0         912402F5
+Sport         Banshee       2CE1        E1 2C         2C E1         120732BA
+Tuner         Tornado       2CE2        E2 2C         2C E2         4B43445C
+Tuner         Fishtail      2CE3        E3 2C         2C E3         3231FA9F
+Sport Carbon  Ripper        2CE4        E4 2C         2C E4         4731FA83
+Tuner Carbon  Borra         2CE5        E5 2C         2C E5         4F471CC5
+Tuner Carbon  Ghost         2CE6        E6 2C         2C E6         B044B7DD
+Sport Carbon  Banshee       2CE7        E7 2C         2C E7         C4798D82
+Tuner Carbon  Tornado       2CE8        E8 2C         2C E8         4DE0D3E4
+Tuner Carbon  Fishtail      2CE9        E9 2C         2C E9         5A008747
+Sport         Airforce      2CEA        EA 2C         2C EA         8BD0E457
+Tuner         Wildfire      2CEB        EB 2C         2C EB         72BF9A9A
+Sport         Dragon        2CEC        EC 2C         2C EC         DE1E3FB6
+Tuner         Tandem        2CED        ED 2C         2C ED         7812B938
+Sport         Mystic        2CEE        EE 2C         2C EE         5F016F7B
+Tuner         Joker         2CEF        EF 2C         2C EF         3785193D
+Sport Carbon  Airforce      2CF0        F0 2C         2C F0         3707B5FF
+Tuner Carbon  Wildfire      2CF1        F1 2C         2C F1         43276962
+Sport Carbon  Dragon        2CF2        F2 2C         2C F2         B44F48FE
+Tuner Carbon  Tandem        2CF3        F3 2C         2C F3         BC646B40
+Sport Carbon  Mystic        2CF4        F4 2C         2C F4         C8841EA3
+Tuner Carbon  Joker         2CF5        F5 2C         2C F5         D33D8925
+Tuner         Venom         2CF6        F6 2C         2C F6         983D811D
+Tuner         Impact        2CF7        F7 2C         2C F7         69A7ACB7
+Tuner Carbon  Venom         2CF8        F8 2C         2C F8         51EB6505
+Tuner Carbon  Impact        2CF9        F9 2C         2C F9         BAFE225F
+Sport         Specter       2CFA        FA 2C         2C FA         ABFBAC3C
+Sport         Dynamo        2CFB        FB 2C         2C FB         9D909FBB
+Tuner         Phoenix       2CFC        FC 2C         2C FC         D17992BF
+Sport Carbon  Specter       2CFD        FD 2C         2C FD         CC8EAFC4
+Sport Carbon  Dynamo        2CFE        FE 2C         2C FE         CB2866E3
+Tuner Carbon  Phoenix       2CFF        FF 2C         2C FF         DB52AB67
+
+[Audi A4 3.2 FSI quattro]
+Type          Name          Save Value  PC/PS2 Bytes  360/GC Bytes  Name Hash
+------------  ------------  ----------  ------------  ------------  ---------
+Stock         Stock         0106        06 01         01 06         8C8460B1
+Tuner         Arrow         2659        59 26         26 59         45F08571
+Tuner         Barracuda     265A        5A 26         26 5A         45F08572
+Sport         Reaper        265B        5B 26         26 5B         45F08575
+Sport         Slingshot     265C        5C 26         26 5C         45F08596
+Tuner         Switchblade   265D        5D 26         26 5D         45F085D2
+Sport         Groundmaster  265E        5E 26         26 5E         45F085D1
+Tuner Carbon  Arrow         265F        5F 26         26 5F         091DF8D9
+Tuner Carbon  Barracuda     2660        60 26         26 60         091E853A
+Sport Carbon  Reaper        2661        61 26         26 61         09202A5D
+Sport Carbon  Slingshot     2662        62 26         26 62         093242DE
+Tuner Carbon  Switchblade   2663        63 26         26 63         0953299A
+Sport Carbon  Groundmaster  2664        64 26         26 64         09529D39
+Tuner         Jorgen        2665        65 26         26 65         45F0856E
+Sport         Rocker 5      2666        66 26         26 66         45F0856F
+Tuner         Scarab        2667        67 26         26 67         45F085F1
+Sport         Fishtail      2668        68 26         26 68         45F085F2
+Sport         Viper         2669        69 26         26 69         45F085F3
+Tuner         Lynx          266A        6A 26         26 6A         45F085F5
+Tuner Carbon  Jorgen        266B        6B 26         26 6B         091C53B6
+Sport Carbon  Rocker 5      266C        6C 26         26 6C         091CE017
+Tuner Carbon  Scarab        266D        6D 26         26 6D         09642959
+Sport Carbon  Fishtail      266E        6E 26         26 6E         0964B5BA
+Sport Carbon  Viper         266F        6F 26         26 6F         0965421B
+Tuner Carbon  Lynx          2670        70 26         26 70         09665ADD
+Sport         Ripper        2671        71 26         26 71         45F08574
+Tuner         Borra         2672        72 26         26 72         45F08576
+Tuner         Ghost         2673        73 26         26 73         45F0858E
+Sport         Banshee       2674        74 26         26 74         45F08593
+Tuner         Tornado       2675        75 26         26 75         45F085B5
+Tuner         Fishtail      2676        76 26         26 76         45F085B8
+Sport Carbon  Ripper        2677        77 26         26 77         091F9DFC
+Tuner Carbon  Borra         2678        78 26         26 78         0920B6BE
+Tuner Carbon  Ghost         2679        79 26         26 79         092DDFD6
+Sport Carbon  Banshee       267A        7A 26         26 7A         09309DBB
+Tuner Carbon  Tornado       267B        7B 26         26 7B         0943429D
+Tuner Carbon  Fishtail      267C        7C 26         26 7C         0944E7C0
+Sport         Airforce      267D        7D 26         26 7D         45F08570
+Tuner         Wildfire      267E        7E 26         26 7E         45F08573
+Sport         Dragon        267F        7F 26         26 7F         45F0858F
+Tuner         Tandem        2680        80 26         26 80         45F08591
+Sport         Mystic        2681        81 26         26 81         45F08594
+Tuner         Joker         2682        82 26         26 82         45F085D6
+Sport Carbon  Airforce      2683        83 26         26 83         091D6C78
+Tuner Carbon  Wildfire      2684        84 26         26 84         091F119B
+Sport Carbon  Dragon        2685        85 26         26 85         092E6C37
+Tuner Carbon  Tandem        2686        86 26         26 86         092F84F9
+Sport Carbon  Mystic        2687        87 26         26 87         09312A1C
+Tuner Carbon  Joker         2688        88 26         26 88         09555B1E
+Tuner         Venom         2689        89 26         26 89         45F085B6
+Tuner         Impact        268A        8A 26         26 8A         45F085D0
+Tuner Carbon  Venom         268B        8B 26         26 8B         0943CEFE
+Tuner Carbon  Impact        268C        8C 26         26 8C         095210D8
+Sport         Specter       268D        8D 26         26 8D         45F08595
+Sport         Dynamo        268E        8E 26         26 8E         45F085D4
+Tuner         Phoenix       268F        8F 26         26 8F         45F085D8
+Sport         Edge          2690        90 26         26 90         45F085F4
+Sport Carbon  Specter       2691        91 26         26 91         0931B67D
+Sport Carbon  Dynamo        2692        92 26         26 92         0954425C
+Tuner Carbon  Phoenix       2693        93 26         26 93         095673E0
+Sport Carbon  Edge          2694        94 26         26 94         0965CE7C
+
+[Audi TT 3.2 quattro]
+Type          Name          Save Value  PC/PS2 Bytes  360/GC Bytes  Name Hash
+------------  ------------  ----------  ------------  ------------  ---------
+Stock         Stock         01C5        C5 01         01 C5         68DB4644
+Tuner         Arrow         2415        15 24         24 15         CF445817
+Tuner         Barracuda     2416        16 24         24 16         D34EE938
+Sport         Reaper        2417        17 24         24 17         DF6E9C9B
+Sport         Slingshot     2418        18 24         24 18         64CB51DC
+Tuner         Switchblade   2419        19 24         24 19         EA28071D
+Sport         Groundmaster  241A        1A 24         24 1A         533AC477
+Tuner Carbon  Arrow         241B        1B 24         24 1B         E91391BF
+Tuner Carbon  Barracuda     241C        1C 24         24 1C         38729B40
+Sport Carbon  Reaper        241D        1D 24         24 1D         268FB7C3
+Sport Carbon  Slingshot     241E        1E 24         24 1E         61CFF164
+Tuner Carbon  Switchblade   241F        1F 24         24 1F         9D102B05
+Sport Carbon  Groundmaster  2420        20 24         24 20         ACB7221F
+Tuner         Jorgen        2421        21 24         24 21         C324A4B4
+Sport         Rocker 5      2422        22 24         24 22         C72F35D5
+Tuner         Scarab        2423        23 24         24 23         D48CE897
+Sport         Fishtail      2424        24 24         24 24         D89779B8
+Sport         Viper         2425        25 24         24 25         DCA20AD9
+Tuner         Lynx          2426        26 24         24 26         E4B72D1B
+Tuner Carbon  Jorgen        2427        27 24         24 27         FAF6753C
+Sport Carbon  Rocker 5      2428        28 24         24 28         4A557EBD
+Tuner Carbon  Scarab        2429        29 24         24 29         9898523F
+Sport Carbon  Fishtail      242A        2A 24         24 2A         E7F75BC0
+Sport Carbon  Viper         242B        2B 24         24 2B         37566541
+Tuner Carbon  Lynx          242C        2C 24         24 2C         D6147843
+Sport         Ripper        242D        2D 24         24 2D         DB640B7A
+Tuner         Borra         242E        2E 24         24 2E         E3792DBC
+Tuner         Ghost         242F        2F 24         24 2F         4476C8D4
+Sport         Banshee       2430        30 24         24 30         58AB9E79
+Tuner         Tornado       2431        31 24         24 31         E212E4DB
+Tuner         Fishtail      2432        32 24         24 32         EE32983E
+Sport Carbon  Ripper        2433        33 24         24 33         D730AE42
+Tuner Carbon  Borra         2434        34 24         24 34         75EEC144
+Tuner Carbon  Ghost         2435        35 24         24 35         E6D7A55C
+Sport Carbon  Banshee       2436        36 24         24 36         73B2D4E1
+Tuner Carbon  Tornado       2437        37 24         24 37         FE521803
+Tuner Carbon  Fishtail      2438        38 24         24 38         EC6F3486
+Sport         Airforce      2439        39 24         24 39         CB39C6F6
+Tuner         Wildfire      243A        3A 24         24 3A         D7597A59
+Sport         Dragon        243B        3B 24         24 3B         488159F5
+Tuner         Tandem        243C        3C 24         24 3C         50967C37
+Sport         Mystic        243D        3D 24         24 3D         5CB62F9A
+Tuner         Joker         243E        3E 24         24 3E         676F9A1C
+Sport Carbon  Airforce      243F        3F 24         24 3F         99B4883E
+Tuner Carbon  Wildfire      2440        40 24         24 40         87D1A4C1
+Sport Carbon  Dragon        2441        41 24         24 41         3636AEDD
+Tuner Carbon  Tandem        2442        42 24         24 42         D4F4C1DF
+Sport Carbon  Mystic        2443        43 24         24 43         C311DE62
+Tuner Carbon  Joker         2444        44 24         24 44         399251A4
+Tuner         Venom         2445        45 24         24 45         E61D75FC
+Tuner         Impact        2446        46 24         24 46         4F303356
+Tuner Carbon  Venom         2447        47 24         24 47         4DB12184
+Tuner Carbon  Impact        2448        48 24         24 48         5D58189E
+Sport         Specter       2449        49 24         24 49         60C0C0BB
+Sport         Dynamo        244A        4A 24         24 4A         5F5A77DA
+Tuner         Phoenix       244B        4B 24         24 4B         6F84BC5E
+Sport         Edge          244C        4C 24         24 4C         E0AC9BFA
+Sport Carbon  Specter       244D        4D 24         24 4D         1270E7E3
+Sport Carbon  Dynamo        244E        4E 24         24 4E         9AD43EA2
+Tuner Carbon  Phoenix       244F        4F 24         24 4F         D85064A6
+Sport Carbon  Edge          2450        50 24         24 50         86B56EC2
+
+[BMW M3 GTR]
+Type          Name          Save Value  PC/PS2 Bytes  360/GC Bytes  Name Hash
+------------  ------------  ----------  ------------  ------------  ---------
+Stock         Stock         1421        21 14         14 21         6452F99E
+Tuner         Arrow         2659        59 26         26 59         45F08571
+Tuner         Barracuda     265A        5A 26         26 5A         45F08572
+Sport         Reaper        265B        5B 26         26 5B         45F08575
+Sport         Slingshot     265C        5C 26         26 5C         45F08596
+Tuner         Switchblade   265D        5D 26         26 5D         45F085D2
+Sport         Groundmaster  265E        5E 26         26 5E         45F085D1
+Tuner Carbon  Arrow         265F        5F 26         26 5F         091DF8D9
+Tuner Carbon  Barracuda     2660        60 26         26 60         091E853A
+Sport Carbon  Reaper        2661        61 26         26 61         09202A5D
+Sport Carbon  Slingshot     2662        62 26         26 62         093242DE
+Tuner Carbon  Switchblade   2663        63 26         26 63         0953299A
+Sport Carbon  Groundmaster  2664        64 26         26 64         09529D39
+Tuner         Jorgen        2665        65 26         26 65         45F0856E
+Sport         Rocker 5      2666        66 26         26 66         45F0856F
+Tuner         Scarab        2667        67 26         26 67         45F085F1
+Sport         Fishtail      2668        68 26         26 68         45F085F2
+Sport         Viper         2669        69 26         26 69         45F085F3
+Tuner         Lynx          266A        6A 26         26 6A         45F085F5
+Tuner Carbon  Jorgen        266B        6B 26         26 6B         091C53B6
+Sport Carbon  Rocker 5      266C        6C 26         26 6C         091CE017
+Tuner Carbon  Scarab        266D        6D 26         26 6D         09642959
+Sport Carbon  Fishtail      266E        6E 26         26 6E         0964B5BA
+Sport Carbon  Viper         266F        6F 26         26 6F         0965421B
+Tuner Carbon  Lynx          2670        70 26         26 70         09665ADD
+Sport         Ripper        2671        71 26         26 71         45F08574
+Tuner         Borra         2672        72 26         26 72         45F08576
+Tuner         Ghost         2673        73 26         26 73         45F0858E
+Sport         Banshee       2674        74 26         26 74         45F08593
+Tuner         Tornado       2675        75 26         26 75         45F085B5
+Tuner         Fishtail      2676        76 26         26 76         45F085B8
+Sport Carbon  Ripper        2677        77 26         26 77         091F9DFC
+Tuner Carbon  Borra         2678        78 26         26 78         0920B6BE
+Tuner Carbon  Ghost         2679        79 26         26 79         092DDFD6
+Sport Carbon  Banshee       267A        7A 26         26 7A         09309DBB
+Tuner Carbon  Tornado       267B        7B 26         26 7B         0943429D
+Tuner Carbon  Fishtail      267C        7C 26         26 7C         0944E7C0
+Sport         Airforce      267D        7D 26         26 7D         45F08570
+Tuner         Wildfire      267E        7E 26         26 7E         45F08573
+Sport         Dragon        267F        7F 26         26 7F         45F0858F
+Tuner         Tandem        2680        80 26         26 80         45F08591
+Sport         Mystic        2681        81 26         26 81         45F08594
+Tuner         Joker         2682        82 26         26 82         45F085D6
+Sport Carbon  Airforce      2683        83 26         26 83         091D6C78
+Tuner Carbon  Wildfire      2684        84 26         26 84         091F119B
+Sport Carbon  Dragon        2685        85 26         26 85         092E6C37
+Tuner Carbon  Tandem        2686        86 26         26 86         092F84F9
+Sport Carbon  Mystic        2687        87 26         26 87         09312A1C
+Tuner Carbon  Joker         2688        88 26         26 88         09555B1E
+Tuner         Venom         2689        89 26         26 89         45F085B6
+Tuner         Impact        268A        8A 26         26 8A         45F085D0
+Tuner Carbon  Venom         268B        8B 26         26 8B         0943CEFE
+Tuner Carbon  Impact        268C        8C 26         26 8C         095210D8
+Sport         Specter       268D        8D 26         26 8D         45F08595
+Sport         Dynamo        268E        8E 26         26 8E         45F085D4
+Tuner         Phoenix       268F        8F 26         26 8F         45F085D8
+Sport         Edge          2690        90 26         26 90         45F085F4
+Sport Carbon  Specter       2691        91 26         26 91         0931B67D
+Sport Carbon  Dynamo        2692        92 26         26 92         0954425C
+Tuner Carbon  Phoenix       2693        93 26         26 93         095673E0
+Sport Carbon  Edge          2694        94 26         26 94         0965CE7C
+
+[BMW M3 GTR (Street)]
+Type          Name          Save Value  PC/PS2 Bytes  360/GC Bytes  Name Hash
+------------  ------------  ----------  ------------  ------------  ---------
+Stock         Stock         21D3        D3 21         21 D3         74304F6F
+Tuner         Arrow         2659        59 26         26 59         45F08571
+Tuner         Barracuda     265A        5A 26         26 5A         45F08572
+Sport         Reaper        265B        5B 26         26 5B         45F08575
+Sport         Slingshot     265C        5C 26         26 5C         45F08596
+Tuner         Switchblade   265D        5D 26         26 5D         45F085D2
+Sport         Groundmaster  265E        5E 26         26 5E         45F085D1
+Tuner Carbon  Arrow         265F        5F 26         26 5F         091DF8D9
+Tuner Carbon  Barracuda     2660        60 26         26 60         091E853A
+Sport Carbon  Reaper        2661        61 26         26 61         09202A5D
+Sport Carbon  Slingshot     2662        62 26         26 62         093242DE
+Tuner Carbon  Switchblade   2663        63 26         26 63         0953299A
+Sport Carbon  Groundmaster  2664        64 26         26 64         09529D39
+Tuner         Jorgen        2665        65 26         26 65         45F0856E
+Sport         Rocker 5      2666        66 26         26 66         45F0856F
+Tuner         Scarab        2667        67 26         26 67         45F085F1
+Sport         Fishtail      2668        68 26         26 68         45F085F2
+Sport         Viper         2669        69 26         26 69         45F085F3
+Tuner         Lynx          266A        6A 26         26 6A         45F085F5
+Tuner Carbon  Jorgen        266B        6B 26         26 6B         091C53B6
+Sport Carbon  Rocker 5      266C        6C 26         26 6C         091CE017
+Tuner Carbon  Scarab        266D        6D 26         26 6D         09642959
+Sport Carbon  Fishtail      266E        6E 26         26 6E         0964B5BA
+Sport Carbon  Viper         266F        6F 26         26 6F         0965421B
+Tuner Carbon  Lynx          2670        70 26         26 70         09665ADD
+Sport         Ripper        2671        71 26         26 71         45F08574
+Tuner         Borra         2672        72 26         26 72         45F08576
+Tuner         Ghost         2673        73 26         26 73         45F0858E
+Sport         Banshee       2674        74 26         26 74         45F08593
+Tuner         Tornado       2675        75 26         26 75         45F085B5
+Tuner         Fishtail      2676        76 26         26 76         45F085B8
+Sport Carbon  Ripper        2677        77 26         26 77         091F9DFC
+Tuner Carbon  Borra         2678        78 26         26 78         0920B6BE
+Tuner Carbon  Ghost         2679        79 26         26 79         092DDFD6
+Sport Carbon  Banshee       267A        7A 26         26 7A         09309DBB
+Tuner Carbon  Tornado       267B        7B 26         26 7B         0943429D
+Tuner Carbon  Fishtail      267C        7C 26         26 7C         0944E7C0
+Sport         Airforce      267D        7D 26         26 7D         45F08570
+Tuner         Wildfire      267E        7E 26         26 7E         45F08573
+Sport         Dragon        267F        7F 26         26 7F         45F0858F
+Tuner         Tandem        2680        80 26         26 80         45F08591
+Sport         Mystic        2681        81 26         26 81         45F08594
+Tuner         Joker         2682        82 26         26 82         45F085D6
+Sport Carbon  Airforce      2683        83 26         26 83         091D6C78
+Tuner Carbon  Wildfire      2684        84 26         26 84         091F119B
+Sport Carbon  Dragon        2685        85 26         26 85         092E6C37
+Tuner Carbon  Tandem        2686        86 26         26 86         092F84F9
+Sport Carbon  Mystic        2687        87 26         26 87         09312A1C
+Tuner Carbon  Joker         2688        88 26         26 88         09555B1E
+Tuner         Venom         2689        89 26         26 89         45F085B6
+Tuner         Impact        268A        8A 26         26 8A         45F085D0
+Tuner Carbon  Venom         268B        8B 26         26 8B         0943CEFE
+Tuner Carbon  Impact        268C        8C 26         26 8C         095210D8
+Sport         Specter       268D        8D 26         26 8D         45F08595
+Sport         Dynamo        268E        8E 26         26 8E         45F085D4
+Tuner         Phoenix       268F        8F 26         26 8F         45F085D8
+Sport         Edge          2690        90 26         26 90         45F085F4
+Sport Carbon  Specter       2691        91 26         26 91         0931B67D
+Sport Carbon  Dynamo        2692        92 26         26 92         0954425C
+Tuner Carbon  Phoenix       2693        93 26         26 93         095673E0
+Sport Carbon  Edge          2694        94 26         26 94         0965CE7C
+
+[Cadillac CTS]
+Type          Name          Save Value  PC/PS2 Bytes  360/GC Bytes  Name Hash
+------------  ------------  ----------  ------------  ------------  ---------
+Stock         Stock         0284        84 02         02 84         300B9D26
+Tuner         Arrow         2659        59 26         26 59         45F08571
+Tuner         Barracuda     265A        5A 26         26 5A         45F08572
+Sport         Reaper        265B        5B 26         26 5B         45F08575
+Sport         Slingshot     265C        5C 26         26 5C         45F08596
+Tuner         Switchblade   265D        5D 26         26 5D         45F085D2
+Sport         Groundmaster  265E        5E 26         26 5E         45F085D1
+Tuner Carbon  Arrow         265F        5F 26         26 5F         091DF8D9
+Tuner Carbon  Barracuda     2660        60 26         26 60         091E853A
+Sport Carbon  Reaper        2661        61 26         26 61         09202A5D
+Sport Carbon  Slingshot     2662        62 26         26 62         093242DE
+Tuner Carbon  Switchblade   2663        63 26         26 63         0953299A
+Sport Carbon  Groundmaster  2664        64 26         26 64         09529D39
+Tuner         Jorgen        2665        65 26         26 65         45F0856E
+Sport         Rocker 5      2666        66 26         26 66         45F0856F
+Tuner         Scarab        2667        67 26         26 67         45F085F1
+Sport         Fishtail      2668        68 26         26 68         45F085F2
+Sport         Viper         2669        69 26         26 69         45F085F3
+Tuner         Lynx          266A        6A 26         26 6A         45F085F5
+Tuner Carbon  Jorgen        266B        6B 26         26 6B         091C53B6
+Sport Carbon  Rocker 5      266C        6C 26         26 6C         091CE017
+Tuner Carbon  Scarab        266D        6D 26         26 6D         09642959
+Sport Carbon  Fishtail      266E        6E 26         26 6E         0964B5BA
+Sport Carbon  Viper         266F        6F 26         26 6F         0965421B
+Tuner Carbon  Lynx          2670        70 26         26 70         09665ADD
+Sport         Ripper        2671        71 26         26 71         45F08574
+Tuner         Borra         2672        72 26         26 72         45F08576
+Tuner         Ghost         2673        73 26         26 73         45F0858E
+Sport         Banshee       2674        74 26         26 74         45F08593
+Tuner         Tornado       2675        75 26         26 75         45F085B5
+Tuner         Fishtail      2676        76 26         26 76         45F085B8
+Sport Carbon  Ripper        2677        77 26         26 77         091F9DFC
+Tuner Carbon  Borra         2678        78 26         26 78         0920B6BE
+Tuner Carbon  Ghost         2679        79 26         26 79         092DDFD6
+Sport Carbon  Banshee       267A        7A 26         26 7A         09309DBB
+Tuner Carbon  Tornado       267B        7B 26         26 7B         0943429D
+Tuner Carbon  Fishtail      267C        7C 26         26 7C         0944E7C0
+Sport         Airforce      267D        7D 26         26 7D         45F08570
+Tuner         Wildfire      267E        7E 26         26 7E         45F08573
+Sport         Dragon        267F        7F 26         26 7F         45F0858F
+Tuner         Tandem        2680        80 26         26 80         45F08591
+Sport         Mystic        2681        81 26         26 81         45F08594
+Tuner         Joker         2682        82 26         26 82         45F085D6
+Sport Carbon  Airforce      2683        83 26         26 83         091D6C78
+Tuner Carbon  Wildfire      2684        84 26         26 84         091F119B
+Sport Carbon  Dragon        2685        85 26         26 85         092E6C37
+Tuner Carbon  Tandem        2686        86 26         26 86         092F84F9
+Sport Carbon  Mystic        2687        87 26         26 87         09312A1C
+Tuner Carbon  Joker         2688        88 26         26 88         09555B1E
+Tuner         Venom         2689        89 26         26 89         45F085B6
+Tuner         Impact        268A        8A 26         26 8A         45F085D0
+Tuner Carbon  Venom         268B        8B 26         26 8B         0943CEFE
+Tuner Carbon  Impact        268C        8C 26         26 8C         095210D8
+Sport         Specter       268D        8D 26         26 8D         45F08595
+Sport         Dynamo        268E        8E 26         26 8E         45F085D4
+Tuner         Phoenix       268F        8F 26         26 8F         45F085D8
+Sport         Edge          2690        90 26         26 90         45F085F4
+Sport Carbon  Specter       2691        91 26         26 91         0931B67D
+Sport Carbon  Dynamo        2692        92 26         26 92         0954425C
+Tuner Carbon  Phoenix       2693        93 26         26 93         095673E0
+Sport Carbon  Edge          2694        94 26         26 94         0965CE7C
+
+[Chevrolet Camaro SS]
+Type          Name          Save Value  PC/PS2 Bytes  360/GC Bytes  Name Hash
+------------  ------------  ----------  ------------  ------------  ---------
+Stock         Stock         1A43        43 1A         1A 43         3B1AD10F
+Tuner         Arrow         2659        59 26         26 59         45F08571
+Tuner         Barracuda     265A        5A 26         26 5A         45F08572
+Sport         Reaper        265B        5B 26         26 5B         45F08575
+Sport         Slingshot     265C        5C 26         26 5C         45F08596
+Tuner         Switchblade   265D        5D 26         26 5D         45F085D2
+Sport         Groundmaster  265E        5E 26         26 5E         45F085D1
+Tuner Carbon  Arrow         265F        5F 26         26 5F         091DF8D9
+Tuner Carbon  Barracuda     2660        60 26         26 60         091E853A
+Sport Carbon  Reaper        2661        61 26         26 61         09202A5D
+Sport Carbon  Slingshot     2662        62 26         26 62         093242DE
+Tuner Carbon  Switchblade   2663        63 26         26 63         0953299A
+Sport Carbon  Groundmaster  2664        64 26         26 64         09529D39
+Tuner         Jorgen        2665        65 26         26 65         45F0856E
+Sport         Rocker 5      2666        66 26         26 66         45F0856F
+Tuner         Scarab        2667        67 26         26 67         45F085F1
+Sport         Fishtail      2668        68 26         26 68         45F085F2
+Sport         Viper         2669        69 26         26 69         45F085F3
+Tuner         Lynx          266A        6A 26         26 6A         45F085F5
+Tuner Carbon  Jorgen        266B        6B 26         26 6B         091C53B6
+Sport Carbon  Rocker 5      266C        6C 26         26 6C         091CE017
+Tuner Carbon  Scarab        266D        6D 26         26 6D         09642959
+Sport Carbon  Fishtail      266E        6E 26         26 6E         0964B5BA
+Sport Carbon  Viper         266F        6F 26         26 6F         0965421B
+Tuner Carbon  Lynx          2670        70 26         26 70         09665ADD
+Sport         Ripper        2671        71 26         26 71         45F08574
+Tuner         Borra         2672        72 26         26 72         45F08576
+Tuner         Ghost         2673        73 26         26 73         45F0858E
+Sport         Banshee       2674        74 26         26 74         45F08593
+Tuner         Tornado       2675        75 26         26 75         45F085B5
+Tuner         Fishtail      2676        76 26         26 76         45F085B8
+Sport Carbon  Ripper        2677        77 26         26 77         091F9DFC
+Tuner Carbon  Borra         2678        78 26         26 78         0920B6BE
+Tuner Carbon  Ghost         2679        79 26         26 79         092DDFD6
+Sport Carbon  Banshee       267A        7A 26         26 7A         09309DBB
+Tuner Carbon  Tornado       267B        7B 26         26 7B         0943429D
+Tuner Carbon  Fishtail      267C        7C 26         26 7C         0944E7C0
+Sport         Airforce      267D        7D 26         26 7D         45F08570
+Tuner         Wildfire      267E        7E 26         26 7E         45F08573
+Sport         Dragon        267F        7F 26         26 7F         45F0858F
+Tuner         Tandem        2680        80 26         26 80         45F08591
+Sport         Mystic        2681        81 26         26 81         45F08594
+Tuner         Joker         2682        82 26         26 82         45F085D6
+Sport Carbon  Airforce      2683        83 26         26 83         091D6C78
+Tuner Carbon  Wildfire      2684        84 26         26 84         091F119B
+Sport Carbon  Dragon        2685        85 26         26 85         092E6C37
+Tuner Carbon  Tandem        2686        86 26         26 86         092F84F9
+Sport Carbon  Mystic        2687        87 26         26 87         09312A1C
+Tuner Carbon  Joker         2688        88 26         26 88         09555B1E
+Tuner         Venom         2689        89 26         26 89         45F085B6
+Tuner         Impact        268A        8A 26         26 8A         45F085D0
+Tuner Carbon  Venom         268B        8B 26         26 8B         0943CEFE
+Tuner Carbon  Impact        268C        8C 26         26 8C         095210D8
+Sport         Specter       268D        8D 26         26 8D         45F08595
+Sport         Dynamo        268E        8E 26         26 8E         45F085D4
+Tuner         Phoenix       268F        8F 26         26 8F         45F085D8
+Sport         Edge          2690        90 26         26 90         45F085F4
+Sport Carbon  Specter       2691        91 26         26 91         0931B67D
+Sport Carbon  Dynamo        2692        92 26         26 92         0954425C
+Tuner Carbon  Phoenix       2693        93 26         26 93         095673E0
+Sport Carbon  Edge          2694        94 26         26 94         0965CE7C
+
+[Chevrolet Cobalt SS]
+Type          Name          Save Value  PC/PS2 Bytes  360/GC Bytes  Name Hash
+------------  ------------  ----------  ------------  ------------  ---------
+Stock         Stock         2498        98 24         24 98         30265737
+Tuner         Arrow         2659        59 26         26 59         45F08571
+Tuner         Barracuda     265A        5A 26         26 5A         45F08572
+Sport         Reaper        265B        5B 26         26 5B         45F08575
+Sport         Slingshot     265C        5C 26         26 5C         45F08596
+Tuner         Switchblade   265D        5D 26         26 5D         45F085D2
+Sport         Groundmaster  265E        5E 26         26 5E         45F085D1
+Tuner Carbon  Arrow         265F        5F 26         26 5F         091DF8D9
+Tuner Carbon  Barracuda     2660        60 26         26 60         091E853A
+Sport Carbon  Reaper        2661        61 26         26 61         09202A5D
+Sport Carbon  Slingshot     2662        62 26         26 62         093242DE
+Tuner Carbon  Switchblade   2663        63 26         26 63         0953299A
+Sport Carbon  Groundmaster  2664        64 26         26 64         09529D39
+Tuner         Jorgen        2665        65 26         26 65         45F0856E
+Sport         Rocker 5      2666        66 26         26 66         45F0856F
+Tuner         Scarab        2667        67 26         26 67         45F085F1
+Sport         Fishtail      2668        68 26         26 68         45F085F2
+Sport         Viper         2669        69 26         26 69         45F085F3
+Tuner         Lynx          266A        6A 26         26 6A         45F085F5
+Tuner Carbon  Jorgen        266B        6B 26         26 6B         091C53B6
+Sport Carbon  Rocker 5      266C        6C 26         26 6C         091CE017
+Tuner Carbon  Scarab        266D        6D 26         26 6D         09642959
+Sport Carbon  Fishtail      266E        6E 26         26 6E         0964B5BA
+Sport Carbon  Viper         266F        6F 26         26 6F         0965421B
+Tuner Carbon  Lynx          2670        70 26         26 70         09665ADD
+Sport         Ripper        2671        71 26         26 71         45F08574
+Tuner         Borra         2672        72 26         26 72         45F08576
+Tuner         Ghost         2673        73 26         26 73         45F0858E
+Sport         Banshee       2674        74 26         26 74         45F08593
+Tuner         Tornado       2675        75 26         26 75         45F085B5
+Tuner         Fishtail      2676        76 26         26 76         45F085B8
+Sport Carbon  Ripper        2677        77 26         26 77         091F9DFC
+Tuner Carbon  Borra         2678        78 26         26 78         0920B6BE
+Tuner Carbon  Ghost         2679        79 26         26 79         092DDFD6
+Sport Carbon  Banshee       267A        7A 26         26 7A         09309DBB
+Tuner Carbon  Tornado       267B        7B 26         26 7B         0943429D
+Tuner Carbon  Fishtail      267C        7C 26         26 7C         0944E7C0
+Sport         Airforce      267D        7D 26         26 7D         45F08570
+Tuner         Wildfire      267E        7E 26         26 7E         45F08573
+Sport         Dragon        267F        7F 26         26 7F         45F0858F
+Tuner         Tandem        2680        80 26         26 80         45F08591
+Sport         Mystic        2681        81 26         26 81         45F08594
+Tuner         Joker         2682        82 26         26 82         45F085D6
+Sport Carbon  Airforce      2683        83 26         26 83         091D6C78
+Tuner Carbon  Wildfire      2684        84 26         26 84         091F119B
+Sport Carbon  Dragon        2685        85 26         26 85         092E6C37
+Tuner Carbon  Tandem        2686        86 26         26 86         092F84F9
+Sport Carbon  Mystic        2687        87 26         26 87         09312A1C
+Tuner Carbon  Joker         2688        88 26         26 88         09555B1E
+Tuner         Venom         2689        89 26         26 89         45F085B6
+Tuner         Impact        268A        8A 26         26 8A         45F085D0
+Tuner Carbon  Venom         268B        8B 26         26 8B         0943CEFE
+Tuner Carbon  Impact        268C        8C 26         26 8C         095210D8
+Sport         Specter       268D        8D 26         26 8D         45F08595
+Sport         Dynamo        268E        8E 26         26 8E         45F085D4
+Tuner         Phoenix       268F        8F 26         26 8F         45F085D8
+Sport         Edge          2690        90 26         26 90         45F085F4
+Sport Carbon  Specter       2691        91 26         26 91         0931B67D
+Sport Carbon  Dynamo        2692        92 26         26 92         0954425C
+Tuner Carbon  Phoenix       2693        93 26         26 93         095673E0
+Sport Carbon  Edge          2694        94 26         26 94         0965CE7C
+
+[Chevrolet Corvette C6]
+Type          Name          Save Value  PC/PS2 Bytes  360/GC Bytes  Name Hash
+------------  ------------  ----------  ------------  ------------  ---------
+Stock         Stock         2C4E        4E 2C         2C 4E         B58A8E48
+Tuner         Arrow         2659        59 26         26 59         45F08571
+Tuner         Barracuda     265A        5A 26         26 5A         45F08572
+Sport         Reaper        265B        5B 26         26 5B         45F08575
+Sport         Slingshot     265C        5C 26         26 5C         45F08596
+Tuner         Switchblade   265D        5D 26         26 5D         45F085D2
+Sport         Groundmaster  265E        5E 26         26 5E         45F085D1
+Tuner Carbon  Arrow         265F        5F 26         26 5F         091DF8D9
+Tuner Carbon  Barracuda     2660        60 26         26 60         091E853A
+Sport Carbon  Reaper        2661        61 26         26 61         09202A5D
+Sport Carbon  Slingshot     2662        62 26         26 62         093242DE
+Tuner Carbon  Switchblade   2663        63 26         26 63         0953299A
+Sport Carbon  Groundmaster  2664        64 26         26 64         09529D39
+Tuner         Jorgen        2665        65 26         26 65         45F0856E
+Sport         Rocker 5      2666        66 26         26 66         45F0856F
+Tuner         Scarab        2667        67 26         26 67         45F085F1
+Sport         Fishtail      2668        68 26         26 68         45F085F2
+Sport         Viper         2669        69 26         26 69         45F085F3
+Tuner         Lynx          266A        6A 26         26 6A         45F085F5
+Tuner Carbon  Jorgen        266B        6B 26         26 6B         091C53B6
+Sport Carbon  Rocker 5      266C        6C 26         26 6C         091CE017
+Tuner Carbon  Scarab        266D        6D 26         26 6D         09642959
+Sport Carbon  Fishtail      266E        6E 26         26 6E         0964B5BA
+Sport Carbon  Viper         266F        6F 26         26 6F         0965421B
+Tuner Carbon  Lynx          2670        70 26         26 70         09665ADD
+Sport         Ripper        2671        71 26         26 71         45F08574
+Tuner         Borra         2672        72 26         26 72         45F08576
+Tuner         Ghost         2673        73 26         26 73         45F0858E
+Sport         Banshee       2674        74 26         26 74         45F08593
+Tuner         Tornado       2675        75 26         26 75         45F085B5
+Tuner         Fishtail      2676        76 26         26 76         45F085B8
+Sport Carbon  Ripper        2677        77 26         26 77         091F9DFC
+Tuner Carbon  Borra         2678        78 26         26 78         0920B6BE
+Tuner Carbon  Ghost         2679        79 26         26 79         092DDFD6
+Sport Carbon  Banshee       267A        7A 26         26 7A         09309DBB
+Tuner Carbon  Tornado       267B        7B 26         26 7B         0943429D
+Tuner Carbon  Fishtail      267C        7C 26         26 7C         0944E7C0
+Sport         Airforce      267D        7D 26         26 7D         45F08570
+Tuner         Wildfire      267E        7E 26         26 7E         45F08573
+Sport         Dragon        267F        7F 26         26 7F         45F0858F
+Tuner         Tandem        2680        80 26         26 80         45F08591
+Sport         Mystic        2681        81 26         26 81         45F08594
+Tuner         Joker         2682        82 26         26 82         45F085D6
+Sport Carbon  Airforce      2683        83 26         26 83         091D6C78
+Tuner Carbon  Wildfire      2684        84 26         26 84         091F119B
+Sport Carbon  Dragon        2685        85 26         26 85         092E6C37
+Tuner Carbon  Tandem        2686        86 26         26 86         092F84F9
+Sport Carbon  Mystic        2687        87 26         26 87         09312A1C
+Tuner Carbon  Joker         2688        88 26         26 88         09555B1E
+Tuner         Venom         2689        89 26         26 89         45F085B6
+Tuner         Impact        268A        8A 26         26 8A         45F085D0
+Tuner Carbon  Venom         268B        8B 26         26 8B         0943CEFE
+Tuner Carbon  Impact        268C        8C 26         26 8C         095210D8
+Sport         Specter       268D        8D 26         26 8D         45F08595
+Sport         Dynamo        268E        8E 26         26 8E         45F085D4
+Tuner         Phoenix       268F        8F 26         26 8F         45F085D8
+Sport         Edge          2690        90 26         26 90         45F085F4
+Sport Carbon  Specter       2691        91 26         26 91         0931B67D
+Sport Carbon  Dynamo        2692        92 26         26 92         0954425C
+Tuner Carbon  Phoenix       2693        93 26         26 93         095673E0
+Sport Carbon  Edge          2694        94 26         26 94         0965CE7C
+
+[Chevrolet Corvette C6.R]
+Type          Name          Save Value  PC/PS2 Bytes  360/GC Bytes  Name Hash
+------------  ------------  ----------  ------------  ------------  ---------
+Stock         Stock         17C6        C6 17         17 C6         3CDB89B3
+Tuner         Arrow         2659        59 26         26 59         45F08571
+Tuner         Barracuda     265A        5A 26         26 5A         45F08572
+Sport         Reaper        265B        5B 26         26 5B         45F08575
+Sport         Slingshot     265C        5C 26         26 5C         45F08596
+Tuner         Switchblade   265D        5D 26         26 5D         45F085D2
+Sport         Groundmaster  265E        5E 26         26 5E         45F085D1
+Tuner Carbon  Arrow         265F        5F 26         26 5F         091DF8D9
+Tuner Carbon  Barracuda     2660        60 26         26 60         091E853A
+Sport Carbon  Reaper        2661        61 26         26 61         09202A5D
+Sport Carbon  Slingshot     2662        62 26         26 62         093242DE
+Tuner Carbon  Switchblade   2663        63 26         26 63         0953299A
+Sport Carbon  Groundmaster  2664        64 26         26 64         09529D39
+Tuner         Jorgen        2665        65 26         26 65         45F0856E
+Sport         Rocker 5      2666        66 26         26 66         45F0856F
+Tuner         Scarab        2667        67 26         26 67         45F085F1
+Sport         Fishtail      2668        68 26         26 68         45F085F2
+Sport         Viper         2669        69 26         26 69         45F085F3
+Tuner         Lynx          266A        6A 26         26 6A         45F085F5
+Tuner Carbon  Jorgen        266B        6B 26         26 6B         091C53B6
+Sport Carbon  Rocker 5      266C        6C 26         26 6C         091CE017
+Tuner Carbon  Scarab        266D        6D 26         26 6D         09642959
+Sport Carbon  Fishtail      266E        6E 26         26 6E         0964B5BA
+Sport Carbon  Viper         266F        6F 26         26 6F         0965421B
+Tuner Carbon  Lynx          2670        70 26         26 70         09665ADD
+Sport         Ripper        2671        71 26         26 71         45F08574
+Tuner         Borra         2672        72 26         26 72         45F08576
+Tuner         Ghost         2673        73 26         26 73         45F0858E
+Sport         Banshee       2674        74 26         26 74         45F08593
+Tuner         Tornado       2675        75 26         26 75         45F085B5
+Tuner         Fishtail      2676        76 26         26 76         45F085B8
+Sport Carbon  Ripper        2677        77 26         26 77         091F9DFC
+Tuner Carbon  Borra         2678        78 26         26 78         0920B6BE
+Tuner Carbon  Ghost         2679        79 26         26 79         092DDFD6
+Sport Carbon  Banshee       267A        7A 26         26 7A         09309DBB
+Tuner Carbon  Tornado       267B        7B 26         26 7B         0943429D
+Tuner Carbon  Fishtail      267C        7C 26         26 7C         0944E7C0
+Sport         Airforce      267D        7D 26         26 7D         45F08570
+Tuner         Wildfire      267E        7E 26         26 7E         45F08573
+Sport         Dragon        267F        7F 26         26 7F         45F0858F
+Tuner         Tandem        2680        80 26         26 80         45F08591
+Sport         Mystic        2681        81 26         26 81         45F08594
+Tuner         Joker         2682        82 26         26 82         45F085D6
+Sport Carbon  Airforce      2683        83 26         26 83         091D6C78
+Tuner Carbon  Wildfire      2684        84 26         26 84         091F119B
+Sport Carbon  Dragon        2685        85 26         26 85         092E6C37
+Tuner Carbon  Tandem        2686        86 26         26 86         092F84F9
+Sport Carbon  Mystic        2687        87 26         26 87         09312A1C
+Tuner Carbon  Joker         2688        88 26         26 88         09555B1E
+Tuner         Venom         2689        89 26         26 89         45F085B6
+Tuner         Impact        268A        8A 26         26 8A         45F085D0
+Tuner Carbon  Venom         268B        8B 26         26 8B         0943CEFE
+Tuner Carbon  Impact        268C        8C 26         26 8C         095210D8
+Sport         Specter       268D        8D 26         26 8D         45F08595
+Sport         Dynamo        268E        8E 26         26 8E         45F085D4
+Tuner         Phoenix       268F        8F 26         26 8F         45F085D8
+Sport         Edge          2690        90 26         26 90         45F085F4
+Sport Carbon  Specter       2691        91 26         26 91         0931B67D
+Sport Carbon  Dynamo        2692        92 26         26 92         0954425C
+Tuner Carbon  Phoenix       2693        93 26         26 93         095673E0
+Sport Carbon  Edge          2694        94 26         26 94         0965CE7C
+
+[Dodge Viper SRT-10]
+Type          Name          Save Value  PC/PS2 Bytes  360/GC Bytes  Name Hash
+------------  ------------  ----------  ------------  ------------  ---------
+Stock         Stock         12A3        A3 12         12 A3         D9ABD542
+Tuner         Arrow         2659        59 26         26 59         45F08571
+Tuner         Barracuda     265A        5A 26         26 5A         45F08572
+Sport         Reaper        265B        5B 26         26 5B         45F08575
+Sport         Slingshot     265C        5C 26         26 5C         45F08596
+Tuner         Switchblade   265D        5D 26         26 5D         45F085D2
+Sport         Groundmaster  265E        5E 26         26 5E         45F085D1
+Tuner Carbon  Arrow         265F        5F 26         26 5F         091DF8D9
+Tuner Carbon  Barracuda     2660        60 26         26 60         091E853A
+Sport Carbon  Reaper        2661        61 26         26 61         09202A5D
+Sport Carbon  Slingshot     2662        62 26         26 62         093242DE
+Tuner Carbon  Switchblade   2663        63 26         26 63         0953299A
+Sport Carbon  Groundmaster  2664        64 26         26 64         09529D39
+Tuner         Jorgen        2665        65 26         26 65         45F0856E
+Sport         Rocker 5      2666        66 26         26 66         45F0856F
+Tuner         Scarab        2667        67 26         26 67         45F085F1
+Sport         Fishtail      2668        68 26         26 68         45F085F2
+Sport         Viper         2669        69 26         26 69         45F085F3
+Tuner         Lynx          266A        6A 26         26 6A         45F085F5
+Tuner Carbon  Jorgen        266B        6B 26         26 6B         091C53B6
+Sport Carbon  Rocker 5      266C        6C 26         26 6C         091CE017
+Tuner Carbon  Scarab        266D        6D 26         26 6D         09642959
+Sport Carbon  Fishtail      266E        6E 26         26 6E         0964B5BA
+Sport Carbon  Viper         266F        6F 26         26 6F         0965421B
+Tuner Carbon  Lynx          2670        70 26         26 70         09665ADD
+Sport         Ripper        2671        71 26         26 71         45F08574
+Tuner         Borra         2672        72 26         26 72         45F08576
+Tuner         Ghost         2673        73 26         26 73         45F0858E
+Sport         Banshee       2674        74 26         26 74         45F08593
+Tuner         Tornado       2675        75 26         26 75         45F085B5
+Tuner         Fishtail      2676        76 26         26 76         45F085B8
+Sport Carbon  Ripper        2677        77 26         26 77         091F9DFC
+Tuner Carbon  Borra         2678        78 26         26 78         0920B6BE
+Tuner Carbon  Ghost         2679        79 26         26 79         092DDFD6
+Sport Carbon  Banshee       267A        7A 26         26 7A         09309DBB
+Tuner Carbon  Tornado       267B        7B 26         26 7B         0943429D
+Tuner Carbon  Fishtail      267C        7C 26         26 7C         0944E7C0
+Sport         Airforce      267D        7D 26         26 7D         45F08570
+Tuner         Wildfire      267E        7E 26         26 7E         45F08573
+Sport         Dragon        267F        7F 26         26 7F         45F0858F
+Tuner         Tandem        2680        80 26         26 80         45F08591
+Sport         Mystic        2681        81 26         26 81         45F08594
+Tuner         Joker         2682        82 26         26 82         45F085D6
+Sport Carbon  Airforce      2683        83 26         26 83         091D6C78
+Tuner Carbon  Wildfire      2684        84 26         26 84         091F119B
+Sport Carbon  Dragon        2685        85 26         26 85         092E6C37
+Tuner Carbon  Tandem        2686        86 26         26 86         092F84F9
+Sport Carbon  Mystic        2687        87 26         26 87         09312A1C
+Tuner Carbon  Joker         2688        88 26         26 88         09555B1E
+Tuner         Venom         2689        89 26         26 89         45F085B6
+Tuner         Impact        268A        8A 26         26 8A         45F085D0
+Tuner Carbon  Venom         268B        8B 26         26 8B         0943CEFE
+Tuner Carbon  Impact        268C        8C 26         26 8C         095210D8
+Sport         Specter       268D        8D 26         26 8D         45F08595
+Sport         Dynamo        268E        8E 26         26 8E         45F085D4
+Tuner         Phoenix       268F        8F 26         26 8F         45F085D8
+Sport         Edge          2690        90 26         26 90         45F085F4
+Sport Carbon  Specter       2691        91 26         26 91         0931B67D
+Sport Carbon  Dynamo        2692        92 26         26 92         0954425C
+Tuner Carbon  Phoenix       2693        93 26         26 93         095673E0
+Sport Carbon  Edge          2694        94 26         26 94         0965CE7C
+
+[Fiat Punto]
+Type          Name          Save Value  PC/PS2 Bytes  360/GC Bytes  Name Hash
+------------  ------------  ----------  ------------  ------------  ---------
+Stock         Stock         0FCB        CB 0F         0F CB         1D49C032
+Tuner         Arrow         2CC6        C6 2C         2C C6         D8CB2118
+Tuner         Barracuda     2CC7        C7 2C         2C C7         25C55DD9
+Sport         Reaper        2CC8        C8 2C         2C C8         0CB4141C
+Sport         Slingshot     2CC9        C9 2C         2C C9         F8F5E8FD
+Tuner         Switchblade   2CCA        CA 2C         2C CA         E537BDDE
+Sport         Groundmaster  2CCB        CB 2C         2C CB         B6A1E978
+Tuner Carbon  Arrow         2CCC        CC 2C         2C CC         3B124720
+Tuner Carbon  Barracuda     2CCD        CD 2C         2C CD         3F1CD841
+Sport Carbon  Reaper        2CCE        CE 2C         2C CE         4B3C8BA4
+Sport Carbon  Slingshot     2CCF        CF 2C         2C CF         D09940E5
+Tuner Carbon  Switchblade   2CD0        D0 2C         2C D0         55F5F626
+Sport Carbon  Groundmaster  2CD1        D1 2C         2C D1         BF08B380
+Tuner         Jorgen        2CD2        D2 2C         2C D2         F1DC6AD5
+Sport         Rocker 5      2CD3        D3 2C         2C D3         3ED6A796
+Tuner         Scarab        2CD4        D4 2C         2C D4         55E98198
+Sport         Fishtail      2CD5        D5 2C         2C D5         A2E3BE59
+Sport         Viper         2CD6        D6 2C         2C D6         EFDDFB1A
+Tuner         Lynx          2CD7        D7 2C         2C D7         89D2749C
+Tuner Carbon  Jorgen        2CD8        D8 2C         2C D8         2EF293BD
+Sport Carbon  Rocker 5      2CD9        D9 2C         2C D9         32FD24DE
+Tuner Carbon  Scarab        2CDA        DA 2C         2C DA         405AD7A0
+Sport Carbon  Fishtail      2CDB        DB 2C         2C DB         446568C1
+Sport Carbon  Viper         2CDC        DC 2C         2C DC         486FF9E2
+Tuner Carbon  Lynx          2CDD        DD 2C         2C DD         50851C24
+Sport         Ripper        2CDE        DE 2C         2C DE         BFB9D75B
+Tuner         Borra         2CDF        DF 2C         2C DF         59AE50DD
+Tuner         Ghost         2CE0        E0 2C         2C E0         912402F5
+Sport         Banshee       2CE1        E1 2C         2C E1         120732BA
+Tuner         Tornado       2CE2        E2 2C         2C E2         4B43445C
+Tuner         Fishtail      2CE3        E3 2C         2C E3         3231FA9F
+Sport Carbon  Ripper        2CE4        E4 2C         2C E4         4731FA83
+Tuner Carbon  Borra         2CE5        E5 2C         2C E5         4F471CC5
+Tuner Carbon  Ghost         2CE6        E6 2C         2C E6         B044B7DD
+Sport Carbon  Banshee       2CE7        E7 2C         2C E7         C4798D82
+Tuner Carbon  Tornado       2CE8        E8 2C         2C E8         4DE0D3E4
+Tuner Carbon  Fishtail      2CE9        E9 2C         2C E9         5A008747
+Sport         Airforce      2CEA        EA 2C         2C EA         8BD0E457
+Tuner         Wildfire      2CEB        EB 2C         2C EB         72BF9A9A
+Sport         Dragon        2CEC        EC 2C         2C EC         DE1E3FB6
+Tuner         Tandem        2CED        ED 2C         2C ED         7812B938
+Sport         Mystic        2CEE        EE 2C         2C EE         5F016F7B
+Tuner         Joker         2CEF        EF 2C         2C EF         3785193D
+Sport Carbon  Airforce      2CF0        F0 2C         2C F0         3707B5FF
+Tuner Carbon  Wildfire      2CF1        F1 2C         2C F1         43276962
+Sport Carbon  Dragon        2CF2        F2 2C         2C F2         B44F48FE
+Tuner Carbon  Tandem        2CF3        F3 2C         2C F3         BC646B40
+Sport Carbon  Mystic        2CF4        F4 2C         2C F4         C8841EA3
+Tuner Carbon  Joker         2CF5        F5 2C         2C F5         D33D8925
+Tuner         Venom         2CF6        F6 2C         2C F6         983D811D
+Tuner         Impact        2CF7        F7 2C         2C F7         69A7ACB7
+Tuner Carbon  Venom         2CF8        F8 2C         2C F8         51EB6505
+Tuner Carbon  Impact        2CF9        F9 2C         2C F9         BAFE225F
+Sport         Specter       2CFA        FA 2C         2C FA         ABFBAC3C
+Sport         Dynamo        2CFB        FB 2C         2C FB         9D909FBB
+Tuner         Phoenix       2CFC        FC 2C         2C FC         D17992BF
+Sport Carbon  Specter       2CFD        FD 2C         2C FD         CC8EAFC4
+Sport Carbon  Dynamo        2CFE        FE 2C         2C FE         CB2866E3
+Tuner Carbon  Phoenix       2CFF        FF 2C         2C FF         DB52AB67
+
+[Ford GT]
+Type          Name          Save Value  PC/PS2 Bytes  360/GC Bytes  Name Hash
+------------  ------------  ----------  ------------  ------------  ---------
+Stock         Stock         1F7F        7F 1F         1F 7F         E2DEEE42
+Tuner         Arrow         19BC        BC 19         19 BC         B7189E10
+Tuner         Barracuda     19BD        BD 19         19 BD         2B950F11
+Sport         Reaper        19BE        BE 19         19 BE         890A6214
+Sport         Slingshot     19BF        BF 19         19 BF         8D14F335
+Tuner         Switchblade   19C0        C0 19         19 C0         911F8456
+Sport         Groundmaster  19C1        C1 19         19 C1         65C2FE70
+Tuner Carbon  Arrow         19C2        C2 19         19 C2         D6C64118
+Tuner Carbon  Barracuda     19C3        C3 19         19 C3         07B99E79
+Sport Carbon  Reaper        19C4        C4 19         19 C4         9A93B69C
+Sport Carbon  Slingshot     19C5        C5 19         19 C5         E9F2C01D
+Tuner Carbon  Switchblade   19C6        C6 19         19 C6         3951C99E
+Sport Carbon  Groundmaster  19C7        C7 19         19 C7         32094578
+Tuner         Jorgen        19C8        C8 19         19 C8         59A34B0D
+Sport         Rocker 5      19C9        C9 19         19 C9         CE1FBC0E
+Tuner         Scarab        19CA        CA 19         19 CA         F5511E90
+Sport         Fishtail      19CB        CB 19         19 CB         69CD8F91
+Sport         Viper         19CC        CC 19         19 CC         DE4A0092
+Tuner         Lynx          19CD        CD 19         19 CD         C742E294
+Tuner Carbon  Jorgen        19CE        CE 19         19 CE         43EC28F5
+Sport Carbon  Rocker 5      19CF        CF 19         19 CF         74DF8656
+Tuner Carbon  Scarab        19D0        D0 19         19 D0         5074F198
+Sport Carbon  Fishtail      19D1        D1 19         19 D1         81684EF9
+Sport Carbon  Viper         19D2        D2 19         19 D2         B25BAC5A
+Tuner Carbon  Lynx          19D3        D3 19         19 D3         1442671C
+Sport         Ripper        19D4        D4 19         19 D4         148DF113
+Tuner         Borra         19D5        D5 19         19 D5         FD86D315
+Tuner         Ghost         19D6        D6 19         19 D6         E9316B2D
+Sport         Banshee       19D7        D7 19         19 D7         2F9FA032
+Tuner         Tornado       19D8        D8 19         19 D8         A826A254
+Tuner         Fishtail      19D9        D9 19         19 D9         059BF557
+Sport Carbon  Ripper        19DA        DA 19         19 DA         69A0593B
+Tuner Carbon  Borra         19DB        DB 19         19 DB         CB8713FD
+Tuner Carbon  Ghost         19DC        DC 19         19 DC         6257D515
+Sport Carbon  Banshee       19DD        DD 19         19 DD         5718A7FA
+Tuner Carbon  Tornado       19DE        DE 19         19 DE         D76B0EDC
+Tuner Carbon  Fishtail      19DF        DF 19         19 DF         6A4526FF
+Sport         Airforce      19E0        E0 19         19 E0         429C2D0F
+Tuner         Wildfire      19E1        E1 19         19 E1         A0118012
+Sport         Dragon        19E2        E2 19         19 E2         5DADDC2E
+Tuner         Tandem        19E3        E3 19         19 E3         46A6BE30
+Sport         Mystic        19E4        E4 19         19 E4         A41C1133
+Tuner         Joker         19E5        E5 19         19 E5         AC313375
+Sport Carbon  Airforce      19E6        E6 19         19 E6         A5D2E3B7
+Tuner Carbon  Wildfire      19E7        E7 19         19 E7         38ACFBDA
+Sport Carbon  Dragon        19E8        E8 19         19 E8         934B3276
+Tuner Carbon  Tandem        19E9        E9 19         19 E9         F531ED38
+Sport Carbon  Mystic        19EA        EA 19         19 EA         880C055B
+Tuner Carbon  Joker         19EB        EB 19         19 EB         26CA185D
+Tuner         Venom         19EC        EC 19         19 EC         1CA31355
+Tuner         Impact        19ED        ED 19         19 ED         F1468D6F
+Tuner Carbon  Venom         19EE        EE 19         19 EE         085E6C3D
+Tuner Carbon  Impact        19EF        EF 19         19 EF         0115E817
+Sport         Specter       19F0        F0 19         19 F0         18988234
+Sport         Dynamo        19F1        F1 19         19 F1         C3385173
+Tuner         Phoenix       19F2        F2 19         19 F2         952A1577
+Sport         Edge          19F3        F3 19         19 F3         52C67193
+Sport Carbon  Specter       19F4        F4 19         19 F4         B8FF62BC
+Sport Carbon  Dynamo        19F5        F5 19         19 F5         C4E35D9B
+Tuner Carbon  Phoenix       19F6        F6 19         19 F6         88B0D31F
+Sport Carbon  Edge          19F7        F7 19         19 F7         E34F09BB
+
+[Ford Mustang GT]
+Type          Name          Save Value  PC/PS2 Bytes  360/GC Bytes  Name Hash
+------------  ------------  ----------  ------------  ------------  ---------
+Stock         Stock         1885        85 18         18 85         7400A976
+Tuner         Arrow         2659        59 26         26 59         45F08571
+Tuner         Barracuda     265A        5A 26         26 5A         45F08572
+Sport         Reaper        265B        5B 26         26 5B         45F08575
+Sport         Slingshot     265C        5C 26         26 5C         45F08596
+Tuner         Switchblade   265D        5D 26         26 5D         45F085D2
+Sport         Groundmaster  265E        5E 26         26 5E         45F085D1
+Tuner Carbon  Arrow         265F        5F 26         26 5F         091DF8D9
+Tuner Carbon  Barracuda     2660        60 26         26 60         091E853A
+Sport Carbon  Reaper        2661        61 26         26 61         09202A5D
+Sport Carbon  Slingshot     2662        62 26         26 62         093242DE
+Tuner Carbon  Switchblade   2663        63 26         26 63         0953299A
+Sport Carbon  Groundmaster  2664        64 26         26 64         09529D39
+Tuner         Jorgen        2665        65 26         26 65         45F0856E
+Sport         Rocker 5      2666        66 26         26 66         45F0856F
+Tuner         Scarab        2667        67 26         26 67         45F085F1
+Sport         Fishtail      2668        68 26         26 68         45F085F2
+Sport         Viper         2669        69 26         26 69         45F085F3
+Tuner         Lynx          266A        6A 26         26 6A         45F085F5
+Tuner Carbon  Jorgen        266B        6B 26         26 6B         091C53B6
+Sport Carbon  Rocker 5      266C        6C 26         26 6C         091CE017
+Tuner Carbon  Scarab        266D        6D 26         26 6D         09642959
+Sport Carbon  Fishtail      266E        6E 26         26 6E         0964B5BA
+Sport Carbon  Viper         266F        6F 26         26 6F         0965421B
+Tuner Carbon  Lynx          2670        70 26         26 70         09665ADD
+Sport         Ripper        2671        71 26         26 71         45F08574
+Tuner         Borra         2672        72 26         26 72         45F08576
+Tuner         Ghost         2673        73 26         26 73         45F0858E
+Sport         Banshee       2674        74 26         26 74         45F08593
+Tuner         Tornado       2675        75 26         26 75         45F085B5
+Tuner         Fishtail      2676        76 26         26 76         45F085B8
+Sport Carbon  Ripper        2677        77 26         26 77         091F9DFC
+Tuner Carbon  Borra         2678        78 26         26 78         0920B6BE
+Tuner Carbon  Ghost         2679        79 26         26 79         092DDFD6
+Sport Carbon  Banshee       267A        7A 26         26 7A         09309DBB
+Tuner Carbon  Tornado       267B        7B 26         26 7B         0943429D
+Tuner Carbon  Fishtail      267C        7C 26         26 7C         0944E7C0
+Sport         Airforce      267D        7D 26         26 7D         45F08570
+Tuner         Wildfire      267E        7E 26         26 7E         45F08573
+Sport         Dragon        267F        7F 26         26 7F         45F0858F
+Tuner         Tandem        2680        80 26         26 80         45F08591
+Sport         Mystic        2681        81 26         26 81         45F08594
+Tuner         Joker         2682        82 26         26 82         45F085D6
+Sport Carbon  Airforce      2683        83 26         26 83         091D6C78
+Tuner Carbon  Wildfire      2684        84 26         26 84         091F119B
+Sport Carbon  Dragon        2685        85 26         26 85         092E6C37
+Tuner Carbon  Tandem        2686        86 26         26 86         092F84F9
+Sport Carbon  Mystic        2687        87 26         26 87         09312A1C
+Tuner Carbon  Joker         2688        88 26         26 88         09555B1E
+Tuner         Venom         2689        89 26         26 89         45F085B6
+Tuner         Impact        268A        8A 26         26 8A         45F085D0
+Tuner Carbon  Venom         268B        8B 26         26 8B         0943CEFE
+Tuner Carbon  Impact        268C        8C 26         26 8C         095210D8
+Sport         Specter       268D        8D 26         26 8D         45F08595
+Sport         Dynamo        268E        8E 26         26 8E         45F085D4
+Tuner         Phoenix       268F        8F 26         26 8F         45F085D8
+Sport         Edge          2690        90 26         26 90         45F085F4
+Sport Carbon  Specter       2691        91 26         26 91         0931B67D
+Sport Carbon  Dynamo        2692        92 26         26 92         0954425C
+Tuner Carbon  Phoenix       2693        93 26         26 93         095673E0
+Sport Carbon  Edge          2694        94 26         26 94         0965CE7C
+
+[Lamborghini Gallardo]
+Type          Name          Save Value  PC/PS2 Bytes  360/GC Bytes  Name Hash
+------------  ------------  ----------  ------------  ------------  ---------
+Stock         Stock         1B02        02 1B         1B 02         F8EBE462
+Tuner         Arrow         2659        59 26         26 59         45F08571
+Tuner         Barracuda     265A        5A 26         26 5A         45F08572
+Sport         Reaper        265B        5B 26         26 5B         45F08575
+Sport         Slingshot     265C        5C 26         26 5C         45F08596
+Tuner         Switchblade   265D        5D 26         26 5D         45F085D2
+Sport         Groundmaster  265E        5E 26         26 5E         45F085D1
+Tuner Carbon  Arrow         265F        5F 26         26 5F         091DF8D9
+Tuner Carbon  Barracuda     2660        60 26         26 60         091E853A
+Sport Carbon  Reaper        2661        61 26         26 61         09202A5D
+Sport Carbon  Slingshot     2662        62 26         26 62         093242DE
+Tuner Carbon  Switchblade   2663        63 26         26 63         0953299A
+Sport Carbon  Groundmaster  2664        64 26         26 64         09529D39
+Tuner         Jorgen        2665        65 26         26 65         45F0856E
+Sport         Rocker 5      2666        66 26         26 66         45F0856F
+Tuner         Scarab        2667        67 26         26 67         45F085F1
+Sport         Fishtail      2668        68 26         26 68         45F085F2
+Sport         Viper         2669        69 26         26 69         45F085F3
+Tuner         Lynx          266A        6A 26         26 6A         45F085F5
+Tuner Carbon  Jorgen        266B        6B 26         26 6B         091C53B6
+Sport Carbon  Rocker 5      266C        6C 26         26 6C         091CE017
+Tuner Carbon  Scarab        266D        6D 26         26 6D         09642959
+Sport Carbon  Fishtail      266E        6E 26         26 6E         0964B5BA
+Sport Carbon  Viper         266F        6F 26         26 6F         0965421B
+Tuner Carbon  Lynx          2670        70 26         26 70         09665ADD
+Sport         Ripper        2671        71 26         26 71         45F08574
+Tuner         Borra         2672        72 26         26 72         45F08576
+Tuner         Ghost         2673        73 26         26 73         45F0858E
+Sport         Banshee       2674        74 26         26 74         45F08593
+Tuner         Tornado       2675        75 26         26 75         45F085B5
+Tuner         Fishtail      2676        76 26         26 76         45F085B8
+Sport Carbon  Ripper        2677        77 26         26 77         091F9DFC
+Tuner Carbon  Borra         2678        78 26         26 78         0920B6BE
+Tuner Carbon  Ghost         2679        79 26         26 79         092DDFD6
+Sport Carbon  Banshee       267A        7A 26         26 7A         09309DBB
+Tuner Carbon  Tornado       267B        7B 26         26 7B         0943429D
+Tuner Carbon  Fishtail      267C        7C 26         26 7C         0944E7C0
+Sport         Airforce      267D        7D 26         26 7D         45F08570
+Tuner         Wildfire      267E        7E 26         26 7E         45F08573
+Sport         Dragon        267F        7F 26         26 7F         45F0858F
+Tuner         Tandem        2680        80 26         26 80         45F08591
+Sport         Mystic        2681        81 26         26 81         45F08594
+Tuner         Joker         2682        82 26         26 82         45F085D6
+Sport Carbon  Airforce      2683        83 26         26 83         091D6C78
+Tuner Carbon  Wildfire      2684        84 26         26 84         091F119B
+Sport Carbon  Dragon        2685        85 26         26 85         092E6C37
+Tuner Carbon  Tandem        2686        86 26         26 86         092F84F9
+Sport Carbon  Mystic        2687        87 26         26 87         09312A1C
+Tuner Carbon  Joker         2688        88 26         26 88         09555B1E
+Tuner         Venom         2689        89 26         26 89         45F085B6
+Tuner         Impact        268A        8A 26         26 8A         45F085D0
+Tuner Carbon  Venom         268B        8B 26         26 8B         0943CEFE
+Tuner Carbon  Impact        268C        8C 26         26 8C         095210D8
+Sport         Specter       268D        8D 26         26 8D         45F08595
+Sport         Dynamo        268E        8E 26         26 8E         45F085D4
+Tuner         Phoenix       268F        8F 26         26 8F         45F085D8
+Sport         Edge          2690        90 26         26 90         45F085F4
+Sport Carbon  Specter       2691        91 26         26 91         0931B67D
+Sport Carbon  Dynamo        2692        92 26         26 92         0954425C
+Tuner Carbon  Phoenix       2693        93 26         26 93         095673E0
+Sport Carbon  Edge          2694        94 26         26 94         0965CE7C
+
+[Lamborghini Murcielago]
+Type          Name          Save Value  PC/PS2 Bytes  360/GC Bytes  Name Hash
+------------  ------------  ----------  ------------  ------------  ---------
+Stock         Stock         287C        7C 28         28 7C         74D5E864
+Tuner         Arrow         2659        59 26         26 59         45F08571
+Tuner         Barracuda     265A        5A 26         26 5A         45F08572
+Sport         Reaper        265B        5B 26         26 5B         45F08575
+Sport         Slingshot     265C        5C 26         26 5C         45F08596
+Tuner         Switchblade   265D        5D 26         26 5D         45F085D2
+Sport         Groundmaster  265E        5E 26         26 5E         45F085D1
+Tuner Carbon  Arrow         265F        5F 26         26 5F         091DF8D9
+Tuner Carbon  Barracuda     2660        60 26         26 60         091E853A
+Sport Carbon  Reaper        2661        61 26         26 61         09202A5D
+Sport Carbon  Slingshot     2662        62 26         26 62         093242DE
+Tuner Carbon  Switchblade   2663        63 26         26 63         0953299A
+Sport Carbon  Groundmaster  2664        64 26         26 64         09529D39
+Tuner         Jorgen        2665        65 26         26 65         45F0856E
+Sport         Rocker 5      2666        66 26         26 66         45F0856F
+Tuner         Scarab        2667        67 26         26 67         45F085F1
+Sport         Fishtail      2668        68 26         26 68         45F085F2
+Sport         Viper         2669        69 26         26 69         45F085F3
+Tuner         Lynx          266A        6A 26         26 6A         45F085F5
+Tuner Carbon  Jorgen        266B        6B 26         26 6B         091C53B6
+Sport Carbon  Rocker 5      266C        6C 26         26 6C         091CE017
+Tuner Carbon  Scarab        266D        6D 26         26 6D         09642959
+Sport Carbon  Fishtail      266E        6E 26         26 6E         0964B5BA
+Sport Carbon  Viper         266F        6F 26         26 6F         0965421B
+Tuner Carbon  Lynx          2670        70 26         26 70         09665ADD
+Sport         Ripper        2671        71 26         26 71         45F08574
+Tuner         Borra         2672        72 26         26 72         45F08576
+Tuner         Ghost         2673        73 26         26 73         45F0858E
+Sport         Banshee       2674        74 26         26 74         45F08593
+Tuner         Tornado       2675        75 26         26 75         45F085B5
+Tuner         Fishtail      2676        76 26         26 76         45F085B8
+Sport Carbon  Ripper        2677        77 26         26 77         091F9DFC
+Tuner Carbon  Borra         2678        78 26         26 78         0920B6BE
+Tuner Carbon  Ghost         2679        79 26         26 79         092DDFD6
+Sport Carbon  Banshee       267A        7A 26         26 7A         09309DBB
+Tuner Carbon  Tornado       267B        7B 26         26 7B         0943429D
+Tuner Carbon  Fishtail      267C        7C 26         26 7C         0944E7C0
+Sport         Airforce      267D        7D 26         26 7D         45F08570
+Tuner         Wildfire      267E        7E 26         26 7E         45F08573
+Sport         Dragon        267F        7F 26         26 7F         45F0858F
+Tuner         Tandem        2680        80 26         26 80         45F08591
+Sport         Mystic        2681        81 26         26 81         45F08594
+Tuner         Joker         2682        82 26         26 82         45F085D6
+Sport Carbon  Airforce      2683        83 26         26 83         091D6C78
+Tuner Carbon  Wildfire      2684        84 26         26 84         091F119B
+Sport Carbon  Dragon        2685        85 26         26 85         092E6C37
+Tuner Carbon  Tandem        2686        86 26         26 86         092F84F9
+Sport Carbon  Mystic        2687        87 26         26 87         09312A1C
+Tuner Carbon  Joker         2688        88 26         26 88         09555B1E
+Tuner         Venom         2689        89 26         26 89         45F085B6
+Tuner         Impact        268A        8A 26         26 8A         45F085D0
+Tuner Carbon  Venom         268B        8B 26         26 8B         0943CEFE
+Tuner Carbon  Impact        268C        8C 26         26 8C         095210D8
+Sport         Specter       268D        8D 26         26 8D         45F08595
+Sport         Dynamo        268E        8E 26         26 8E         45F085D4
+Tuner         Phoenix       268F        8F 26         26 8F         45F085D8
+Sport         Edge          2690        90 26         26 90         45F085F4
+Sport Carbon  Specter       2691        91 26         26 91         0931B67D
+Sport Carbon  Dynamo        2692        92 26         26 92         0954425C
+Tuner Carbon  Phoenix       2693        93 26         26 93         095673E0
+Sport Carbon  Edge          2694        94 26         26 94         0965CE7C
+
+[Lexus IS 300]
+Type          Name          Save Value  PC/PS2 Bytes  360/GC Bytes  Name Hash
+------------  ------------  ----------  ------------  ------------  ---------
+Stock         Stock         0D9F        9F 0D         0D 9F         D2748D4B
+Tuner         Arrow         2659        59 26         26 59         45F08571
+Tuner         Barracuda     265A        5A 26         26 5A         45F08572
+Sport         Reaper        265B        5B 26         26 5B         45F08575
+Sport         Slingshot     265C        5C 26         26 5C         45F08596
+Tuner         Switchblade   265D        5D 26         26 5D         45F085D2
+Sport         Groundmaster  265E        5E 26         26 5E         45F085D1
+Tuner Carbon  Arrow         265F        5F 26         26 5F         091DF8D9
+Tuner Carbon  Barracuda     2660        60 26         26 60         091E853A
+Sport Carbon  Reaper        2661        61 26         26 61         09202A5D
+Sport Carbon  Slingshot     2662        62 26         26 62         093242DE
+Tuner Carbon  Switchblade   2663        63 26         26 63         0953299A
+Sport Carbon  Groundmaster  2664        64 26         26 64         09529D39
+Tuner         Jorgen        2665        65 26         26 65         45F0856E
+Sport         Rocker 5      2666        66 26         26 66         45F0856F
+Tuner         Scarab        2667        67 26         26 67         45F085F1
+Sport         Fishtail      2668        68 26         26 68         45F085F2
+Sport         Viper         2669        69 26         26 69         45F085F3
+Tuner         Lynx          266A        6A 26         26 6A         45F085F5
+Tuner Carbon  Jorgen        266B        6B 26         26 6B         091C53B6
+Sport Carbon  Rocker 5      266C        6C 26         26 6C         091CE017
+Tuner Carbon  Scarab        266D        6D 26         26 6D         09642959
+Sport Carbon  Fishtail      266E        6E 26         26 6E         0964B5BA
+Sport Carbon  Viper         266F        6F 26         26 6F         0965421B
+Tuner Carbon  Lynx          2670        70 26         26 70         09665ADD
+Sport         Ripper        2671        71 26         26 71         45F08574
+Tuner         Borra         2672        72 26         26 72         45F08576
+Tuner         Ghost         2673        73 26         26 73         45F0858E
+Sport         Banshee       2674        74 26         26 74         45F08593
+Tuner         Tornado       2675        75 26         26 75         45F085B5
+Tuner         Fishtail      2676        76 26         26 76         45F085B8
+Sport Carbon  Ripper        2677        77 26         26 77         091F9DFC
+Tuner Carbon  Borra         2678        78 26         26 78         0920B6BE
+Tuner Carbon  Ghost         2679        79 26         26 79         092DDFD6
+Sport Carbon  Banshee       267A        7A 26         26 7A         09309DBB
+Tuner Carbon  Tornado       267B        7B 26         26 7B         0943429D
+Tuner Carbon  Fishtail      267C        7C 26         26 7C         0944E7C0
+Sport         Airforce      267D        7D 26         26 7D         45F08570
+Tuner         Wildfire      267E        7E 26         26 7E         45F08573
+Sport         Dragon        267F        7F 26         26 7F         45F0858F
+Tuner         Tandem        2680        80 26         26 80         45F08591
+Sport         Mystic        2681        81 26         26 81         45F08594
+Tuner         Joker         2682        82 26         26 82         45F085D6
+Sport Carbon  Airforce      2683        83 26         26 83         091D6C78
+Tuner Carbon  Wildfire      2684        84 26         26 84         091F119B
+Sport Carbon  Dragon        2685        85 26         26 85         092E6C37
+Tuner Carbon  Tandem        2686        86 26         26 86         092F84F9
+Sport Carbon  Mystic        2687        87 26         26 87         09312A1C
+Tuner Carbon  Joker         2688        88 26         26 88         09555B1E
+Tuner         Venom         2689        89 26         26 89         45F085B6
+Tuner         Impact        268A        8A 26         26 8A         45F085D0
+Tuner Carbon  Venom         268B        8B 26         26 8B         0943CEFE
+Tuner Carbon  Impact        268C        8C 26         26 8C         095210D8
+Sport         Specter       268D        8D 26         26 8D         45F08595
+Sport         Dynamo        268E        8E 26         26 8E         45F085D4
+Tuner         Phoenix       268F        8F 26         26 8F         45F085D8
+Sport         Edge          2690        90 26         26 90         45F085F4
+Sport Carbon  Specter       2691        91 26         26 91         0931B67D
+Sport Carbon  Dynamo        2692        92 26         26 92         0954425C
+Tuner Carbon  Phoenix       2693        93 26         26 93         095673E0
+Sport Carbon  Edge          2694        94 26         26 94         0965CE7C
+
+[Lotus Elise]
+Type          Name          Save Value  PC/PS2 Bytes  360/GC Bytes  Name Hash
+------------  ------------  ----------  ------------  ------------  ---------
+Stock         Stock         0CE0        E0 0C         0C E0         CFEF89CE
+Tuner         Arrow         2659        59 26         26 59         45F08571
+Tuner         Barracuda     265A        5A 26         26 5A         45F08572
+Sport         Reaper        265B        5B 26         26 5B         45F08575
+Sport         Slingshot     265C        5C 26         26 5C         45F08596
+Tuner         Switchblade   265D        5D 26         26 5D         45F085D2
+Sport         Groundmaster  265E        5E 26         26 5E         45F085D1
+Tuner Carbon  Arrow         265F        5F 26         26 5F         091DF8D9
+Tuner Carbon  Barracuda     2660        60 26         26 60         091E853A
+Sport Carbon  Reaper        2661        61 26         26 61         09202A5D
+Sport Carbon  Slingshot     2662        62 26         26 62         093242DE
+Tuner Carbon  Switchblade   2663        63 26         26 63         0953299A
+Sport Carbon  Groundmaster  2664        64 26         26 64         09529D39
+Tuner         Jorgen        2665        65 26         26 65         45F0856E
+Sport         Rocker 5      2666        66 26         26 66         45F0856F
+Tuner         Scarab        2667        67 26         26 67         45F085F1
+Sport         Fishtail      2668        68 26         26 68         45F085F2
+Sport         Viper         2669        69 26         26 69         45F085F3
+Tuner         Lynx          266A        6A 26         26 6A         45F085F5
+Tuner Carbon  Jorgen        266B        6B 26         26 6B         091C53B6
+Sport Carbon  Rocker 5      266C        6C 26         26 6C         091CE017
+Tuner Carbon  Scarab        266D        6D 26         26 6D         09642959
+Sport Carbon  Fishtail      266E        6E 26         26 6E         0964B5BA
+Sport Carbon  Viper         266F        6F 26         26 6F         0965421B
+Tuner Carbon  Lynx          2670        70 26         26 70         09665ADD
+Sport         Ripper        2671        71 26         26 71         45F08574
+Tuner         Borra         2672        72 26         26 72         45F08576
+Tuner         Ghost         2673        73 26         26 73         45F0858E
+Sport         Banshee       2674        74 26         26 74         45F08593
+Tuner         Tornado       2675        75 26         26 75         45F085B5
+Tuner         Fishtail      2676        76 26         26 76         45F085B8
+Sport Carbon  Ripper        2677        77 26         26 77         091F9DFC
+Tuner Carbon  Borra         2678        78 26         26 78         0920B6BE
+Tuner Carbon  Ghost         2679        79 26         26 79         092DDFD6
+Sport Carbon  Banshee       267A        7A 26         26 7A         09309DBB
+Tuner Carbon  Tornado       267B        7B 26         26 7B         0943429D
+Tuner Carbon  Fishtail      267C        7C 26         26 7C         0944E7C0
+Sport         Airforce      267D        7D 26         26 7D         45F08570
+Tuner         Wildfire      267E        7E 26         26 7E         45F08573
+Sport         Dragon        267F        7F 26         26 7F         45F0858F
+Tuner         Tandem        2680        80 26         26 80         45F08591
+Sport         Mystic        2681        81 26         26 81         45F08594
+Tuner         Joker         2682        82 26         26 82         45F085D6
+Sport Carbon  Airforce      2683        83 26         26 83         091D6C78
+Tuner Carbon  Wildfire      2684        84 26         26 84         091F119B
+Sport Carbon  Dragon        2685        85 26         26 85         092E6C37
+Tuner Carbon  Tandem        2686        86 26         26 86         092F84F9
+Sport Carbon  Mystic        2687        87 26         26 87         09312A1C
+Tuner Carbon  Joker         2688        88 26         26 88         09555B1E
+Tuner         Venom         2689        89 26         26 89         45F085B6
+Tuner         Impact        268A        8A 26         26 8A         45F085D0
+Tuner Carbon  Venom         268B        8B 26         26 8B         0943CEFE
+Tuner Carbon  Impact        268C        8C 26         26 8C         095210D8
+Sport         Specter       268D        8D 26         26 8D         45F08595
+Sport         Dynamo        268E        8E 26         26 8E         45F085D4
+Tuner         Phoenix       268F        8F 26         26 8F         45F085D8
+Sport         Edge          2690        90 26         26 90         45F085F4
+Sport Carbon  Specter       2691        91 26         26 91         0931B67D
+Sport Carbon  Dynamo        2692        92 26         26 92         0954425C
+Tuner Carbon  Phoenix       2693        93 26         26 93         095673E0
+Sport Carbon  Edge          2694        94 26         26 94         0965CE7C
+
+[Mazda RX-7]
+Type          Name          Save Value  PC/PS2 Bytes  360/GC Bytes  Name Hash
+------------  ------------  ----------  ------------  ------------  ---------
+Stock         Stock         0580        80 05         05 80         5308245D
+Tuner         Arrow         2659        59 26         26 59         45F08571
+Tuner         Barracuda     265A        5A 26         26 5A         45F08572
+Sport         Reaper        265B        5B 26         26 5B         45F08575
+Sport         Slingshot     265C        5C 26         26 5C         45F08596
+Tuner         Switchblade   265D        5D 26         26 5D         45F085D2
+Sport         Groundmaster  265E        5E 26         26 5E         45F085D1
+Tuner Carbon  Arrow         265F        5F 26         26 5F         091DF8D9
+Tuner Carbon  Barracuda     2660        60 26         26 60         091E853A
+Sport Carbon  Reaper        2661        61 26         26 61         09202A5D
+Sport Carbon  Slingshot     2662        62 26         26 62         093242DE
+Tuner Carbon  Switchblade   2663        63 26         26 63         0953299A
+Sport Carbon  Groundmaster  2664        64 26         26 64         09529D39
+Tuner         Jorgen        2665        65 26         26 65         45F0856E
+Sport         Rocker 5      2666        66 26         26 66         45F0856F
+Tuner         Scarab        2667        67 26         26 67         45F085F1
+Sport         Fishtail      2668        68 26         26 68         45F085F2
+Sport         Viper         2669        69 26         26 69         45F085F3
+Tuner         Lynx          266A        6A 26         26 6A         45F085F5
+Tuner Carbon  Jorgen        266B        6B 26         26 6B         091C53B6
+Sport Carbon  Rocker 5      266C        6C 26         26 6C         091CE017
+Tuner Carbon  Scarab        266D        6D 26         26 6D         09642959
+Sport Carbon  Fishtail      266E        6E 26         26 6E         0964B5BA
+Sport Carbon  Viper         266F        6F 26         26 6F         0965421B
+Tuner Carbon  Lynx          2670        70 26         26 70         09665ADD
+Sport         Ripper        2671        71 26         26 71         45F08574
+Tuner         Borra         2672        72 26         26 72         45F08576
+Tuner         Ghost         2673        73 26         26 73         45F0858E
+Sport         Banshee       2674        74 26         26 74         45F08593
+Tuner         Tornado       2675        75 26         26 75         45F085B5
+Tuner         Fishtail      2676        76 26         26 76         45F085B8
+Sport Carbon  Ripper        2677        77 26         26 77         091F9DFC
+Tuner Carbon  Borra         2678        78 26         26 78         0920B6BE
+Tuner Carbon  Ghost         2679        79 26         26 79         092DDFD6
+Sport Carbon  Banshee       267A        7A 26         26 7A         09309DBB
+Tuner Carbon  Tornado       267B        7B 26         26 7B         0943429D
+Tuner Carbon  Fishtail      267C        7C 26         26 7C         0944E7C0
+Sport         Airforce      267D        7D 26         26 7D         45F08570
+Tuner         Wildfire      267E        7E 26         26 7E         45F08573
+Sport         Dragon        267F        7F 26         26 7F         45F0858F
+Tuner         Tandem        2680        80 26         26 80         45F08591
+Sport         Mystic        2681        81 26         26 81         45F08594
+Tuner         Joker         2682        82 26         26 82         45F085D6
+Sport Carbon  Airforce      2683        83 26         26 83         091D6C78
+Tuner Carbon  Wildfire      2684        84 26         26 84         091F119B
+Sport Carbon  Dragon        2685        85 26         26 85         092E6C37
+Tuner Carbon  Tandem        2686        86 26         26 86         092F84F9
+Sport Carbon  Mystic        2687        87 26         26 87         09312A1C
+Tuner Carbon  Joker         2688        88 26         26 88         09555B1E
+Tuner         Venom         2689        89 26         26 89         45F085B6
+Tuner         Impact        268A        8A 26         26 8A         45F085D0
+Tuner Carbon  Venom         268B        8B 26         26 8B         0943CEFE
+Tuner Carbon  Impact        268C        8C 26         26 8C         095210D8
+Sport         Specter       268D        8D 26         26 8D         45F08595
+Sport         Dynamo        268E        8E 26         26 8E         45F085D4
+Tuner         Phoenix       268F        8F 26         26 8F         45F085D8
+Sport         Edge          2690        90 26         26 90         45F085F4
+Sport Carbon  Specter       2691        91 26         26 91         0931B67D
+Sport Carbon  Dynamo        2692        92 26         26 92         0954425C
+Tuner Carbon  Phoenix       2693        93 26         26 93         095673E0
+Sport Carbon  Edge          2694        94 26         26 94         0965CE7C
+
+[Mazda RX-8]
+Type          Name          Save Value  PC/PS2 Bytes  360/GC Bytes  Name Hash
+------------  ------------  ----------  ------------  ------------  ---------
+Stock         Stock         063F        3F 06         06 3F         C784955E
+Tuner         Arrow         2659        59 26         26 59         45F08571
+Tuner         Barracuda     265A        5A 26         26 5A         45F08572
+Sport         Reaper        265B        5B 26         26 5B         45F08575
+Sport         Slingshot     265C        5C 26         26 5C         45F08596
+Tuner         Switchblade   265D        5D 26         26 5D         45F085D2
+Sport         Groundmaster  265E        5E 26         26 5E         45F085D1
+Tuner Carbon  Arrow         265F        5F 26         26 5F         091DF8D9
+Tuner Carbon  Barracuda     2660        60 26         26 60         091E853A
+Sport Carbon  Reaper        2661        61 26         26 61         09202A5D
+Sport Carbon  Slingshot     2662        62 26         26 62         093242DE
+Tuner Carbon  Switchblade   2663        63 26         26 63         0953299A
+Sport Carbon  Groundmaster  2664        64 26         26 64         09529D39
+Tuner         Jorgen        2665        65 26         26 65         45F0856E
+Sport         Rocker 5      2666        66 26         26 66         45F0856F
+Tuner         Scarab        2667        67 26         26 67         45F085F1
+Sport         Fishtail      2668        68 26         26 68         45F085F2
+Sport         Viper         2669        69 26         26 69         45F085F3
+Tuner         Lynx          266A        6A 26         26 6A         45F085F5
+Tuner Carbon  Jorgen        266B        6B 26         26 6B         091C53B6
+Sport Carbon  Rocker 5      266C        6C 26         26 6C         091CE017
+Tuner Carbon  Scarab        266D        6D 26         26 6D         09642959
+Sport Carbon  Fishtail      266E        6E 26         26 6E         0964B5BA
+Sport Carbon  Viper         266F        6F 26         26 6F         0965421B
+Tuner Carbon  Lynx          2670        70 26         26 70         09665ADD
+Sport         Ripper        2671        71 26         26 71         45F08574
+Tuner         Borra         2672        72 26         26 72         45F08576
+Tuner         Ghost         2673        73 26         26 73         45F0858E
+Sport         Banshee       2674        74 26         26 74         45F08593
+Tuner         Tornado       2675        75 26         26 75         45F085B5
+Tuner         Fishtail      2676        76 26         26 76         45F085B8
+Sport Carbon  Ripper        2677        77 26         26 77         091F9DFC
+Tuner Carbon  Borra         2678        78 26         26 78         0920B6BE
+Tuner Carbon  Ghost         2679        79 26         26 79         092DDFD6
+Sport Carbon  Banshee       267A        7A 26         26 7A         09309DBB
+Tuner Carbon  Tornado       267B        7B 26         26 7B         0943429D
+Tuner Carbon  Fishtail      267C        7C 26         26 7C         0944E7C0
+Sport         Airforce      267D        7D 26         26 7D         45F08570
+Tuner         Wildfire      267E        7E 26         26 7E         45F08573
+Sport         Dragon        267F        7F 26         26 7F         45F0858F
+Tuner         Tandem        2680        80 26         26 80         45F08591
+Sport         Mystic        2681        81 26         26 81         45F08594
+Tuner         Joker         2682        82 26         26 82         45F085D6
+Sport Carbon  Airforce      2683        83 26         26 83         091D6C78
+Tuner Carbon  Wildfire      2684        84 26         26 84         091F119B
+Sport Carbon  Dragon        2685        85 26         26 85         092E6C37
+Tuner Carbon  Tandem        2686        86 26         26 86         092F84F9
+Sport Carbon  Mystic        2687        87 26         26 87         09312A1C
+Tuner Carbon  Joker         2688        88 26         26 88         09555B1E
+Tuner         Venom         2689        89 26         26 89         45F085B6
+Tuner         Impact        268A        8A 26         26 8A         45F085D0
+Tuner Carbon  Venom         268B        8B 26         26 8B         0943CEFE
+Tuner Carbon  Impact        268C        8C 26         26 8C         095210D8
+Sport         Specter       268D        8D 26         26 8D         45F08595
+Sport         Dynamo        268E        8E 26         26 8E         45F085D4
+Tuner         Phoenix       268F        8F 26         26 8F         45F085D8
+Sport         Edge          2690        90 26         26 90         45F085F4
+Sport Carbon  Specter       2691        91 26         26 91         0931B67D
+Sport Carbon  Dynamo        2692        92 26         26 92         0954425C
+Tuner Carbon  Phoenix       2693        93 26         26 93         095673E0
+Sport Carbon  Edge          2694        94 26         26 94         0965CE7C
+
+[Mercedes-Benz CLK 500]
+Type          Name          Save Value  PC/PS2 Bytes  360/GC Bytes  Name Hash
+------------  ------------  ----------  ------------  ------------  ---------
+Stock         Stock         1BC1        C1 1B         1B C1         5D780A4B
+Tuner         Arrow         2659        59 26         26 59         45F08571
+Tuner         Barracuda     265A        5A 26         26 5A         45F08572
+Sport         Reaper        265B        5B 26         26 5B         45F08575
+Sport         Slingshot     265C        5C 26         26 5C         45F08596
+Tuner         Switchblade   265D        5D 26         26 5D         45F085D2
+Sport         Groundmaster  265E        5E 26         26 5E         45F085D1
+Tuner Carbon  Arrow         265F        5F 26         26 5F         091DF8D9
+Tuner Carbon  Barracuda     2660        60 26         26 60         091E853A
+Sport Carbon  Reaper        2661        61 26         26 61         09202A5D
+Sport Carbon  Slingshot     2662        62 26         26 62         093242DE
+Tuner Carbon  Switchblade   2663        63 26         26 63         0953299A
+Sport Carbon  Groundmaster  2664        64 26         26 64         09529D39
+Tuner         Jorgen        2665        65 26         26 65         45F0856E
+Sport         Rocker 5      2666        66 26         26 66         45F0856F
+Tuner         Scarab        2667        67 26         26 67         45F085F1
+Sport         Fishtail      2668        68 26         26 68         45F085F2
+Sport         Viper         2669        69 26         26 69         45F085F3
+Tuner         Lynx          266A        6A 26         26 6A         45F085F5
+Tuner Carbon  Jorgen        266B        6B 26         26 6B         091C53B6
+Sport Carbon  Rocker 5      266C        6C 26         26 6C         091CE017
+Tuner Carbon  Scarab        266D        6D 26         26 6D         09642959
+Sport Carbon  Fishtail      266E        6E 26         26 6E         0964B5BA
+Sport Carbon  Viper         266F        6F 26         26 6F         0965421B
+Tuner Carbon  Lynx          2670        70 26         26 70         09665ADD
+Sport         Ripper        2671        71 26         26 71         45F08574
+Tuner         Borra         2672        72 26         26 72         45F08576
+Tuner         Ghost         2673        73 26         26 73         45F0858E
+Sport         Banshee       2674        74 26         26 74         45F08593
+Tuner         Tornado       2675        75 26         26 75         45F085B5
+Tuner         Fishtail      2676        76 26         26 76         45F085B8
+Sport Carbon  Ripper        2677        77 26         26 77         091F9DFC
+Tuner Carbon  Borra         2678        78 26         26 78         0920B6BE
+Tuner Carbon  Ghost         2679        79 26         26 79         092DDFD6
+Sport Carbon  Banshee       267A        7A 26         26 7A         09309DBB
+Tuner Carbon  Tornado       267B        7B 26         26 7B         0943429D
+Tuner Carbon  Fishtail      267C        7C 26         26 7C         0944E7C0
+Sport         Airforce      267D        7D 26         26 7D         45F08570
+Tuner         Wildfire      267E        7E 26         26 7E         45F08573
+Sport         Dragon        267F        7F 26         26 7F         45F0858F
+Tuner         Tandem        2680        80 26         26 80         45F08591
+Sport         Mystic        2681        81 26         26 81         45F08594
+Tuner         Joker         2682        82 26         26 82         45F085D6
+Sport Carbon  Airforce      2683        83 26         26 83         091D6C78
+Tuner Carbon  Wildfire      2684        84 26         26 84         091F119B
+Sport Carbon  Dragon        2685        85 26         26 85         092E6C37
+Tuner Carbon  Tandem        2686        86 26         26 86         092F84F9
+Sport Carbon  Mystic        2687        87 26         26 87         09312A1C
+Tuner Carbon  Joker         2688        88 26         26 88         09555B1E
+Tuner         Venom         2689        89 26         26 89         45F085B6
+Tuner         Impact        268A        8A 26         26 8A         45F085D0
+Tuner Carbon  Venom         268B        8B 26         26 8B         0943CEFE
+Tuner Carbon  Impact        268C        8C 26         26 8C         095210D8
+Sport         Specter       268D        8D 26         26 8D         45F08595
+Sport         Dynamo        268E        8E 26         26 8E         45F085D4
+Tuner         Phoenix       268F        8F 26         26 8F         45F085D8
+Sport         Edge          2690        90 26         26 90         45F085F4
+Sport Carbon  Specter       2691        91 26         26 91         0931B67D
+Sport Carbon  Dynamo        2692        92 26         26 92         0954425C
+Tuner Carbon  Phoenix       2693        93 26         26 93         095673E0
+Sport Carbon  Edge          2694        94 26         26 94         0965CE7C
+
+[Mercedes-Benz SL 500]
+Type          Name          Save Value  PC/PS2 Bytes  360/GC Bytes  Name Hash
+------------  ------------  ----------  ------------  ------------  ---------
+Stock         Stock         108A        8A 10         10 8A         A03CC930
+Tuner         Arrow         2659        59 26         26 59         45F08571
+Tuner         Barracuda     265A        5A 26         26 5A         45F08572
+Sport         Reaper        265B        5B 26         26 5B         45F08575
+Sport         Slingshot     265C        5C 26         26 5C         45F08596
+Tuner         Switchblade   265D        5D 26         26 5D         45F085D2
+Sport         Groundmaster  265E        5E 26         26 5E         45F085D1
+Tuner Carbon  Arrow         265F        5F 26         26 5F         091DF8D9
+Tuner Carbon  Barracuda     2660        60 26         26 60         091E853A
+Sport Carbon  Reaper        2661        61 26         26 61         09202A5D
+Sport Carbon  Slingshot     2662        62 26         26 62         093242DE
+Tuner Carbon  Switchblade   2663        63 26         26 63         0953299A
+Sport Carbon  Groundmaster  2664        64 26         26 64         09529D39
+Tuner         Jorgen        2665        65 26         26 65         45F0856E
+Sport         Rocker 5      2666        66 26         26 66         45F0856F
+Tuner         Scarab        2667        67 26         26 67         45F085F1
+Sport         Fishtail      2668        68 26         26 68         45F085F2
+Sport         Viper         2669        69 26         26 69         45F085F3
+Tuner         Lynx          266A        6A 26         26 6A         45F085F5
+Tuner Carbon  Jorgen        266B        6B 26         26 6B         091C53B6
+Sport Carbon  Rocker 5      266C        6C 26         26 6C         091CE017
+Tuner Carbon  Scarab        266D        6D 26         26 6D         09642959
+Sport Carbon  Fishtail      266E        6E 26         26 6E         0964B5BA
+Sport Carbon  Viper         266F        6F 26         26 6F         0965421B
+Tuner Carbon  Lynx          2670        70 26         26 70         09665ADD
+Sport         Ripper        2671        71 26         26 71         45F08574
+Tuner         Borra         2672        72 26         26 72         45F08576
+Tuner         Ghost         2673        73 26         26 73         45F0858E
+Sport         Banshee       2674        74 26         26 74         45F08593
+Tuner         Tornado       2675        75 26         26 75         45F085B5
+Tuner         Fishtail      2676        76 26         26 76         45F085B8
+Sport Carbon  Ripper        2677        77 26         26 77         091F9DFC
+Tuner Carbon  Borra         2678        78 26         26 78         0920B6BE
+Tuner Carbon  Ghost         2679        79 26         26 79         092DDFD6
+Sport Carbon  Banshee       267A        7A 26         26 7A         09309DBB
+Tuner Carbon  Tornado       267B        7B 26         26 7B         0943429D
+Tuner Carbon  Fishtail      267C        7C 26         26 7C         0944E7C0
+Sport         Airforce      267D        7D 26         26 7D         45F08570
+Tuner         Wildfire      267E        7E 26         26 7E         45F08573
+Sport         Dragon        267F        7F 26         26 7F         45F0858F
+Tuner         Tandem        2680        80 26         26 80         45F08591
+Sport         Mystic        2681        81 26         26 81         45F08594
+Tuner         Joker         2682        82 26         26 82         45F085D6
+Sport Carbon  Airforce      2683        83 26         26 83         091D6C78
+Tuner Carbon  Wildfire      2684        84 26         26 84         091F119B
+Sport Carbon  Dragon        2685        85 26         26 85         092E6C37
+Tuner Carbon  Tandem        2686        86 26         26 86         092F84F9
+Sport Carbon  Mystic        2687        87 26         26 87         09312A1C
+Tuner Carbon  Joker         2688        88 26         26 88         09555B1E
+Tuner         Venom         2689        89 26         26 89         45F085B6
+Tuner         Impact        268A        8A 26         26 8A         45F085D0
+Tuner Carbon  Venom         268B        8B 26         26 8B         0943CEFE
+Tuner Carbon  Impact        268C        8C 26         26 8C         095210D8
+Sport         Specter       268D        8D 26         26 8D         45F08595
+Sport         Dynamo        268E        8E 26         26 8E         45F085D4
+Tuner         Phoenix       268F        8F 26         26 8F         45F085D8
+Sport         Edge          2690        90 26         26 90         45F085F4
+Sport Carbon  Specter       2691        91 26         26 91         0931B67D
+Sport Carbon  Dynamo        2692        92 26         26 92         0954425C
+Tuner Carbon  Phoenix       2693        93 26         26 93         095673E0
+Sport Carbon  Edge          2694        94 26         26 94         0965CE7C
+
+[Mercedes-Benz SL 65 AMG]
+Type          Name          Save Value  PC/PS2 Bytes  360/GC Bytes  Name Hash
+------------  ------------  ----------  ------------  ------------  ---------
+Stock         Stock         0A54        54 0A         0A 54         80F756C6
+Tuner         Arrow         2659        59 26         26 59         45F08571
+Tuner         Barracuda     265A        5A 26         26 5A         45F08572
+Sport         Reaper        265B        5B 26         26 5B         45F08575
+Sport         Slingshot     265C        5C 26         26 5C         45F08596
+Tuner         Switchblade   265D        5D 26         26 5D         45F085D2
+Sport         Groundmaster  265E        5E 26         26 5E         45F085D1
+Tuner Carbon  Arrow         265F        5F 26         26 5F         091DF8D9
+Tuner Carbon  Barracuda     2660        60 26         26 60         091E853A
+Sport Carbon  Reaper        2661        61 26         26 61         09202A5D
+Sport Carbon  Slingshot     2662        62 26         26 62         093242DE
+Tuner Carbon  Switchblade   2663        63 26         26 63         0953299A
+Sport Carbon  Groundmaster  2664        64 26         26 64         09529D39
+Tuner         Jorgen        2665        65 26         26 65         45F0856E
+Sport         Rocker 5      2666        66 26         26 66         45F0856F
+Tuner         Scarab        2667        67 26         26 67         45F085F1
+Sport         Fishtail      2668        68 26         26 68         45F085F2
+Sport         Viper         2669        69 26         26 69         45F085F3
+Tuner         Lynx          266A        6A 26         26 6A         45F085F5
+Tuner Carbon  Jorgen        266B        6B 26         26 6B         091C53B6
+Sport Carbon  Rocker 5      266C        6C 26         26 6C         091CE017
+Tuner Carbon  Scarab        266D        6D 26         26 6D         09642959
+Sport Carbon  Fishtail      266E        6E 26         26 6E         0964B5BA
+Sport Carbon  Viper         266F        6F 26         26 6F         0965421B
+Tuner Carbon  Lynx          2670        70 26         26 70         09665ADD
+Sport         Ripper        2671        71 26         26 71         45F08574
+Tuner         Borra         2672        72 26         26 72         45F08576
+Tuner         Ghost         2673        73 26         26 73         45F0858E
+Sport         Banshee       2674        74 26         26 74         45F08593
+Tuner         Tornado       2675        75 26         26 75         45F085B5
+Tuner         Fishtail      2676        76 26         26 76         45F085B8
+Sport Carbon  Ripper        2677        77 26         26 77         091F9DFC
+Tuner Carbon  Borra         2678        78 26         26 78         0920B6BE
+Tuner Carbon  Ghost         2679        79 26         26 79         092DDFD6
+Sport Carbon  Banshee       267A        7A 26         26 7A         09309DBB
+Tuner Carbon  Tornado       267B        7B 26         26 7B         0943429D
+Tuner Carbon  Fishtail      267C        7C 26         26 7C         0944E7C0
+Sport         Airforce      267D        7D 26         26 7D         45F08570
+Tuner         Wildfire      267E        7E 26         26 7E         45F08573
+Sport         Dragon        267F        7F 26         26 7F         45F0858F
+Tuner         Tandem        2680        80 26         26 80         45F08591
+Sport         Mystic        2681        81 26         26 81         45F08594
+Tuner         Joker         2682        82 26         26 82         45F085D6
+Sport Carbon  Airforce      2683        83 26         26 83         091D6C78
+Tuner Carbon  Wildfire      2684        84 26         26 84         091F119B
+Sport Carbon  Dragon        2685        85 26         26 85         092E6C37
+Tuner Carbon  Tandem        2686        86 26         26 86         092F84F9
+Sport Carbon  Mystic        2687        87 26         26 87         09312A1C
+Tuner Carbon  Joker         2688        88 26         26 88         09555B1E
+Tuner         Venom         2689        89 26         26 89         45F085B6
+Tuner         Impact        268A        8A 26         26 8A         45F085D0
+Tuner Carbon  Venom         268B        8B 26         26 8B         0943CEFE
+Tuner Carbon  Impact        268C        8C 26         26 8C         095210D8
+Sport         Specter       268D        8D 26         26 8D         45F08595
+Sport         Dynamo        268E        8E 26         26 8E         45F085D4
+Tuner         Phoenix       268F        8F 26         26 8F         45F085D8
+Sport         Edge          2690        90 26         26 90         45F085F4
+Sport Carbon  Specter       2691        91 26         26 91         0931B67D
+Sport Carbon  Dynamo        2692        92 26         26 92         0954425C
+Tuner Carbon  Phoenix       2693        93 26         26 93         095673E0
+Sport Carbon  Edge          2694        94 26         26 94         0965CE7C
+
+[Mercedes-Benz SLR McLaren]
+Type          Name          Save Value  PC/PS2 Bytes  360/GC Bytes  Name Hash
+------------  ------------  ----------  ------------  ------------  ---------
+Stock         Stock         06FE        FE 06         06 FE         F105F72D
+Tuner         Arrow         2659        59 26         26 59         45F08571
+Tuner         Barracuda     265A        5A 26         26 5A         45F08572
+Sport         Reaper        265B        5B 26         26 5B         45F08575
+Sport         Slingshot     265C        5C 26         26 5C         45F08596
+Tuner         Switchblade   265D        5D 26         26 5D         45F085D2
+Sport         Groundmaster  265E        5E 26         26 5E         45F085D1
+Tuner Carbon  Arrow         265F        5F 26         26 5F         091DF8D9
+Tuner Carbon  Barracuda     2660        60 26         26 60         091E853A
+Sport Carbon  Reaper        2661        61 26         26 61         09202A5D
+Sport Carbon  Slingshot     2662        62 26         26 62         093242DE
+Tuner Carbon  Switchblade   2663        63 26         26 63         0953299A
+Sport Carbon  Groundmaster  2664        64 26         26 64         09529D39
+Tuner         Jorgen        2665        65 26         26 65         45F0856E
+Sport         Rocker 5      2666        66 26         26 66         45F0856F
+Tuner         Scarab        2667        67 26         26 67         45F085F1
+Sport         Fishtail      2668        68 26         26 68         45F085F2
+Sport         Viper         2669        69 26         26 69         45F085F3
+Tuner         Lynx          266A        6A 26         26 6A         45F085F5
+Tuner Carbon  Jorgen        266B        6B 26         26 6B         091C53B6
+Sport Carbon  Rocker 5      266C        6C 26         26 6C         091CE017
+Tuner Carbon  Scarab        266D        6D 26         26 6D         09642959
+Sport Carbon  Fishtail      266E        6E 26         26 6E         0964B5BA
+Sport Carbon  Viper         266F        6F 26         26 6F         0965421B
+Tuner Carbon  Lynx          2670        70 26         26 70         09665ADD
+Sport         Ripper        2671        71 26         26 71         45F08574
+Tuner         Borra         2672        72 26         26 72         45F08576
+Tuner         Ghost         2673        73 26         26 73         45F0858E
+Sport         Banshee       2674        74 26         26 74         45F08593
+Tuner         Tornado       2675        75 26         26 75         45F085B5
+Tuner         Fishtail      2676        76 26         26 76         45F085B8
+Sport Carbon  Ripper        2677        77 26         26 77         091F9DFC
+Tuner Carbon  Borra         2678        78 26         26 78         0920B6BE
+Tuner Carbon  Ghost         2679        79 26         26 79         092DDFD6
+Sport Carbon  Banshee       267A        7A 26         26 7A         09309DBB
+Tuner Carbon  Tornado       267B        7B 26         26 7B         0943429D
+Tuner Carbon  Fishtail      267C        7C 26         26 7C         0944E7C0
+Sport         Airforce      267D        7D 26         26 7D         45F08570
+Tuner         Wildfire      267E        7E 26         26 7E         45F08573
+Sport         Dragon        267F        7F 26         26 7F         45F0858F
+Tuner         Tandem        2680        80 26         26 80         45F08591
+Sport         Mystic        2681        81 26         26 81         45F08594
+Tuner         Joker         2682        82 26         26 82         45F085D6
+Sport Carbon  Airforce      2683        83 26         26 83         091D6C78
+Tuner Carbon  Wildfire      2684        84 26         26 84         091F119B
+Sport Carbon  Dragon        2685        85 26         26 85         092E6C37
+Tuner Carbon  Tandem        2686        86 26         26 86         092F84F9
+Sport Carbon  Mystic        2687        87 26         26 87         09312A1C
+Tuner Carbon  Joker         2688        88 26         26 88         09555B1E
+Tuner         Venom         2689        89 26         26 89         45F085B6
+Tuner         Impact        268A        8A 26         26 8A         45F085D0
+Tuner Carbon  Venom         268B        8B 26         26 8B         0943CEFE
+Tuner Carbon  Impact        268C        8C 26         26 8C         095210D8
+Sport         Specter       268D        8D 26         26 8D         45F08595
+Sport         Dynamo        268E        8E 26         26 8E         45F085D4
+Tuner         Phoenix       268F        8F 26         26 8F         45F085D8
+Sport         Edge          2690        90 26         26 90         45F085F4
+Sport Carbon  Specter       2691        91 26         26 91         0931B67D
+Sport Carbon  Dynamo        2692        92 26         26 92         0954425C
+Tuner Carbon  Phoenix       2693        93 26         26 93         095673E0
+Sport Carbon  Edge          2694        94 26         26 94         0965CE7C
+
+[Mitsubishi Eclipse GT]
+Type          Name          Save Value  PC/PS2 Bytes  360/GC Bytes  Name Hash
+------------  ------------  ----------  ------------  ------------  ---------
+Stock         Stock         2557        57 25         25 57         8F576C5C
+Tuner         Arrow         2659        59 26         26 59         45F08571
+Tuner         Barracuda     265A        5A 26         26 5A         45F08572
+Sport         Reaper        265B        5B 26         26 5B         45F08575
+Sport         Slingshot     265C        5C 26         26 5C         45F08596
+Tuner         Switchblade   265D        5D 26         26 5D         45F085D2
+Sport         Groundmaster  265E        5E 26         26 5E         45F085D1
+Tuner Carbon  Arrow         265F        5F 26         26 5F         091DF8D9
+Tuner Carbon  Barracuda     2660        60 26         26 60         091E853A
+Sport Carbon  Reaper        2661        61 26         26 61         09202A5D
+Sport Carbon  Slingshot     2662        62 26         26 62         093242DE
+Tuner Carbon  Switchblade   2663        63 26         26 63         0953299A
+Sport Carbon  Groundmaster  2664        64 26         26 64         09529D39
+Tuner         Jorgen        2665        65 26         26 65         45F0856E
+Sport         Rocker 5      2666        66 26         26 66         45F0856F
+Tuner         Scarab        2667        67 26         26 67         45F085F1
+Sport         Fishtail      2668        68 26         26 68         45F085F2
+Sport         Viper         2669        69 26         26 69         45F085F3
+Tuner         Lynx          266A        6A 26         26 6A         45F085F5
+Tuner Carbon  Jorgen        266B        6B 26         26 6B         091C53B6
+Sport Carbon  Rocker 5      266C        6C 26         26 6C         091CE017
+Tuner Carbon  Scarab        266D        6D 26         26 6D         09642959
+Sport Carbon  Fishtail      266E        6E 26         26 6E         0964B5BA
+Sport Carbon  Viper         266F        6F 26         26 6F         0965421B
+Tuner Carbon  Lynx          2670        70 26         26 70         09665ADD
+Sport         Ripper        2671        71 26         26 71         45F08574
+Tuner         Borra         2672        72 26         26 72         45F08576
+Tuner         Ghost         2673        73 26         26 73         45F0858E
+Sport         Banshee       2674        74 26         26 74         45F08593
+Tuner         Tornado       2675        75 26         26 75         45F085B5
+Tuner         Fishtail      2676        76 26         26 76         45F085B8
+Sport Carbon  Ripper        2677        77 26         26 77         091F9DFC
+Tuner Carbon  Borra         2678        78 26         26 78         0920B6BE
+Tuner Carbon  Ghost         2679        79 26         26 79         092DDFD6
+Sport Carbon  Banshee       267A        7A 26         26 7A         09309DBB
+Tuner Carbon  Tornado       267B        7B 26         26 7B         0943429D
+Tuner Carbon  Fishtail      267C        7C 26         26 7C         0944E7C0
+Sport         Airforce      267D        7D 26         26 7D         45F08570
+Tuner         Wildfire      267E        7E 26         26 7E         45F08573
+Sport         Dragon        267F        7F 26         26 7F         45F0858F
+Tuner         Tandem        2680        80 26         26 80         45F08591
+Sport         Mystic        2681        81 26         26 81         45F08594
+Tuner         Joker         2682        82 26         26 82         45F085D6
+Sport Carbon  Airforce      2683        83 26         26 83         091D6C78
+Tuner Carbon  Wildfire      2684        84 26         26 84         091F119B
+Sport Carbon  Dragon        2685        85 26         26 85         092E6C37
+Tuner Carbon  Tandem        2686        86 26         26 86         092F84F9
+Sport Carbon  Mystic        2687        87 26         26 87         09312A1C
+Tuner Carbon  Joker         2688        88 26         26 88         09555B1E
+Tuner         Venom         2689        89 26         26 89         45F085B6
+Tuner         Impact        268A        8A 26         26 8A         45F085D0
+Tuner Carbon  Venom         268B        8B 26         26 8B         0943CEFE
+Tuner Carbon  Impact        268C        8C 26         26 8C         095210D8
+Sport         Specter       268D        8D 26         26 8D         45F08595
+Sport         Dynamo        268E        8E 26         26 8E         45F085D4
+Tuner         Phoenix       268F        8F 26         26 8F         45F085D8
+Sport         Edge          2690        90 26         26 90         45F085F4
+Sport Carbon  Specter       2691        91 26         26 91         0931B67D
+Sport Carbon  Dynamo        2692        92 26         26 92         0954425C
+Tuner Carbon  Phoenix       2693        93 26         26 93         095673E0
+Sport Carbon  Edge          2694        94 26         26 94         0965CE7C
+
+[Mitsubishi Lancer Evolution VIII]
+Type          Name          Save Value  PC/PS2 Bytes  360/GC Bytes  Name Hash
+------------  ------------  ----------  ------------  ------------  ---------
+Stock         Stock         1362        62 13         13 62         3AD1CE53
+Tuner         Arrow         2659        59 26         26 59         45F08571
+Tuner         Barracuda     265A        5A 26         26 5A         45F08572
+Sport         Reaper        265B        5B 26         26 5B         45F08575
+Sport         Slingshot     265C        5C 26         26 5C         45F08596
+Tuner         Switchblade   265D        5D 26         26 5D         45F085D2
+Sport         Groundmaster  265E        5E 26         26 5E         45F085D1
+Tuner Carbon  Arrow         265F        5F 26         26 5F         091DF8D9
+Tuner Carbon  Barracuda     2660        60 26         26 60         091E853A
+Sport Carbon  Reaper        2661        61 26         26 61         09202A5D
+Sport Carbon  Slingshot     2662        62 26         26 62         093242DE
+Tuner Carbon  Switchblade   2663        63 26         26 63         0953299A
+Sport Carbon  Groundmaster  2664        64 26         26 64         09529D39
+Tuner         Jorgen        2665        65 26         26 65         45F0856E
+Sport         Rocker 5      2666        66 26         26 66         45F0856F
+Tuner         Scarab        2667        67 26         26 67         45F085F1
+Sport         Fishtail      2668        68 26         26 68         45F085F2
+Sport         Viper         2669        69 26         26 69         45F085F3
+Tuner         Lynx          266A        6A 26         26 6A         45F085F5
+Tuner Carbon  Jorgen        266B        6B 26         26 6B         091C53B6
+Sport Carbon  Rocker 5      266C        6C 26         26 6C         091CE017
+Tuner Carbon  Scarab        266D        6D 26         26 6D         09642959
+Sport Carbon  Fishtail      266E        6E 26         26 6E         0964B5BA
+Sport Carbon  Viper         266F        6F 26         26 6F         0965421B
+Tuner Carbon  Lynx          2670        70 26         26 70         09665ADD
+Sport         Ripper        2671        71 26         26 71         45F08574
+Tuner         Borra         2672        72 26         26 72         45F08576
+Tuner         Ghost         2673        73 26         26 73         45F0858E
+Sport         Banshee       2674        74 26         26 74         45F08593
+Tuner         Tornado       2675        75 26         26 75         45F085B5
+Tuner         Fishtail      2676        76 26         26 76         45F085B8
+Sport Carbon  Ripper        2677        77 26         26 77         091F9DFC
+Tuner Carbon  Borra         2678        78 26         26 78         0920B6BE
+Tuner Carbon  Ghost         2679        79 26         26 79         092DDFD6
+Sport Carbon  Banshee       267A        7A 26         26 7A         09309DBB
+Tuner Carbon  Tornado       267B        7B 26         26 7B         0943429D
+Tuner Carbon  Fishtail      267C        7C 26         26 7C         0944E7C0
+Sport         Airforce      267D        7D 26         26 7D         45F08570
+Tuner         Wildfire      267E        7E 26         26 7E         45F08573
+Sport         Dragon        267F        7F 26         26 7F         45F0858F
+Tuner         Tandem        2680        80 26         26 80         45F08591
+Sport         Mystic        2681        81 26         26 81         45F08594
+Tuner         Joker         2682        82 26         26 82         45F085D6
+Sport Carbon  Airforce      2683        83 26         26 83         091D6C78
+Tuner Carbon  Wildfire      2684        84 26         26 84         091F119B
+Sport Carbon  Dragon        2685        85 26         26 85         092E6C37
+Tuner Carbon  Tandem        2686        86 26         26 86         092F84F9
+Sport Carbon  Mystic        2687        87 26         26 87         09312A1C
+Tuner Carbon  Joker         2688        88 26         26 88         09555B1E
+Tuner         Venom         2689        89 26         26 89         45F085B6
+Tuner         Impact        268A        8A 26         26 8A         45F085D0
+Tuner Carbon  Venom         268B        8B 26         26 8B         0943CEFE
+Tuner Carbon  Impact        268C        8C 26         26 8C         095210D8
+Sport         Specter       268D        8D 26         26 8D         45F08595
+Sport         Dynamo        268E        8E 26         26 8E         45F085D4
+Tuner         Phoenix       268F        8F 26         26 8F         45F085D8
+Sport         Edge          2690        90 26         26 90         45F085F4
+Sport Carbon  Specter       2691        91 26         26 91         0931B67D
+Sport Carbon  Dynamo        2692        92 26         26 92         0954425C
+Tuner Carbon  Phoenix       2693        93 26         26 93         095673E0
+Sport Carbon  Edge          2694        94 26         26 94         0965CE7C
+
+[Pontiac GTO]
+Type          Name          Save Value  PC/PS2 Bytes  360/GC Bytes  Name Hash
+------------  ------------  ----------  ------------  ------------  ---------
+Stock         Stock         04C1        C1 04         04 C1         738CAE26
+Tuner         Arrow         2659        59 26         26 59         45F08571
+Tuner         Barracuda     265A        5A 26         26 5A         45F08572
+Sport         Reaper        265B        5B 26         26 5B         45F08575
+Sport         Slingshot     265C        5C 26         26 5C         45F08596
+Tuner         Switchblade   265D        5D 26         26 5D         45F085D2
+Sport         Groundmaster  265E        5E 26         26 5E         45F085D1
+Tuner Carbon  Arrow         265F        5F 26         26 5F         091DF8D9
+Tuner Carbon  Barracuda     2660        60 26         26 60         091E853A
+Sport Carbon  Reaper        2661        61 26         26 61         09202A5D
+Sport Carbon  Slingshot     2662        62 26         26 62         093242DE
+Tuner Carbon  Switchblade   2663        63 26         26 63         0953299A
+Sport Carbon  Groundmaster  2664        64 26         26 64         09529D39
+Tuner         Jorgen        2665        65 26         26 65         45F0856E
+Sport         Rocker 5      2666        66 26         26 66         45F0856F
+Tuner         Scarab        2667        67 26         26 67         45F085F1
+Sport         Fishtail      2668        68 26         26 68         45F085F2
+Sport         Viper         2669        69 26         26 69         45F085F3
+Tuner         Lynx          266A        6A 26         26 6A         45F085F5
+Tuner Carbon  Jorgen        266B        6B 26         26 6B         091C53B6
+Sport Carbon  Rocker 5      266C        6C 26         26 6C         091CE017
+Tuner Carbon  Scarab        266D        6D 26         26 6D         09642959
+Sport Carbon  Fishtail      266E        6E 26         26 6E         0964B5BA
+Sport Carbon  Viper         266F        6F 26         26 6F         0965421B
+Tuner Carbon  Lynx          2670        70 26         26 70         09665ADD
+Sport         Ripper        2671        71 26         26 71         45F08574
+Tuner         Borra         2672        72 26         26 72         45F08576
+Tuner         Ghost         2673        73 26         26 73         45F0858E
+Sport         Banshee       2674        74 26         26 74         45F08593
+Tuner         Tornado       2675        75 26         26 75         45F085B5
+Tuner         Fishtail      2676        76 26         26 76         45F085B8
+Sport Carbon  Ripper        2677        77 26         26 77         091F9DFC
+Tuner Carbon  Borra         2678        78 26         26 78         0920B6BE
+Tuner Carbon  Ghost         2679        79 26         26 79         092DDFD6
+Sport Carbon  Banshee       267A        7A 26         26 7A         09309DBB
+Tuner Carbon  Tornado       267B        7B 26         26 7B         0943429D
+Tuner Carbon  Fishtail      267C        7C 26         26 7C         0944E7C0
+Sport         Airforce      267D        7D 26         26 7D         45F08570
+Tuner         Wildfire      267E        7E 26         26 7E         45F08573
+Sport         Dragon        267F        7F 26         26 7F         45F0858F
+Tuner         Tandem        2680        80 26         26 80         45F08591
+Sport         Mystic        2681        81 26         26 81         45F08594
+Tuner         Joker         2682        82 26         26 82         45F085D6
+Sport Carbon  Airforce      2683        83 26         26 83         091D6C78
+Tuner Carbon  Wildfire      2684        84 26         26 84         091F119B
+Sport Carbon  Dragon        2685        85 26         26 85         092E6C37
+Tuner Carbon  Tandem        2686        86 26         26 86         092F84F9
+Sport Carbon  Mystic        2687        87 26         26 87         09312A1C
+Tuner Carbon  Joker         2688        88 26         26 88         09555B1E
+Tuner         Venom         2689        89 26         26 89         45F085B6
+Tuner         Impact        268A        8A 26         26 8A         45F085D0
+Tuner Carbon  Venom         268B        8B 26         26 8B         0943CEFE
+Tuner Carbon  Impact        268C        8C 26         26 8C         095210D8
+Sport         Specter       268D        8D 26         26 8D         45F08595
+Sport         Dynamo        268E        8E 26         26 8E         45F085D4
+Tuner         Phoenix       268F        8F 26         26 8F         45F085D8
+Sport         Edge          2690        90 26         26 90         45F085F4
+Sport Carbon  Specter       2691        91 26         26 91         0931B67D
+Sport Carbon  Dynamo        2692        92 26         26 92         0954425C
+Tuner Carbon  Phoenix       2693        93 26         26 93         095673E0
+Sport Carbon  Edge          2694        94 26         26 94         0965CE7C
+
+[Porsche 911 Carrera S]
+Type          Name          Save Value  PC/PS2 Bytes  360/GC Bytes  Name Hash
+------------  ------------  ----------  ------------  ------------  ---------
+Stock         Stock         07BD        BD 07         07 BD         4CFE3658
+Tuner         Arrow         2415        15 24         24 15         CF445817
+Tuner         Barracuda     2416        16 24         24 16         D34EE938
+Sport         Reaper        2417        17 24         24 17         DF6E9C9B
+Sport         Slingshot     2418        18 24         24 18         64CB51DC
+Tuner         Switchblade   2419        19 24         24 19         EA28071D
+Sport         Groundmaster  241A        1A 24         24 1A         533AC477
+Tuner Carbon  Arrow         241B        1B 24         24 1B         E91391BF
+Tuner Carbon  Barracuda     241C        1C 24         24 1C         38729B40
+Sport Carbon  Reaper        241D        1D 24         24 1D         268FB7C3
+Sport Carbon  Slingshot     241E        1E 24         24 1E         61CFF164
+Tuner Carbon  Switchblade   241F        1F 24         24 1F         9D102B05
+Sport Carbon  Groundmaster  2420        20 24         24 20         ACB7221F
+Tuner         Jorgen        2421        21 24         24 21         C324A4B4
+Sport         Rocker 5      2422        22 24         24 22         C72F35D5
+Tuner         Scarab        2423        23 24         24 23         D48CE897
+Sport         Fishtail      2424        24 24         24 24         D89779B8
+Sport         Viper         2425        25 24         24 25         DCA20AD9
+Tuner         Lynx          2426        26 24         24 26         E4B72D1B
+Tuner Carbon  Jorgen        2427        27 24         24 27         FAF6753C
+Sport Carbon  Rocker 5      2428        28 24         24 28         4A557EBD
+Tuner Carbon  Scarab        2429        29 24         24 29         9898523F
+Sport Carbon  Fishtail      242A        2A 24         24 2A         E7F75BC0
+Sport Carbon  Viper         242B        2B 24         24 2B         37566541
+Tuner Carbon  Lynx          242C        2C 24         24 2C         D6147843
+Sport         Ripper        242D        2D 24         24 2D         DB640B7A
+Tuner         Borra         242E        2E 24         24 2E         E3792DBC
+Tuner         Ghost         242F        2F 24         24 2F         4476C8D4
+Sport         Banshee       2430        30 24         24 30         58AB9E79
+Tuner         Tornado       2431        31 24         24 31         E212E4DB
+Tuner         Fishtail      2432        32 24         24 32         EE32983E
+Sport Carbon  Ripper        2433        33 24         24 33         D730AE42
+Tuner Carbon  Borra         2434        34 24         24 34         75EEC144
+Tuner Carbon  Ghost         2435        35 24         24 35         E6D7A55C
+Sport Carbon  Banshee       2436        36 24         24 36         73B2D4E1
+Tuner Carbon  Tornado       2437        37 24         24 37         FE521803
+Tuner Carbon  Fishtail      2438        38 24         24 38         EC6F3486
+Sport         Airforce      2439        39 24         24 39         CB39C6F6
+Tuner         Wildfire      243A        3A 24         24 3A         D7597A59
+Sport         Dragon        243B        3B 24         24 3B         488159F5
+Tuner         Tandem        243C        3C 24         24 3C         50967C37
+Sport         Mystic        243D        3D 24         24 3D         5CB62F9A
+Tuner         Joker         243E        3E 24         24 3E         676F9A1C
+Sport Carbon  Airforce      243F        3F 24         24 3F         99B4883E
+Tuner Carbon  Wildfire      2440        40 24         24 40         87D1A4C1
+Sport Carbon  Dragon        2441        41 24         24 41         3636AEDD
+Tuner Carbon  Tandem        2442        42 24         24 42         D4F4C1DF
+Sport Carbon  Mystic        2443        43 24         24 43         C311DE62
+Tuner Carbon  Joker         2444        44 24         24 44         399251A4
+Tuner         Venom         2445        45 24         24 45         E61D75FC
+Tuner         Impact        2446        46 24         24 46         4F303356
+Tuner Carbon  Venom         2447        47 24         24 47         4DB12184
+Tuner Carbon  Impact        2448        48 24         24 48         5D58189E
+Sport         Specter       2449        49 24         24 49         60C0C0BB
+Sport         Dynamo        244A        4A 24         24 4A         5F5A77DA
+Tuner         Phoenix       244B        4B 24         24 4B         6F84BC5E
+Sport         Edge          244C        4C 24         24 4C         E0AC9BFA
+Sport Carbon  Specter       244D        4D 24         24 4D         1270E7E3
+Sport Carbon  Dynamo        244E        4E 24         24 4E         9AD43EA2
+Tuner Carbon  Phoenix       244F        4F 24         24 4F         D85064A6
+Sport Carbon  Edge          2450        50 24         24 50         86B56EC2
+
+[Porsche 911 GT2]
+Type          Name          Save Value  PC/PS2 Bytes  360/GC Bytes  Name Hash
+------------  ------------  ----------  ------------  ------------  ---------
+Stock         Stock         1944        44 19         19 44         903256C4
+Tuner         Arrow         2659        59 26         26 59         45F08571
+Tuner         Barracuda     265A        5A 26         26 5A         45F08572
+Sport         Reaper        265B        5B 26         26 5B         45F08575
+Sport         Slingshot     265C        5C 26         26 5C         45F08596
+Tuner         Switchblade   265D        5D 26         26 5D         45F085D2
+Sport         Groundmaster  265E        5E 26         26 5E         45F085D1
+Tuner Carbon  Arrow         265F        5F 26         26 5F         091DF8D9
+Tuner Carbon  Barracuda     2660        60 26         26 60         091E853A
+Sport Carbon  Reaper        2661        61 26         26 61         09202A5D
+Sport Carbon  Slingshot     2662        62 26         26 62         093242DE
+Tuner Carbon  Switchblade   2663        63 26         26 63         0953299A
+Sport Carbon  Groundmaster  2664        64 26         26 64         09529D39
+Tuner         Jorgen        2665        65 26         26 65         45F0856E
+Sport         Rocker 5      2666        66 26         26 66         45F0856F
+Tuner         Scarab        2667        67 26         26 67         45F085F1
+Sport         Fishtail      2668        68 26         26 68         45F085F2
+Sport         Viper         2669        69 26         26 69         45F085F3
+Tuner         Lynx          266A        6A 26         26 6A         45F085F5
+Tuner Carbon  Jorgen        266B        6B 26         26 6B         091C53B6
+Sport Carbon  Rocker 5      266C        6C 26         26 6C         091CE017
+Tuner Carbon  Scarab        266D        6D 26         26 6D         09642959
+Sport Carbon  Fishtail      266E        6E 26         26 6E         0964B5BA
+Sport Carbon  Viper         266F        6F 26         26 6F         0965421B
+Tuner Carbon  Lynx          2670        70 26         26 70         09665ADD
+Sport         Ripper        2671        71 26         26 71         45F08574
+Tuner         Borra         2672        72 26         26 72         45F08576
+Tuner         Ghost         2673        73 26         26 73         45F0858E
+Sport         Banshee       2674        74 26         26 74         45F08593
+Tuner         Tornado       2675        75 26         26 75         45F085B5
+Tuner         Fishtail      2676        76 26         26 76         45F085B8
+Sport Carbon  Ripper        2677        77 26         26 77         091F9DFC
+Tuner Carbon  Borra         2678        78 26         26 78         0920B6BE
+Tuner Carbon  Ghost         2679        79 26         26 79         092DDFD6
+Sport Carbon  Banshee       267A        7A 26         26 7A         09309DBB
+Tuner Carbon  Tornado       267B        7B 26         26 7B         0943429D
+Tuner Carbon  Fishtail      267C        7C 26         26 7C         0944E7C0
+Sport         Airforce      267D        7D 26         26 7D         45F08570
+Tuner         Wildfire      267E        7E 26         26 7E         45F08573
+Sport         Dragon        267F        7F 26         26 7F         45F0858F
+Tuner         Tandem        2680        80 26         26 80         45F08591
+Sport         Mystic        2681        81 26         26 81         45F08594
+Tuner         Joker         2682        82 26         26 82         45F085D6
+Sport Carbon  Airforce      2683        83 26         26 83         091D6C78
+Tuner Carbon  Wildfire      2684        84 26         26 84         091F119B
+Sport Carbon  Dragon        2685        85 26         26 85         092E6C37
+Tuner Carbon  Tandem        2686        86 26         26 86         092F84F9
+Sport Carbon  Mystic        2687        87 26         26 87         09312A1C
+Tuner Carbon  Joker         2688        88 26         26 88         09555B1E
+Tuner         Venom         2689        89 26         26 89         45F085B6
+Tuner         Impact        268A        8A 26         26 8A         45F085D0
+Tuner Carbon  Venom         268B        8B 26         26 8B         0943CEFE
+Tuner Carbon  Impact        268C        8C 26         26 8C         095210D8
+Sport         Specter       268D        8D 26         26 8D         45F08595
+Sport         Dynamo        268E        8E 26         26 8E         45F085D4
+Tuner         Phoenix       268F        8F 26         26 8F         45F085D8
+Sport         Edge          2690        90 26         26 90         45F085F4
+Sport Carbon  Specter       2691        91 26         26 91         0931B67D
+Sport Carbon  Dynamo        2692        92 26         26 92         0954425C
+Tuner Carbon  Phoenix       2693        93 26         26 93         095673E0
+Sport Carbon  Edge          2694        94 26         26 94         0965CE7C
+
+[Porsche 911 Turbo S]
+Type          Name          Save Value  PC/PS2 Bytes  360/GC Bytes  Name Hash
+------------  ------------  ----------  ------------  ------------  ---------
+Stock         Stock         1EC0        C0 1E         1E C0         1FAD5763
+Tuner         Arrow         2415        15 24         24 15         CF445817
+Tuner         Barracuda     2416        16 24         24 16         D34EE938
+Sport         Reaper        2417        17 24         24 17         DF6E9C9B
+Sport         Slingshot     2418        18 24         24 18         64CB51DC
+Tuner         Switchblade   2419        19 24         24 19         EA28071D
+Sport         Groundmaster  241A        1A 24         24 1A         533AC477
+Tuner Carbon  Arrow         241B        1B 24         24 1B         E91391BF
+Tuner Carbon  Barracuda     241C        1C 24         24 1C         38729B40
+Sport Carbon  Reaper        241D        1D 24         24 1D         268FB7C3
+Sport Carbon  Slingshot     241E        1E 24         24 1E         61CFF164
+Tuner Carbon  Switchblade   241F        1F 24         24 1F         9D102B05
+Sport Carbon  Groundmaster  2420        20 24         24 20         ACB7221F
+Tuner         Jorgen        2421        21 24         24 21         C324A4B4
+Sport         Rocker 5      2422        22 24         24 22         C72F35D5
+Tuner         Scarab        2423        23 24         24 23         D48CE897
+Sport         Fishtail      2424        24 24         24 24         D89779B8
+Sport         Viper         2425        25 24         24 25         DCA20AD9
+Tuner         Lynx          2426        26 24         24 26         E4B72D1B
+Tuner Carbon  Jorgen        2427        27 24         24 27         FAF6753C
+Sport Carbon  Rocker 5      2428        28 24         24 28         4A557EBD
+Tuner Carbon  Scarab        2429        29 24         24 29         9898523F
+Sport Carbon  Fishtail      242A        2A 24         24 2A         E7F75BC0
+Sport Carbon  Viper         242B        2B 24         24 2B         37566541
+Tuner Carbon  Lynx          242C        2C 24         24 2C         D6147843
+Sport         Ripper        242D        2D 24         24 2D         DB640B7A
+Tuner         Borra         242E        2E 24         24 2E         E3792DBC
+Tuner         Ghost         242F        2F 24         24 2F         4476C8D4
+Sport         Banshee       2430        30 24         24 30         58AB9E79
+Tuner         Tornado       2431        31 24         24 31         E212E4DB
+Tuner         Fishtail      2432        32 24         24 32         EE32983E
+Sport Carbon  Ripper        2433        33 24         24 33         D730AE42
+Tuner Carbon  Borra         2434        34 24         24 34         75EEC144
+Tuner Carbon  Ghost         2435        35 24         24 35         E6D7A55C
+Sport Carbon  Banshee       2436        36 24         24 36         73B2D4E1
+Tuner Carbon  Tornado       2437        37 24         24 37         FE521803
+Tuner Carbon  Fishtail      2438        38 24         24 38         EC6F3486
+Sport         Airforce      2439        39 24         24 39         CB39C6F6
+Tuner         Wildfire      243A        3A 24         24 3A         D7597A59
+Sport         Dragon        243B        3B 24         24 3B         488159F5
+Tuner         Tandem        243C        3C 24         24 3C         50967C37
+Sport         Mystic        243D        3D 24         24 3D         5CB62F9A
+Tuner         Joker         243E        3E 24         24 3E         676F9A1C
+Sport Carbon  Airforce      243F        3F 24         24 3F         99B4883E
+Tuner Carbon  Wildfire      2440        40 24         24 40         87D1A4C1
+Sport Carbon  Dragon        2441        41 24         24 41         3636AEDD
+Tuner Carbon  Tandem        2442        42 24         24 42         D4F4C1DF
+Sport Carbon  Mystic        2443        43 24         24 43         C311DE62
+Tuner Carbon  Joker         2444        44 24         24 44         399251A4
+Tuner         Venom         2445        45 24         24 45         E61D75FC
+Tuner         Impact        2446        46 24         24 46         4F303356
+Tuner Carbon  Venom         2447        47 24         24 47         4DB12184
+Tuner Carbon  Impact        2448        48 24         24 48         5D58189E
+Sport         Specter       2449        49 24         24 49         60C0C0BB
+Sport         Dynamo        244A        4A 24         24 4A         5F5A77DA
+Tuner         Phoenix       244B        4B 24         24 4B         6F84BC5E
+Sport         Edge          244C        4C 24         24 4C         E0AC9BFA
+Sport Carbon  Specter       244D        4D 24         24 4D         1270E7E3
+Sport Carbon  Dynamo        244E        4E 24         24 4E         9AD43EA2
+Tuner Carbon  Phoenix       244F        4F 24         24 4F         D85064A6
+Sport Carbon  Edge          2450        50 24         24 50         86B56EC2
+
+[Porsche Carrera GT]
+Type          Name          Save Value  PC/PS2 Bytes  360/GC Bytes  Name Hash
+------------  ------------  ----------  ------------  ------------  ---------
+Stock         Stock         2952        52 29         29 52         8AAC5AD7
+Tuner         Arrow         19BC        BC 19         19 BC         B7189E10
+Tuner         Barracuda     19BD        BD 19         19 BD         2B950F11
+Sport         Reaper        19BE        BE 19         19 BE         890A6214
+Sport         Slingshot     19BF        BF 19         19 BF         8D14F335
+Tuner         Switchblade   19C0        C0 19         19 C0         911F8456
+Sport         Groundmaster  19C1        C1 19         19 C1         65C2FE70
+Tuner Carbon  Arrow         19C2        C2 19         19 C2         D6C64118
+Tuner Carbon  Barracuda     19C3        C3 19         19 C3         07B99E79
+Sport Carbon  Reaper        19C4        C4 19         19 C4         9A93B69C
+Sport Carbon  Slingshot     19C5        C5 19         19 C5         E9F2C01D
+Tuner Carbon  Switchblade   19C6        C6 19         19 C6         3951C99E
+Sport Carbon  Groundmaster  19C7        C7 19         19 C7         32094578
+Tuner         Jorgen        19C8        C8 19         19 C8         59A34B0D
+Sport         Rocker 5      19C9        C9 19         19 C9         CE1FBC0E
+Tuner         Scarab        19CA        CA 19         19 CA         F5511E90
+Sport         Fishtail      19CB        CB 19         19 CB         69CD8F91
+Sport         Viper         19CC        CC 19         19 CC         DE4A0092
+Tuner         Lynx          19CD        CD 19         19 CD         C742E294
+Tuner Carbon  Jorgen        19CE        CE 19         19 CE         43EC28F5
+Sport Carbon  Rocker 5      19CF        CF 19         19 CF         74DF8656
+Tuner Carbon  Scarab        19D0        D0 19         19 D0         5074F198
+Sport Carbon  Fishtail      19D1        D1 19         19 D1         81684EF9
+Sport Carbon  Viper         19D2        D2 19         19 D2         B25BAC5A
+Tuner Carbon  Lynx          19D3        D3 19         19 D3         1442671C
+Sport         Ripper        19D4        D4 19         19 D4         148DF113
+Tuner         Borra         19D5        D5 19         19 D5         FD86D315
+Tuner         Ghost         19D6        D6 19         19 D6         E9316B2D
+Sport         Banshee       19D7        D7 19         19 D7         2F9FA032
+Tuner         Tornado       19D8        D8 19         19 D8         A826A254
+Tuner         Fishtail      19D9        D9 19         19 D9         059BF557
+Sport Carbon  Ripper        19DA        DA 19         19 DA         69A0593B
+Tuner Carbon  Borra         19DB        DB 19         19 DB         CB8713FD
+Tuner Carbon  Ghost         19DC        DC 19         19 DC         6257D515
+Sport Carbon  Banshee       19DD        DD 19         19 DD         5718A7FA
+Tuner Carbon  Tornado       19DE        DE 19         19 DE         D76B0EDC
+Tuner Carbon  Fishtail      19DF        DF 19         19 DF         6A4526FF
+Sport         Airforce      19E0        E0 19         19 E0         429C2D0F
+Tuner         Wildfire      19E1        E1 19         19 E1         A0118012
+Sport         Dragon        19E2        E2 19         19 E2         5DADDC2E
+Tuner         Tandem        19E3        E3 19         19 E3         46A6BE30
+Sport         Mystic        19E4        E4 19         19 E4         A41C1133
+Tuner         Joker         19E5        E5 19         19 E5         AC313375
+Sport Carbon  Airforce      19E6        E6 19         19 E6         A5D2E3B7
+Tuner Carbon  Wildfire      19E7        E7 19         19 E7         38ACFBDA
+Sport Carbon  Dragon        19E8        E8 19         19 E8         934B3276
+Tuner Carbon  Tandem        19E9        E9 19         19 E9         F531ED38
+Sport Carbon  Mystic        19EA        EA 19         19 EA         880C055B
+Tuner Carbon  Joker         19EB        EB 19         19 EB         26CA185D
+Tuner         Venom         19EC        EC 19         19 EC         1CA31355
+Tuner         Impact        19ED        ED 19         19 ED         F1468D6F
+Tuner Carbon  Venom         19EE        EE 19         19 EE         085E6C3D
+Tuner Carbon  Impact        19EF        EF 19         19 EF         0115E817
+Sport         Specter       19F0        F0 19         19 F0         18988234
+Sport         Dynamo        19F1        F1 19         19 F1         C3385173
+Tuner         Phoenix       19F2        F2 19         19 F2         952A1577
+Sport         Edge          19F3        F3 19         19 F3         52C67193
+Sport Carbon  Specter       19F4        F4 19         19 F4         B8FF62BC
+Sport Carbon  Dynamo        19F5        F5 19         19 F5         C4E35D9B
+Tuner Carbon  Phoenix       19F6        F6 19         19 F6         88B0D31F
+Sport Carbon  Edge          19F7        F7 19         19 F7         E34F09BB
+
+[Porsche Cayman S]
+Type          Name          Save Value  PC/PS2 Bytes  360/GC Bytes  Name Hash
+------------  ------------  ----------  ------------  ------------  ---------
+Stock         Stock         27BD        BD 27         27 BD         4A0EC2C8
+Tuner         Arrow         2415        15 24         24 15         CF445817
+Tuner         Barracuda     2416        16 24         24 16         D34EE938
+Sport         Reaper        2417        17 24         24 17         DF6E9C9B
+Sport         Slingshot     2418        18 24         24 18         64CB51DC
+Tuner         Switchblade   2419        19 24         24 19         EA28071D
+Sport         Groundmaster  241A        1A 24         24 1A         533AC477
+Tuner Carbon  Arrow         241B        1B 24         24 1B         E91391BF
+Tuner Carbon  Barracuda     241C        1C 24         24 1C         38729B40
+Sport Carbon  Reaper        241D        1D 24         24 1D         268FB7C3
+Sport Carbon  Slingshot     241E        1E 24         24 1E         61CFF164
+Tuner Carbon  Switchblade   241F        1F 24         24 1F         9D102B05
+Sport Carbon  Groundmaster  2420        20 24         24 20         ACB7221F
+Tuner         Jorgen        2421        21 24         24 21         C324A4B4
+Sport         Rocker 5      2422        22 24         24 22         C72F35D5
+Tuner         Scarab        2423        23 24         24 23         D48CE897
+Sport         Fishtail      2424        24 24         24 24         D89779B8
+Sport         Viper         2425        25 24         24 25         DCA20AD9
+Tuner         Lynx          2426        26 24         24 26         E4B72D1B
+Tuner Carbon  Jorgen        2427        27 24         24 27         FAF6753C
+Sport Carbon  Rocker 5      2428        28 24         24 28         4A557EBD
+Tuner Carbon  Scarab        2429        29 24         24 29         9898523F
+Sport Carbon  Fishtail      242A        2A 24         24 2A         E7F75BC0
+Sport Carbon  Viper         242B        2B 24         24 2B         37566541
+Tuner Carbon  Lynx          242C        2C 24         24 2C         D6147843
+Sport         Ripper        242D        2D 24         24 2D         DB640B7A
+Tuner         Borra         242E        2E 24         24 2E         E3792DBC
+Tuner         Ghost         242F        2F 24         24 2F         4476C8D4
+Sport         Banshee       2430        30 24         24 30         58AB9E79
+Tuner         Tornado       2431        31 24         24 31         E212E4DB
+Tuner         Fishtail      2432        32 24         24 32         EE32983E
+Sport Carbon  Ripper        2433        33 24         24 33         D730AE42
+Tuner Carbon  Borra         2434        34 24         24 34         75EEC144
+Tuner Carbon  Ghost         2435        35 24         24 35         E6D7A55C
+Sport Carbon  Banshee       2436        36 24         24 36         73B2D4E1
+Tuner Carbon  Tornado       2437        37 24         24 37         FE521803
+Tuner Carbon  Fishtail      2438        38 24         24 38         EC6F3486
+Sport         Airforce      2439        39 24         24 39         CB39C6F6
+Tuner         Wildfire      243A        3A 24         24 3A         D7597A59
+Sport         Dragon        243B        3B 24         24 3B         488159F5
+Tuner         Tandem        243C        3C 24         24 3C         50967C37
+Sport         Mystic        243D        3D 24         24 3D         5CB62F9A
+Tuner         Joker         243E        3E 24         24 3E         676F9A1C
+Sport Carbon  Airforce      243F        3F 24         24 3F         99B4883E
+Tuner Carbon  Wildfire      2440        40 24         24 40         87D1A4C1
+Sport Carbon  Dragon        2441        41 24         24 41         3636AEDD
+Tuner Carbon  Tandem        2442        42 24         24 42         D4F4C1DF
+Sport Carbon  Mystic        2443        43 24         24 43         C311DE62
+Tuner Carbon  Joker         2444        44 24         24 44         399251A4
+Tuner         Venom         2445        45 24         24 45         E61D75FC
+Tuner         Impact        2446        46 24         24 46         4F303356
+Tuner Carbon  Venom         2447        47 24         24 47         4DB12184
+Tuner Carbon  Impact        2448        48 24         24 48         5D58189E
+Sport         Specter       2449        49 24         24 49         60C0C0BB
+Sport         Dynamo        244A        4A 24         24 4A         5F5A77DA
+Tuner         Phoenix       244B        4B 24         24 4B         6F84BC5E
+Sport         Edge          244C        4C 24         24 4C         E0AC9BFA
+Sport Carbon  Specter       244D        4D 24         24 4D         1270E7E3
+Sport Carbon  Dynamo        244E        4E 24         24 4E         9AD43EA2
+Tuner Carbon  Phoenix       244F        4F 24         24 4F         D85064A6
+Sport Carbon  Edge          2450        50 24         24 50         86B56EC2
+
+[Renault Clio V6]
+Type          Name          Save Value  PC/PS2 Bytes  360/GC Bytes  Name Hash
+------------  ------------  ----------  ------------  ------------  ---------
+Stock         Stock         087C        7C 08         08 7C         932DC043
+Tuner         Arrow         2CC6        C6 2C         2C C6         D8CB2118
+Tuner         Barracuda     2CC7        C7 2C         2C C7         25C55DD9
+Sport         Reaper        2CC8        C8 2C         2C C8         0CB4141C
+Sport         Slingshot     2CC9        C9 2C         2C C9         F8F5E8FD
+Tuner         Switchblade   2CCA        CA 2C         2C CA         E537BDDE
+Sport         Groundmaster  2CCB        CB 2C         2C CB         B6A1E978
+Tuner Carbon  Arrow         2CCC        CC 2C         2C CC         3B124720
+Tuner Carbon  Barracuda     2CCD        CD 2C         2C CD         3F1CD841
+Sport Carbon  Reaper        2CCE        CE 2C         2C CE         4B3C8BA4
+Sport Carbon  Slingshot     2CCF        CF 2C         2C CF         D09940E5
+Tuner Carbon  Switchblade   2CD0        D0 2C         2C D0         55F5F626
+Sport Carbon  Groundmaster  2CD1        D1 2C         2C D1         BF08B380
+Tuner         Jorgen        2CD2        D2 2C         2C D2         F1DC6AD5
+Sport         Rocker 5      2CD3        D3 2C         2C D3         3ED6A796
+Tuner         Scarab        2CD4        D4 2C         2C D4         55E98198
+Sport         Fishtail      2CD5        D5 2C         2C D5         A2E3BE59
+Sport         Viper         2CD6        D6 2C         2C D6         EFDDFB1A
+Tuner         Lynx          2CD7        D7 2C         2C D7         89D2749C
+Tuner Carbon  Jorgen        2CD8        D8 2C         2C D8         2EF293BD
+Sport Carbon  Rocker 5      2CD9        D9 2C         2C D9         32FD24DE
+Tuner Carbon  Scarab        2CDA        DA 2C         2C DA         405AD7A0
+Sport Carbon  Fishtail      2CDB        DB 2C         2C DB         446568C1
+Sport Carbon  Viper         2CDC        DC 2C         2C DC         486FF9E2
+Tuner Carbon  Lynx          2CDD        DD 2C         2C DD         50851C24
+Sport         Ripper        2CDE        DE 2C         2C DE         BFB9D75B
+Tuner         Borra         2CDF        DF 2C         2C DF         59AE50DD
+Tuner         Ghost         2CE0        E0 2C         2C E0         912402F5
+Sport         Banshee       2CE1        E1 2C         2C E1         120732BA
+Tuner         Tornado       2CE2        E2 2C         2C E2         4B43445C
+Tuner         Fishtail      2CE3        E3 2C         2C E3         3231FA9F
+Sport Carbon  Ripper        2CE4        E4 2C         2C E4         4731FA83
+Tuner Carbon  Borra         2CE5        E5 2C         2C E5         4F471CC5
+Tuner Carbon  Ghost         2CE6        E6 2C         2C E6         B044B7DD
+Sport Carbon  Banshee       2CE7        E7 2C         2C E7         C4798D82
+Tuner Carbon  Tornado       2CE8        E8 2C         2C E8         4DE0D3E4
+Tuner Carbon  Fishtail      2CE9        E9 2C         2C E9         5A008747
+Sport         Airforce      2CEA        EA 2C         2C EA         8BD0E457
+Tuner         Wildfire      2CEB        EB 2C         2C EB         72BF9A9A
+Sport         Dragon        2CEC        EC 2C         2C EC         DE1E3FB6
+Tuner         Tandem        2CED        ED 2C         2C ED         7812B938
+Sport         Mystic        2CEE        EE 2C         2C EE         5F016F7B
+Tuner         Joker         2CEF        EF 2C         2C EF         3785193D
+Sport Carbon  Airforce      2CF0        F0 2C         2C F0         3707B5FF
+Tuner Carbon  Wildfire      2CF1        F1 2C         2C F1         43276962
+Sport Carbon  Dragon        2CF2        F2 2C         2C F2         B44F48FE
+Tuner Carbon  Tandem        2CF3        F3 2C         2C F3         BC646B40
+Sport Carbon  Mystic        2CF4        F4 2C         2C F4         C8841EA3
+Tuner Carbon  Joker         2CF5        F5 2C         2C F5         D33D8925
+Tuner         Venom         2CF6        F6 2C         2C F6         983D811D
+Tuner         Impact        2CF7        F7 2C         2C F7         69A7ACB7
+Tuner Carbon  Venom         2CF8        F8 2C         2C F8         51EB6505
+Tuner Carbon  Impact        2CF9        F9 2C         2C F9         BAFE225F
+Sport         Specter       2CFA        FA 2C         2C FA         ABFBAC3C
+Sport         Dynamo        2CFB        FB 2C         2C FB         9D909FBB
+Tuner         Phoenix       2CFC        FC 2C         2C FC         D17992BF
+Sport Carbon  Specter       2CFD        FD 2C         2C FD         CC8EAFC4
+Sport Carbon  Dynamo        2CFE        FE 2C         2C FE         CB2866E3
+Tuner Carbon  Phoenix       2CFF        FF 2C         2C FF         DB52AB67
+
+[Subaru Impreza WRX STi]
+Type          Name          Save Value  PC/PS2 Bytes  360/GC Bytes  Name Hash
+------------  ------------  ----------  ------------  ------------  ---------
+Stock         Stock         26DC        DC 26         26 DC         D4951955
+Tuner         Arrow         2659        59 26         26 59         45F08571
+Tuner         Barracuda     265A        5A 26         26 5A         45F08572
+Sport         Reaper        265B        5B 26         26 5B         45F08575
+Sport         Slingshot     265C        5C 26         26 5C         45F08596
+Tuner         Switchblade   265D        5D 26         26 5D         45F085D2
+Sport         Groundmaster  265E        5E 26         26 5E         45F085D1
+Tuner Carbon  Arrow         265F        5F 26         26 5F         091DF8D9
+Tuner Carbon  Barracuda     2660        60 26         26 60         091E853A
+Sport Carbon  Reaper        2661        61 26         26 61         09202A5D
+Sport Carbon  Slingshot     2662        62 26         26 62         093242DE
+Tuner Carbon  Switchblade   2663        63 26         26 63         0953299A
+Sport Carbon  Groundmaster  2664        64 26         26 64         09529D39
+Tuner         Jorgen        2665        65 26         26 65         45F0856E
+Sport         Rocker 5      2666        66 26         26 66         45F0856F
+Tuner         Scarab        2667        67 26         26 67         45F085F1
+Sport         Fishtail      2668        68 26         26 68         45F085F2
+Sport         Viper         2669        69 26         26 69         45F085F3
+Tuner         Lynx          266A        6A 26         26 6A         45F085F5
+Tuner Carbon  Jorgen        266B        6B 26         26 6B         091C53B6
+Sport Carbon  Rocker 5      266C        6C 26         26 6C         091CE017
+Tuner Carbon  Scarab        266D        6D 26         26 6D         09642959
+Sport Carbon  Fishtail      266E        6E 26         26 6E         0964B5BA
+Sport Carbon  Viper         266F        6F 26         26 6F         0965421B
+Tuner Carbon  Lynx          2670        70 26         26 70         09665ADD
+Sport         Ripper        2671        71 26         26 71         45F08574
+Tuner         Borra         2672        72 26         26 72         45F08576
+Tuner         Ghost         2673        73 26         26 73         45F0858E
+Sport         Banshee       2674        74 26         26 74         45F08593
+Tuner         Tornado       2675        75 26         26 75         45F085B5
+Tuner         Fishtail      2676        76 26         26 76         45F085B8
+Sport Carbon  Ripper        2677        77 26         26 77         091F9DFC
+Tuner Carbon  Borra         2678        78 26         26 78         0920B6BE
+Tuner Carbon  Ghost         2679        79 26         26 79         092DDFD6
+Sport Carbon  Banshee       267A        7A 26         26 7A         09309DBB
+Tuner Carbon  Tornado       267B        7B 26         26 7B         0943429D
+Tuner Carbon  Fishtail      267C        7C 26         26 7C         0944E7C0
+Sport         Airforce      267D        7D 26         26 7D         45F08570
+Tuner         Wildfire      267E        7E 26         26 7E         45F08573
+Sport         Dragon        267F        7F 26         26 7F         45F0858F
+Tuner         Tandem        2680        80 26         26 80         45F08591
+Sport         Mystic        2681        81 26         26 81         45F08594
+Tuner         Joker         2682        82 26         26 82         45F085D6
+Sport Carbon  Airforce      2683        83 26         26 83         091D6C78
+Tuner Carbon  Wildfire      2684        84 26         26 84         091F119B
+Sport Carbon  Dragon        2685        85 26         26 85         092E6C37
+Tuner Carbon  Tandem        2686        86 26         26 86         092F84F9
+Sport Carbon  Mystic        2687        87 26         26 87         09312A1C
+Tuner Carbon  Joker         2688        88 26         26 88         09555B1E
+Tuner         Venom         2689        89 26         26 89         45F085B6
+Tuner         Impact        268A        8A 26         26 8A         45F085D0
+Tuner Carbon  Venom         268B        8B 26         26 8B         0943CEFE
+Tuner Carbon  Impact        268C        8C 26         26 8C         095210D8
+Sport         Specter       268D        8D 26         26 8D         45F08595
+Sport         Dynamo        268E        8E 26         26 8E         45F085D4
+Tuner         Phoenix       268F        8F 26         26 8F         45F085D8
+Sport         Edge          2690        90 26         26 90         45F085F4
+Sport Carbon  Specter       2691        91 26         26 91         0931B67D
+Sport Carbon  Dynamo        2692        92 26         26 92         0954425C
+Tuner Carbon  Phoenix       2693        93 26         26 93         095673E0
+Sport Carbon  Edge          2694        94 26         26 94         0965CE7C
+
+[Toyota Supra]
+Type          Name          Save Value  PC/PS2 Bytes  360/GC Bytes  Name Hash
+------------  ------------  ----------  ------------  ------------  ---------
+Stock         Stock         1149        49 11         11 49         AF3CF6E7
+Tuner         Arrow         2659        59 26         26 59         45F08571
+Tuner         Barracuda     265A        5A 26         26 5A         45F08572
+Sport         Reaper        265B        5B 26         26 5B         45F08575
+Sport         Slingshot     265C        5C 26         26 5C         45F08596
+Tuner         Switchblade   265D        5D 26         26 5D         45F085D2
+Sport         Groundmaster  265E        5E 26         26 5E         45F085D1
+Tuner Carbon  Arrow         265F        5F 26         26 5F         091DF8D9
+Tuner Carbon  Barracuda     2660        60 26         26 60         091E853A
+Sport Carbon  Reaper        2661        61 26         26 61         09202A5D
+Sport Carbon  Slingshot     2662        62 26         26 62         093242DE
+Tuner Carbon  Switchblade   2663        63 26         26 63         0953299A
+Sport Carbon  Groundmaster  2664        64 26         26 64         09529D39
+Tuner         Jorgen        2665        65 26         26 65         45F0856E
+Sport         Rocker 5      2666        66 26         26 66         45F0856F
+Tuner         Scarab        2667        67 26         26 67         45F085F1
+Sport         Fishtail      2668        68 26         26 68         45F085F2
+Sport         Viper         2669        69 26         26 69         45F085F3
+Tuner         Lynx          266A        6A 26         26 6A         45F085F5
+Tuner Carbon  Jorgen        266B        6B 26         26 6B         091C53B6
+Sport Carbon  Rocker 5      266C        6C 26         26 6C         091CE017
+Tuner Carbon  Scarab        266D        6D 26         26 6D         09642959
+Sport Carbon  Fishtail      266E        6E 26         26 6E         0964B5BA
+Sport Carbon  Viper         266F        6F 26         26 6F         0965421B
+Tuner Carbon  Lynx          2670        70 26         26 70         09665ADD
+Sport         Ripper        2671        71 26         26 71         45F08574
+Tuner         Borra         2672        72 26         26 72         45F08576
+Tuner         Ghost         2673        73 26         26 73         45F0858E
+Sport         Banshee       2674        74 26         26 74         45F08593
+Tuner         Tornado       2675        75 26         26 75         45F085B5
+Tuner         Fishtail      2676        76 26         26 76         45F085B8
+Sport Carbon  Ripper        2677        77 26         26 77         091F9DFC
+Tuner Carbon  Borra         2678        78 26         26 78         0920B6BE
+Tuner Carbon  Ghost         2679        79 26         26 79         092DDFD6
+Sport Carbon  Banshee       267A        7A 26         26 7A         09309DBB
+Tuner Carbon  Tornado       267B        7B 26         26 7B         0943429D
+Tuner Carbon  Fishtail      267C        7C 26         26 7C         0944E7C0
+Sport         Airforce      267D        7D 26         26 7D         45F08570
+Tuner         Wildfire      267E        7E 26         26 7E         45F08573
+Sport         Dragon        267F        7F 26         26 7F         45F0858F
+Tuner         Tandem        2680        80 26         26 80         45F08591
+Sport         Mystic        2681        81 26         26 81         45F08594
+Tuner         Joker         2682        82 26         26 82         45F085D6
+Sport Carbon  Airforce      2683        83 26         26 83         091D6C78
+Tuner Carbon  Wildfire      2684        84 26         26 84         091F119B
+Sport Carbon  Dragon        2685        85 26         26 85         092E6C37
+Tuner Carbon  Tandem        2686        86 26         26 86         092F84F9
+Sport Carbon  Mystic        2687        87 26         26 87         09312A1C
+Tuner Carbon  Joker         2688        88 26         26 88         09555B1E
+Tuner         Venom         2689        89 26         26 89         45F085B6
+Tuner         Impact        268A        8A 26         26 8A         45F085D0
+Tuner Carbon  Venom         268B        8B 26         26 8B         0943CEFE
+Tuner Carbon  Impact        268C        8C 26         26 8C         095210D8
+Sport         Specter       268D        8D 26         26 8D         45F08595
+Sport         Dynamo        268E        8E 26         26 8E         45F085D4
+Tuner         Phoenix       268F        8F 26         26 8F         45F085D8
+Sport         Edge          2690        90 26         26 90         45F085F4
+Sport Carbon  Specter       2691        91 26         26 91         0931B67D
+Sport Carbon  Dynamo        2692        92 26         26 92         0954425C
+Tuner Carbon  Phoenix       2693        93 26         26 93         095673E0
+Sport Carbon  Edge          2694        94 26         26 94         0965CE7C
+
+[Vauxhall Monaro VXR]
+Type          Name          Save Value  PC/PS2 Bytes  360/GC Bytes  Name Hash
+------------  ------------  ----------  ------------  ------------  ---------
+Stock         Stock         2292        92 22         22 92         13C2F3C8
+Tuner         Arrow         2659        59 26         26 59         45F08571
+Tuner         Barracuda     265A        5A 26         26 5A         45F08572
+Sport         Reaper        265B        5B 26         26 5B         45F08575
+Sport         Slingshot     265C        5C 26         26 5C         45F08596
+Tuner         Switchblade   265D        5D 26         26 5D         45F085D2
+Sport         Groundmaster  265E        5E 26         26 5E         45F085D1
+Tuner Carbon  Arrow         265F        5F 26         26 5F         091DF8D9
+Tuner Carbon  Barracuda     2660        60 26         26 60         091E853A
+Sport Carbon  Reaper        2661        61 26         26 61         09202A5D
+Sport Carbon  Slingshot     2662        62 26         26 62         093242DE
+Tuner Carbon  Switchblade   2663        63 26         26 63         0953299A
+Sport Carbon  Groundmaster  2664        64 26         26 64         09529D39
+Tuner         Jorgen        2665        65 26         26 65         45F0856E
+Sport         Rocker 5      2666        66 26         26 66         45F0856F
+Tuner         Scarab        2667        67 26         26 67         45F085F1
+Sport         Fishtail      2668        68 26         26 68         45F085F2
+Sport         Viper         2669        69 26         26 69         45F085F3
+Tuner         Lynx          266A        6A 26         26 6A         45F085F5
+Tuner Carbon  Jorgen        266B        6B 26         26 6B         091C53B6
+Sport Carbon  Rocker 5      266C        6C 26         26 6C         091CE017
+Tuner Carbon  Scarab        266D        6D 26         26 6D         09642959
+Sport Carbon  Fishtail      266E        6E 26         26 6E         0964B5BA
+Sport Carbon  Viper         266F        6F 26         26 6F         0965421B
+Tuner Carbon  Lynx          2670        70 26         26 70         09665ADD
+Sport         Ripper        2671        71 26         26 71         45F08574
+Tuner         Borra         2672        72 26         26 72         45F08576
+Tuner         Ghost         2673        73 26         26 73         45F0858E
+Sport         Banshee       2674        74 26         26 74         45F08593
+Tuner         Tornado       2675        75 26         26 75         45F085B5
+Tuner         Fishtail      2676        76 26         26 76         45F085B8
+Sport Carbon  Ripper        2677        77 26         26 77         091F9DFC
+Tuner Carbon  Borra         2678        78 26         26 78         0920B6BE
+Tuner Carbon  Ghost         2679        79 26         26 79         092DDFD6
+Sport Carbon  Banshee       267A        7A 26         26 7A         09309DBB
+Tuner Carbon  Tornado       267B        7B 26         26 7B         0943429D
+Tuner Carbon  Fishtail      267C        7C 26         26 7C         0944E7C0
+Sport         Airforce      267D        7D 26         26 7D         45F08570
+Tuner         Wildfire      267E        7E 26         26 7E         45F08573
+Sport         Dragon        267F        7F 26         26 7F         45F0858F
+Tuner         Tandem        2680        80 26         26 80         45F08591
+Sport         Mystic        2681        81 26         26 81         45F08594
+Tuner         Joker         2682        82 26         26 82         45F085D6
+Sport Carbon  Airforce      2683        83 26         26 83         091D6C78
+Tuner Carbon  Wildfire      2684        84 26         26 84         091F119B
+Sport Carbon  Dragon        2685        85 26         26 85         092E6C37
+Tuner Carbon  Tandem        2686        86 26         26 86         092F84F9
+Sport Carbon  Mystic        2687        87 26         26 87         09312A1C
+Tuner Carbon  Joker         2688        88 26         26 88         09555B1E
+Tuner         Venom         2689        89 26         26 89         45F085B6
+Tuner         Impact        268A        8A 26         26 8A         45F085D0
+Tuner Carbon  Venom         268B        8B 26         26 8B         0943CEFE
+Tuner Carbon  Impact        268C        8C 26         26 8C         095210D8
+Sport         Specter       268D        8D 26         26 8D         45F08595
+Sport         Dynamo        268E        8E 26         26 8E         45F085D4
+Tuner         Phoenix       268F        8F 26         26 8F         45F085D8
+Sport         Edge          2690        90 26         26 90         45F085F4
+Sport Carbon  Specter       2691        91 26         26 91         0931B67D
+Sport Carbon  Dynamo        2692        92 26         26 92         0954425C
+Tuner Carbon  Phoenix       2693        93 26         26 93         095673E0
+Sport Carbon  Edge          2694        94 26         26 94         0965CE7C
+
+[Volkswagen Golf GTI]
+Type          Name          Save Value  PC/PS2 Bytes  360/GC Bytes  Name Hash
+------------  ------------  ----------  ------------  ------------  ---------
+Stock         Stock         0402        02 04         04 02         B8A20820
+Tuner         Arrow         2CC6        C6 2C         2C C6         D8CB2118
+Tuner         Barracuda     2CC7        C7 2C         2C C7         25C55DD9
+Sport         Reaper        2CC8        C8 2C         2C C8         0CB4141C
+Sport         Slingshot     2CC9        C9 2C         2C C9         F8F5E8FD
+Tuner         Switchblade   2CCA        CA 2C         2C CA         E537BDDE
+Sport         Groundmaster  2CCB        CB 2C         2C CB         B6A1E978
+Tuner Carbon  Arrow         2CCC        CC 2C         2C CC         3B124720
+Tuner Carbon  Barracuda     2CCD        CD 2C         2C CD         3F1CD841
+Sport Carbon  Reaper        2CCE        CE 2C         2C CE         4B3C8BA4
+Sport Carbon  Slingshot     2CCF        CF 2C         2C CF         D09940E5
+Tuner Carbon  Switchblade   2CD0        D0 2C         2C D0         55F5F626
+Sport Carbon  Groundmaster  2CD1        D1 2C         2C D1         BF08B380
+Tuner         Jorgen        2CD2        D2 2C         2C D2         F1DC6AD5
+Sport         Rocker 5      2CD3        D3 2C         2C D3         3ED6A796
+Tuner         Scarab        2CD4        D4 2C         2C D4         55E98198
+Sport         Fishtail      2CD5        D5 2C         2C D5         A2E3BE59
+Sport         Viper         2CD6        D6 2C         2C D6         EFDDFB1A
+Tuner         Lynx          2CD7        D7 2C         2C D7         89D2749C
+Tuner Carbon  Jorgen        2CD8        D8 2C         2C D8         2EF293BD
+Sport Carbon  Rocker 5      2CD9        D9 2C         2C D9         32FD24DE
+Tuner Carbon  Scarab        2CDA        DA 2C         2C DA         405AD7A0
+Sport Carbon  Fishtail      2CDB        DB 2C         2C DB         446568C1
+Sport Carbon  Viper         2CDC        DC 2C         2C DC         486FF9E2
+Tuner Carbon  Lynx          2CDD        DD 2C         2C DD         50851C24
+Sport         Ripper        2CDE        DE 2C         2C DE         BFB9D75B
+Tuner         Borra         2CDF        DF 2C         2C DF         59AE50DD
+Tuner         Ghost         2CE0        E0 2C         2C E0         912402F5
+Sport         Banshee       2CE1        E1 2C         2C E1         120732BA
+Tuner         Tornado       2CE2        E2 2C         2C E2         4B43445C
+Tuner         Fishtail      2CE3        E3 2C         2C E3         3231FA9F
+Sport Carbon  Ripper        2CE4        E4 2C         2C E4         4731FA83
+Tuner Carbon  Borra         2CE5        E5 2C         2C E5         4F471CC5
+Tuner Carbon  Ghost         2CE6        E6 2C         2C E6         B044B7DD
+Sport Carbon  Banshee       2CE7        E7 2C         2C E7         C4798D82
+Tuner Carbon  Tornado       2CE8        E8 2C         2C E8         4DE0D3E4
+Tuner Carbon  Fishtail      2CE9        E9 2C         2C E9         5A008747
+Sport         Airforce      2CEA        EA 2C         2C EA         8BD0E457
+Tuner         Wildfire      2CEB        EB 2C         2C EB         72BF9A9A
+Sport         Dragon        2CEC        EC 2C         2C EC         DE1E3FB6
+Tuner         Tandem        2CED        ED 2C         2C ED         7812B938
+Sport         Mystic        2CEE        EE 2C         2C EE         5F016F7B
+Tuner         Joker         2CEF        EF 2C         2C EF         3785193D
+Sport Carbon  Airforce      2CF0        F0 2C         2C F0         3707B5FF
+Tuner Carbon  Wildfire      2CF1        F1 2C         2C F1         43276962
+Sport Carbon  Dragon        2CF2        F2 2C         2C F2         B44F48FE
+Tuner Carbon  Tandem        2CF3        F3 2C         2C F3         BC646B40
+Sport Carbon  Mystic        2CF4        F4 2C         2C F4         C8841EA3
+Tuner Carbon  Joker         2CF5        F5 2C         2C F5         D33D8925
+Tuner         Venom         2CF6        F6 2C         2C F6         983D811D
+Tuner         Impact        2CF7        F7 2C         2C F7         69A7ACB7
+Tuner Carbon  Venom         2CF8        F8 2C         2C F8         51EB6505
+Tuner Carbon  Impact        2CF9        F9 2C         2C F9         BAFE225F
+Sport         Specter       2CFA        FA 2C         2C FA         ABFBAC3C
+Sport         Dynamo        2CFB        FB 2C         2C FB         9D909FBB
+Tuner         Phoenix       2CFC        FC 2C         2C FC         D17992BF
+Sport Carbon  Specter       2CFD        FD 2C         2C FD         CC8EAFC4
+Sport Carbon  Dynamo        2CFE        FE 2C         2C FE         CB2866E3
+Tuner Carbon  Phoenix       2CFF        FF 2C         2C FF         DB52AB67
+

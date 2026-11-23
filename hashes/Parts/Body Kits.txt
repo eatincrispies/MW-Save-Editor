@@ -1,0 +1,336 @@
+Body Kits
+=========
+
+Put the 2-byte Save Value in part slot 23.
+These values are for the unmodded game. Mods that add parts can shift them.
+
+[Aston Martin DB9]
+Type  Name    Save Value  PC/PS2 Bytes  360/GC Bytes  Name Hash
+----  ------  ----------  ------------  ------------  ---------
+      Stock   0329        29 03         03 29         588C0B92
+      Body 1  032A        2A 03         03 2A         588C0B93
+      Body 2  032B        2B 03         03 2B         588C0B94
+      Body 3  032C        2C 03         03 2C         588C0B95
+      Body 4  032D        2D 03         03 2D         588C0B96
+      Body 5  032E        2E 03         03 2E         588C0B97
+
+[Audi A3 3.2 quattro]
+Type  Name    Save Value  PC/PS2 Bytes  360/GC Bytes  Name Hash
+----  ------  ----------  ------------  ------------  ---------
+      Stock   002D        2D 00         00 2D         8E70B727
+      Body 1  002E        2E 00         00 2E         8E70B728
+      Body 2  002F        2F 00         00 2F         8E70B729
+      Body 3  0030        30 00         00 30         8E70B72A
+      Body 4  0031        31 00         00 31         8E70B72B
+      Body 5  0032        32 00         00 32         8E70B72C
+
+[Audi A4 3.2 FSI quattro]
+Type  Name    Save Value  PC/PS2 Bytes  360/GC Bytes  Name Hash
+----  ------  ----------  ------------  ------------  ---------
+      Stock   00EC        EC 00         00 EC         BF641488
+      Body 1  00ED        ED 00         00 ED         BF641489
+      Body 2  00EE        EE 00         00 EE         BF64148A
+      Body 3  00EF        EF 00         00 EF         BF64148B
+      Body 4  00F0        F0 00         00 F0         BF64148C
+      Body 5  00F1        F1 00         00 F1         BF64148D
+
+[Audi TT 3.2 quattro]
+Type  Name    Save Value  PC/PS2 Bytes  360/GC Bytes  Name Hash
+----  ------  ----------  ------------  ------------  ---------
+      Stock   01AB        AB 01         01 AB         C1DD753B
+      Body 1  01AC        AC 01         01 AC         C1DD753C
+      Body 2  01AD        AD 01         01 AD         C1DD753D
+      Body 3  01AE        AE 01         01 AE         C1DD753E
+      Body 4  01AF        AF 01         01 AF         C1DD753F
+      Body 5  01B0        B0 01         01 B0         C1DD7540
+
+[BMW M3 GTR]
+Type  Name    Save Value  PC/PS2 Bytes  360/GC Bytes  Name Hash
+----  ------  ----------  ------------  ------------  ---------
+      Stock   1407        07 14         14 07         804DA255
+
+[BMW M3 GTR (Street)]
+Type  Name    Save Value  PC/PS2 Bytes  360/GC Bytes  Name Hash
+----  ------  ----------  ------------  ------------  ---------
+      Stock   21B9        B9 21         21 B9         8E197286
+
+[Cadillac CTS]
+Type  Name    Save Value  PC/PS2 Bytes  360/GC Bytes  Name Hash
+----  ------  ----------  ------------  ------------  ---------
+      Stock   026A        6A 02         02 6A         AAB1F8DD
+      Body 1  026B        6B 02         02 6B         AAB1F8DE
+      Body 2  026C        6C 02         02 6C         AAB1F8DF
+      Body 3  026D        6D 02         02 6D         AAB1F8E0
+      Body 4  026E        6E 02         02 6E         AAB1F8E1
+
+[Chevrolet Camaro SS]
+Type  Name    Save Value  PC/PS2 Bytes  360/GC Bytes  Name Hash
+----  ------  ----------  ------------  ------------  ---------
+      Stock   1A29        29 1A         1A 29         2BD81026
+
+[Chevrolet Cobalt SS]
+Type  Name    Save Value  PC/PS2 Bytes  360/GC Bytes  Name Hash
+----  ------  ----------  ------------  ------------  ---------
+      Stock   247E        7E 24         24 7E         5293C54E
+      Body 1  247F        7F 24         24 7F         5293C54F
+      Body 2  2480        80 24         24 80         5293C550
+      Body 3  2481        81 24         24 81         5293C551
+      Body 4  2482        82 24         24 82         5293C552
+      Body 5  2483        83 24         24 83         5293C553
+
+[Chevrolet Corvette C6]
+Type  Name    Save Value  PC/PS2 Bytes  360/GC Bytes  Name Hash
+----  ------  ----------  ------------  ------------  ---------
+      Stock   2C34        34 2C         2C 34         ABA9EEBF
+      Body 1  2C35        35 2C         2C 35         ABA9EEC0
+      Body 2  2C36        36 2C         2C 36         ABA9EEC1
+      Body 3  2C37        37 2C         2C 37         ABA9EEC2
+      Body 4  2C38        38 2C         2C 38         ABA9EEC3
+
+[Chevrolet Corvette C6.R]
+Type  Name    Save Value  PC/PS2 Bytes  360/GC Bytes  Name Hash
+----  ------  ----------  ------------  ------------  ---------
+      Stock   17AC        AC 17         17 AC         3AD7B64A
+
+[Dodge Viper SRT-10]
+Type  Name    Save Value  PC/PS2 Bytes  360/GC Bytes  Name Hash
+----  ------  ----------  ------------  ------------  ---------
+      Stock   1289        89 12         12 89         8F168B79
+      Body 1  128A        8A 12         12 8A         8F168B7A
+      Body 2  128B        8B 12         12 8B         8F168B7B
+      Body 3  128C        8C 12         12 8C         8F168B7C
+      Body 4  128D        8D 12         12 8D         8F168B7D
+
+[Fiat Punto]
+Type  Name    Save Value  PC/PS2 Bytes  360/GC Bytes  Name Hash
+----  ------  ----------  ------------  ------------  ---------
+      Stock   0FB1        B1 0F         0F B1         8A67D069
+      Body 1  0FB2        B2 0F         0F B2         8A67D06A
+      Body 2  0FB3        B3 0F         0F B3         8A67D06B
+      Body 3  0FB4        B4 0F         0F B4         8A67D06C
+      Body 4  0FB5        B5 0F         0F B5         8A67D06D
+
+[Ford GT]
+Type  Name    Save Value  PC/PS2 Bytes  360/GC Bytes  Name Hash
+----  ------  ----------  ------------  ------------  ---------
+      Stock   1F65        65 1F         1F 65         FD1F0479
+      Body 1  1F66        66 1F         1F 66         FD1F047A
+      Body 2  1F67        67 1F         1F 67         FD1F047B
+
+[Ford Mustang GT]
+Type  Name    Save Value  PC/PS2 Bytes  360/GC Bytes  Name Hash
+----  ------  ----------  ------------  ------------  ---------
+      Stock   186B        6B 18         18 6B         6D47632D
+      Body 1  186C        6C 18         18 6C         6D47632E
+      Body 2  186D        6D 18         18 6D         6D47632F
+      Body 3  186E        6E 18         18 6E         6D476330
+      Body 4  186F        6F 18         18 6F         6D476331
+      Body 5  1870        70 18         18 70         6D476332
+
+[Lamborghini Gallardo]
+Type  Name    Save Value  PC/PS2 Bytes  360/GC Bytes  Name Hash
+----  ------  ----------  ------------  ------------  ---------
+      Stock   1AE8        E8 1A         1A E8         6EA1C699
+      Body 1  1AE9        E9 1A         1A E9         6EA1C69A
+      Body 2  1AEA        EA 1A         1A EA         6EA1C69B
+      Body 3  1AEB        EB 1A         1A EB         6EA1C69C
+      Body 4  1AEC        EC 1A         1A EC         6EA1C69D
+
+[Lamborghini Murcielago]
+Type  Name    Save Value  PC/PS2 Bytes  360/GC Bytes  Name Hash
+----  ------  ----------  ------------  ------------  ---------
+      Stock   2862        62 28         28 62         5C7E635B
+      Body 1  2863        63 28         28 63         5C7E635C
+      Body 2  2864        64 28         28 64         5C7E635D
+
+[Lexus IS 300]
+Type  Name    Save Value  PC/PS2 Bytes  360/GC Bytes  Name Hash
+----  ------  ----------  ------------  ------------  ---------
+      Stock   0D85        85 0D         0D 85         97C932E2
+      Body 1  0D86        86 0D         0D 86         97C932E3
+      Body 2  0D87        87 0D         0D 87         97C932E4
+      Body 3  0D88        88 0D         0D 88         97C932E5
+      Body 4  0D89        89 0D         0D 89         97C932E6
+
+[Lotus Elise]
+Type  Name    Save Value  PC/PS2 Bytes  360/GC Bytes  Name Hash
+----  ------  ----------  ------------  ------------  ---------
+      Stock   0CC6        C6 0C         0C C6         E57A8485
+      Body 1  0CC7        C7 0C         0C C7         E57A8486
+      Body 2  0CC8        C8 0C         0C C8         E57A8487
+      Body 3  0CC9        C9 0C         0C C9         E57A8488
+      Body 4  0CCA        CA 0C         0C CA         E57A8489
+      Body 5  0CCB        CB 0C         0C CB         E57A848A
+
+[Mazda RX-7]
+Type  Name    Save Value  PC/PS2 Bytes  360/GC Bytes  Name Hash
+----  ------  ----------  ------------  ------------  ---------
+      Stock   0566        66 05         05 66         065348B4
+      Body 1  0567        67 05         05 67         065348B5
+      Body 2  0568        68 05         05 68         065348B6
+      Body 3  0569        69 05         05 69         065348B7
+      Body 4  056A        6A 05         05 6A         065348B8
+      Body 5  056B        6B 05         05 6B         065348B9
+
+[Mazda RX-8]
+Type  Name    Save Value  PC/PS2 Bytes  360/GC Bytes  Name Hash
+----  ------  ----------  ------------  ------------  ---------
+      Stock   0625        25 06         06 25         3746A615
+      Body 1  0626        26 06         06 26         3746A616
+      Body 2  0627        27 06         06 27         3746A617
+      Body 3  0628        28 06         06 28         3746A618
+      Body 4  0629        29 06         06 29         3746A619
+      Body 5  062A        2A 06         06 2A         3746A61A
+
+[Mercedes-Benz CLK 500]
+Type  Name    Save Value  PC/PS2 Bytes  360/GC Bytes  Name Hash
+----  ------  ----------  ------------  ------------  ---------
+      Stock   1BA7        A7 1B         1B A7         2C778FE2
+      Body 1  1BA8        A8 1B         1B A8         2C778FE3
+      Body 2  1BA9        A9 1B         1B A9         2C778FE4
+      Body 3  1BAA        AA 1B         1B AA         2C778FE5
+      Body 4  1BAB        AB 1B         1B AB         2C778FE6
+      Body 5  1BAC        AC 1B         1B AC         2C778FE7
+
+[Mercedes-Benz SL 500]
+Type  Name    Save Value  PC/PS2 Bytes  360/GC Bytes  Name Hash
+----  ------  ----------  ------------  ------------  ---------
+      Stock   1070        70 10         10 70         116920A7
+      Body 1  1071        71 10         10 71         116920A8
+      Body 2  1072        72 10         10 72         116920A9
+      Body 3  1073        73 10         10 73         116920AA
+      Body 4  1074        74 10         10 74         116920AB
+      Body 5  1075        75 10         10 75         116920AC
+
+[Mercedes-Benz SL 65 AMG]
+Type  Name    Save Value  PC/PS2 Bytes  360/GC Bytes  Name Hash
+----  ------  ----------  ------------  ------------  ---------
+      Stock   0A3A        3A 0A         0A 3A         3D86CE7D
+
+[Mercedes-Benz SLR McLaren]
+Type  Name    Save Value  PC/PS2 Bytes  360/GC Bytes  Name Hash
+----  ------  ----------  ------------  ------------  ---------
+      Stock   06E4        E4 06         06 E4         B2C9E984
+      Body 1  06E5        E5 06         06 E5         B2C9E985
+      Body 2  06E6        E6 06         06 E6         B2C9E986
+
+[Mitsubishi Eclipse GT]
+Type  Name    Save Value  PC/PS2 Bytes  360/GC Bytes  Name Hash
+----  ------  ----------  ------------  ------------  ---------
+      Stock   253D        3D 25         25 3D         3BBD0453
+      Body 1  253E        3E 25         25 3E         3BBD0454
+      Body 2  253F        3F 25         25 3F         3BBD0455
+      Body 3  2540        40 25         25 40         3BBD0456
+      Body 4  2541        41 25         25 41         3BBD0457
+      Body 5  2542        42 25         25 42         3BBD0458
+
+[Mitsubishi Lancer Evolution VIII]
+Type  Name    Save Value  PC/PS2 Bytes  360/GC Bytes  Name Hash
+----  ------  ----------  ------------  ------------  ---------
+      Stock   1348        48 13         13 48         22AF36EA
+      Body 1  1349        49 13         13 49         22AF36EB
+      Body 2  134A        4A 13         13 4A         22AF36EC
+      Body 3  134B        4B 13         13 4B         22AF36ED
+      Body 4  134C        4C 13         13 4C         22AF36EE
+      Body 5  134D        4D 13         13 4D         22AF36EF
+
+[Pontiac GTO]
+Type  Name    Save Value  PC/PS2 Bytes  360/GC Bytes  Name Hash
+----  ------  ----------  ------------  ------------  ---------
+      Stock   04A7        A7 04         04 A7         D3E569DD
+      Body 1  04A8        A8 04         04 A8         D3E569DE
+      Body 2  04A9        A9 04         04 A9         D3E569DF
+      Body 3  04AA        AA 04         04 AA         D3E569E0
+      Body 4  04AB        AB 04         04 AB         D3E569E1
+      Body 5  04AC        AC 04         04 AC         D3E569E2
+
+[Porsche 911 Carrera S]
+Type  Name    Save Value  PC/PS2 Bytes  360/GC Bytes  Name Hash
+----  ------  ----------  ------------  ------------  ---------
+      Stock   07A3        A3 07         07 A3         4E655CCF
+      Body 1  07A4        A4 07         07 A4         4E655CD0
+      Body 2  07A5        A5 07         07 A5         4E655CD1
+      Body 3  07A6        A6 07         07 A6         4E655CD2
+      Body 4  07A7        A7 07         07 A7         4E655CD3
+      Body 5  07A8        A8 07         07 A8         4E655CD4
+
+[Porsche 911 GT2]
+Type  Name    Save Value  PC/PS2 Bytes  360/GC Bytes  Name Hash
+----  ------  ----------  ------------  ------------  ---------
+      Stock   192A        2A 19         19 2A         46E0B5BB
+
+[Porsche 911 Turbo S]
+Type  Name    Save Value  PC/PS2 Bytes  360/GC Bytes  Name Hash
+----  ------  ----------  ------------  ------------  ---------
+      Stock   1EA6        A6 1E         1E A6         E8D2E5FA
+      Body 1  1EA7        A7 1E         1E A7         E8D2E5FB
+      Body 2  1EA8        A8 1E         1E A8         E8D2E5FC
+      Body 3  1EA9        A9 1E         1E A9         E8D2E5FD
+      Body 4  1EAA        AA 1E         1E AA         E8D2E5FE
+
+[Porsche Carrera GT]
+Type  Name    Save Value  PC/PS2 Bytes  360/GC Bytes  Name Hash
+----  ------  ----------  ------------  ------------  ---------
+      Stock   2938        38 29         29 38         E956A4EE
+      Body 1  2939        39 29         29 39         E956A4EF
+      Body 2  293A        3A 29         29 3A         E956A4F0
+
+[Porsche Cayman S]
+Type  Name    Save Value  PC/PS2 Bytes  360/GC Bytes  Name Hash
+----  ------  ----------  ------------  ------------  ---------
+      Stock   27A3        A3 27         27 A3         3E77D33F
+      Body 1  27A4        A4 27         27 A4         3E77D340
+      Body 2  27A5        A5 27         27 A5         3E77D341
+      Body 3  27A6        A6 27         27 A6         3E77D342
+      Body 4  27A7        A7 27         27 A7         3E77D343
+      Body 5  27A8        A8 27         27 A8         3E77D344
+
+[Renault Clio V6]
+Type  Name    Save Value  PC/PS2 Bytes  360/GC Bytes  Name Hash
+----  ------  ----------  ------------  ------------  ---------
+      Stock   0862        62 08         08 62         E5D522DA
+      Body 1  0863        63 08         08 63         E5D522DB
+      Body 2  0864        64 08         08 64         E5D522DC
+      Body 3  0865        65 08         08 65         E5D522DD
+      Body 4  0866        66 08         08 66         E5D522DE
+      Body 5  0867        67 08         08 67         E5D522DF
+
+[Subaru Impreza WRX STi]
+Type  Name    Save Value  PC/PS2 Bytes  360/GC Bytes  Name Hash
+----  ------  ----------  ------------  ------------  ---------
+      Stock   26C2        C2 26         26 C2         32B3BAAC
+      Body 1  26C3        C3 26         26 C3         32B3BAAD
+      Body 2  26C4        C4 26         26 C4         32B3BAAE
+      Body 3  26C5        C5 26         26 C5         32B3BAAF
+      Body 4  26C6        C6 26         26 C6         32B3BAB0
+      Body 5  26C7        C7 26         26 C7         32B3BAB1
+
+[Toyota Supra]
+Type  Name    Save Value  PC/PS2 Bytes  360/GC Bytes  Name Hash
+----  ------  ----------  ------------  ------------  ---------
+      Stock   112F        2F 11         11 2F         D97A86FE
+      Body 1  1130        30 11         11 30         D97A86FF
+      Body 2  1131        31 11         11 31         D97A8700
+      Body 3  1132        32 11         11 32         D97A8701
+      Body 4  1133        33 11         11 33         D97A8702
+      Body 5  1134        34 11         11 34         D97A8703
+
+[Vauxhall Monaro VXR]
+Type  Name    Save Value  PC/PS2 Bytes  360/GC Bytes  Name Hash
+----  ------  ----------  ------------  ------------  ---------
+      Stock   2278        78 22         22 78         368A643F
+      Body 1  2279        79 22         22 79         368A6440
+      Body 2  227A        7A 22         22 7A         368A6441
+      Body 3  227B        7B 22         22 7B         368A6442
+      Body 4  227C        7C 22         22 7C         368A6443
+      Body 5  227D        7D 22         22 7D         368A6444
+
+[Volkswagen Golf GTI]
+Type  Name    Save Value  PC/PS2 Bytes  360/GC Bytes  Name Hash
+----  ------  ----------  ------------  ------------  ---------
+      Stock   03E8        E8 03         03 E8         AE313997
+      Body 1  03E9        E9 03         03 E9         AE313998
+      Body 2  03EA        EA 03         03 EA         AE313999
+      Body 3  03EB        EB 03         03 EB         AE31399A
+      Body 4  03EC        EC 03         03 EC         AE31399B
+

@@ -1,0 +1,1284 @@
+Hoods
+=====
+
+Put the 2-byte Save Value in part slot 63.
+These values are for the unmodded game. Mods that add parts can shift them.
+
+[Aston Martin DB9]
+Type      Name       Save Value  PC/PS2 Bytes  360/GC Bytes  Name Hash
+--------  ---------  ----------  ------------  ------------  ---------
+Stock     Stock      0379        79 03         03 79         C5D0E9CE
+Standard  Overdial   037A        7A 03         03 7A         A8B0DA3D
+Standard  Trident    037B        7B 03         03 7B         AB0602DE
+Standard  Fusion     037C        7C 03         03 7C         EEAB9D1B
+Standard  Colix      037D        7D 03         03 7D         F5AB16FE
+Standard  Airomax    037E        7E 03         03 7E         F8003F9F
+Standard  DJM Hyde   037F        7F 03         03 7F         34A65FF9
+Standard  Double-V   0380        80 03         03 80         9F5C37B9
+Standard  Tri-Slot   0381        81 03         03 81         A1B1605A
+Standard  Speed      0382        82 03         03 82         A40688FB
+Standard  Factor X   0383        83 03         03 83         3BA5D9DC
+Standard  Speedline  0384        84 03         03 84         42A553BF
+Standard  Tremor     0385        85 03         03 85         864AEDFC
+Carbon    Overdial   0386        86 03         03 86         A25DAA25
+Carbon    Trident    0387        87 03         03 87         16DA1B26
+Carbon    Fusion     0388        88 03         03 88         48F2E843
+Carbon    Colix      0389        89 03         03 89         A6683B46
+Carbon    Airomax    038A        8A 03         03 8A         1AE4AC47
+Carbon    DJM Hyde   038B        8B 03         03 8B         EF882661
+Standard  G-Force    038C        8C 03         03 8C         A65BB19C
+Standard  Mongoose   038D        8D 03         03 8D         AFB05420
+Standard  Twister    038E        8E 03         03 8E         E7AC2338
+Standard  Eraser     038F        8F 03         03 8F         36FB889A
+Standard  Tsunami    0390        90 03         03 90         83F5C55B
+Carbon    Double-V   0391        91 03         03 91         D06BE621
+Carbon    Tri-Slot   0392        92 03         03 92         44E85722
+Carbon    Speed      0393        93 03         03 93         B964C823
+Carbon    Factor X   0394        94 03         03 94         4CFD7964
+Carbon    Speedline  0395        95 03         03 95         AA72CC67
+Carbon    Tremor     0396        96 03         03 96         DC8B9984
+Carbon    G-Force    0397        97 03         03 97         2DE13924
+Carbon    Mongoose   0398        98 03         03 98         FFD2FD28
+Carbon    Eraser     0399        99 03         03 99         64049762
+Carbon    Twister    039A        9A 03         03 9A         EB7D9540
+Carbon    Tsunami    039B        9B 03         03 9B         680F2883
+
+[Audi A3 3.2 quattro]
+Type      Name       Save Value  PC/PS2 Bytes  360/GC Bytes  Name Hash
+--------  ---------  ----------  ------------  ------------  ---------
+Stock     Stock      007D        7D 00         00 7D         FBB59563
+Standard  Overdial   007E        7E 00         00 7E         EA6EBF12
+Standard  Trident    007F        7F 00         00 7F         ECC3E7B3
+Standard  Fusion     0080        80 00         00 80         306981F0
+Standard  Colix      0081        81 00         00 81         3768FBD3
+Standard  Airomax    0082        82 00         00 82         39BE2474
+Standard  DJM Hyde   0083        83 00         00 83         766444CE
+Standard  Double-V   0084        84 00         00 84         E11A1C8E
+Standard  Tri-Slot   0085        85 00         00 85         E36F452F
+Standard  Speed      0086        86 00         00 86         E5C46DD0
+Standard  Factor X   0087        87 00         00 87         7D63BEB1
+Standard  Speedline  0088        88 00         00 88         84633894
+Standard  Tremor     0089        89 00         00 89         C808D2D1
+Carbon    Overdial   008A        8A 00         00 8A         6475DADA
+Carbon    Trident    008B        8B 00         00 8B         D8F24BDB
+Carbon    Fusion     008C        8C 00         00 8C         0B0B18F8
+Carbon    Colix      008D        8D 00         00 8D         68806BFB
+Carbon    Airomax    008E        8E 00         00 8E         DCFCDCFC
+Carbon    DJM Hyde   008F        8F 00         00 8F         B1A05716
+Standard  G-Force    0090        90 00         00 90         E8199671
+Standard  Mongoose   0091        91 00         00 91         F16E38F5
+Standard  Twister    0092        92 00         00 92         296A080D
+Standard  Eraser     0093        93 00         00 93         78B96D6F
+Standard  Tsunami    0094        94 00         00 94         C5B3AA30
+Carbon    Double-V   0095        95 00         00 95         928416D6
+Carbon    Tri-Slot   0096        96 00         00 96         070087D7
+Carbon    Speed      0097        97 00         00 97         7B7CF8D8
+Carbon    Factor X   0098        98 00         00 98         0F15AA19
+Carbon    Speedline  0099        99 00         00 99         6C8AFD1C
+Carbon    Tremor     009A        9A 00         00 9A         9EA3CA39
+Carbon    G-Force    009B        9B 00         00 9B         EFF969D9
+Carbon    Mongoose   009C        9C 00         00 9C         C1EB2DDD
+Carbon    Eraser     009D        9D 00         00 9D         261CC817
+Carbon    Twister    009E        9E 00         00 9E         AD95C5F5
+Carbon    Tsunami    009F        9F 00         00 9F         2A275938
+
+[Audi A4 3.2 FSI quattro]
+Type      Name       Save Value  PC/PS2 Bytes  360/GC Bytes  Name Hash
+--------  ---------  ----------  ------------  ------------  ---------
+Stock     Stock      013C        3C 01         01 3C         2CA8F2C4
+Standard  Overdial   013D        3D 01         01 3D         25AEF8B3
+Standard  Trident    013E        3E 01         01 3E         28042154
+Standard  Fusion     013F        3F 01         01 3F         6BA9BB91
+Standard  Colix      0140        40 01         01 40         72A93574
+Standard  Airomax    0141        41 01         01 41         74FE5E15
+Standard  DJM Hyde   0142        42 01         01 42         B1A47E6F
+Standard  Double-V   0143        43 01         01 43         1C5A562F
+Standard  Tri-Slot   0144        44 01         01 44         1EAF7ED0
+Standard  Speed      0145        45 01         01 45         2104A771
+Standard  Factor X   0146        46 01         01 46         B8A3F852
+Standard  Speedline  0147        47 01         01 47         BFA37235
+Standard  Tremor     0148        48 01         01 48         03490C72
+Carbon    Overdial   0149        49 01         01 49         F74FBCDB
+Carbon    Trident    014A        4A 01         01 4A         6BCC2DDC
+Carbon    Fusion     014B        4B 01         01 4B         9DE4FAF9
+Carbon    Colix      014C        4C 01         01 4C         FB5A4DFC
+Carbon    Airomax    014D        4D 01         01 4D         6FD6BEFD
+Carbon    DJM Hyde   014E        4E 01         01 4E         447A3917
+Standard  G-Force    014F        4F 01         01 4F         2359D012
+Standard  Mongoose   0150        50 01         01 50         2CAE7296
+Standard  Twister    0151        51 01         01 51         64AA41AE
+Standard  Eraser     0152        52 01         01 52         B3F9A710
+Standard  Tsunami    0153        53 01         01 53         00F3E3D1
+Carbon    Double-V   0154        54 01         01 54         255DF8D7
+Carbon    Tri-Slot   0155        55 01         01 55         99DA69D8
+Carbon    Speed      0156        56 01         01 56         0E56DAD9
+Carbon    Factor X   0157        57 01         01 57         A1EF8C1A
+Carbon    Speedline  0158        58 01         01 58         FF64DF1D
+Carbon    Tremor     0159        59 01         01 59         317DAC3A
+Carbon    G-Force    015A        5A 01         01 5A         82D34BDA
+Carbon    Mongoose   015B        5B 01         01 5B         54C50FDE
+Carbon    Eraser     015C        5C 01         01 5C         B8F6AA18
+Carbon    Twister    015D        5D 01         01 5D         406FA7F6
+Carbon    Tsunami    015E        5E 01         01 5E         BD013B39
+
+[Audi TT 3.2 quattro]
+Type      Name       Save Value  PC/PS2 Bytes  360/GC Bytes  Name Hash
+--------  ---------  ----------  ------------  ------------  ---------
+Stock     Stock      01FB        FB 01         01 FB         2F225377
+Standard  Overdial   01FC        FC 01         01 FC         AC035226
+Standard  Trident    01FD        FD 01         01 FD         AE587AC7
+Standard  Fusion     01FE        FE 01         01 FE         F1FE1504
+Standard  Colix      01FF        FF 01         01 FF         F8FD8EE7
+Standard  Airomax    0200        00 02         02 00         FB52B788
+Standard  DJM Hyde   0201        01 02         02 01         37F8D7E2
+Standard  Double-V   0202        02 02         02 02         A2AEAFA2
+Standard  Tri-Slot   0203        03 02         02 03         A503D843
+Standard  Speed      0204        04 02         02 04         A75900E4
+Standard  Factor X   0205        05 02         02 05         3EF851C5
+Standard  Speedline  0206        06 02         02 06         45F7CBA8
+Standard  Tremor     0207        07 02         02 07         899D65E5
+Carbon    Overdial   0208        08 02         02 08         FE30856E
+Carbon    Trident    0209        09 02         02 09         72ACF66F
+Carbon    Fusion     020A        0A 02         02 0A         A4C5C38C
+Carbon    Colix      020B        0B 02         02 0B         023B168F
+Carbon    Airomax    020C        0C 02         02 0C         76B78790
+Carbon    DJM Hyde   020D        0D 02         02 0D         4B5B01AA
+Standard  G-Force    020E        0E 02         02 0E         A9AE2985
+Standard  Mongoose   020F        0F 02         02 0F         B302CC09
+Standard  Twister    0210        10 02         02 10         EAFE9B21
+Standard  Eraser     0211        11 02         02 11         3A4E0083
+Standard  Tsunami    0212        12 02         02 12         87483D44
+Carbon    Double-V   0213        13 02         02 13         2C3EC16A
+Carbon    Tri-Slot   0214        14 02         02 14         A0BB326B
+Carbon    Speed      0215        15 02         02 15         1537A36C
+Carbon    Factor X   0216        16 02         02 16         A8D054AD
+Carbon    Speedline  0217        17 02         02 17         0645A7B0
+Carbon    Tremor     0218        18 02         02 18         385E74CD
+Carbon    G-Force    0219        19 02         02 19         89B4146D
+Carbon    Mongoose   021A        1A 02         02 1A         5BA5D871
+Carbon    Eraser     021B        1B 02         02 1B         BFD772AB
+Carbon    Twister    021C        1C 02         02 1C         47507089
+Carbon    Tsunami    021D        1D 02         02 1D         C3E203CC
+
+[BMW M3 GTR]
+Type      Name       Save Value  PC/PS2 Bytes  360/GC Bytes  Name Hash
+--------  ---------  ----------  ------------  ------------  ---------
+Stock     Stock      1457        57 14         14 57         ED928091
+
+[BMW M3 GTR (Street)]
+Type      Name       Save Value  PC/PS2 Bytes  360/GC Bytes  Name Hash
+--------  ---------  ----------  ------------  ------------  ---------
+Stock     Stock      2209        09 22         22 09         FB5E50C2
+
+[Cadillac CTS]
+Type      Name       Save Value  PC/PS2 Bytes  360/GC Bytes  Name Hash
+--------  ---------  ----------  ------------  ------------  ---------
+Stock     Stock      02BA        BA 02         02 BA         17F6D719
+Standard  Overdial   02BB        BB 02         02 BB         1C074648
+Standard  Trident    02BC        BC 02         02 BC         1E5C6EE9
+Standard  Fusion     02BD        BD 02         02 BD         62020926
+Standard  Colix      02BE        BE 02         02 BE         69018309
+Standard  Airomax    02BF        BF 02         02 BF         6B56ABAA
+Standard  DJM Hyde   02C0        C0 02         02 C0         A7FCCC04
+Standard  Double-V   02C1        C1 02         02 C1         12B2A3C4
+Standard  Tri-Slot   02C2        C2 02         02 C2         1507CC65
+Standard  Speed      02C3        C3 02         02 C3         175CF506
+Standard  Factor X   02C4        C4 02         02 C4         AEFC45E7
+Standard  Speedline  02C5        C5 02         02 C5         B5FBBFCA
+Standard  Tremor     02C6        C6 02         02 C6         F9A15A07
+Carbon    Overdial   02C7        C7 02         02 C7         99329E50
+Carbon    Trident    02C8        C8 02         02 C8         0DAF0F51
+Carbon    Fusion     02C9        C9 02         02 C9         3FC7DC6E
+Carbon    Colix      02CA        CA 02         02 CA         9D3D2F71
+Carbon    Airomax    02CB        CB 02         02 CB         11B9A072
+Carbon    DJM Hyde   02CC        CC 02         02 CC         E65D1A8C
+Standard  G-Force    02CD        CD 02         02 CD         19B21DA7
+Standard  Mongoose   02CE        CE 02         02 CE         2306C02B
+Standard  Twister    02CF        CF 02         02 CF         5B028F43
+Standard  Eraser     02D0        D0 02         02 D0         AA51F4A5
+Standard  Tsunami    02D1        D1 02         02 D1         F74C3166
+Carbon    Double-V   02D2        D2 02         02 D2         C740DA4C
+Carbon    Tri-Slot   02D3        D3 02         02 D3         3BBD4B4D
+Carbon    Speed      02D4        D4 02         02 D4         B039BC4E
+Carbon    Factor X   02D5        D5 02         02 D5         43D26D8F
+Carbon    Speedline  02D6        D6 02         02 D6         A147C092
+Carbon    Tremor     02D7        D7 02         02 D7         D3608DAF
+Carbon    G-Force    02D8        D8 02         02 D8         24B62D4F
+Carbon    Mongoose   02D9        D9 02         02 D9         F6A7F153
+Carbon    Eraser     02DA        DA 02         02 DA         5AD98B8D
+Carbon    Twister    02DB        DB 02         02 DB         E252896B
+Carbon    Tsunami    02DC        DC 02         02 DC         5EE41CAE
+
+[Chevrolet Camaro SS]
+Type      Name       Save Value  PC/PS2 Bytes  360/GC Bytes  Name Hash
+--------  ---------  ----------  ------------  ------------  ---------
+Stock     Stock      1A79        79 1A         1A 79         991CEE62
+
+[Chevrolet Cobalt SS]
+Type      Name       Save Value  PC/PS2 Bytes  360/GC Bytes  Name Hash
+--------  ---------  ----------  ------------  ------------  ---------
+Stock     Stock      24CE        CE 24         24 CE         BFD8A38A
+Standard  Overdial   24CF        CF 24         24 CF         438DF2F9
+Standard  Trident    24D0        D0 24         24 D0         45E31B9A
+Standard  Fusion     24D1        D1 24         24 D1         8988B5D7
+Standard  Colix      24D2        D2 24         24 D2         90882FBA
+Standard  Airomax    24D3        D3 24         24 D3         92DD585B
+Standard  DJM Hyde   24D4        D4 24         24 D4         CF8378B5
+Standard  Double-V   24D5        D5 24         24 D5         3A395075
+Standard  Tri-Slot   24D6        D6 24         24 D6         3C8E7916
+Standard  Speed      24D7        D7 24         24 D7         3EE3A1B7
+Standard  Factor X   24D8        D8 24         24 D8         D682F298
+Standard  Speedline  24D9        D9 24         24 D9         DD826C7B
+Standard  Tremor     24DA        DA 24         24 DA         212806B8
+Carbon    Overdial   24DB        DB 24         24 DB         39AAD961
+Carbon    Trident    24DC        DC 24         24 DC         AE274A62
+Carbon    Fusion     24DD        DD 24         24 DD         E040177F
+Carbon    Colix      24DE        DE 24         24 DE         3DB56A82
+Carbon    Airomax    24DF        DF 24         24 DF         B231DB83
+Carbon    DJM Hyde   24E0        E0 24         24 E0         86D5559D
+Standard  G-Force    24E1        E1 24         24 E1         4138CA58
+Standard  Mongoose   24E2        E2 24         24 E2         4A8D6CDC
+Standard  Twister    24E3        E3 24         24 E3         82893BF4
+Standard  Eraser     24E4        E4 24         24 E4         D1D8A156
+Standard  Tsunami    24E5        E5 24         24 E5         1ED2DE17
+Carbon    Double-V   24E6        E6 24         24 E6         67B9155D
+Carbon    Tri-Slot   24E7        E7 24         24 E7         DC35865E
+Carbon    Speed      24E8        E8 24         24 E8         50B1F75F
+Carbon    Factor X   24E9        E9 24         24 E9         E44AA8A0
+Carbon    Speedline  24EA        EA 24         24 EA         41BFFBA3
+Carbon    Tremor     24EB        EB 24         24 EB         73D8C8C0
+Carbon    G-Force    24EC        EC 24         24 EC         C52E6860
+Carbon    Mongoose   24ED        ED 24         24 ED         97202C64
+Carbon    Eraser     24EE        EE 24         24 EE         FB51C69E
+Carbon    Twister    24EF        EF 24         24 EF         82CAC47C
+Carbon    Tsunami    24F0        F0 24         24 F0         FF5C57BF
+
+[Chevrolet Corvette C6]
+Type      Name       Save Value  PC/PS2 Bytes  360/GC Bytes  Name Hash
+--------  ---------  ----------  ------------  ------------  ---------
+Stock     Stock      2C84        84 2C         2C 84         18EECCFB
+Standard  Overdial   2C85        85 2C         2C 85         3AD43CAA
+Standard  Trident    2C86        86 2C         2C 86         3D29654B
+Standard  Fusion     2C87        87 2C         2C 87         80CEFF88
+Standard  Colix      2C88        88 2C         2C 88         87CE796B
+Standard  Airomax    2C89        89 2C         2C 89         8A23A20C
+Standard  DJM Hyde   2C8A        8A 2C         2C 8A         C6C9C266
+Standard  Double-V   2C8B        8B 2C         2C 8B         317F9A26
+Standard  Tri-Slot   2C8C        8C 2C         2C 8C         33D4C2C7
+Standard  Speed      2C8D        8D 2C         2C 8D         3629EB68
+Standard  Factor X   2C8E        8E 2C         2C 8E         CDC93C49
+Standard  Speedline  2C8F        8F 2C         2C 8F         D4C8B62C
+Standard  Tremor     2C90        90 2C         2C 90         186E5069
+Carbon    Overdial   2C91        91 2C         2C 91         5B999172
+Carbon    Trident    2C92        92 2C         2C 92         D0160273
+Carbon    Fusion     2C93        93 2C         2C 93         022ECF90
+Carbon    Colix      2C94        94 2C         2C 94         5FA42293
+Carbon    Airomax    2C95        95 2C         2C 95         D4209394
+Carbon    DJM Hyde   2C96        96 2C         2C 96         A8C40DAE
+Standard  G-Force    2C97        97 2C         2C 97         387F1409
+Standard  Mongoose   2C98        98 2C         2C 98         41D3B68D
+Standard  Twister    2C99        99 2C         2C 99         79CF85A5
+Standard  Eraser     2C9A        9A 2C         2C 9A         C91EEB07
+Standard  Tsunami    2C9B        9B 2C         2C 9B         161927C8
+Carbon    Double-V   2C9C        9C 2C         2C 9C         89A7CD6E
+Carbon    Tri-Slot   2C9D        9D 2C         2C 9D         FE243E6F
+Carbon    Speed      2C9E        9E 2C         2C 9E         72A0AF70
+Carbon    Factor X   2C9F        9F 2C         2C 9F         063960B1
+Carbon    Speedline  2CA0        A0 2C         2C A0         63AEB3B4
+Carbon    Tremor     2CA1        A1 2C         2C A1         95C780D1
+Carbon    G-Force    2CA2        A2 2C         2C A2         E71D2071
+Carbon    Mongoose   2CA3        A3 2C         2C A3         B90EE475
+Carbon    Eraser     2CA4        A4 2C         2C A4         1D407EAF
+Carbon    Twister    2CA5        A5 2C         2C A5         A4B97C8D
+Carbon    Tsunami    2CA6        A6 2C         2C A6         214B0FD0
+
+[Chevrolet Corvette C6.R]
+Type      Name       Save Value  PC/PS2 Bytes  360/GC Bytes  Name Hash
+--------  ---------  ----------  ------------  ------------  ---------
+Stock     Stock      17FC        FC 17         17 FC         A81C9486
+
+[Dodge Viper SRT-10]
+Type      Name       Save Value  PC/PS2 Bytes  360/GC Bytes  Name Hash
+--------  ---------  ----------  ------------  ------------  ---------
+Stock     Stock      12D9        D9 12         12 D9         FC5B69B5
+Standard  Overdial   12DA        DA 12         12 DA         ABDAEFE4
+Standard  Trident    12DB        DB 12         12 DB         AE301885
+Standard  Fusion     12DC        DC 12         12 DC         F1D5B2C2
+Standard  Colix      12DD        DD 12         12 DD         F8D52CA5
+Standard  Airomax    12DE        DE 12         12 DE         FB2A5546
+Standard  DJM Hyde   12DF        DF 12         12 DF         37D075A0
+Standard  Double-V   12E0        E0 12         12 E0         A2864D60
+Standard  Tri-Slot   12E1        E1 12         12 E1         A4DB7601
+Standard  Speed      12E2        E2 12         12 E2         A7309EA2
+Standard  Factor X   12E3        E3 12         12 E3         3ECFEF83
+Standard  Speedline  12E4        E4 12         12 E4         45CF6966
+Standard  Tremor     12E5        E5 12         12 E5         897503A3
+Carbon    Overdial   12E6        E6 12         12 E6         D927326C
+Carbon    Trident    12E7        E7 12         12 E7         4DA3A36D
+Carbon    Fusion     12E8        E8 12         12 E8         7FBC708A
+Carbon    Colix      12E9        E9 12         12 E9         DD31C38D
+Carbon    Airomax    12EA        EA 12         12 EA         51AE348E
+Carbon    DJM Hyde   12EB        EB 12         12 EB         2651AEA8
+Standard  G-Force    12EC        EC 12         12 EC         A985C743
+Standard  Mongoose   12ED        ED 12         12 ED         B2DA69C7
+Standard  Twister    12EE        EE 12         12 EE         EAD638DF
+Standard  Eraser     12EF        EF 12         12 EF         3A259E41
+Standard  Tsunami    12F0        F0 12         12 F0         871FDB02
+Carbon    Double-V   12F1        F1 12         12 F1         07356E68
+Carbon    Tri-Slot   12F2        F2 12         12 F2         7BB1DF69
+Carbon    Speed      12F3        F3 12         12 F3         F02E506A
+Carbon    Factor X   12F4        F4 12         12 F4         83C701AB
+Carbon    Speedline  12F5        F5 12         12 F5         E13C54AE
+Carbon    Tremor     12F6        F6 12         12 F6         135521CB
+Carbon    G-Force    12F7        F7 12         12 F7         64AAC16B
+Carbon    Mongoose   12F8        F8 12         12 F8         369C856F
+Carbon    Eraser     12F9        F9 12         12 F9         9ACE1FA9
+Carbon    Twister    12FA        FA 12         12 FA         22471D87
+Carbon    Tsunami    12FB        FB 12         12 FB         9ED8B0CA
+
+[Fiat Punto]
+Type      Name       Save Value  PC/PS2 Bytes  360/GC Bytes  Name Hash
+--------  ---------  ----------  ------------  ------------  ---------
+Stock     Stock      1001        01 10         10 01         F7ACAEA5
+Standard  Overdial   1002        02 10         10 02         C09130D4
+Standard  Trident    1003        03 10         10 03         C2E65975
+Standard  Fusion     1004        04 10         10 04         068BF3B2
+Standard  Colix      1005        05 10         10 05         0D8B6D95
+Standard  Airomax    1006        06 10         10 06         0FE09636
+Standard  DJM Hyde   1007        07 10         10 07         4C86B690
+Standard  Double-V   1008        08 10         10 08         B73C8E50
+Standard  Tri-Slot   1009        09 10         10 09         B991B6F1
+Standard  Speed      100A        0A 10         10 0A         BBE6DF92
+Standard  Factor X   100B        0B 10         10 0B         53863073
+Standard  Speedline  100C        0C 10         10 0C         5A85AA56
+Standard  Tremor     100D        0D 10         10 0D         9E2B4493
+Carbon    Overdial   100E        0E 10         10 0E         5DB90D5C
+Carbon    Trident    100F        0F 10         10 0F         D2357E5D
+Carbon    Fusion     1010        10 10         10 10         044E4B7A
+Carbon    Colix      1011        11 10         10 11         61C39E7D
+Carbon    Airomax    1012        12 10         10 12         D6400F7E
+Carbon    DJM Hyde   1013        13 10         10 13         AAE38998
+Standard  G-Force    1014        14 10         10 14         BE3C0833
+Standard  Mongoose   1015        15 10         10 15         C790AAB7
+Standard  Twister    1016        16 10         10 16         FF8C79CF
+Standard  Eraser     1017        17 10         10 17         4EDBDF31
+Standard  Tsunami    1018        18 10         10 18         9BD61BF2
+Carbon    Double-V   1019        19 10         10 19         8BC74958
+Carbon    Tri-Slot   101A        1A 10         10 1A         0043BA59
+Carbon    Speed      101B        1B 10         10 1B         74C02B5A
+Carbon    Factor X   101C        1C 10         10 1C         0858DC9B
+Carbon    Speedline  101D        1D 10         10 1D         65CE2F9E
+Carbon    Tremor     101E        1E 10         10 1E         97E6FCBB
+Carbon    G-Force    101F        1F 10         10 1F         E93C9C5B
+Carbon    Mongoose   1020        20 10         10 20         BB2E605F
+Carbon    Eraser     1021        21 10         10 21         1F5FFA99
+Carbon    Twister    1022        22 10         10 22         A6D8F877
+Carbon    Tsunami    1023        23 10         10 23         236A8BBA
+
+[Ford GT]
+Type      Name       Save Value  PC/PS2 Bytes  360/GC Bytes  Name Hash
+--------  ---------  ----------  ------------  ------------  ---------
+Stock     Stock      1FB5        B5 1F         1F B5         6A63E2B5
+Standard  Overdial   1FB6        B6 1F         1F B6         BDE5A8E4
+Standard  Trident    1FB7        B7 1F         1F B7         C03AD185
+Standard  Fusion     1FB8        B8 1F         1F B8         03E06BC2
+Standard  Colix      1FB9        B9 1F         1F B9         0ADFE5A5
+Standard  Airomax    1FBA        BA 1F         1F BA         0D350E46
+Standard  DJM Hyde   1FBB        BB 1F         1F BB         49DB2EA0
+Standard  Double-V   1FBC        BC 1F         1F BC         B4910660
+Standard  Tri-Slot   1FBD        BD 1F         1F BD         B6E62F01
+Standard  Speed      1FBE        BE 1F         1F BE         B93B57A2
+Standard  Factor X   1FBF        BF 1F         1F BF         50DAA883
+Standard  Speedline  1FC0        C0 1F         1F C0         57DA2266
+Standard  Tremor     1FC1        C1 1F         1F C1         9B7FBCA3
+Carbon    Overdial   1FC2        C2 1F         1F C2         8C634B6C
+Carbon    Trident    1FC3        C3 1F         1F C3         00DFBC6D
+Carbon    Fusion     1FC4        C4 1F         1F C4         32F8898A
+Carbon    Colix      1FC5        C5 1F         1F C5         906DDC8D
+Carbon    Airomax    1FC6        C6 1F         1F C6         04EA4D8E
+Carbon    DJM Hyde   1FC7        C7 1F         1F C7         D98DC7A8
+Standard  G-Force    1FC8        C8 1F         1F C8         BB908043
+Standard  Mongoose   1FC9        C9 1F         1F C9         C4E522C7
+Standard  Twister    1FCA        CA 1F         1F CA         FCE0F1DF
+Standard  Eraser     1FCB        CB 1F         1F CB         4C305741
+Standard  Tsunami    1FCC        CC 1F         1F CC         992A9402
+Carbon    Double-V   1FCD        CD 1F         1F CD         BA718768
+Carbon    Tri-Slot   1FCE        CE 1F         1F CE         2EEDF869
+Carbon    Speed      1FCF        CF 1F         1F CF         A36A696A
+Carbon    Factor X   1FD0        D0 1F         1F D0         37031AAB
+Carbon    Speedline  1FD1        D1 1F         1F D1         94786DAE
+Carbon    Tremor     1FD2        D2 1F         1F D2         C6913ACB
+Carbon    G-Force    1FD3        D3 1F         1F D3         17E6DA6B
+Carbon    Mongoose   1FD4        D4 1F         1F D4         E9D89E6F
+Carbon    Eraser     1FD5        D5 1F         1F D5         4E0A38A9
+Carbon    Twister    1FD6        D6 1F         1F D6         D5833687
+Carbon    Tsunami    1FD7        D7 1F         1F D7         5214C9CA
+
+[Ford Mustang GT]
+Type      Name       Save Value  PC/PS2 Bytes  360/GC Bytes  Name Hash
+--------  ---------  ----------  ------------  ------------  ---------
+Stock     Stock      18BB        BB 18         18 BB         DA8C4169
+Standard  Overdial   18BC        BC 18         18 BC         D9A08498
+Standard  Trident    18BD        BD 18         18 BD         DBF5AD39
+Standard  Fusion     18BE        BE 18         18 BE         1F9B4776
+Standard  Colix      18BF        BF 18         18 BF         269AC159
+Standard  Airomax    18C0        C0 18         18 C0         28EFE9FA
+Standard  DJM Hyde   18C1        C1 18         18 C1         65960A54
+Standard  Double-V   18C2        C2 18         18 C2         D04BE214
+Standard  Tri-Slot   18C3        C3 18         18 C3         D2A10AB5
+Standard  Speed      18C4        C4 18         18 C4         D4F63356
+Standard  Factor X   18C5        C5 18         18 C5         6C958437
+Standard  Speedline  18C6        C6 18         18 C6         7394FE1A
+Standard  Tremor     18C7        C7 18         18 C7         B73A9857
+Carbon    Overdial   18C8        C8 18         18 C8         3E56FAA0
+Carbon    Trident    18C9        C9 18         18 C9         B2D36BA1
+Carbon    Fusion     18CA        CA 18         18 CA         E4EC38BE
+Carbon    Colix      18CB        CB 18         18 CB         42618BC1
+Carbon    Airomax    18CC        CC 18         18 CC         B6DDFCC2
+Carbon    DJM Hyde   18CD        CD 18         18 CD         8B8176DC
+Standard  G-Force    18CE        CE 18         18 CE         D74B5BF7
+Standard  Mongoose   18CF        CF 18         18 CF         E09FFE7B
+Standard  Twister    18D0        D0 18         18 D0         189BCD93
+Standard  Eraser     18D1        D1 18         18 D1         67EB32F5
+Standard  Tsunami    18D2        D2 18         18 D2         B4E56FB6
+Carbon    Double-V   18D3        D3 18         18 D3         6C65369C
+Carbon    Tri-Slot   18D4        D4 18         18 D4         E0E1A79D
+Carbon    Speed      18D5        D5 18         18 D5         555E189E
+Carbon    Factor X   18D6        D6 18         18 D6         E8F6C9DF
+Carbon    Speedline  18D7        D7 18         18 D7         466C1CE2
+Carbon    Tremor     18D8        D8 18         18 D8         7884E9FF
+Carbon    G-Force    18D9        D9 18         18 D9         C9DA899F
+Carbon    Mongoose   18DA        DA 18         18 DA         9BCC4DA3
+Carbon    Eraser     18DB        DB 18         18 DB         FFFDE7DD
+Carbon    Twister    18DC        DC 18         18 DC         8776E5BB
+Carbon    Tsunami    18DD        DD 18         18 DD         040878FE
+
+[Lamborghini Gallardo]
+Type      Name       Save Value  PC/PS2 Bytes  360/GC Bytes  Name Hash
+--------  ---------  ----------  ------------  ------------  ---------
+Stock     Stock      1B38        38 1B         1B 38         DBE6A4D5
+Standard  Overdial   1B39        39 1B         1B 39         9B217304
+Standard  Trident    1B3A        3A 1B         1B 3A         9D769BA5
+Standard  Fusion     1B3B        3B 1B         1B 3B         E11C35E2
+Standard  Colix      1B3C        3C 1B         1B 3C         E81BAFC5
+Standard  Airomax    1B3D        3D 1B         1B 3D         EA70D866
+Standard  DJM Hyde   1B3E        3E 1B         1B 3E         2716F8C0
+Standard  Double-V   1B3F        3F 1B         1B 3F         91CCD080
+Standard  Tri-Slot   1B40        40 1B         1B 40         9421F921
+Standard  Speed      1B41        41 1B         1B 41         967721C2
+Standard  Factor X   1B42        42 1B         1B 42         2E1672A3
+Standard  Speedline  1B43        43 1B         1B 43         3515EC86
+Standard  Tremor     1B44        44 1B         1B 44         78BB86C3
+Carbon    Overdial   1B45        45 1B         1B 45         1294618C
+Carbon    Trident    1B46        46 1B         1B 46         8710D28D
+Carbon    Fusion     1B47        47 1B         1B 47         B9299FAA
+Carbon    Colix      1B48        48 1B         1B 48         169EF2AD
+Carbon    Airomax    1B49        49 1B         1B 49         8B1B63AE
+Carbon    DJM Hyde   1B4A        4A 1B         1B 4A         5FBEDDC8
+Standard  G-Force    1B4B        4B 1B         1B 4B         98CC4A63
+Standard  Mongoose   1B4C        4C 1B         1B 4C         A220ECE7
+Standard  Twister    1B4D        4D 1B         1B 4D         DA1CBBFF
+Standard  Eraser     1B4E        4E 1B         1B 4E         296C2161
+Standard  Tsunami    1B4F        4F 1B         1B 4F         76665E22
+Carbon    Double-V   1B50        50 1B         1B 50         40A29D88
+Carbon    Tri-Slot   1B51        51 1B         1B 51         B51F0E89
+Carbon    Speed      1B52        52 1B         1B 52         299B7F8A
+Carbon    Factor X   1B53        53 1B         1B 53         BD3430CB
+Carbon    Speedline  1B54        54 1B         1B 54         1AA983CE
+Carbon    Tremor     1B55        55 1B         1B 55         4CC250EB
+Carbon    G-Force    1B56        56 1B         1B 56         9E17F08B
+Carbon    Mongoose   1B57        57 1B         1B 57         7009B48F
+Carbon    Eraser     1B58        58 1B         1B 58         D43B4EC9
+Carbon    Twister    1B59        59 1B         1B 59         5BB44CA7
+Carbon    Tsunami    1B5A        5A 1B         1B 5A         D845DFEA
+
+[Lamborghini Murcielago]
+Type      Name       Save Value  PC/PS2 Bytes  360/GC Bytes  Name Hash
+--------  ---------  ----------  ------------  ------------  ---------
+Stock     Stock      28B2        B2 28         28 B2         C9C34197
+Standard  Overdial   28B3        B3 28         28 B3         72984846
+Standard  Trident    28B4        B4 28         28 B4         74ED70E7
+Standard  Fusion     28B5        B5 28         28 B5         B8930B24
+Standard  Colix      28B6        B6 28         28 B6         BF928507
+Standard  Airomax    28B7        B7 28         28 B7         C1E7ADA8
+Standard  DJM Hyde   28B8        B8 28         28 B8         FE8DCE02
+Standard  Double-V   28B9        B9 28         28 B9         6943A5C2
+Standard  Tri-Slot   28BA        BA 28         28 BA         6B98CE63
+Standard  Speed      28BB        BB 28         28 BB         6DEDF704
+Standard  Factor X   28BC        BC 28         28 BC         058D47E5
+Standard  Speedline  28BD        BD 28         28 BD         0C8CC1C8
+Standard  Tremor     28BE        BE 28         28 BE         50325C05
+Carbon    Overdial   28BF        BF 28         28 BF         B33B478E
+Carbon    Trident    28C0        C0 28         28 C0         27B7B88F
+Carbon    Fusion     28C1        C1 28         28 C1         59D085AC
+Carbon    Colix      28C2        C2 28         28 C2         B745D8AF
+Carbon    Airomax    28C3        C3 28         28 C3         2BC249B0
+Carbon    DJM Hyde   28C4        C4 28         28 C4         0065C3CA
+Standard  G-Force    28C5        C5 28         28 C5         70431FA5
+Standard  Mongoose   28C6        C6 28         28 C6         7997C229
+Standard  Twister    28C7        C7 28         28 C7         B1939141
+Standard  Eraser     28C8        C8 28         28 C8         00E2F6A3
+Standard  Tsunami    28C9        C9 28         28 C9         4DDD3364
+Carbon    Double-V   28CA        CA 28         28 CA         E149838A
+Carbon    Tri-Slot   28CB        CB 28         28 CB         55C5F48B
+Carbon    Speed      28CC        CC 28         28 CC         CA42658C
+Carbon    Factor X   28CD        CD 28         28 CD         5DDB16CD
+Carbon    Speedline  28CE        CE 28         28 CE         BB5069D0
+Carbon    Tremor     28CF        CF 28         28 CF         ED6936ED
+Carbon    G-Force    28D0        D0 28         28 D0         3EBED68D
+Carbon    Mongoose   28D1        D1 28         28 D1         10B09A91
+Carbon    Eraser     28D2        D2 28         28 D2         74E234CB
+Carbon    Twister    28D3        D3 28         28 D3         FC5B32A9
+Carbon    Tsunami    28D4        D4 28         28 D4         78ECC5EC
+
+[Lexus IS 300]
+Type      Name       Save Value  PC/PS2 Bytes  360/GC Bytes  Name Hash
+--------  ---------  ----------  ------------  ------------  ---------
+Stock     Stock      0DD5        D5 0D         0D D5         050E111E
+Standard  Overdial   0DD6        D6 0D         0D D6         ABD5158D
+Standard  Trident    0DD7        D7 0D         0D D7         AE2A3E2E
+Standard  Fusion     0DD8        D8 0D         0D D8         F1CFD86B
+Standard  Colix      0DD9        D9 0D         0D D9         F8CF524E
+Standard  Airomax    0DDA        DA 0D         0D DA         FB247AEF
+Standard  DJM Hyde   0DDB        DB 0D         0D DB         37CA9B49
+Standard  Double-V   0DDC        DC 0D         0D DC         A2807309
+Standard  Tri-Slot   0DDD        DD 0D         0D DD         A4D59BAA
+Standard  Speed      0DDE        DE 0D         0D DE         A72AC44B
+Standard  Factor X   0DDF        DF 0D         0D DF         3ECA152C
+Standard  Speedline  0DE0        E0 0D         0D E0         45C98F0F
+Standard  Tremor     0DE1        E1 0D         0D E1         896F294C
+Carbon    Overdial   0DE2        E2 0D         0D E2         A387E375
+Carbon    Trident    0DE3        E3 0D         0D E3         18045476
+Carbon    Fusion     0DE4        E4 0D         0D E4         4A1D2193
+Carbon    Colix      0DE5        E5 0D         0D E5         A7927496
+Carbon    Airomax    0DE6        E6 0D         0D E6         1C0EE597
+Carbon    DJM Hyde   0DE7        E7 0D         0D E7         F0B25FB1
+Standard  G-Force    0DE8        E8 0D         0D E8         A97FECEC
+Standard  Mongoose   0DE9        E9 0D         0D E9         B2D48F70
+Standard  Twister    0DEA        EA 0D         0D EA         EAD05E88
+Standard  Eraser     0DEB        EB 0D         0D EB         3A1FC3EA
+Standard  Tsunami    0DEC        EC 0D         0D EC         871A00AB
+Carbon    Double-V   0DED        ED 0D         0D ED         D1961F71
+Carbon    Tri-Slot   0DEE        EE 0D         0D EE         46129072
+Carbon    Speed      0DEF        EF 0D         0D EF         BA8F0173
+Carbon    Factor X   0DF0        F0 0D         0D F0         4E27B2B4
+Carbon    Speedline  0DF1        F1 0D         0D F1         AB9D05B7
+Carbon    Tremor     0DF2        F2 0D         0D F2         DDB5D2D4
+Carbon    G-Force    0DF3        F3 0D         0D F3         2F0B7274
+Carbon    Mongoose   0DF4        F4 0D         0D F4         00FD3678
+Carbon    Eraser     0DF5        F5 0D         0D F5         652ED0B2
+Carbon    Twister    0DF6        F6 0D         0D F6         ECA7CE90
+Carbon    Tsunami    0DF7        F7 0D         0D F7         693961D3
+
+[Lotus Elise]
+Type      Name       Save Value  PC/PS2 Bytes  360/GC Bytes  Name Hash
+--------  ---------  ----------  ------------  ------------  ---------
+Stock     Stock      0D16        16 0D         0D 16         52BF62C1
+Standard  Overdial   0D17        17 0D         0D 17         2B215BF0
+Standard  Trident    0D18        18 0D         0D 18         2D768491
+Standard  Fusion     0D19        19 0D         0D 19         711C1ECE
+Standard  Colix      0D1A        1A 0D         0D 1A         781B98B1
+Standard  Airomax    0D1B        1B 0D         0D 1B         7A70C152
+Standard  DJM Hyde   0D1C        1C 0D         0D 1C         B716E1AC
+Standard  Double-V   0D1D        1D 0D         0D 1D         21CCB96C
+Standard  Tri-Slot   0D1E        1E 0D         0D 1E         2421E20D
+Standard  Speed      0D1F        1F 0D         0D 1F         26770AAE
+Standard  Factor X   0D20        20 0D         0D 20         BE165B8F
+Standard  Speedline  0D21        21 0D         0D 21         C515D572
+Standard  Tremor     0D22        22 0D         0D 22         08BB6FAF
+Carbon    Overdial   0D23        23 0D         0D 23         95ECB2F8
+Carbon    Trident    0D24        24 0D         0D 24         0A6923F9
+Carbon    Fusion     0D25        25 0D         0D 25         3C81F116
+Carbon    Colix      0D26        26 0D         0D 26         99F74419
+Carbon    Airomax    0D27        27 0D         0D 27         0E73B51A
+Carbon    DJM Hyde   0D28        28 0D         0D 28         E3172F34
+Standard  G-Force    0D29        29 0D         0D 29         28CC334F
+Standard  Mongoose   0D2A        2A 0D         0D 2A         3220D5D3
+Standard  Twister    0D2B        2B 0D         0D 2B         6A1CA4EB
+Standard  Eraser     0D2C        2C 0D         0D 2C         B96C0A4D
+Standard  Tsunami    0D2D        2D 0D         0D 2D         0666470E
+Carbon    Double-V   0D2E        2E 0D         0D 2E         C3FAEEF4
+Carbon    Tri-Slot   0D2F        2F 0D         0D 2F         38775FF5
+Carbon    Speed      0D30        30 0D         0D 30         ACF3D0F6
+Carbon    Factor X   0D31        31 0D         0D 31         408C8237
+Carbon    Speedline  0D32        32 0D         0D 32         9E01D53A
+Carbon    Tremor     0D33        33 0D         0D 33         D01AA257
+Carbon    G-Force    0D34        34 0D         0D 34         217041F7
+Carbon    Mongoose   0D35        35 0D         0D 35         F36205FB
+Carbon    Eraser     0D36        36 0D         0D 36         5793A035
+Carbon    Twister    0D37        37 0D         0D 37         DF0C9E13
+Carbon    Tsunami    0D38        38 0D         0D 38         5B9E3156
+
+[Mazda RX-7]
+Type      Name       Save Value  PC/PS2 Bytes  360/GC Bytes  Name Hash
+--------  ---------  ----------  ------------  ------------  ---------
+Stock     Stock      05B6        B6 05         05 B6         739826F0
+Standard  Overdial   05B7        B7 05         05 B7         E53BE7DF
+Standard  Trident    05B8        B8 05         05 B8         E7911080
+Standard  Fusion     05B9        B9 05         05 B9         2B36AABD
+Standard  Colix      05BA        BA 05         05 BA         323624A0
+Standard  Airomax    05BB        BB 05         05 BB         348B4D41
+Standard  DJM Hyde   05BC        BC 05         05 BC         71316D9B
+Standard  Double-V   05BD        BD 05         05 BD         DBE7455B
+Standard  Tri-Slot   05BE        BE 05         05 BE         DE3C6DFC
+Standard  Speed      05BF        BF 05         05 BF         E091969D
+Standard  Factor X   05C0        C0 05         05 C0         7830E77E
+Standard  Speedline  05C1        C1 05         05 C1         7F306161
+Standard  Tremor     05C2        C2 05         05 C2         C2D5FB9E
+Carbon    Overdial   05C3        C3 05         05 C3         9E826C87
+Carbon    Trident    05C4        C4 05         05 C4         12FEDD88
+Carbon    Fusion     05C5        C5 05         05 C5         4517AAA5
+Carbon    Colix      05C6        C6 05         05 C6         A28CFDA8
+Carbon    Airomax    05C7        C7 05         05 C7         17096EA9
+Carbon    DJM Hyde   05C8        C8 05         05 C8         EBACE8C3
+Standard  G-Force    05C9        C9 05         05 C9         E2E6BF3E
+Standard  Mongoose   05CA        CA 05         05 CA         EC3B61C2
+Standard  Twister    05CB        CB 05         05 CB         243730DA
+Standard  Eraser     05CC        CC 05         05 CC         7386963C
+Standard  Tsunami    05CD        CD 05         05 CD         C080D2FD
+Carbon    Double-V   05CE        CE 05         05 CE         CC90A883
+Carbon    Tri-Slot   05CF        CF 05         05 CF         410D1984
+Carbon    Speed      05D0        D0 05         05 D0         B5898A85
+Carbon    Factor X   05D1        D1 05         05 D1         49223BC6
+Carbon    Speedline  05D2        D2 05         05 D2         A6978EC9
+Carbon    Tremor     05D3        D3 05         05 D3         D8B05BE6
+Carbon    G-Force    05D4        D4 05         05 D4         2A05FB86
+Carbon    Mongoose   05D5        D5 05         05 D5         FBF7BF8A
+Carbon    Eraser     05D6        D6 05         05 D6         602959C4
+Carbon    Twister    05D7        D7 05         05 D7         E7A257A2
+Carbon    Tsunami    05D8        D8 05         05 D8         6433EAE5
+
+[Mazda RX-8]
+Type      Name       Save Value  PC/PS2 Bytes  360/GC Bytes  Name Hash
+--------  ---------  ----------  ------------  ------------  ---------
+Stock     Stock      0675        75 06         06 75         A48B8451
+Standard  Overdial   0676        76 06         06 76         207C2180
+Standard  Trident    0677        77 06         06 77         22D14A21
+Standard  Fusion     0678        78 06         06 78         6676E45E
+Standard  Colix      0679        79 06         06 79         6D765E41
+Standard  Airomax    067A        7A 06         06 7A         6FCB86E2
+Standard  DJM Hyde   067B        7B 06         06 7B         AC71A73C
+Standard  Double-V   067C        7C 06         06 7C         17277EFC
+Standard  Tri-Slot   067D        7D 06         06 7D         197CA79D
+Standard  Speed      067E        7E 06         06 7E         1BD1D03E
+Standard  Factor X   067F        7F 06         06 7F         B371211F
+Standard  Speedline  0680        80 06         06 80         BA709B02
+Standard  Tremor     0681        81 06         06 81         FE16353F
+Carbon    Overdial   0682        82 06         06 82         315C4E88
+Carbon    Trident    0683        83 06         06 83         A5D8BF89
+Carbon    Fusion     0684        84 06         06 84         D7F18CA6
+Carbon    Colix      0685        85 06         06 85         3566DFA9
+Carbon    Airomax    0686        86 06         06 86         A9E350AA
+Carbon    DJM Hyde   0687        87 06         06 87         7E86CAC4
+Standard  G-Force    0688        88 06         06 88         1E26F8DF
+Standard  Mongoose   0689        89 06         06 89         277B9B63
+Standard  Twister    068A        8A 06         06 8A         5F776A7B
+Standard  Eraser     068B        8B 06         06 8B         AEC6CFDD
+Standard  Tsunami    068C        8C 06         06 8C         FBC10C9E
+Carbon    Double-V   068D        8D 06         06 8D         5F6A8A84
+Carbon    Tri-Slot   068E        8E 06         06 8E         D3E6FB85
+Carbon    Speed      068F        8F 06         06 8F         48636C86
+Carbon    Factor X   0690        90 06         06 90         DBFC1DC7
+Carbon    Speedline  0691        91 06         06 91         397170CA
+Carbon    Tremor     0692        92 06         06 92         6B8A3DE7
+Carbon    G-Force    0693        93 06         06 93         BCDFDD87
+Carbon    Mongoose   0694        94 06         06 94         8ED1A18B
+Carbon    Eraser     0695        95 06         06 95         F3033BC5
+Carbon    Twister    0696        96 06         06 96         7A7C39A3
+Carbon    Tsunami    0697        97 06         06 97         F70DCCE6
+
+[Mercedes-Benz CLK 500]
+Type      Name       Save Value  PC/PS2 Bytes  360/GC Bytes  Name Hash
+--------  ---------  ----------  ------------  ------------  ---------
+Stock     Stock      1BF7        F7 1B         1B F7         99BC6E1E
+Standard  Overdial   1BF8        F8 1B         1B F8         258EB28D
+Standard  Trident    1BF9        F9 1B         1B F9         27E3DB2E
+Standard  Fusion     1BFA        FA 1B         1B FA         6B89756B
+Standard  Colix      1BFB        FB 1B         1B FB         7288EF4E
+Standard  Airomax    1BFC        FC 1B         1B FC         74DE17EF
+Standard  DJM Hyde   1BFD        FD 1B         1B FD         B1843849
+Standard  Double-V   1BFE        FE 1B         1B FE         1C3A1009
+Standard  Tri-Slot   1BFF        FF 1B         1B FF         1E8F38AA
+Standard  Speed      1C00        00 1C         1C 00         20E4614B
+Standard  Factor X   1C01        01 1C         1C 01         B883B22C
+Standard  Speedline  1C02        02 1C         1C 02         BF832C0F
+Standard  Tremor     1C03        03 1C         1C 03         0328C64C
+Carbon    Overdial   1C04        04 1C         1C 04         44B86075
+Carbon    Trident    1C05        05 1C         1C 05         B934D176
+Carbon    Fusion     1C06        06 1C         1C 06         EB4D9E93
+Carbon    Colix      1C07        07 1C         1C 07         48C2F196
+Carbon    Airomax    1C08        08 1C         1C 08         BD3F6297
+Carbon    DJM Hyde   1C09        09 1C         1C 09         91E2DCB1
+Standard  G-Force    1C0A        0A 1C         1C 0A         233989EC
+Standard  Mongoose   1C0B        0B 1C         1C 0B         2C8E2C70
+Standard  Twister    1C0C        0C 1C         1C 0C         6489FB88
+Standard  Eraser     1C0D        0D 1C         1C 0D         B3D960EA
+Standard  Tsunami    1C0E        0E 1C         1C 0E         00D39DAB
+Carbon    Double-V   1C0F        0F 1C         1C 0F         72C69C71
+Carbon    Tri-Slot   1C10        10 1C         1C 10         E7430D72
+Carbon    Speed      1C11        11 1C         1C 11         5BBF7E73
+Carbon    Factor X   1C12        12 1C         1C 12         EF582FB4
+Carbon    Speedline  1C13        13 1C         1C 13         4CCD82B7
+Carbon    Tremor     1C14        14 1C         1C 14         7EE64FD4
+Carbon    G-Force    1C15        15 1C         1C 15         D03BEF74
+Carbon    Mongoose   1C16        16 1C         1C 16         A22DB378
+Carbon    Eraser     1C17        17 1C         1C 17         065F4DB2
+Carbon    Twister    1C18        18 1C         1C 18         8DD84B90
+Carbon    Tsunami    1C19        19 1C         1C 19         0A69DED3
+
+[Mercedes-Benz SL 500]
+Type      Name       Save Value  PC/PS2 Bytes  360/GC Bytes  Name Hash
+--------  ---------  ----------  ------------  ------------  ---------
+Stock     Stock      10C0        C0 10         10 C0         7EADFEE3
+Standard  Overdial   10C1        C1 10         10 C1         0D278892
+Standard  Trident    10C2        C2 10         10 C2         0F7CB133
+Standard  Fusion     10C3        C3 10         10 C3         53224B70
+Standard  Colix      10C4        C4 10         10 C4         5A21C553
+Standard  Airomax    10C5        C5 10         10 C5         5C76EDF4
+Standard  DJM Hyde   10C6        C6 10         10 C6         991D0E4E
+Standard  Double-V   10C7        C7 10         10 C7         03D2E60E
+Standard  Tri-Slot   10C8        C8 10         10 C8         06280EAF
+Standard  Speed      10C9        C9 10         10 C9         087D3750
+Standard  Factor X   10CA        CA 10         10 CA         A01C8831
+Standard  Speedline  10CB        CB 10         10 CB         A71C0214
+Standard  Tremor     10CC        CC 10         10 CC         EAC19C51
+Carbon    Overdial   10CD        CD 10         10 CD         9AAC345A
+Carbon    Trident    10CE        CE 10         10 CE         0F28A55B
+Carbon    Fusion     10CF        CF 10         10 CF         41417278
+Carbon    Colix      10D0        D0 10         10 D0         9EB6C57B
+Carbon    Airomax    10D1        D1 10         10 D1         1333367C
+Carbon    DJM Hyde   10D2        D2 10         10 D2         E7D6B096
+Standard  G-Force    10D3        D3 10         10 D3         0AD25FF1
+Standard  Mongoose   10D4        D4 10         10 D4         14270275
+Standard  Twister    10D5        D5 10         10 D5         4C22D18D
+Standard  Eraser     10D6        D6 10         10 D6         9B7236EF
+Standard  Tsunami    10D7        D7 10         10 D7         E86C73B0
+Carbon    Double-V   10D8        D8 10         10 D8         C8BA7056
+Carbon    Tri-Slot   10D9        D9 10         10 D9         3D36E157
+Carbon    Speed      10DA        DA 10         10 DA         B1B35258
+Carbon    Factor X   10DB        DB 10         10 DB         454C0399
+Carbon    Speedline  10DC        DC 10         10 DC         A2C1569C
+Carbon    Tremor     10DD        DD 10         10 DD         D4DA23B9
+Carbon    G-Force    10DE        DE 10         10 DE         262FC359
+Carbon    Mongoose   10DF        DF 10         10 DF         F821875D
+Carbon    Eraser     10E0        E0 10         10 E0         5C532197
+Carbon    Twister    10E1        E1 10         10 E1         E3CC1F75
+Carbon    Tsunami    10E2        E2 10         10 E2         605DB2B8
+
+[Mercedes-Benz SL 65 AMG]
+Type      Name       Save Value  PC/PS2 Bytes  360/GC Bytes  Name Hash
+--------  ---------  ----------  ------------  ------------  ---------
+Stock     Stock      0A8A        8A 0A         0A 8A         AACBACB9
+
+[Mercedes-Benz SLR McLaren]
+Type      Name       Save Value  PC/PS2 Bytes  360/GC Bytes  Name Hash
+--------  ---------  ----------  ------------  ------------  ---------
+Stock     Stock      0734        34 07         07 34         200EC7C0
+Standard  Overdial   0735        35 07         07 35         89DDFCAF
+Standard  Trident    0736        36 07         07 36         8C332550
+Standard  Fusion     0737        37 07         07 37         CFD8BF8D
+Standard  Colix      0738        38 07         07 38         D6D83970
+Standard  Airomax    0739        39 07         07 39         D92D6211
+Standard  DJM Hyde   073A        3A 07         07 3A         15D3826B
+Standard  Double-V   073B        3B 07         07 3B         80895A2B
+Standard  Tri-Slot   073C        3C 07         07 3C         82DE82CC
+Standard  Speed      073D        3D 07         07 3D         8533AB6D
+Standard  Factor X   073E        3E 07         07 3E         1CD2FC4E
+Standard  Speedline  073F        3F 07         07 3F         23D27631
+Standard  Tremor     0740        40 07         07 40         6778106E
+Carbon    Overdial   0741        41 07         07 41         A34E0F57
+Carbon    Trident    0742        42 07         07 42         17CA8058
+Carbon    Fusion     0743        43 07         07 43         49E34D75
+Carbon    Colix      0744        44 07         07 44         A758A078
+Carbon    Airomax    0745        45 07         07 45         1BD51179
+Carbon    DJM Hyde   0746        46 07         07 46         F0788B93
+Standard  G-Force    0747        47 07         07 47         8788D40E
+Standard  Mongoose   0748        48 07         07 48         90DD7692
+Standard  Twister    0749        49 07         07 49         C8D945AA
+Standard  Eraser     074A        4A 07         07 4A         1828AB0C
+Standard  Tsunami    074B        4B 07         07 4B         6522E7CD
+Carbon    Double-V   074C        4C 07         07 4C         D15C4B53
+Carbon    Tri-Slot   074D        4D 07         07 4D         45D8BC54
+Carbon    Speed      074E        4E 07         07 4E         BA552D55
+Carbon    Factor X   074F        4F 07         07 4F         4DEDDE96
+Carbon    Speedline  0750        50 07         07 50         AB633199
+Carbon    Tremor     0751        51 07         07 51         DD7BFEB6
+Carbon    G-Force    0752        52 07         07 52         2ED19E56
+Carbon    Mongoose   0753        53 07         07 53         00C3625A
+Carbon    Eraser     0754        54 07         07 54         64F4FC94
+Carbon    Twister    0755        55 07         07 55         EC6DFA72
+Carbon    Tsunami    0756        56 07         07 56         68FF8DB5
+
+[Mitsubishi Eclipse GT]
+Type      Name       Save Value  PC/PS2 Bytes  360/GC Bytes  Name Hash
+--------  ---------  ----------  ------------  ------------  ---------
+Stock     Stock      258D        8D 25         25 8D         A901E28F
+Standard  Overdial   258E        8E 25         25 8E         1C03073E
+Standard  Trident    258F        8F 25         25 8F         1E582FDF
+Standard  Fusion     2590        90 25         25 90         61FDCA1C
+Standard  Colix      2591        91 25         25 91         68FD43FF
+Standard  Airomax    2592        92 25         25 92         6B526CA0
+Standard  DJM Hyde   2593        93 25         25 93         A7F88CFA
+Standard  Double-V   2594        94 25         25 94         12AE64BA
+Standard  Tri-Slot   2595        95 25         25 95         15038D5B
+Standard  Speed      2596        96 25         25 96         1758B5FC
+Standard  Factor X   2597        97 25         25 97         AEF806DD
+Standard  Speedline  2598        98 25         25 98         B5F780C0
+Standard  Tremor     2599        99 25         25 99         F99D1AFD
+Carbon    Overdial   259A        9A 25         25 9A         451D4386
+Carbon    Trident    259B        9B 25         25 9B         B999B487
+Carbon    Fusion     259C        9C 25         25 9C         EBB281A4
+Carbon    Colix      259D        9D 25         25 9D         4927D4A7
+Carbon    Airomax    259E        9E 25         25 9E         BDA445A8
+Carbon    DJM Hyde   259F        9F 25         25 9F         9247BFC2
+Standard  G-Force    25A0        A0 25         25 A0         19ADDE9D
+Standard  Mongoose   25A1        A1 25         25 A1         23028121
+Standard  Twister    25A2        A2 25         25 A2         5AFE5039
+Standard  Eraser     25A3        A3 25         25 A3         AA4DB59B
+Standard  Tsunami    25A4        A4 25         25 A4         F747F25C
+Carbon    Double-V   25A5        A5 25         25 A5         732B7F82
+Carbon    Tri-Slot   25A6        A6 25         25 A6         E7A7F083
+Carbon    Speed      25A7        A7 25         25 A7         5C246184
+Carbon    Factor X   25A8        A8 25         25 A8         EFBD12C5
+Carbon    Speedline  25A9        A9 25         25 A9         4D3265C8
+Carbon    Tremor     25AA        AA 25         25 AA         7F4B32E5
+Carbon    G-Force    25AB        AB 25         25 AB         D0A0D285
+Carbon    Mongoose   25AC        AC 25         25 AC         A2929689
+Carbon    Eraser     25AD        AD 25         25 AD         06C430C3
+Carbon    Twister    25AE        AE 25         25 AE         8E3D2EA1
+Carbon    Tsunami    25AF        AF 25         25 AF         0ACEC1E4
+
+[Mitsubishi Lancer Evolution VIII]
+Type      Name       Save Value  PC/PS2 Bytes  360/GC Bytes  Name Hash
+--------  ---------  ----------  ------------  ------------  ---------
+Stock     Stock      1398        98 13         13 98         8FF41526
+Standard  Overdial   1399        99 13         13 99         884C3B95
+Standard  Trident    139A        9A 13         13 9A         8AA16436
+Standard  Fusion     139B        9B 13         13 9B         CE46FE73
+Standard  Colix      139C        9C 13         13 9C         D5467856
+Standard  Airomax    139D        9D 13         13 9D         D79BA0F7
+Standard  DJM Hyde   139E        9E 13         13 9E         1441C151
+Standard  Double-V   139F        9F 13         13 9F         7EF79911
+Standard  Tri-Slot   13A0        A0 13         13 A0         814CC1B2
+Standard  Speed      13A1        A1 13         13 A1         83A1EA53
+Standard  Factor X   13A2        A2 13         13 A2         1B413B34
+Standard  Speedline  13A3        A3 13         13 A3         2240B517
+Standard  Tremor     13A4        A4 13         13 A4         65E64F54
+Carbon    Overdial   13A5        A5 13         13 A5         5579AC7D
+Carbon    Trident    13A6        A6 13         13 A6         C9F61D7E
+Carbon    Fusion     13A7        A7 13         13 A7         FC0EEA9B
+Carbon    Colix      13A8        A8 13         13 A8         59843D9E
+Carbon    Airomax    13A9        A9 13         13 A9         CE00AE9F
+Carbon    DJM Hyde   13AA        AA 13         13 AA         A2A428B9
+Standard  G-Force    13AB        AB 13         13 AB         85F712F4
+Standard  Mongoose   13AC        AC 13         13 AC         8F4BB578
+Standard  Twister    13AD        AD 13         13 AD         C7478490
+Standard  Eraser     13AE        AE 13         13 AE         1696E9F2
+Standard  Tsunami    13AF        AF 13         13 AF         639126B3
+Carbon    Double-V   13B0        B0 13         13 B0         8387E879
+Carbon    Tri-Slot   13B1        B1 13         13 B1         F804597A
+Carbon    Speed      13B2        B2 13         13 B2         6C80CA7B
+Carbon    Factor X   13B3        B3 13         13 B3         00197BBC
+Carbon    Speedline  13B4        B4 13         13 B4         5D8ECEBF
+Carbon    Tremor     13B5        B5 13         13 B5         8FA79BDC
+Carbon    G-Force    13B6        B6 13         13 B6         E0FD3B7C
+Carbon    Mongoose   13B7        B7 13         13 B7         B2EEFF80
+Carbon    Eraser     13B8        B8 13         13 B8         172099BA
+Carbon    Twister    13B9        B9 13         13 B9         9E999798
+Carbon    Tsunami    13BA        BA 13         13 BA         1B2B2ADB
+
+[Pontiac GTO]
+Type      Name       Save Value  PC/PS2 Bytes  360/GC Bytes  Name Hash
+--------  ---------  ----------  ------------  ------------  ---------
+Stock     Stock      04F7        F7 04         04 F7         412A4819
+Standard  Overdial   04F8        F8 04         04 F8         5FDAF748
+Standard  Trident    04F9        F9 04         04 F9         62301FE9
+Standard  Fusion     04FA        FA 04         04 FA         A5D5BA26
+Standard  Colix      04FB        FB 04         04 FB         ACD53409
+Standard  Airomax    04FC        FC 04         04 FC         AF2A5CAA
+Standard  DJM Hyde   04FD        FD 04         04 FD         EBD07D04
+Standard  Double-V   04FE        FE 04         04 FE         568654C4
+Standard  Tri-Slot   04FF        FF 04         04 FF         58DB7D65
+Standard  Speed      0500        00 05         05 00         5B30A606
+Standard  Factor X   0501        01 05         05 01         F2CFF6E7
+Standard  Speedline  0502        02 05         05 02         F9CF70CA
+Standard  Tremor     0503        03 05         05 03         3D750B07
+Carbon    Overdial   0504        04 05         05 04         1134AF50
+Carbon    Trident    0505        05 05         05 05         85B12051
+Carbon    Fusion     0506        06 05         05 06         B7C9ED6E
+Carbon    Colix      0507        07 05         05 07         153F4071
+Carbon    Airomax    0508        08 05         05 08         89BBB172
+Carbon    DJM Hyde   0509        09 05         05 09         5E5F2B8C
+Standard  G-Force    050A        0A 05         05 0A         5D85CEA7
+Standard  Mongoose   050B        0B 05         05 0B         66DA712B
+Standard  Twister    050C        0C 05         05 0C         9ED64043
+Standard  Eraser     050D        0D 05         05 0D         EE25A5A5
+Standard  Tsunami    050E        0E 05         05 0E         3B1FE266
+Carbon    Double-V   050F        0F 05         05 0F         3F42EB4C
+Carbon    Tri-Slot   0510        10 05         05 10         B3BF5C4D
+Carbon    Speed      0511        11 05         05 11         283BCD4E
+Carbon    Factor X   0512        12 05         05 12         BBD47E8F
+Carbon    Speedline  0513        13 05         05 13         1949D192
+Carbon    Tremor     0514        14 05         05 14         4B629EAF
+Carbon    G-Force    0515        15 05         05 15         9CB83E4F
+Carbon    Mongoose   0516        16 05         05 16         6EAA0253
+Carbon    Eraser     0517        17 05         05 17         D2DB9C8D
+Carbon    Twister    0518        18 05         05 18         5A549A6B
+Carbon    Tsunami    0519        19 05         05 19         D6E62DAE
+
+[Porsche 911 Carrera S]
+Type      Name       Save Value  PC/PS2 Bytes  360/GC Bytes  Name Hash
+--------  ---------  ----------  ------------  ------------  ---------
+Stock     Stock      07F3        F3 07         07 F3         BBAA3B0B
+Standard  Overdial   07F4        F4 07         07 F4         7A236EBA
+Standard  Trident    07F5        F5 07         07 F5         7C78975B
+Standard  Fusion     07F6        F6 07         07 F6         C01E3198
+Standard  Colix      07F7        F7 07         07 F7         C71DAB7B
+Standard  Airomax    07F8        F8 07         07 F8         C972D41C
+Standard  DJM Hyde   07F9        F9 07         07 F9         0618F476
+Standard  Double-V   07FA        FA 07         07 FA         70CECC36
+Standard  Tri-Slot   07FB        FB 07         07 FB         7323F4D7
+Standard  Speed      07FC        FC 07         07 FC         75791D78
+Standard  Factor X   07FD        FD 07         07 FD         0D186E59
+Standard  Speedline  07FE        FE 07         07 FE         1417E83C
+Standard  Tremor     07FF        FF 07         07 FF         57BD8279
+Carbon    Overdial   0800        00 08         08 00         A7FC4982
+Carbon    Trident    0801        01 08         08 01         1C78BA83
+Carbon    Fusion     0802        02 08         08 02         4E9187A0
+Carbon    Colix      0803        03 08         08 03         AC06DAA3
+Carbon    Airomax    0804        04 08         08 04         20834BA4
+Carbon    DJM Hyde   0805        05 08         08 05         F526C5BE
+Standard  G-Force    0806        06 08         08 06         77CE4619
+Standard  Mongoose   0807        07 08         08 07         8122E89D
+Standard  Twister    0808        08 08         08 08         B91EB7B5
+Standard  Eraser     0809        09 08         08 09         086E1D17
+Standard  Tsunami    080A        0A 08         08 0A         556859D8
+Carbon    Double-V   080B        0B 08         08 0B         D60A857E
+Carbon    Tri-Slot   080C        0C 08         08 0C         4A86F67F
+Carbon    Speed      080D        0D 08         08 0D         BF036780
+Carbon    Factor X   080E        0E 08         08 0E         529C18C1
+Carbon    Speedline  080F        0F 08         08 0F         B0116BC4
+Carbon    Tremor     0810        10 08         08 10         E22A38E1
+Carbon    G-Force    0811        11 08         08 11         337FD881
+Carbon    Mongoose   0812        12 08         08 12         05719C85
+Carbon    Eraser     0813        13 08         08 13         69A336BF
+Carbon    Twister    0814        14 08         08 14         F11C349D
+Carbon    Tsunami    0815        15 08         08 15         6DADC7E0
+
+[Porsche 911 GT2]
+Type      Name       Save Value  PC/PS2 Bytes  360/GC Bytes  Name Hash
+--------  ---------  ----------  ------------  ------------  ---------
+Stock     Stock      197A        7A 19         19 7A         B42593F7
+
+[Porsche 911 Turbo S]
+Type      Name       Save Value  PC/PS2 Bytes  360/GC Bytes  Name Hash
+--------  ---------  ----------  ------------  ------------  ---------
+Stock     Stock      1EF6        F6 1E         1E F6         5617C436
+Standard  Overdial   1EF7        F7 1E         1E F7         6617EEA5
+Standard  Trident    1EF8        F8 1E         1E F8         686D1746
+Standard  Fusion     1EF9        F9 1E         1E F9         AC12B183
+Standard  Colix      1EFA        FA 1E         1E FA         B3122B66
+Standard  Airomax    1EFB        FB 1E         1E FB         B5675407
+Standard  DJM Hyde   1EFC        FC 1E         1E FC         F20D7461
+Standard  Double-V   1EFD        FD 1E         1E FD         5CC34C21
+Standard  Tri-Slot   1EFE        FE 1E         1E FE         5F1874C2
+Standard  Speed      1EFF        FF 1E         1E FF         616D9D63
+Standard  Factor X   1F00        00 1F         1F 00         F90CEE44
+Standard  Speedline  1F01        01 1F         1F 01         000C6827
+Standard  Tremor     1F02        02 1F         1F 02         43B20264
+Carbon    Overdial   1F03        03 1F         1F 03         C595458D
+Carbon    Trident    1F04        04 1F         1F 04         3A11B68E
+Carbon    Fusion     1F05        05 1F         1F 05         6C2A83AB
+Carbon    Colix      1F06        06 1F         1F 06         C99FD6AE
+Carbon    Airomax    1F07        07 1F         1F 07         3E1C47AF
+Carbon    DJM Hyde   1F08        08 1F         1F 08         12BFC1C9
+Standard  G-Force    1F09        09 1F         1F 09         63C2C604
+Standard  Mongoose   1F0A        0A 1F         1F 0A         6D176888
+Standard  Twister    1F0B        0B 1F         1F 0B         A51337A0
+Standard  Eraser     1F0C        0C 1F         1F 0C         F4629D02
+Standard  Tsunami    1F0D        0D 1F         1F 0D         415CD9C3
+Carbon    Double-V   1F0E        0E 1F         1F 0E         F3A38189
+Carbon    Tri-Slot   1F0F        0F 1F         1F 0F         681FF28A
+Carbon    Speed      1F10        10 1F         1F 10         DC9C638B
+Carbon    Factor X   1F11        11 1F         1F 11         703514CC
+Carbon    Speedline  1F12        12 1F         1F 12         CDAA67CF
+Carbon    Tremor     1F13        13 1F         1F 13         FFC334EC
+Carbon    G-Force    1F14        14 1F         1F 14         5118D48C
+Carbon    Mongoose   1F15        15 1F         1F 15         230A9890
+Carbon    Eraser     1F16        16 1F         1F 16         873C32CA
+Carbon    Twister    1F17        17 1F         1F 17         0EB530A8
+Carbon    Tsunami    1F18        18 1F         1F 18         8B46C3EB
+
+[Porsche Carrera GT]
+Type      Name       Save Value  PC/PS2 Bytes  360/GC Bytes  Name Hash
+--------  ---------  ----------  ------------  ------------  ---------
+Stock     Stock      2988        88 29         29 88         569B832A
+Standard  Overdial   2989        89 29         29 89         96873A99
+Standard  Trident    298A        8A 29         29 8A         98DC633A
+Standard  Fusion     298B        8B 29         29 8B         DC81FD77
+Standard  Colix      298C        8C 29         29 8C         E381775A
+Standard  Airomax    298D        8D 29         29 8D         E5D69FFB
+Standard  DJM Hyde   298E        8E 29         29 8E         227CC055
+Standard  Double-V   298F        8F 29         29 8F         8D329815
+Standard  Tri-Slot   2990        90 29         29 90         8F87C0B6
+Standard  Speed      2991        91 29         29 91         91DCE957
+Standard  Factor X   2992        92 29         29 92         297C3A38
+Standard  Speedline  2993        93 29         29 93         307BB41B
+Standard  Tremor     2994        94 29         29 94         74214E58
+Carbon    Overdial   2995        95 29         29 95         FD4A7D01
+Carbon    Trident    2996        96 29         29 96         71C6EE02
+Carbon    Fusion     2997        97 29         29 97         A3DFBB1F
+Carbon    Colix      2998        98 29         29 98         01550E22
+Carbon    Airomax    2999        99 29         29 99         75D17F23
+Carbon    DJM Hyde   299A        9A 29         29 9A         4A74F93D
+Standard  G-Force    299B        9B 29         29 9B         943211F8
+Standard  Mongoose   299C        9C 29         29 9C         9D86B47C
+Standard  Twister    299D        9D 29         29 9D         D5828394
+Standard  Eraser     299E        9E 29         29 9E         24D1E8F6
+Standard  Tsunami    299F        9F 29         29 9F         71CC25B7
+Carbon    Double-V   29A0        A0 29         29 A0         2B58B8FD
+Carbon    Tri-Slot   29A1        A1 29         29 A1         9FD529FE
+Carbon    Speed      29A2        A2 29         29 A2         14519AFF
+Carbon    Factor X   29A3        A3 29         29 A3         A7EA4C40
+Carbon    Speedline  29A4        A4 29         29 A4         055F9F43
+Carbon    Tremor     29A5        A5 29         29 A5         37786C60
+Carbon    G-Force    29A6        A6 29         29 A6         88CE0C00
+Carbon    Mongoose   29A7        A7 29         29 A7         5ABFD004
+Carbon    Eraser     29A8        A8 29         29 A8         BEF16A3E
+Carbon    Twister    29A9        A9 29         29 A9         466A681C
+Carbon    Tsunami    29AA        AA 29         29 AA         C2FBFB5F
+
+[Porsche Cayman S]
+Type      Name       Save Value  PC/PS2 Bytes  360/GC Bytes  Name Hash
+--------  ---------  ----------  ------------  ------------  ---------
+Stock     Stock      27F3        F3 27         27 F3         ABBCB17B
+Standard  Overdial   27F4        F4 27         27 F4         B8AD412A
+Standard  Trident    27F5        F5 27         27 F5         BB0269CB
+Standard  Fusion     27F6        F6 27         27 F6         FEA80408
+Standard  Colix      27F7        F7 27         27 F7         05A77DEB
+Standard  Airomax    27F8        F8 27         27 F8         07FCA68C
+Standard  DJM Hyde   27F9        F9 27         27 F9         44A2C6E6
+Standard  Double-V   27FA        FA 27         27 FA         AF589EA6
+Standard  Tri-Slot   27FB        FB 27         27 FB         B1ADC747
+Standard  Speed      27FC        FC 27         27 FC         B402EFE8
+Standard  Factor X   27FD        FD 27         27 FD         4BA240C9
+Standard  Speedline  27FE        FE 27         27 FE         52A1BAAC
+Standard  Tremor     27FF        FF 27         27 FF         964754E9
+Carbon    Overdial   2800        00 28         28 00         B94A45F2
+Carbon    Trident    2801        01 28         28 01         2DC6B6F3
+Carbon    Fusion     2802        02 28         28 02         5FDF8410
+Carbon    Colix      2803        03 28         28 03         BD54D713
+Carbon    Airomax    2804        04 28         28 04         31D14814
+Carbon    DJM Hyde   2805        05 28         28 05         0674C22E
+Standard  G-Force    2806        06 28         28 06         B6581889
+Standard  Mongoose   2807        07 28         28 07         BFACBB0D
+Standard  Twister    2808        08 28         28 08         F7A88A25
+Standard  Eraser     2809        09 28         28 09         46F7EF87
+Standard  Tsunami    280A        0A 28         28 0A         93F22C48
+Carbon    Double-V   280B        0B 28         28 0B         E75881EE
+Carbon    Tri-Slot   280C        0C 28         28 0C         5BD4F2EF
+Carbon    Speed      280D        0D 28         28 0D         D05163F0
+Carbon    Factor X   280E        0E 28         28 0E         63EA1531
+Carbon    Speedline  280F        0F 28         28 0F         C15F6834
+Carbon    Tremor     2810        10 28         28 10         F3783551
+Carbon    G-Force    2811        11 28         28 11         44CDD4F1
+Carbon    Mongoose   2812        12 28         28 12         16BF98F5
+Carbon    Eraser     2813        13 28         28 13         7AF1332F
+Carbon    Twister    2814        14 28         28 14         026A310D
+Carbon    Tsunami    2815        15 28         28 15         7EFBC450
+
+[Renault Clio V6]
+Type      Name       Save Value  PC/PS2 Bytes  360/GC Bytes  Name Hash
+--------  ---------  ----------  ------------  ------------  ---------
+Stock     Stock      08B2        B2 08         08 B2         531A0116
+Standard  Overdial   08B3        B3 08         08 B3         AC9CE385
+Standard  Trident    08B4        B4 08         08 B4         AEF20C26
+Standard  Fusion     08B5        B5 08         08 B5         F297A663
+Standard  Colix      08B6        B6 08         08 B6         F9972046
+Standard  Airomax    08B7        B7 08         08 B7         FBEC48E7
+Standard  DJM Hyde   08B8        B8 08         08 B8         38926941
+Standard  Double-V   08B9        B9 08         08 B9         A3484101
+Standard  Tri-Slot   08BA        BA 08         08 BA         A59D69A2
+Standard  Speed      08BB        BB 08         08 BB         A7F29243
+Standard  Factor X   08BC        BC 08         08 BC         3F91E324
+Standard  Speedline  08BD        BD 08         08 BD         46915D07
+Standard  Tremor     08BE        BE 08         08 BE         8A36F744
+Carbon    Overdial   08BF        BF 08         08 BF         33E08E6D
+Carbon    Trident    08C0        C0 08         08 C0         A85CFF6E
+Carbon    Fusion     08C1        C1 08         08 C1         DA75CC8B
+Carbon    Colix      08C2        C2 08         08 C2         37EB1F8E
+Carbon    Airomax    08C3        C3 08         08 C3         AC67908F
+Carbon    DJM Hyde   08C4        C4 08         08 C4         810B0AA9
+Standard  G-Force    08C5        C5 08         08 C5         AA47BAE4
+Standard  Mongoose   08C6        C6 08         08 C6         B39C5D68
+Standard  Twister    08C7        C7 08         08 C7         EB982C80
+Standard  Eraser     08C8        C8 08         08 C8         3AE791E2
+Standard  Tsunami    08C9        C9 08         08 C9         87E1CEA3
+Carbon    Double-V   08CA        CA 08         08 CA         61EECA69
+Carbon    Tri-Slot   08CB        CB 08         08 CB         D66B3B6A
+Carbon    Speed      08CC        CC 08         08 CC         4AE7AC6B
+Carbon    Factor X   08CD        CD 08         08 CD         DE805DAC
+Carbon    Speedline  08CE        CE 08         08 CE         3BF5B0AF
+Carbon    Tremor     08CF        CF 08         08 CF         6E0E7DCC
+Carbon    G-Force    08D0        D0 08         08 D0         BF641D6C
+Carbon    Mongoose   08D1        D1 08         08 D1         9155E170
+Carbon    Eraser     08D2        D2 08         08 D2         F5877BAA
+Carbon    Twister    08D3        D3 08         08 D3         7D007988
+Carbon    Tsunami    08D4        D4 08         08 D4         F9920CCB
+
+[Subaru Impreza WRX STi]
+Type      Name       Save Value  PC/PS2 Bytes  360/GC Bytes  Name Hash
+--------  ---------  ----------  ------------  ------------  ---------
+Stock     Stock      2712        12 27         27 12         9FF898E8
+Standard  Overdial   2713        13 27         27 13         AB80B7D7
+Standard  Trident    2714        14 27         27 14         ADD5E078
+Standard  Fusion     2715        15 27         27 15         F17B7AB5
+Standard  Colix      2716        16 27         27 16         F87AF498
+Standard  Airomax    2717        17 27         27 17         FAD01D39
+Standard  DJM Hyde   2718        18 27         27 18         37763D93
+Standard  Double-V   2719        19 27         27 19         A22C1553
+Standard  Tri-Slot   271A        1A 27         27 1A         A4813DF4
+Standard  Speed      271B        1B 27         27 1B         A6D66695
+Standard  Factor X   271C        1C 27         27 1C         3E75B776
+Standard  Speedline  271D        1D 27         27 1D         45753159
+Standard  Tremor     271E        1E 27         27 1E         891ACB96
+Carbon    Overdial   271F        1F 27         27 1F         6050D97F
+Carbon    Trident    2720        20 27         27 20         D4CD4A80
+Carbon    Fusion     2721        21 27         27 21         06E6179D
+Carbon    Colix      2722        22 27         27 22         645B6AA0
+Carbon    Airomax    2723        23 27         27 23         D8D7DBA1
+Carbon    DJM Hyde   2724        24 27         27 24         AD7B55BB
+Standard  G-Force    2725        25 27         27 25         A92B8F36
+Standard  Mongoose   2726        26 27         27 26         B28031BA
+Standard  Twister    2727        27 27         27 27         EA7C00D2
+Standard  Eraser     2728        28 27         27 28         39CB6634
+Standard  Tsunami    2729        29 27         27 29         86C5A2F5
+Carbon    Double-V   272A        2A 27         27 2A         8E5F157B
+Carbon    Tri-Slot   272B        2B 27         27 2B         02DB867C
+Carbon    Speed      272C        2C 27         27 2C         7757F77D
+Carbon    Factor X   272D        2D 27         27 2D         0AF0A8BE
+Carbon    Speedline  272E        2E 27         27 2E         6865FBC1
+Carbon    Tremor     272F        2F 27         27 2F         9A7EC8DE
+Carbon    G-Force    2730        30 27         27 30         EBD4687E
+Carbon    Mongoose   2731        31 27         27 31         BDC62C82
+Carbon    Eraser     2732        32 27         27 32         21F7C6BC
+Carbon    Twister    2733        33 27         27 33         A970C49A
+Carbon    Tsunami    2734        34 27         27 34         260257DD
+
+[Toyota Supra]
+Type      Name       Save Value  PC/PS2 Bytes  360/GC Bytes  Name Hash
+--------  ---------  ----------  ------------  ------------  ---------
+Stock     Stock      117F        7F 11         11 7F         46BF653A
+Standard  Overdial   1180        80 11         11 80         1F2BE0A9
+Standard  Trident    1181        81 11         11 81         2181094A
+Standard  Fusion     1182        82 11         11 82         6526A387
+Standard  Colix      1183        83 11         11 83         6C261D6A
+Standard  Airomax    1184        84 11         11 84         6E7B460B
+Standard  DJM Hyde   1185        85 11         11 85         AB216665
+Standard  Double-V   1186        86 11         11 86         15D73E25
+Standard  Tri-Slot   1187        87 11         11 87         182C66C6
+Standard  Speed      1188        88 11         11 88         1A818F67
+Standard  Factor X   1189        89 11         11 89         B220E048
+Standard  Speedline  118A        8A 11         11 8A         B9205A2B
+Standard  Tremor     118B        8B 11         11 8B         FCC5F468
+Carbon    Overdial   118C        8C 11         11 8C         CE7E2911
+Carbon    Trident    118D        8D 11         11 8D         42FA9A12
+Carbon    Fusion     118E        8E 11         11 8E         7513672F
+Carbon    Colix      118F        8F 11         11 8F         D288BA32
+Carbon    Airomax    1190        90 11         11 90         47052B33
+Carbon    DJM Hyde   1191        91 11         11 91         1BA8A54D
+Standard  G-Force    1192        92 11         11 92         1CD6B808
+Standard  Mongoose   1193        93 11         11 93         262B5A8C
+Standard  Twister    1194        94 11         11 94         5E2729A4
+Standard  Eraser     1195        95 11         11 95         AD768F06
+Standard  Tsunami    1196        96 11         11 96         FA70CBC7
+Carbon    Double-V   1197        97 11         11 97         FC8C650D
+Carbon    Tri-Slot   1198        98 11         11 98         7108D60E
+Carbon    Speed      1199        99 11         11 99         E585470F
+Carbon    Factor X   119A        9A 11         11 9A         791DF850
+Carbon    Speedline  119B        9B 11         11 9B         D6934B53
+Carbon    Tremor     119C        9C 11         11 9C         08AC1870
+Carbon    G-Force    119D        9D 11         11 9D         5A01B810
+Carbon    Mongoose   119E        9E 11         11 9E         2BF37C14
+Carbon    Eraser     119F        9F 11         11 9F         9025164E
+Carbon    Twister    11A0        A0 11         11 A0         179E142C
+Carbon    Tsunami    11A1        A1 11         11 A1         942FA76F
+
+[Vauxhall Monaro VXR]
+Type      Name       Save Value  PC/PS2 Bytes  360/GC Bytes  Name Hash
+--------  ---------  ----------  ------------  ------------  ---------
+Stock     Stock      22C8        C8 22         22 C8         A3CF427B
+Standard  Overdial   22C9        C9 22         22 C9         FFA8122A
+Standard  Trident    22CA        CA 22         22 CA         01FD3ACB
+Standard  Fusion     22CB        CB 22         22 CB         45A2D508
+Standard  Colix      22CC        CC 22         22 CC         4CA24EEB
+Standard  Airomax    22CD        CD 22         22 CD         4EF7778C
+Standard  DJM Hyde   22CE        CE 22         22 CE         8B9D97E6
+Standard  Double-V   22CF        CF 22         22 CF         F6536FA6
+Standard  Tri-Slot   22D0        D0 22         22 D0         F8A89847
+Standard  Speed      22D1        D1 22         22 D1         FAFDC0E8
+Standard  Factor X   22D2        D2 22         22 D2         929D11C9
+Standard  Speedline  22D3        D3 22         22 D3         999C8BAC
+Standard  Tremor     22D4        D4 22         22 D4         DD4225E9
+Carbon    Overdial   22D5        D5 22         22 D5         C89F76F2
+Carbon    Trident    22D6        D6 22         22 D6         3D1BE7F3
+Carbon    Fusion     22D7        D7 22         22 D7         6F34B510
+Carbon    Colix      22D8        D8 22         22 D8         CCAA0813
+Carbon    Airomax    22D9        D9 22         22 D9         41267914
+Carbon    DJM Hyde   22DA        DA 22         22 DA         15C9F32E
+Standard  G-Force    22DB        DB 22         22 DB         FD52E989
+Standard  Mongoose   22DC        DC 22         22 DC         06A78C0D
+Standard  Twister    22DD        DD 22         22 DD         3EA35B25
+Standard  Eraser     22DE        DE 22         22 DE         8DF2C087
+Standard  Tsunami    22DF        DF 22         22 DF         DAECFD48
+Carbon    Double-V   22E0        E0 22         22 E0         F6ADB2EE
+Carbon    Tri-Slot   22E1        E1 22         22 E1         6B2A23EF
+Carbon    Speed      22E2        E2 22         22 E2         DFA694F0
+Carbon    Factor X   22E3        E3 22         22 E3         733F4631
+Carbon    Speedline  22E4        E4 22         22 E4         D0B49934
+Carbon    Tremor     22E5        E5 22         22 E5         02CD6651
+Carbon    G-Force    22E6        E6 22         22 E6         542305F1
+Carbon    Mongoose   22E7        E7 22         22 E7         2614C9F5
+Carbon    Eraser     22E8        E8 22         22 E8         8A46642F
+Carbon    Twister    22E9        E9 22         22 E9         11BF620D
+Carbon    Tsunami    22EA        EA 22         22 EA         8E50F550
+
+[Volkswagen Golf GTI]
+Type      Name       Save Value  PC/PS2 Bytes  360/GC Bytes  Name Hash
+--------  ---------  ----------  ------------  ------------  ---------
+Stock     Stock      0438        38 04         04 38         1B7617D3
+Standard  Overdial   0439        39 04         04 39         FC599D82
+Standard  Trident    043A        3A 04         04 3A         FEAEC623
+Standard  Fusion     043B        3B 04         04 3B         42546060
+Standard  Colix      043C        3C 04         04 3C         4953DA43
+Standard  Airomax    043D        3D 04         04 3D         4BA902E4
+Standard  DJM Hyde   043E        3E 04         04 3E         884F233E
+Standard  Double-V   043F        3F 04         04 3F         F304FAFE
+Standard  Tri-Slot   0440        40 04         04 40         F55A239F
+Standard  Speed      0441        41 04         04 41         F7AF4C40
+Standard  Factor X   0442        42 04         04 42         8F4E9D21
+Standard  Speedline  0443        43 04         04 43         964E1704
+Standard  Tremor     0444        44 04         04 44         D9F3B141
+Carbon    Overdial   0445        45 04         04 45         A019634A
+Carbon    Trident    0446        46 04         04 46         1495D44B
+Carbon    Fusion     0447        47 04         04 47         46AEA168
+Carbon    Colix      0448        48 04         04 48         A423F46B
+Carbon    Airomax    0449        49 04         04 49         18A0656C
+Carbon    DJM Hyde   044A        4A 04         04 4A         ED43DF86
+Standard  G-Force    044B        4B 04         04 4B         FA0474E1
+Standard  Mongoose   044C        4C 04         04 4C         03591765
+Standard  Twister    044D        4D 04         04 4D         3B54E67D
+Standard  Eraser     044E        4E 04         04 4E         8AA44BDF
+Standard  Tsunami    044F        4F 04         04 4F         D79E88A0
+Carbon    Double-V   0450        50 04         04 50         CE279F46
+Carbon    Tri-Slot   0451        51 04         04 51         42A41047
+Carbon    Speed      0452        52 04         04 52         B7208148
+Carbon    Factor X   0453        53 04         04 53         4AB93289
+Carbon    Speedline  0454        54 04         04 54         A82E858C
+Carbon    Tremor     0455        55 04         04 55         DA4752A9
+Carbon    G-Force    0456        56 04         04 56         2B9CF249
+Carbon    Mongoose   0457        57 04         04 57         FD8EB64D
+Carbon    Eraser     0458        58 04         04 58         61C05087
+Carbon    Twister    0459        59 04         04 59         E9394E65
+Carbon    Tsunami    045A        5A 04         04 5A         65CAE1A8
+

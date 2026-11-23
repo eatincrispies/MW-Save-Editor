@@ -1,0 +1,39 @@
+Window Tint
+===========
+
+Put the 2-byte Save Value in part slot 131.
+
+Type  Name                Save Value  PC/PS2 Bytes  360/GC Bytes  Name Hash
+----  ------------------  ----------  ------------  ------------  ---------
+      No Window Tint      1523        23 15         15 23         3D263938
+      Light Black         1524        24 15         15 24         89946400
+      Light Green         1525        25 15         15 25         89F23A14
+      Medium Black        1526        26 15         15 26         F8798275
+      Medium Green        1527        27 15         15 27         F8D75889
+      Medium Blue         1528        28 15         15 28         880C43AB
+      Medium Red          1529        29 15         15 29         803EB1BE
+      Dark Black          152A        2A 15         15 2A         D68EA0C1
+      Dark Green          152B        2B 15         15 2B         D6EC76D5
+      Dark Blue           152C        2C 15         15 2C         8A616C4C
+      Dark Red            152D        2D 15         15 2D         8050CA3F
+      Dark Yellow         152E        2E 15         15 2E         DD90E320
+      Dark Aqua           152F        2F 15         15 2F         8A60F52C
+      Dark Coral          1530        30 15         15 30         D6EC6733
+      Dark Orange         1531        31 15         15 31         C7228AA0
+      Dark Magenta        1532        32 15         15 32         8A690BF6
+      Dark Lime           1533        33 15         15 33         8A66DA4B
+      Dark Purple         1534        34 15         15 34         68E97F75
+      Dark Gold           1535        35 15         15 35         8A6435CA
+      Dark Pearl Black    1536        36 15         15 36         6A254E36
+      Dark Pearl Green    1537        37 15         15 37         6A83244A
+      Dark Pearl Blue     1538        38 15         15 38         DC6DBF21
+      Dark Pearl Red      1539        39 15         15 39         5C039674
+      Dark Pearl Yellow   153A        3A 15         15 3A         E3FD3F35
+      Dark Pearl Aqua     153B        3B 15         15 3B         DC6D4801
+      Dark Pearl Coral    153C        3C 15         15 3C         6A8314A8
+      Dark Pearl Orange   153D        3D 15         15 3D         CD8EE6B5
+      Dark Pearl Magenta  153E        3E 15         15 3E         DC755ECB
+      Dark Pearl Lime     153F        3F 15         15 3F         DC732D20
+      Dark Pearl Purple   1540        40 15         15 40         BBDD34CA
+      Dark Pearl Gold     1541        41 15         15 41         DC70889F
+

@@ -1,0 +1,51 @@
+Records
+=======
+
+What's inside each kind of record. Add these to the record's start.
+
+[Car record: 20 bytes, 200 in the save]
+Offset  Size           What it is
+------  -------------  -------------------------------------------------------------------------------
++00     4 bytes        Handle (FFFFFFFF means empty)
++04     4 bytes        Frontend Key
++08     4 bytes        Vehicle Key
++0C     4 bytes        Filter bits
++10     1 byte         Customization number (FF means none)
++11     1 byte         Career record number (FF means none)
+
+[Customization: 408 bytes, 75 in the save (60 on PS2 Early)]
+Offset  Size           What it is
+------  -------------  -------------------------------------------------------------------------------
++000    139 x 2 bytes  Part slots (FFFF means empty)
++118    7 x 4 bytes    Upgrade levels: tires, brakes, suspension, transmission, engine, turbo, nitrous
++134    4 bytes        Junkman bits, one per upgrade in the same order
++190    4 bytes        Preset
++194    1 byte         Its own number (FF means empty)
+
+[Career car record: 56 bytes, 25 in the save (10 on PS2 Early)]
+Offset  Size           What it is
+------  -------------  -------------------------------------------------------------------------------
++00     1 byte         Its own number (FF means empty)
++02     1 byte         Max impound strikes
++03     1 byte         Impound strikes
++04     1 byte         Impound state
++05     1 byte         Impound days left
++0C     4-byte float   Heat
++10     4 bytes        Bounty
++14     2 bytes        Pursuits evaded
++16     2 bytes        Times busted
++18     8 x 2 bytes    Unserved infractions
++28     8 x 2 bytes    Served infractions
+
+[Race record: 16 bytes]
+Offset  Size           What it is
+------  -------------  -------------------------------------------------------------------------------
++00     4 bytes        Race Hash
++04     4 bytes        Race flags
+
+[Marker record: 12 bytes, 63 in the save]
+Offset  Size           What it is
+------  -------------  -------------------------------------------------------------------------------
++00     4 bytes        Marker type (0 means empty)
++08     4 bytes        State (1 means owned)
+

@@ -1,0 +1,76 @@
+Preset Cars
+===========
+
+The Vehicle Key goes at +08 of a car record and the Frontend Key at +04. See Save Layout\Car Records.txt.
+The Preset Hash is the handle the game gives its own preset record.
+
+Name                                                     Preset                Preset Hash  PC/PS2 Bytes  360/GC Bytes  Vehicle Key  PC/PS2 Bytes  360/GC Bytes  Frontend Key  PC/PS2 Bytes  360/GC Bytes
+-------------------------------------------------------  --------------------  -----------  ------------  ------------  -----------  ------------  ------------  ------------  ------------  ------------
+Black Edition BMW M3 GTR (Street)                        CE_GTRSTREET          363A1FEA     EA 1F 3A 36   36 3A 1F EA   CD88083F     3F 08 88 CD   CD 88 08 3F   81C2FEA6      A6 FE C2 81   81 C2 FE A6
+Black Edition Chevrolet Camaro SS                        CE_CAMARO             582F21D9     D9 21 2F 58   58 2F 21 D9   90944519     19 45 94 90   90 94 45 19   90944519      19 45 94 90   90 94 45 19
+Black Edition Chevrolet Corvette C6                      CE_Corvette           634D1BD2     D2 1B 4D 63   63 4D 1B D2   46118CE4     E4 8C 11 46   46 11 8C E4   22E582CF      CF 82 E5 22   22 E5 82 CF
+Black Edition Chevrolet Corvette C6.R                    CE_C6R                54653C71     71 3C 65 54   54 65 3C 71   0165579E     9E 57 65 01   01 65 57 9E   0165579E      9E 57 65 01   01 65 57 9E
+Black Edition Lotus Elise                                CE_Elise              02D642B8     B8 42 D6 02   02 D6 42 B8   313D4936     36 49 3D 31   31 3D 49 36   313D4936      36 49 3D 31   31 3D 49 36
+Black Edition Mercedes-Benz SL 500                       CE_SL500              03D3401A     1A 40 D3 03   03 D3 40 1A   A800B5BB     BB B5 00 A8   A8 00 B5 BB   A800B5BB      BB B5 00 A8   A8 00 B5 BB
+Black Edition Mercedes-Benz SL 65 AMG                    CE_SL65               E115EAD0     D0 EA 15 E1   E1 15 EA D0   7147F9A1     A1 F9 47 71   71 47 F9 A1   7147F9A1      A1 F9 47 71   71 47 F9 A1
+Black Edition Porsche 911 Carrera S                      CE_997S               E1075862     62 58 07 E1   E1 07 58 62   3C4DA7DA     DA A7 4D 3C   3C 4D A7 DA   3C4DA7DA      DA A7 4D 3C   3C 4D A7 DA
+Black Edition Porsche 911 GT2                            CE_GT2                54655133     33 51 65 54   54 65 51 33   9B3EF46F     6F F4 3E 9B   9B 3E F4 6F   9B3EF46F      6F F4 3E 9B   9B 3E F4 6F
+Black Edition Toyota Supra                               CE_Supra              03D8A6D1     D1 A6 D8 03   03 D8 A6 D1   66F13434     34 34 F1 66   66 F1 34 34   66F13434      34 34 F1 66   66 F1 34 34
+BMW M3 GTR (Prologue)                                    M3GTRCAREERSTART      38A3C42C     2C C4 A3 38   38 A3 C4 2C   39DAE0F8     F8 E0 DA 39   39 DA E0 F8   23CC4A4E      4E 4A CC 23   23 CC 4A 4E
+Bonus Chevrolet Corvette C6.R                            BONUS_C6R             2CF370F0     F0 70 F3 2C   2C F3 70 F0   0165579E     9E 57 65 01   01 65 57 9E   0165579E      9E 57 65 01   01 65 57 9E
+Bonus Mercedes-Benz SL 65 AMG                            BONUS_SL65            CB6AAF2F     2F AF 6A CB   CB 6A AF 2F   7147F9A1     A1 F9 47 71   71 47 F9 A1   7147F9A1      A1 F9 47 71   71 47 F9 A1
+Bonus Porsche 911 GT2                                    BONUS_GT2             2CF385B2     B2 85 F3 2C   2C F3 85 B2   9B3EF46F     6F F4 3E 9B   9B 3E F4 6F   9B3EF46F      6F F4 3E 9B   9B 3E F4 6F
+Castrol Ford GT                                          CastrolGT             34498EB2     B2 8E 49 34   34 49 8E B2   42C0A5EA     EA A5 C0 42   42 C0 A5 EA   42C0A5EA      EA A5 C0 42   42 C0 A5 EA
+Challenge 01 (Volkswagen Golf GTI)                       CS_CAR_01             43CBFF2A     2A FF CB 43   43 CB FF 2A   79054B53     53 4B 05 79   79 05 4B 53   C1C32DAF      AF 2D C3 C1   C1 C3 2D AF
+Challenge 02 (Mazda RX-8)                                CS_CAR_02             43CBFF2B     2B FF CB 43   43 CB FF 2B   D6334437     37 44 33 D6   D6 33 44 37   C1C32DAF      AF 2D C3 C1   C1 C3 2D AF
+Challenge 03 (Pontiac GTO)                               CS_CAR_03             43CBFF2C     2C FF CB 43   43 CB FF 2C   AA483DC6     C6 3D 48 AA   AA 48 3D C6   C1C32DAF      AF 2D C3 C1   C1 C3 2D AF
+Challenge 04 (Porsche 911 Carrera S)                     CS_CAR_04             43CBFF2D     2D FF CB 43   43 CB FF 2D   3C4DA7DA     DA A7 4D 3C   3C 4D A7 DA   C1C32DAF      AF 2D C3 C1   C1 C3 2D AF
+Challenge 05 (Chevrolet Corvette C6)                     CS_CAR_05             43CBFF2E     2E FF CB 43   43 CB FF 2E   46118CE4     E4 8C 11 46   46 11 8C E4   C1C32DAF      AF 2D C3 C1   C1 C3 2D AF
+Challenge 06 (Mitsubishi Eclipse GT)                     CS_CAR_06             43CBFF2F     2F FF CB 43   43 CB FF 2F   A2D70BBD     BD 0B D7 A2   A2 D7 0B BD   C1C32DAF      AF 2D C3 C1   C1 C3 2D AF
+Challenge 07 (Toyota Supra)                              CS_CAR_07             43CBFF30     30 FF CB 43   43 CB FF 30   66F13434     34 34 F1 66   66 F1 34 34   C1C32DAF      AF 2D C3 C1   C1 C3 2D AF
+Challenge 08 (Subaru Impreza WRX STi)                    CS_CAR_08             43CBFF31     31 FF CB 43   43 CB FF 31   5F3B560D     0D 56 3B 5F   5F 3B 56 0D   C1C32DAF      AF 2D C3 C1   C1 C3 2D AF
+Challenge 09 (Cadillac CTS)                              CS_CAR_09             43CBFF32     32 FF CB 43   43 CB FF 32   DF186520     20 65 18 DF   DF 18 65 20   C1C32DAF      AF 2D C3 C1   C1 C3 2D AF
+Challenge 10 (Lamborghini Gallardo)                      CS_CAR_10             43CBFF4A     4A FF CB 43   43 CB FF 4A   7B2CC40B     0B C4 2C 7B   7B 2C C4 0B   C1C32DAF      AF 2D C3 C1   C1 C3 2D AF
+Challenge 11 (Dodge Viper SRT-10)                        CS_CAR_11             43CBFF4B     4B FF CB 43   43 CB FF 4B   6EBED408     08 D4 BE 6E   6E BE D4 08   C1C32DAF      AF 2D C3 C1   C1 C3 2D AF
+Challenge 12 (Lexus IS 300)                              CS_CAR_12             43CBFF4C     4C FF CB 43   43 CB FF 4C   5BFF2FB0     B0 2F FF 5B   5B FF 2F B0   C1C32DAF      AF 2D C3 C1   C1 C3 2D AF
+Challenge 13 (Renault Clio V6)                           CS_CAR_13             43CBFF4D     4D FF CB 43   43 CB FF 4D   EB1867EB     EB 67 18 EB   EB 18 67 EB   C1C32DAF      AF 2D C3 C1   C1 C3 2D AF
+Challenge 14 (Chevrolet Cobalt SS)                       CS_CAR_14             43CBFF4E     4E FF CB 43   43 CB FF 4E   5A784095     95 40 78 5A   5A 78 40 95   C1C32DAF      AF 2D C3 C1   C1 C3 2D AF
+Challenge 15 (Porsche 911 Turbo S)                       CS_CAR_15             43CBFF4F     4F FF CB 43   43 CB FF 4F   D27D5B8D     8D 5B 7D D2   D2 7D 5B 8D   C1C32DAF      AF 2D C3 C1   C1 C3 2D AF
+Challenge 16 (Aston Martin DB9)                          CS_CAR_16             43CBFF50     50 FF CB 43   43 CB FF 50   A4B61C6A     6A 1C B6 A4   A4 B6 1C 6A   C1C32DAF      AF 2D C3 C1   C1 C3 2D AF
+Challenge 17 (Mazda RX-7)                                CS_CAR_17             43CBFF51     51 FF CB 43   43 CB FF 51   8E09C833     33 C8 09 8E   8E 09 C8 33   C1C32DAF      AF 2D C3 C1   C1 C3 2D AF
+Challenge 18 (Lamborghini Murcielago)                    CS_CAR_18             43CBFF52     52 FF CB 43   43 CB FF 52   C1CD77EB     EB 77 CD C1   C1 CD 77 EB   C1C32DAF      AF 2D C3 C1   C1 C3 2D AF
+Challenge 19 (Porsche Carrera GT)                        CS_CAR_19             43CBFF53     53 FF CB 43   43 CB FF 53   67063DD4     D4 3D 06 67   67 06 3D D4   C1C32DAF      AF 2D C3 C1   C1 C3 2D AF
+Challenge 20 (Mercedes-Benz SLR McLaren)                 CS_CAR_20             43CBFF6B     6B FF CB 43   43 CB FF 6B   E32AD9BB     BB D9 2A E3   E3 2A D9 BB   C1C32DAF      AF 2D C3 C1   C1 C3 2D AF
+Challenge 21 (Pickup Truck (Challenge))                  CS_CAR_21             43CBFF6C     6C FF CB 43   43 CB FF 6C   743B3949     49 39 3B 74   74 3B 39 49   C1C32DAF      AF 2D C3 C1   C1 C3 2D AF
+Challenge 22 (Police Cruiser (Challenge))                CS_CAR_22             43CBFF6D     6D FF CB 43   43 CB FF 6D   70667EF5     F5 7E 66 70   70 66 7E F5   C1C32DAF      AF 2D C3 C1   C1 C3 2D AF
+Challenge 23 (Garbage Truck (Challenge))                 CS_CAR_23             43CBFF6E     6E FF CB 43   43 CB FF 6E   A7471AC7     C7 1A 47 A7   A7 47 1A C7   C1C32DAF      AF 2D C3 C1   C1 C3 2D AF
+Challenge 24 (Police SUV (Challenge))                    CS_CAR_24             43CBFF6F     6F FF CB 43   43 CB FF 6F   28E675AE     AE 75 E6 28   28 E6 75 AE   C1C32DAF      AF 2D C3 C1   C1 C3 2D AF
+Challenge 25 (Cement Truck (Challenge))                  CS_CAR_25             43CBFF70     70 FF CB 43   43 CB FF 70   51D9FFFA     FA FF D9 51   51 D9 FF FA   C1C32DAF      AF 2D C3 C1   C1 C3 2D AF
+Challenge 26 (Lotus Elise)                               CS_CAR_26             43CBFF71     71 FF CB 43   43 CB FF 71   313D4936     36 49 3D 31   31 3D 49 36   C1C32DAF      AF 2D C3 C1   C1 C3 2D AF
+Challenge 27 (Mercedes-Benz SL 500)                      CS_CAR_27             43CBFF72     72 FF CB 43   43 CB FF 72   A800B5BB     BB B5 00 A8   A8 00 B5 BB   C1C32DAF      AF 2D C3 C1   C1 C3 2D AF
+Challenge 28 (Mitsubishi Lancer Evolution VIII)          CS_CAR_28             43CBFF73     73 FF CB 43   43 CB FF 73   CCEEFBB6     B6 FB EE CC   CC EE FB B6   C1C32DAF      AF 2D C3 C1   C1 C3 2D AF
+Challenge 29 (Chevrolet Corvette C6.R)                   CS_CAR_29             43CBFF74     74 FF CB 43   43 CB FF 74   0165579E     9E 57 65 01   01 65 57 9E   C1C32DAF      AF 2D C3 C1   C1 C3 2D AF
+Challenge 30 (Porsche Cayman S)                          CS_CAR_30             43CBFF8C     8C FF CB 43   43 CB FF 8C   41555BEB     EB 5B 55 41   41 55 5B EB   C1C32DAF      AF 2D C3 C1   C1 C3 2D AF
+Challenge 31 (Vauxhall Monaro VXR)                       CS_CAR_31             43CBFF8D     8D FF CB 43   43 CB FF 8D   D8D3E1A1     A1 E1 D3 D8   D8 D3 E1 A1   C1C32DAF      AF 2D C3 C1   C1 C3 2D AF
+Challenge 32 (Mercedes-Benz CLK 500)                     CS_CAR_32             43CBFF8E     8E FF CB 43   43 CB FF 8E   8277AF2F     2F AF 77 82   82 77 AF 2F   C1C32DAF      AF 2D C3 C1   C1 C3 2D AF
+Challenge 33 (Fiat Punto)                                CS_CAR_33             43CBFF8F     8F FF CB 43   43 CB FF 8F   A6EE7A11     11 7A EE A6   A6 EE 7A 11   C1C32DAF      AF 2D C3 C1   C1 C3 2D AF
+Challenge 34 (Lamborghini Gallardo)                      CS_CAR_34             43CBFF90     90 FF CB 43   43 CB FF 90   7B2CC40B     0B C4 2C 7B   7B 2C C4 0B   C1C32DAF      AF 2D C3 C1   C1 C3 2D AF
+Challenge 35 (Chevrolet Camaro SS)                       CS_CAR_35             43CBFF91     91 FF CB 43   43 CB FF 91   90944519     19 45 94 90   90 94 45 19   C1C32DAF      AF 2D C3 C1   C1 C3 2D AF
+Challenge Copgto (Police GTO (Challenge))                CS_CAR_COPGTO         69497EB5     B5 7E 49 69   69 49 7E B5   6949DC95     95 DC 49 69   69 49 DC 95   C1C32DAF      AF 2D C3 C1   C1 C3 2D AF
+Challenge Hench (Police Corvette (Challenge))            CS_CAR_HENCH          41953F4F     4F 3F 95 41   41 95 3F 4F   8F6C070C     0C 07 6C 8F   8F 6C 07 0C   C1C32DAF      AF 2D C3 C1   C1 C3 2D AF
+Challenge Minivan (Minivan (Challenge))                  CS_CAR_MINIVAN        861DAFDB     DB AF 1D 86   86 1D AF DB   71ECE0D8     D8 E0 EC 71   71 EC E0 D8   C1C32DAF      AF 2D C3 C1   C1 C3 2D AF
+Challenge Pizza (Pizza Van (Challenge))                  CS_CAR_PIZZA          42286AD7     D7 6A 28 42   42 28 6A D7   C5F2C74B     4B C7 F2 C5   C5 F2 C7 4B   C1C32DAF      AF 2D C3 C1   C1 C3 2D AF
+Challenge Taxi (Taxi (Challenge))                        CS_CAR_TAXI           66DC7EFF     FF 7E DC 66   66 DC 7E FF   7AF01AF1     F1 1A F0 7A   7A F0 1A F1   C1C32DAF      AF 2D C3 C1   C1 C3 2D AF
+E3 Demo Mazda RX-8                                       E3_DEMO_RX8           03A98A7C     7C 8A A9 03   03 A9 8A 7C   D6334437     37 44 33 D6   D6 33 44 37   D6334437      37 44 33 D6   D6 33 44 37
+Gt Elise Rog (Lotus Elise)                               GT_ELISE_ROG          C99A7252     52 72 9A C9   C9 9A 72 52   313D4936     36 49 3D 31   31 3D 49 36   313D4936      36 49 3D 31   31 3D 49 36
+Opm Mustang Version2 (Ford Mustang GT (Demo))            OPM_MUSTANG_VERSION2  7E876940     40 69 87 7E   7E 87 69 40   F9DC5F64     64 5F DC F9   F9 DC 5F 64   9B93FD4D      4D FD 93 9B   9B 93 FD 4D
+Opm Rx8 Version2 (Mazda RX-8)                            OPM_RX8_Version2      03A31803     03 18 A3 03   03 A3 18 03   D6334437     37 44 33 D6   D6 33 44 37   D6334437      37 44 33 D6   D6 33 44 37
+Opm Rx8 Version3 (Mazda RX-8)                            OPM_RX8_Version3      03A31804     04 18 A3 03   03 A3 18 04   D6334437     37 44 33 D6   D6 33 44 37   D6334437      37 44 33 D6   D6 33 44 37
+Opm Wrx Version2 (Subaru Impreza WRX STi)                OPM_WRX_VERSION2      5989CF82     82 CF 89 59   59 89 CF 82   5F3B560D     0D 56 3B 5F   5F 3B 56 0D   198C8934      34 89 8C 19   19 8C 89 34
+Pursuit Police GTO                                       COPGTOPURSUIT         6D3A0827     27 08 3A 6D   6D 3A 08 27   CC985356     56 53 98 CC   CC 98 53 56   C1C32DAF      AF 2D C3 C1   C1 C3 2D AF
+Razor's Ford Mustang GT                                  RAZORMUSTANG          39EADE0C     0C DE EA 39   39 EA DE 0C   9B93FD4D     4D FD 93 9B   9B 93 FD 4D   9B93FD4D      4D FD 93 9B   9B 93 FD 4D
+Rog's Pontiac GTO                                        OPM_MUSTANG_BOSS      2522D65F     5F D6 22 25   25 22 D6 5F   AA483DC6     C6 3D 48 AA   AA 48 3D C6   AA483DC6      C6 3D 48 AA   AA 48 3D C6
+Ronnie's Toyota Supra                                    DDAYSUPRA             0FB2790C     0C 79 B2 0F   0F B2 79 0C   66F13434     34 34 F1 66   66 F1 34 34   66F13434      34 34 F1 66   66 F1 34 34
+Sgt. Cross's Corvette                                    COP_CROSS             518F7F8A     8A 7F 8F 51   51 8F 7F 8A   D37C806D     6D 80 7C D3   D3 7C 80 6D   C1C32DAF      AF 2D C3 C1   C1 C3 2D AF
+Starky Hutch Evo Rog (Mitsubishi Lancer Evolution VIII)  STARKY_HUTCH_EVO_ROG  1AF54E28     28 4E F5 1A   1A F5 4E 28   CCEEFBB6     B6 FB EE CC   CC EE FB B6   CCEEFBB6      B6 FB EE CC   CC EE FB B6
+

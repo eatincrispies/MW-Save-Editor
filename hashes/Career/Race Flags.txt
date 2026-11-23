@@ -1,0 +1,13 @@
+Race Flags
+==========
+
+A 4-byte value at +04 of a race record. Add the bits together to turn on more than one.
+
+Flag                  Bit Value  PC/PS2 Bytes  360/GC Bytes
+--------------------  ---------  ------------  ------------
+Quick Race completed  00000001   01 00 00 00   00 00 00 01
+Career completed      00000002   02 00 00 00   00 00 00 02
+Quick Race unlocked   00000004   04 00 00 00   00 00 00 04
+Career unlocked       00000008   08 00 00 00   00 00 00 08
+Online unlocked       00000010   10 00 00 00   00 00 00 10
+

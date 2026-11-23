@@ -1,0 +1,27 @@
+File Offsets
+============
+
+Offsets are in hex and count from the first byte of 20CM (PC, PS2, original Xbox) or MC02 (Xbox 360, GameCube).
+
+Data                    Size            PC     PS2    PS2 Early  Xbox 360  GameCube  Original Xbox
+----------------------  --------------  -----  -----  ---------  --------  --------  -------------
+Current car handle      4 bytes         04034  04034  04034      04034     04034     04064
+Blacklist rank          1 byte          04038  04038  04038      04038     04038     04068
+Cash                    4 bytes         04039  04039  04039      04039     04039     04069
+Career flags            4 bytes         0403F  0403F  0403F      0403F     0403F     0406F
+Case file               16 bytes, text  0429D  0429D  04237      0429D     0429D     042CD
+Race count              4 bytes         042AD  042AD  04247      042AD     042AD     042DD
+Race records            16 bytes each   042B1  042B1  0424B      042B1     042B1     042E1
+Unlocks                 8 bytes each    05571  05571  0550B      05571     05571     055A1
+Markers                 12 bytes each   05739  05739  056D3      05739     05739     05769
+Car list stamp          4 bytes         05A2D  05A2D  059C7      05A2D     05A2D     05A5D
+Alias                   32 bytes, text  05A31  05A31  059CB      05A31     05A31     05A61
+Options                 varies          05B41  05B41  05ABB      05B41     05B41     05B71
+Car records             20 bytes each   05BC5  05C01  05B7B      05BCD     05C01     05BF5
+Customizations          408 bytes each  06B65  06BA1  06B1B      06B6D     06BA1     06B95
+Career car records      56 bytes each   0E2ED  0E329  0CABB      0E2F5     0E329     0E31D
+Sold car history        varies          0E865  0E8A1  0CCEB      0E86D     0E8A1     0E895
+Pursuit stats           4 bytes each    0F3D2  0F411  0D85B      0F3DA     0F411     0F402
+Cost to state stats     4 bytes each    0F442  0F481  0D8CB      0F44A     0F481     0F472
+Quick Race car handles  11 x 4 bytes    0F466  0F4A5  0D906      0F46E     0F4A5     0F496
+

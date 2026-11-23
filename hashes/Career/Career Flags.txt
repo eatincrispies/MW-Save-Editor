@@ -1,0 +1,18 @@
+Career Flags
+============
+
+A 4-byte value at the Career flags offset. Add the bits together to turn on more than one.
+
+Flag                      Bit Value  PC/PS2 Bytes  360/GC Bytes
+------------------------  ---------  ------------  ------------
+Career started            00000001   01 00 00 00   00 00 00 01
+Has Rap Sheet             00000010   10 00 00 00   00 00 00 10
+Intro done                00000020   20 00 00 00   00 00 00 20
+Game over                 00000800   00 08 00 00   00 00 08 00
+Busted at least once      00001000   00 10 00 00   00 00 10 00
+Career beaten             00004000   00 40 00 00   00 00 40 00
+Special challenge beaten  00008000   00 80 00 00   00 00 80 00
+Challenge Series beaten   00010000   00 00 01 00   00 01 00 00
+Castrol Ford GT           00040000   00 00 04 00   00 04 00 00
+Epic car awarded          00100000   00 00 10 00   00 10 00 00
+

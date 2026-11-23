@@ -1,0 +1,68 @@
+Rim Paints
+==========
+
+Put the 2-byte Save Value in part slot 78. The game can't paint stock rims.
+
+Type    Name       Save Value  PC/PS2 Bytes  360/GC Bytes  Name Hash  RGB
+------  ---------  ----------  ------------  ------------  ---------  ------
+Gloss   Gloss 01   0F31        31 0F         0F 31         7094F855   FFFFFF
+Gloss   Gloss 02   0F32        32 0F         0F 32         7094F856   F4F4DF
+Gloss   Gloss 03   0F33        33 0F         0F 33         7094F857   C0CFD4
+Gloss   Gloss 04   0F34        34 0F         0F 34         7094F858   B3B3B3
+Gloss   Gloss 05   0F35        35 0F         0F 35         7094F859   6E6E6E
+Gloss   Gloss 06   0F36        36 0F         0F 36         7094F85A   303030
+Gloss   Gloss 07   0F37        37 0F         0F 37         7094F85B   000000
+Gloss   Gloss 08   0F38        38 0F         0F 38         7094F85C   BAA15D
+Gloss   Gloss 09   0F39        39 0F         0F 39         7094F85D   856A35
+Gloss   Gloss 10   0F3A        3A 0F         0F 3A         7094F875   57441F
+Gloss   Gloss 11   0F3B        3B 0F         0F 3B         7094F876   2B220F
+Gloss   Gloss 12   0F3C        3C 0F         0F 3C         7094F877   D10707
+Gloss   Gloss 13   0F3D        3D 0F         0F 3D         7094F878   D65100
+Gloss   Gloss 14   0F3E        3E 0F         0F 3E         7094F879   F8EF00
+Gloss   Gloss 15   0F3F        3F 0F         0F 3F         7094F87A   1C3C1F
+Gloss   Gloss 16   0F40        40 0F         0F 40         7094F87B   2185B7
+Gloss   Gloss 17   0F41        41 0F         0F 41         7094F87C   24198D
+Gloss   Gloss 18   0F42        42 0F         0F 42         7094F87D   2E0547
+Gloss   Gloss 19   0F43        43 0F         0F 43         7094F87E   D8007D
+Gloss   Gloss 20   0F44        44 0F         0F 44         7094F896   A62300
+Chrome  Chrome 01  0F45        45 0F         0F 45         E5116956   FFFFFF
+Chrome  Chrome 02  0F46        46 0F         0F 46         E5116957   F4F4DF
+Chrome  Chrome 03  0F47        47 0F         0F 47         E5116958   C0CFD4
+Chrome  Chrome 04  0F48        48 0F         0F 48         E5116959   B3B3B3
+Chrome  Chrome 05  0F49        49 0F         0F 49         E511695A   6E6E6E
+Chrome  Chrome 06  0F4A        4A 0F         0F 4A         E511695B   303030
+Chrome  Chrome 07  0F4B        4B 0F         0F 4B         E511695C   000000
+Chrome  Chrome 08  0F4C        4C 0F         0F 4C         E511695D   BAA15D
+Chrome  Chrome 09  0F4D        4D 0F         0F 4D         E511695E   856A35
+Chrome  Chrome 10  0F4E        4E 0F         0F 4E         E5116976   57441F
+Chrome  Chrome 11  0F4F        4F 0F         0F 4F         E5116977   2B220F
+Chrome  Chrome 12  0F50        50 0F         0F 50         E5116978   D10707
+Chrome  Chrome 13  0F51        51 0F         0F 51         E5116979   D65100
+Chrome  Chrome 14  0F52        52 0F         0F 52         E511697A   F8EF00
+Chrome  Chrome 15  0F53        53 0F         0F 53         E511697B   1C3C1F
+Chrome  Chrome 16  0F54        54 0F         0F 54         E511697C   2185B7
+Chrome  Chrome 17  0F55        55 0F         0F 55         E511697D   24198D
+Chrome  Chrome 18  0F56        56 0F         0F 56         E511697E   2E0547
+Chrome  Chrome 19  0F57        57 0F         0F 57         E511697F   D8007D
+Chrome  Chrome 20  0F58        58 0F         0F 58         E5116997   A62300
+Matte   Matte 01   0F59        59 0F         0F 59         598DDA57   FFFFFF
+Matte   Matte 02   0F5A        5A 0F         0F 5A         598DDA58   F4F4DF
+Matte   Matte 03   0F5B        5B 0F         0F 5B         598DDA59   C0CFD4
+Matte   Matte 04   0F5C        5C 0F         0F 5C         598DDA5A   B3B3B3
+Matte   Matte 05   0F5D        5D 0F         0F 5D         598DDA5B   6E6E6E
+Matte   Matte 06   0F5E        5E 0F         0F 5E         598DDA5C   303030
+Matte   Matte 07   0F5F        5F 0F         0F 5F         598DDA5D   000000
+Matte   Matte 08   0F60        60 0F         0F 60         598DDA5E   BAA15D
+Matte   Matte 09   0F61        61 0F         0F 61         598DDA5F   856A35
+Matte   Matte 10   0F62        62 0F         0F 62         598DDA77   57441F
+Matte   Matte 11   0F63        63 0F         0F 63         598DDA78   2B220F
+Matte   Matte 12   0F64        64 0F         0F 64         598DDA79   D10707
+Matte   Matte 13   0F65        65 0F         0F 65         598DDA7A   D65100
+Matte   Matte 14   0F66        66 0F         0F 66         598DDA7B   F8EF00
+Matte   Matte 15   0F67        67 0F         0F 67         598DDA7C   1C3C1F
+Matte   Matte 16   0F68        68 0F         0F 68         598DDA7D   2185B7
+Matte   Matte 17   0F69        69 0F         0F 69         598DDA7E   24198D
+Matte   Matte 18   0F6A        6A 0F         0F 6A         598DDA7F   2E0547
+Matte   Matte 19   0F6B        6B 0F         0F 6B         598DDA80   D8007D
+Matte   Matte 20   0F6C        6C 0F         0F 6C         598DDA98   A62300
+

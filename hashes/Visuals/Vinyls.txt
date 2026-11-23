@@ -1,0 +1,163 @@
+Vinyls
+======
+
+Put the 2-byte Save Value in part slot 77. Not every vinyl fits every car.
+
+Type            Name             Save Value  PC/PS2 Bytes  360/GC Bytes  Name Hash
+--------------  ---------------  ----------  ------------  ------------  ---------
+Flames          Flame 01         11C3        C3 11         11 C3         D6367585
+Flames          Flame 02         11C4        C4 11         11 C4         D6367586
+Flames          Flame 03         11C5        C5 11         11 C5         D6367587
+Flames          Flame 04         11C6        C6 11         11 C6         D6367588
+Flames          Flame 05         11C7        C7 11         11 C7         D6367589
+Flames          Flame 06         11C8        C8 11         11 C8         D636758A
+Flames          Flame 07         11C9        C9 11         11 C9         D636758B
+Flames          Flame 08         11CA        CA 11         11 CA         D636758C
+Flames          Flame 09         11CB        CB 11         11 CB         D636758D
+Flames          Flame 10         11CC        CC 11         11 CC         D63675A5
+Flames          Flame 11         11CD        CD 11         11 CD         D63675A6
+Flames          Flame 12         11CE        CE 11         11 CE         D63675A7
+Tribal          Tribal 01        11DF        DF 11         11 DF         685CB41E
+Tribal          Tribal 02        11E0        E0 11         11 E0         685CB41F
+Tribal          Tribal 03        11E1        E1 11         11 E1         685CB420
+Tribal          Tribal 04        11E2        E2 11         11 E2         685CB421
+Tribal          Tribal 05        11E3        E3 11         11 E3         685CB422
+Tribal          Tribal 06        11E4        E4 11         11 E4         685CB423
+Tribal          Tribal 07        11E5        E5 11         11 E5         685CB424
+Tribal          Tribal 08        11E6        E6 11         11 E6         685CB425
+Tribal          Tribal 09        11E7        E7 11         11 E7         685CB426
+Tribal          Tribal 10        11E8        E8 11         11 E8         685CB43E
+Tribal          Tribal 11        11E9        E9 11         11 E9         685CB43F
+Tribal          Tribal 12        11EA        EA 11         11 EA         685CB440
+Tribal          Tribal 13        11EB        EB 11         11 EB         685CB441
+Tribal          Tribal 14        11EC        EC 11         11 EC         685CB442
+Stripes         Stripe 01        11CF        CF 11         11 CF         2B948DD7
+Stripes         Stripe 02        11D0        D0 11         11 D0         2B948DD8
+Stripes         Stripe 03        11D1        D1 11         11 D1         2B948DD9
+Stripes         Stripe 04        11D2        D2 11         11 D2         2B948DDA
+Stripes         Stripe 05        11D3        D3 11         11 D3         2B948DDB
+Stripes         Stripe 06        11D4        D4 11         11 D4         2B948DDC
+Stripes         Stripe 07        11D5        D5 11         11 D5         2B948DDD
+Stripes         Stripe 08        11D6        D6 11         11 D6         2B948DDE
+Stripes         Stripe 09        11D7        D7 11         11 D7         2B948DDF
+Stripes         Stripe 10        11D8        D8 11         11 D8         2B948DF7
+Stripes         Stripe 11        11D9        D9 11         11 D9         2B948DF8
+Stripes         Stripe 12        11DA        DA 11         11 DA         2B948DF9
+Stripes         Stripe 13        11DB        DB 11         11 DB         2B948DFA
+Stripes         Stripe 14        11DC        DC 11         11 DC         2B948DFB
+Stripes         Stripe 15        11DD        DD 11         11 DD         2B948DFC
+Stripes         Stripe 16        11DE        DE 11         11 DE         2B948DFD
+Racing Flags    Raceflag 01      11ED        ED 11         11 ED         9718CAD5
+Racing Flags    Raceflag 02      11EE        EE 11         11 EE         9718CAD6
+Racing Flags    Raceflag 03      11EF        EF 11         11 EF         9718CAD7
+Racing Flags    Raceflag 04      11F0        F0 11         11 F0         9718CAD8
+Racing Flags    Raceflag 05      11F1        F1 11         11 F1         9718CAD9
+Racing Flags    Raceflag 06      11F2        F2 11         11 F2         9718CADA
+Racing Flags    Raceflag 07      11F3        F3 11         11 F3         9718CADB
+Racing Flags    Raceflag 08      11F4        F4 11         11 F4         9718CADC
+Racing Flags    Raceflag 09      11F5        F5 11         11 F5         9718CADD
+National Flags  NF Argentina     11F6        F6 11         11 F6         D2C94B4B
+National Flags  NF Australia     11F7        F7 11         11 F7         56850758
+National Flags  NF Brazil        11F8        F8 11         11 F8         44A21E56
+National Flags  NF Canada        11F9        F9 11         11 F9         45CA5C4A
+National Flags  NF China         11FA        FA 11         11 FA         767E41F5
+National Flags  NF Denmark       11FB        FB 11         11 FB         556B4F14
+National Flags  NF Finland       11FD        FD 11         11 FD         F8B3DE2E
+National Flags  NF France        11FC        FC 11         11 FC         4DF68D01
+National Flags  NF Germany       11FE        FE 11         11 FE         3CA266E5
+National Flags  NF Greatbritain  11FF        FF 11         11 FF         73C209AE
+National Flags  NF Greece        1200        00 12         12 00         504DC0DD
+National Flags  NF Italy         1201        01 12         12 01         76F14755
+National Flags  NF Japan         1202        02 12         12 02         76F932FC
+National Flags  NF Korea         1203        03 12         12 03         771301C4
+National Flags  NF Mexico        1204        04 12         12 04         5D6BF257
+National Flags  NF Netherlands   1205        05 12         12 05         3145504A
+National Flags  NF Poland        1206        06 12         12 06         6519AC10
+National Flags  NF Portugal      1207        07 12         12 07         218FA180
+National Flags  NF Spain         1208        08 12         12 08         77A40A6D
+National Flags  NF Sweden        1209        09 12         12 09         6CA61EF8
+National Flags  NF Thailand      120A        0A 12         12 0A         8F4B8437
+National Flags  NF USA           120B        0B 12         12 0B         6E20641B
+Body            Body 01          120C        0C 12         12 0C         52B6974E
+Body            Body 02          120D        0D 12         12 0D         52B6974F
+Body            Body 03          120E        0E 12         12 0E         52B69750
+Body            Body 04          120F        0F 12         12 0F         52B69751
+Body            Body 05          1210        10 12         12 10         52B69752
+Body            Body 06          1211        11 12         12 11         52B69753
+Body            Body 07          1212        12 12         12 12         52B69754
+Body            Body 08          1213        13 12         12 13         52B69755
+Body            Body 09          1214        14 12         12 14         52B69756
+Body            Body 10          1215        15 12         12 15         52B6976E
+Body            Body 11          1216        16 12         12 16         52B6976F
+Body            Body 12          1217        17 12         12 17         52B69770
+Body            Bodyflame 01     1218        18 12         12 18         469F7773
+Body            Bodyflame 02     1219        19 12         12 19         469F7774
+Body            Bodyflame 03     121A        1A 12         12 1A         469F7775
+Body            Bodyflame 04     121B        1B 12         12 1B         469F7776
+Body            Bodyflame 05     121C        1C 12         12 1C         469F7777
+Body            Bodyflame 06     121D        1D 12         12 1D         469F7778
+Body            Bodyflame 07     121E        1E 12         12 1E         469F7779
+Body            Bodyflame 08     121F        1F 12         12 1F         469F777A
+Body            Bodyflame 10     1220        20 12         12 20         469F7793
+Body            Bodystripe 01    1221        21 12         12 21         A91DCD85
+Body            Bodystripe 02    1222        22 12         12 22         A91DCD86
+Body            Bodystripe 03    1223        23 12         12 23         A91DCD87
+Body            Bodystripe 04    1224        24 12         12 24         A91DCD88
+Body            Bodystripe 05    1225        25 12         12 25         A91DCD89
+Body            Bodystripe 06    1226        26 12         12 26         A91DCD8A
+Body            Bodystripe 07    1227        27 12         12 27         A91DCD8B
+Body            Bodystripe 08    1228        28 12         12 28         A91DCD8C
+Body            Bodystripe 09    1229        29 12         12 29         A91DCD8D
+Body            Bodystripe 10    122A        2A 12         12 2A         A91DCDA5
+Body            Bodytribal 01    122B        2B 12         12 2B         E5E5F3CC
+Body            Bodytribal 02    122C        2C 12         12 2C         E5E5F3CD
+Body            Bodytribal 03    122D        2D 12         12 2D         E5E5F3CE
+Body            Bodytribal 04    122E        2E 12         12 2E         E5E5F3CF
+Body            Bodytribal 05    122F        2F 12         12 2F         E5E5F3D0
+Body            Bodytribal 06    1230        30 12         12 30         E5E5F3D1
+Body            Bodytribal 07    1231        31 12         12 31         E5E5F3D2
+Body            Bodytribal 08    1232        32 12         12 32         E5E5F3D3
+Body            Bodytribal 09    1233        33 12         12 33         E5E5F3D4
+Body            Bodytribal 10    1234        34 12         12 34         E5E5F3EC
+Unique          Carbonfiber      1258        58 12         12 58         721AFDDC
+Unique          Unique 01        1244        44 12         12 44         21CFDF57
+Unique          Unique 02        1245        45 12         12 45         21CFDF58
+Unique          Unique 03        1246        46 12         12 46         21CFDF59
+Unique          Unique 04        1247        47 12         12 47         21CFDF5A
+Unique          Unique 05        1248        48 12         12 48         21CFDF5B
+Unique          Unique 06        1249        49 12         12 49         21CFDF5C
+Unique          Unique 07        124A        4A 12         12 4A         21CFDF5D
+Unique          Unique 08        124B        4B 12         12 4B         21CFDF5E
+Unique          Unique 09        124C        4C 12         12 4C         21CFDF5F
+Unique          Unique 10        124D        4D 12         12 4D         21CFDF77
+Unique          Unique 11        124E        4E 12         12 4E         21CFDF78
+Unique          Unique 12        124F        4F 12         12 4F         21CFDF79
+Contest         Contest 01       1253        53 12         12 53         9E171520
+Contest         Contest 02       1254        54 12         12 54         9E171521
+Contest         Contest 03       1255        55 12         12 55         9E171522
+Contest         Contest 04       1256        56 12         12 56         9E171523
+Contest         Contest 05       1257        57 12         12 57         9E171524
+Hidden          Baron (#10)      123A        3A 12         12 3A         9FA62BC7
+Hidden          Big Lou (#11)    1239        39 12         12 39         1921829F
+Hidden          Black Edition 1  1259        59 12         12 59         0013D0C8
+Hidden          Black Edition 2  125A        5A 12         12 5A         0013D0C9
+Hidden          Black Edition 3  125B        5B 12         12 5B         0013D0CA
+Hidden          BMW #24          11C2        C2 11         11 C2         529CEB4A
+Hidden          Bull (#3)        1242        42 12         12 42         0936F602
+Hidden          Cop GTO          1252        52 12         12 52         55120CAB
+Hidden          Cross            1250        50 12         12 50         02959349
+Hidden          Cross Henchmen   1251        51 12         12 51         198A1AEE
+Hidden          Earl (#9)        123B        3B 12         12 3B         F07562A9
+Hidden          Hero             11C1        C1 11         11 C1         E9886D54
+Hidden          Izzy (#12)       1238        38 12         12 38         8261BC1A
+Hidden          Jewels (#8)      123C        3C 12         12 3C         04329A8F
+Hidden          JV (#6)          1240        40 12         12 40         CE57E884
+Hidden          Kaze (#7)        123D        3D 12         12 3D         FF3B8726
+Hidden          Ming (#4)        123E        3E 12         12 3E         9FA0F497
+Hidden          Razor (#1)       1243        43 12         12 43         4BFD4502
+Hidden          Ronnie (#2)      1241        41 12         12 41         AE1C9D58
+Hidden          Sonny (#15)      1235        35 12         12 35         7D9F1066
+Hidden          Taz (#14)        1236        36 12         12 36         810ADA85
+Hidden          Vic (#13)        1237        37 12         12 37         F588D069
+Hidden          Webster (#5)     123F        3F 12         12 3F         2A92FCDF
+

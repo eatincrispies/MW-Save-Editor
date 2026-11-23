@@ -1,0 +1,19 @@
+Car Filter Bits
+===============
+
+A 4-byte value at +0C of a car record. It decides which lists the car shows up in. A normal career car is 000F0002.
+
+Flag             Bit Value  PC/PS2 Bytes  360/GC Bytes
+---------------  ---------  ------------  ------------
+Car Lot          00000001   01 00 00 00   00 00 00 01
+Career garage    00000002   02 00 00 00   00 00 00 02
+My Cars          00000004   04 00 00 00   00 00 00 04
+Bonus            00000008   08 00 00 00   00 00 00 08
+Preset           00000010   10 00 00 00   00 00 00 10
+Debug / hidden   00000020   20 00 00 00   00 00 00 20
+Pink slip        00000040   40 00 00 00   00 00 00 40
+Region: America  00010000   00 00 01 00   00 01 00 00
+Region: Europe   00020000   00 00 02 00   00 02 00 00
+Region: Japan    00040000   00 00 04 00   00 04 00 00
+Region: Debug    00080000   00 00 08 00   00 08 00 00
+

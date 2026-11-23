@@ -1,0 +1,147 @@
+Part Slots
+==========
+
+Each slot is 2 bytes inside a customization. Blank names are slots the editor doesn't use.
+
+Slot  Offset  Used For
+----  ------  -------------------------
+0     +000
+1     +002
+2     +004
+3     +006
+4     +008
+5     +00A
+6     +00C
+7     +00E
+8     +010
+9     +012
+10    +014
+11    +016
+12    +018
+13    +01A
+14    +01C
+15    +01E
+16    +020
+17    +022
+18    +024
+19    +026
+20    +028
+21    +02A
+22    +02C
+23    +02E    Body Kit
+24    +030
+25    +032
+26    +034
+27    +036
+28    +038
+29    +03A
+30    +03C
+31    +03E
+32    +040
+33    +042
+34    +044
+35    +046
+36    +048
+37    +04A
+38    +04C
+39    +04E
+40    +050
+41    +052
+42    +054
+43    +056
+44    +058    Spoiler
+45    +05A
+46    +05C
+47    +05E
+48    +060
+49    +062
+50    +064
+51    +066
+52    +068
+53    +06A
+54    +06C
+55    +06E
+56    +070
+57    +072
+58    +074
+59    +076
+60    +078
+61    +07A
+62    +07C    Roof Scoop
+63    +07E    Hood
+64    +080
+65    +082
+66    +084    Rims
+67    +086    Rear Rims
+68    +088
+69    +08A
+70    +08C
+71    +08E
+72    +090
+73    +092
+74    +094
+75    +096
+76    +098    Paint
+77    +09A    Vinyl
+78    +09C    Rim Paint
+79    +09E    Vinyl Colour 1
+80    +0A0    Vinyl Colour 2
+81    +0A2    Vinyl Colour 3
+82    +0A4    Vinyl Colour 4
+83    +0A6    Windshield Decal
+84    +0A8
+85    +0AA
+86    +0AC
+87    +0AE
+88    +0B0
+89    +0B2
+90    +0B4
+91    +0B6    Rear Window Decal
+92    +0B8
+93    +0BA
+94    +0BC
+95    +0BE
+96    +0C0
+97    +0C2
+98    +0C4
+99    +0C6    Left Door Decal 1
+100   +0C8    Left Door Decal 2
+101   +0CA    Left Door Decal 3
+102   +0CC    Left Door Decal 4
+103   +0CE    Left Door Decal 5
+104   +0D0    Left Door Decal 6
+105   +0D2    Left Door Number 1
+106   +0D4    Left Door Number 2
+107   +0D6    Right Door Decal 1
+108   +0D8    Right Door Decal 2
+109   +0DA    Right Door Decal 3
+110   +0DC    Right Door Decal 4
+111   +0DE    Right Door Decal 5
+112   +0E0    Right Door Decal 6
+113   +0E2    Right Door Number 1
+114   +0E4    Right Door Number 2
+115   +0E6    Left Quarter Panel Decal
+116   +0E8
+117   +0EA
+118   +0EC
+119   +0EE
+120   +0F0
+121   +0F2
+122   +0F4
+123   +0F6    Right Quarter Panel Decal
+124   +0F8
+125   +0FA
+126   +0FC
+127   +0FE
+128   +100
+129   +102
+130   +104
+131   +106    Window Tint
+132   +108    Custom Gauges
+133   +10A    Gauge Face
+134   +10C    Gauge Needle
+135   +10E    Gauge Lettering
+136   +110
+137   +112
+138   +114
+

@@ -1,0 +1,18 @@
+Gauge Colors
+============
+
+Put the 2-byte Save Value in part slots 133 (face), 134 (needle) or 135 (lettering).
+
+Type   Name    Save Value  PC/PS2 Bytes  360/GC Bytes  Name Hash  RGB
+-----  ------  ----------  ------------  ------------  ---------  ------
+Gauge  White   1E6F        6F 1E         1E 6F         03F9E820   FFFFFF
+Gauge  Gray    1E70        70 1E         1E 70         00163BF2   707070
+Gauge  Orange  1E71        71 1E         1E 71         713E201B   FFC373
+Gauge  Red     1E72        72 1E         1E 72         0000D99A   F95631
+Gauge  Pink    1E73        73 1E         1E 73         001B06B1   EDA3C4
+Gauge  Cyan    1E74        74 1E         1E 74         0014282A   6FD4FC
+Gauge  Lime    1E75        75 1E         1E 75         0018D506   BDEF42
+Gauge  Green   1E76        76 1E         1E 76         AE93C51B   00D9CC
+Gauge  Indigo  1E77        77 1E         1E 77         62F85A39   0C79EB
+Gauge  Purple  1E78        78 1E         1E 78         73D2EDD7   AEA6FB
+
