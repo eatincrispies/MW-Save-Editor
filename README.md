@@ -1,85 +1,79 @@
 # NFSMW Save Editor
 
-A save editor for **Need for Speed: Most Wanted (2005)**. It works with saves from the PC, PS2, GameCube, Xbox 360 and original Xbox versions of the game.
+Save editor for **Need for Speed: Most Wanted (2005)**. Supports PC, PS2, GameCube, Xbox 360, and original Xbox saves.
 
-You can change your cash and bounty, jump to any Blacklist rank, add and customize cars, and move your progress from one version of the game to another.
+Lets you edit cash and bounty, jump to any Blacklist rank, add or customize cars, and port your career progress between different versions of the game.
 
-## Download
-
-The ready-to-run program is in the [`release/NFSMWSaveEditor-1.0.0`](release/NFSMWSaveEditor-1.0.0) folder. You'll also need the [.NET 10 Desktop Runtime](https://dotnet.microsoft.com/download/dotnet/10.0), or it won't open.
-
-This is the first release, so please keep a backup of any save you care about. The editor makes a `.bak` copy the first time you save a file, but having your own copy never hurts.
+Since this is v1.0.0, back up any saves you actually care about before messing with them. The editor makes a `.bak` the first time it saves over a file, but keeping your own copy never hurts.
 
 ## Supported saves
 
-| Version | What to open |
+| Version | File to open |
 |---|---|
 | PC | Your profile in `Documents\NFS Most Wanted\<alias>\<alias>` |
-| PS2 | `.psu` (uLaunchELF), `.max` or `.cbs` |
+| PS2 | `.psu` (uLaunchELF), `.max`, or `.cbs` |
 | GameCube | `.gci` |
 | Xbox 360 | CON packages and raw Xenia saves |
 | Original Xbox | The save file named after your alias |
 
-## How to use it
+## Usage
 
 1. Close the game.
-2. Open `NFSMWSaveEditor.exe` and go to **File > Open**.
-3. Change whatever you want.
-4. Press **Ctrl+S**.
+2. Open `NFSMWSaveEditor.exe` and click **File > Open**.
+3. Make your changes.
+4. Hit **Ctrl+S** to save.
 
-Not sure how to get a save off your console? **Help > How to Use** has steps for each one.
+If you need help pulling a save off a console, there are step-by-step instructions for each system under **Help > How to Use** in the app.
 
 ## What you can edit
 
-- **Career:** alias, cash, bounty and current car, plus the same completion stats the game shows on its main menu
-- **Blacklist:** jump to any rank, and your rivals, races and milestones follow along
-- **Cars:** add, delete and customize cars, including parts, paint, hidden vinyls, rims, tint, decals, numbers, gauges, upgrades, Junkman parts, heat, bounty and impounds
-- **Races:** career and Quick Race status
-- **Markers:** every marker type
-- **Rap Sheet:** pursuit and cost to state totals
-- **Options:** the same settings as the game's menus
+- **Career:** Alias, cash, bounty, current car, and the completion stats shown on the main menu.
+- **Blacklist:** Jump to any rank—rivals, races, and milestones adjust automatically.
+- **Cars:** Add, delete, and customize cars (parts, paint, hidden vinyls, rims, tint, decals, numbers, gauges, upgrades, Junkman parts, heat, bounty, and impounds).
+- **Races:** Career and Quick Race status.
+- **Markers:** Every marker type.
+- **Rap Sheet:** Pursuit and cost-to-state totals.
+- **Options:** Same settings you get in the in-game menus.
 
-Most lists have a right-click menu. Hold Ctrl or Shift to select more than one car.
+Most lists have right-click menus, and you can `Ctrl`- or `Shift`-click to select multiple cars at once.
 
 ## Adding cars
 
-**Add Car** lists every vehicle in the game, including the Blacklist bosses, Challenge Series cars, Rog's GTO, Ronnie's Supra and the BMW from the prologue. Bosses and presets keep their real look, and everything else comes stock.
+**Add Car** has every vehicle in the game—Blacklist bosses, Challenge Series cars, Rog's GTO, Ronnie's Supra, the prologue BMW, and so on. Bosses and presets keep their original setup; everything else spawns stock.
 
-Anything marked **AI vehicle** or **May crash** wasn't made for the player, so keep a backup if you try one.
+Anything labeled **AI vehicle** or **May crash** wasn't made for the player to drive, so definitely test those on a backup.
 
-**Car Lot** puts hidden cars, cops and traffic in the game's shop. Cops and traffic show up for $0 with a placeholder name because the game has no shop info for them.
+**Car Lot** adds hidden cars, cops, and traffic to the in-game shop. Cops and traffic show up for $0 with placeholder names because the game doesn't have shop entries for them.
 
-## Moving your progress to another version
+## Transferring saves to another version
 
-1. Open your old save and go to **File > Export**, then pick JSON or XML.
-2. In the other version of the game, start a career, beat the prologue and save.
-3. Open that save and go to **File > Import**, then pick the same format.
-4. Tick what you want to bring over and press **Import**.
-5. Press **Ctrl+S**.
+1. Open your old save, go to **File > Export**, and export as JSON or XML.
+2. On the version you're moving to, start a new career, finish the prologue, and save.
+3. Open that new save in the editor, go to **File > Import**, and load the exported file.
+4. Check off whatever you want to bring over and click **Import**.
+5. Hit **Ctrl+S**.
 
-Importing cars replaces every car in that save. If a part doesn't exist in the new version, it goes back to stock and the editor tells you.
+Heads up: importing cars wipes and replaces every car in the target save. If a part doesn't exist in that version of the game, it falls back to stock and the editor will let you know.
 
 ## Hex editing
 
-If you'd rather do things by hand, the [`hashes`](hashes) folder lists the hex values for cars, parts, paints, vinyls, races, markers and flags, plus where they live in the save.
+For manual edits, the [`hashes`](hashes) folder has the hex values for cars, parts, paints, vinyls, races, markers, and flags, along with their offsets.
 
-Hex editing breaks the save's checksums. When you're done, open the file in the editor and press **Ctrl+S** to fix them.
+Editing by hand will invalidate the save's checksums, so open the file in the editor afterward and press **Ctrl+S** to recalculate them.
 
-## Things to know
+## Things to keep in mind
 
-- A real Xbox 360 won't accept an edited save until you rehash and resign it with something like Horizon. Xenia doesn't need this.
-- Original Xbox saves keep the kind of signature they came with, so a save made in xbased stays valid in xbased. Their alias can't be changed.
-- Stop the game in Dolphin before editing. Dolphin reads the memory card when the game boots, and a running game can write over your changes.
-- Some PAL PS2 saves use an older layout, so Add Car and the Rap Sheet are turned off for them.
-- If the PC game rejects a save from someone else, try **Tools > Match My Game's Car List**. A heavily modded garage still might not line up.
-- Aliases can be up to 7 letters or numbers. Changing one on PC also renames the profile folder.
-- Deleting a car works like selling it without the cash. Its bounty and Rap Sheet numbers stay on your career.
+- **Xbox 360:** Real hardware won't load an edited save unless you rehash and resign it (e.g. with Horizon). Xenia doesn't care.
+- **Original Xbox:** Saves keep whatever signature type they came with, so a save created in xbased stays valid in xbased. You can't change the alias on Xbox saves.
+- **GameCube (Dolphin):** Fully stop the game in Dolphin before editing. Dolphin loads the memory card on boot, and a running game will overwrite your edits.
+- **PS2 (PAL):** Some PAL saves use an older layout, so Add Car and the Rap Sheet are disabled for those.
+- **PC (modded/shared saves):** If the game refuses to load someone else's save, run **Tools > Match My Game's Car List**. Heavily modded garages still might not line up cleanly.
+- **Aliases:** Max 7 alphanumeric characters. Changing your alias on PC also renames the profile folder.
+- **Deleting cars:** Works like selling a car without getting the cash—its bounty and Rap Sheet stats stay on your career.
 
+## Building from source
 
-## Credits
+Requires the [.NET 10 SDK](https://dotnet.microsoft.com/download/dotnet/10.0).
 
-- Made by eatincrispies.
-- Testing/Feedback by Roskler
-
-
-This is a fan project and isn't affiliated with or endorsed by Electronic Arts. Need for Speed and all car names and logos belong to their owners.
+```sh
+dotnet build NFSMWSaveEditor.slnx -c Release
