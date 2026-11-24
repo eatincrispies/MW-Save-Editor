@@ -1,0 +1,21 @@
+Milestone States
+================
+
+A complete milestone also needs its recorded value at +10 to meet the goal. Each rank's challenge counter is the number of complete milestones and speed traps, so the Races > Milestones tab is the safer way.
+
+[Milestone state: 1 byte at +08]
+State                            Value
+-------------------------------  -----
+Locked                           01
+Available                        02
+Done, waiting for you to escape  03
+Complete                         04
+
+[Speed trap flags: 2 bytes at +00, add them together]
+State                            Value
+-------------------------------  -----
+Unlocked                         0001
+Active                           0002
+Complete                         0004
+Knocked over                     0008
+

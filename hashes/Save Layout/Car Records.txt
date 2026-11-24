@@ -4,48 +4,99 @@ Records
 What's inside each kind of record. Add these to the record's start.
 
 [Car record: 20 bytes, 200 in the save]
-Offset  Size           What it is
-------  -------------  -------------------------------------------------------------------------------
-+00     4 bytes        Handle (FFFFFFFF means empty)
-+04     4 bytes        Frontend Key
-+08     4 bytes        Vehicle Key
-+0C     4 bytes        Filter bits
-+10     1 byte         Customization number (FF means none)
-+11     1 byte         Career record number (FF means none)
+Offset              Size                  What it is
+------------------  --------------------  -------------------------------------------------------------------------------------------------------------------------
++00                 4 bytes               Handle (FFFFFFFF means empty)
++04                 4 bytes               Frontend Key
++08                 4 bytes               Vehicle Key
++0C                 4 bytes               Filter bits
++10                 1 byte                Customization number (FF means none)
++11                 1 byte                Career record number (FF means none)
 
 [Customization: 408 bytes, 75 in the save (60 on PS2 Early)]
-Offset  Size           What it is
-------  -------------  -------------------------------------------------------------------------------
-+000    139 x 2 bytes  Part slots (FFFF means empty)
-+118    7 x 4 bytes    Upgrade levels: tires, brakes, suspension, transmission, engine, turbo, nitrous
-+134    4 bytes        Junkman bits, one per upgrade in the same order
-+190    4 bytes        Preset
-+194    1 byte         Its own number (FF means empty)
+Offset              Size                  What it is
+------------------  --------------------  -------------------------------------------------------------------------------------------------------------------------
++000                139 x 2 bytes         Part slots (FFFF means empty)
++118                7 x 4 bytes           Upgrade levels: tires, brakes, suspension, transmission, engine, turbo, nitrous
++134                4 bytes               Junkman bits, one per upgrade in the same order
++138                3 x 7 x 4-byte float  Tuning setups 1 to 3: steering, handling, brakes, ride height, aerodynamics, nitrous, turbo. -1.0 to +1.0 in steps of 0.2
++18C                4 bytes               Tuning setup in use (0 to 2)
++190                4 bytes               Preset
++194                1 byte                Its own number (FF means empty)
 
 [Career car record: 56 bytes, 25 in the save (10 on PS2 Early)]
-Offset  Size           What it is
-------  -------------  -------------------------------------------------------------------------------
-+00     1 byte         Its own number (FF means empty)
-+02     1 byte         Max impound strikes
-+03     1 byte         Impound strikes
-+04     1 byte         Impound state
-+05     1 byte         Impound days left
-+0C     4-byte float   Heat
-+10     4 bytes        Bounty
-+14     2 bytes        Pursuits evaded
-+16     2 bytes        Times busted
-+18     8 x 2 bytes    Unserved infractions
-+28     8 x 2 bytes    Served infractions
+Offset              Size                  What it is
+------------------  --------------------  -------------------------------------------------------------------------------------------------------------------------
++00                 1 byte                Its own number (FF means empty)
++02                 1 byte                Max impound strikes
++03                 1 byte                Impound strikes
++04                 1 byte                Impound state
++05                 1 byte                Impound days left
++0C                 4-byte float          Heat
++10                 4 bytes               Bounty
++14                 2 bytes               Pursuits evaded
++16                 2 bytes               Times busted
++18                 8 x 2 bytes           Unserved infractions
++28                 8 x 2 bytes           Served infractions
 
 [Race record: 16 bytes]
-Offset  Size           What it is
-------  -------------  -------------------------------------------------------------------------------
-+00     4 bytes        Race Hash
-+04     4 bytes        Race flags
+Offset              Size                  What it is
+------------------  --------------------  -------------------------------------------------------------------------------------------------------------------------
++00                 4 bytes               Race Hash
++04                 4 bytes               Race flags
 
 [Marker record: 12 bytes, 63 in the save]
-Offset  Size           What it is
-------  -------------  -------------------------------------------------------------------------------
-+00     4 bytes        Marker type (0 means empty)
-+08     4 bytes        State (1 means owned)
+Offset              Size                  What it is
+------------------  --------------------  -------------------------------------------------------------------------------------------------------------------------
++00                 4 bytes               Marker type (0 means empty)
++08                 4 bytes               State (1 means owned)
+
+[Milestone record: 20 bytes]
+Offset              Size                  What it is
+------------------  --------------------  -------------------------------------------------------------------------------------------------------------------------
++00                 4 bytes               Milestone type
++04                 4 bytes               Challenge key
++08                 1 byte                State
++0A                 2 bytes               Blacklist rank
++0C                 4-byte float          Goal
++10                 4-byte float          Recorded value
+
+[Speed trap record: 20 bytes (16 on PS2 Early, which starts with the key)]
+Offset              Size                  What it is
+------------------  --------------------  -------------------------------------------------------------------------------------------------------------------------
++00                 2 bytes               Flags
++02                 2 bytes               Blacklist rank
++04                 4 bytes               Speed trap key
++08                 4 bytes               Camera key
++0C                 4-byte float          Speed to beat, in meters per second
++10                 4-byte float          Recorded speed
+
+[Player settings: 8 switches of 1 byte (PC, Xbox 360, original Xbox) or 4 bytes (PS2, GameCube), then the rest]
+Offset              Size                  What it is
+------------------  --------------------  -------------------------------------------------------------------------------------------------------------------------
+Switch 1            1 or 4 bytes          Gauges
+Switch 2            1 or 4 bytes          Race information
+Switch 4            1 or 4 bytes          Score
+Switch 5            1 or 4 bytes          Vibration
+Switch 6            1 or 4 bytes          Leaderboard
+After switches +00  4 bytes               Control type (0 to 4 for types 1 to 5)
+After switches +04  4 bytes               Camera: 0 Bumper, 1 Hood, 2 Close, 3 Far, 4 Super Far
+After switches +08  1 byte                Split time: 00 on, 04 off
+After switches +09  1 byte                Transmission: 00 auto, 01 manual
+
+[Top 5 pursuit: 56 bytes]
+Offset              Size                  What it is
+------------------  --------------------  -------------------------------------------------------------------------------------------------------------------------
++00                 12 bytes, text        Pursuit ID
++0C                 4 bytes               Car's Frontend Key
++10                 4 bytes               Bounty
++14                 4 bytes               Length in 1/4000 seconds
++18                 4 bytes               Cops involved
++1C                 4 bytes               Cops damaged
++20                 4 bytes               Cops immobilized
++24                 4 bytes               Roadblocks dodged
++28                 4 bytes               Spike strips dodged
++2C                 4 bytes               Cost to state
++30                 4 bytes               Infractions
++34                 4 bytes               Helicopters
 

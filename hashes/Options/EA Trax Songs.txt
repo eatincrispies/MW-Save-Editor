@@ -1,0 +1,35 @@
+EA Trax Songs
+=============
+
+Each playlist entry is 8 bytes: the song number (4 bytes), then the play setting (1 byte): 00 Off, 01 Menu, 02 Racing, 03 All.
+The entries are in playlist order, and every song has to appear once. The play mode is 4 bytes: 0 Sequential, 1 Random.
+
+Song  Number    PC/PS2 Bytes  360/GC Bytes  Title                                        Artist
+----  --------  ------------  ------------  -------------------------------------------  ----------------------------------
+0     00000000  00 00 00 00   00 00 00 00   Nine Thou (Superstars Remix)                 Styles Of Beyond
+1     00000001  01 00 00 00   00 00 00 01   Do Ya Thang                                  T.I. Presents The P$C
+2     00000002  02 00 00 00   00 00 00 02   I Am Rock                                    Rock
+3     00000003  03 00 00 00   00 00 00 03   In A Hood Near You                           Suni Clay
+4     00000004  04 00 00 00   00 00 00 04   Let's Move                                   The Perceptionists
+5     00000005  05 00 00 00   00 00 00 05   Sets Go Up                                   Juvenile
+6     00000006  06 00 00 00   00 00 00 06   Fired Up                                     Hush
+7     00000007  07 00 00 00   00 00 00 07   B-Side Wins Again feat. Chuck D              DJ Spooky and Dave Lombardo
+8     00000008  08 00 00 00   00 00 00 08   Shapeshifter                                 Celldweller feat. Styles Of Beyond
+9     00000009  09 00 00 00   00 00 00 09   Tilted                                       Lupe Fiasco
+10    0000000A  0A 00 00 00   00 00 00 0A   Feed The Addiction                           Ils
+11    0000000B  0B 00 00 00   00 00 00 0B   One Good Reason                              Celldweller
+12    0000000C  0C 00 00 00   00 00 00 0C   We Control                                   Hyper
+13    0000000D  0D 00 00 00   00 00 00 0D   Skinnyman                                    Static-X
+14    0000000E  0E 00 00 00   00 00 00 0E   Barrier Break                                Diesel Boy + Kaos
+15    0000000F  0F 00 00 00   00 00 00 0F   Decadence                                    Disturbed
+16    00000010  10 00 00 00   00 00 00 10   You'll Be Under My Wheels                    The Prodigy
+17    00000011  11 00 00 00   00 00 00 11   Tao Of The Machine (Scott Humphrey's Remix)  The Roots and BT
+18    00000012  12 00 00 00   00 00 00 12   You Must Follow (Evol Intent VIP)            Stratus
+19    00000013  13 00 00 00   00 00 00 13   Blood And Thunder                            Mastodon
+20    00000014  14 00 00 00   00 00 00 14   Broken Sword                                 Evol Intent, Mayhem & Thinktank
+21    00000015  15 00 00 00   00 00 00 15   Hand Of Blood                                Bullet For My Valentine
+22    00000016  16 00 00 00   00 00 00 16   The Mann                                     Paul Linford and Chris Vrenna
+23    00000017  17 00 00 00   00 00 00 17   Blinded In Chains                            Avenged Sevenfold
+24    00000018  18 00 00 00   00 00 00 18   Feels Just Like It Should (Timo Maas Remix)  Jamiroquai
+25    00000019  19 00 00 00   00 00 00 19   Most Wanted Mash Up                          Paul Linford and Chris Vrenna
+

@@ -1,0 +1,16 @@
+Milestone Types
+===============
+
+Each milestone record starts with its type. The goal is the 4-byte float at +0C. Speed traps have their own records and aren't in this list.
+
+Milestone                Goal at +0C                Type      PC/PS2 Bytes  360/GC Bytes
+-----------------------  -------------------------  --------  ------------  ------------
+Trade Paint              Police vehicles tagged     850A64BC  BC 64 0A 85   85 0A 64 BC
+Bounty                   Bounty in one pursuit      2377E50D  0D E5 77 23   23 77 E5 0D
+Pursuit Evasion          Seconds to evade in        5392E4FD  FD E4 92 53   53 92 E4 FD
+Pursuit Time Challenge   Seconds the pursuit lasts  033FA23A  3A A2 3F 03   03 3F A2 3A
+Cost to State Challenge  Cost to state              FD989A3A  3A 9A 98 FD   FD 98 9A 3A
+Roadblock Challenge      Roadblocks dodged          EB45F99D  9D F9 45 EB   EB 45 F9 9D
+Spike Strip Challenge    Spike strips dodged        CDF36FC2  C2 6F F3 CD   CD F3 6F C2
+Infractions Challenge    Infractions                A61CAC24  24 AC 1C A6   A6 1C AC 24
+
