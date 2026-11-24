@@ -254,18 +254,21 @@ public sealed class CareerProgress
         }
     }
 
-    private static string MilestoneName(uint type) => type switch
-    {
-        TypeTradePaint => "Trade Paint",
-        TypeCostToState => "Cost to State Challenge",
-        TypePursuitEvasion => "Pursuit Evasion",
-        TypePursuitTime => "Pursuit Time Challenge",
-        TypeRoadblocks => "Roadblock Challenge",
-        TypeSpikeStrips => "Spike Strip Challenge",
-        TypeInfractions => "Infractions Challenge",
-        TypeBounty => "Bounty",
-        _ => "Milestone",
-    };
+    public static IReadOnlyList<(uint Type, string Name, string Goal)> MilestoneTypes { get; } =
+    [
+        (TypeTradePaint, "Trade Paint", "Police vehicles tagged"),
+        (TypeBounty, "Bounty", "Bounty in one pursuit"),
+        (TypePursuitEvasion, "Pursuit Evasion", "Seconds to evade in"),
+        (TypePursuitTime, "Pursuit Time Challenge", "Seconds the pursuit lasts"),
+        (TypeCostToState, "Cost to State Challenge", "Cost to state"),
+        (TypeRoadblocks, "Roadblock Challenge", "Roadblocks dodged"),
+        (TypeSpikeStrips, "Spike Strip Challenge", "Spike strips dodged"),
+        (TypeInfractions, "Infractions Challenge", "Infractions"),
+    ];
+
+    public static IReadOnlyList<IReadOnlyList<string>> RaceWinLists => WorldRaces;
+
+    private static string MilestoneName(uint type) => MilestoneTypes.FirstOrDefault(t => t.Type == type).Name ?? "Milestone";
 
     private static string MilestoneGoal(uint type, float required)
     {
@@ -356,6 +359,18 @@ public sealed class CareerProgress
         }
         _career.Rank = target;
         MatchRapSheet();
+    }
+
+    public void ActivateSpeedTraps()
+    {
+        for (var i = 0; IsReadable && i < _trapCount; i++)
+        {
+            var at = _traps + i * _d.Map.TrapSize;
+            if (_d.U16(at + _d.Map.TrapFlags) == TrapUnlocked)
+            {
+                _d.U16(at + _d.Map.TrapFlags, TrapUnlocked | TrapActive);
+            }
+        }
     }
 
     public void MatchRapSheet()
@@ -458,7 +473,7 @@ public sealed class CareerProgress
             }
             else
             {
-                _d.U16(at + _d.Map.TrapFlags, bin == target ? TrapUnlocked : (ushort)0);
+                _d.U16(at + _d.Map.TrapFlags, bin == target ? (ushort)(TrapUnlocked | TrapActive) : (ushort)0);
                 _d.F32(at + _d.Map.TrapRecorded, 0f);
             }
         }
