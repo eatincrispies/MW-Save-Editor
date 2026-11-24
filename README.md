@@ -68,7 +68,6 @@ Editing by hand will invalidate the save's checksums, so open the file in the ed
 - **Xbox 360:** Real hardware won't load an edited save unless you rehash and resign it (e.g. with Horizon). Xenia doesn't care.
 - **Original Xbox:** Saves keep whatever signature type they came with, so a save created in xbased stays valid in xbased. You can't change the alias on Xbox saves.
 - **PS3:** `.psv` saves are re-signed every time you save. You can't change the alias, because the PS3 names the file after it.
-- **GameCube (Dolphin):** Fully stop the game in Dolphin before editing. Dolphin loads the memory card on boot, and a running game will overwrite your edits.
 - **PS2 (PAL):** Some PAL saves use an older layout, so Add Car and the Rap Sheet are disabled for those.
 - **PC (modded/shared saves):** If the game refuses to load someone else's save, run **Tools > Match My Game's Car List**. Heavily modded garages still might not line up cleanly.
 - **Marking races complete:** The final boss race and final pursuit stay unmarked until you've beaten the game, and the last prologue race until you've finished the prologue. Marking those early can leave a save stuck on the loading screen. You also get a warning when marking races ahead of your current rank.
