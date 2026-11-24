@@ -17,6 +17,7 @@ public abstract class SaveContainer
     public abstract string FormatName { get; }
     public virtual string? ResignNotice => null;
     public virtual string? OpenNotice => null;
+    public virtual bool CanRename => true;
     public abstract byte[] ExtractProfile();
     protected abstract byte[] BuildCore(byte[] profile, string alias, bool renamed);
 
@@ -40,6 +41,10 @@ public abstract class SaveContainer
         if (StartsWith(file, StfsContainer.Magic))
         {
             return new StfsContainer(file);
+        }
+        if (StartsWith(file, PsvContainer.Magic))
+        {
+            return new PsvContainer(file);
         }
         if (GciContainer.Matches(file))
         {
@@ -312,6 +317,110 @@ internal sealed class PsuContainer : SaveContainer
             }
         }
         return output;
+    }
+}
+
+internal sealed class PsvContainer : SaveContainer
+{
+    private const int SeedOffset = 0x08;
+    private const int SeedSize = 0x14;
+    private const int SignatureOffset = 0x1C;
+    private const int SignatureSize = 0x14;
+    private const int TypeOffset = 0x3C;
+    private const int Ps2Type = 2;
+    private const int FileCountOffset = 0x64;
+    private const int FirstEntry = 0xA0;
+    private const int EntrySize = 0x3C;
+    private const int EntryLength = 0x10;
+    private const int EntryName = 0x18;
+    private const int NameSize = 32;
+    private const int EntryData = 0x38;
+    private const int MaxFiles = 64;
+    private const int SaltSize = 0x40;
+
+    private static readonly byte[] Key = [0xEA, 0x02, 0xCE, 0xEF, 0x5B, 0xB4, 0xD2, 0x99, 0x8F, 0x61, 0x19, 0x10, 0xD7, 0x7F, 0x51, 0xC6];
+    private static readonly byte[] Iv = [0xB3, 0x0F, 0xFE, 0xED, 0xB7, 0xDC, 0x5E, 0xB7, 0x13, 0x3D, 0xA6, 0x0D, 0x1B, 0x6B, 0x2C, 0xDC];
+
+    private readonly List<(int Data, int Size, string Name)> _files = [];
+    private readonly bool _signed;
+
+    public PsvContainer(byte[] file) : base(file)
+    {
+        if (file.Length < FirstEntry || BinaryPrimitives.ReadInt32LittleEndian(file.AsSpan(TypeOffset)) != Ps2Type)
+        {
+            throw new SaveFormatException("This PSV file isn't a PS2 save.");
+        }
+        var count = BinaryPrimitives.ReadInt32LittleEndian(file.AsSpan(FileCountOffset));
+        if (count is < 1 or > MaxFiles || FirstEntry + count * EntrySize > file.Length)
+        {
+            throw new SaveFormatException("This PSV file is damaged.");
+        }
+        for (var i = 0; i < count; i++)
+        {
+            var at = FirstEntry + i * EntrySize;
+            var size = BinaryPrimitives.ReadInt32LittleEndian(file.AsSpan(at + EntryLength));
+            var data = BinaryPrimitives.ReadInt32LittleEndian(file.AsSpan(at + EntryData));
+            if (size < 0 || data < 0 || (long)data + size > file.Length)
+            {
+                throw new SaveFormatException("This PSV file is damaged.");
+            }
+            _files.Add((data, size, Bytes.Text(file, at + EntryName, NameSize)));
+        }
+        _signed = file.AsSpan(SignatureOffset, SignatureSize).SequenceEqual(Signature(file));
+    }
+
+    public static ReadOnlySpan<byte> Magic => "\0VSP"u8;
+
+    public override string FormatName => "PS3 PSV";
+
+    public override bool CanRename => false;
+
+    public override string? OpenNotice => _signed ? null : "This PSV file's signature doesn't match. Saving will sign it again so the PS3 accepts it.";
+
+    private (int Data, int Size, string Name) ProfileEntry()
+    {
+        foreach (var entry in _files)
+        {
+            if (Ps2Names.IsProfile(entry.Name, Original.AsSpan(entry.Data, entry.Size).ToArray()))
+            {
+                return entry;
+            }
+        }
+        throw new SaveFormatException("No Most Wanted profile was found in this PSV file.");
+    }
+
+    public override byte[] ExtractProfile()
+    {
+        var entry = ProfileEntry();
+        return Original.AsSpan(entry.Data, entry.Size).ToArray();
+    }
+
+    protected override byte[] BuildCore(byte[] profile, string alias, bool renamed)
+    {
+        var output = (byte[])Original.Clone();
+        var entry = ProfileEntry();
+        if (profile.Length != entry.Size)
+        {
+            throw new SaveFormatException("The edited profile no longer fits this PSV file.");
+        }
+        profile.CopyTo(output, entry.Data);
+        Signature(output).CopyTo(output, SignatureOffset);
+        return output;
+    }
+
+    private static byte[] Signature(byte[] file)
+    {
+        var salt = new byte[SaltSize];
+        file.AsSpan(SeedOffset, SeedSize).CopyTo(salt);
+        using (var aes = Aes.Create())
+        {
+            aes.Key = Key;
+            salt = aes.DecryptCbc(salt, Iv, PaddingMode.None);
+        }
+        salt.AsSpan(SeedSize).Clear();
+        var body = (byte[])file.Clone();
+        body.AsSpan(SignatureOffset, SignatureSize).Clear();
+        return HMACSHA1.HashData(salt, body);
     }
 }
 

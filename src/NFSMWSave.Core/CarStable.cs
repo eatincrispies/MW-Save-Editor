@@ -484,6 +484,8 @@ public sealed class CarStable
     private const uint FilterHidden = 0x20;
     private const uint FilterPinkSlip = 0x40;
     private const uint FilterLotAmerica = 0x10000 | FilterLot | FilterHidden;
+    private const uint FilterNewMyCar = RegionMask | FilterQuickRace;
+    public const int MaxMyCars = 20;
     private const int UpgradeBrakes = 1;
     private const int UpgradeChassis = 2;
     private const int UpgradeInduction = 5;
@@ -577,6 +579,8 @@ public sealed class CarStable
     public string? CatalogLabel => CarCatalog.Choose(AllParts())?.Label;
 
     public int FreeGarageSlots => Math.Max(0, MaxCars - _cars.Count);
+
+    public int FreeMyCarSlots => Math.Max(0, MaxMyCars - _myCars.Count);
 
     public IReadOnlyList<CatalogVehicle> AddableVehicles()
     {
@@ -1164,37 +1168,51 @@ public sealed class CarStable
         return family is not null && CarPaints.FitsFamily(family);
     }
 
-    public string? AddProblem()
+    public string? AddProblem(bool myCars = false)
     {
         if (!_d.Map.CanAddCars)
         {
             return "Adding cars is not available for this PS2 save version.";
         }
-        if (!_career.HasStarted)
+        if (myCars)
         {
-            return "Start a career in the game before adding cars.";
+            if (_myCars.Count >= MaxMyCars)
+            {
+                return $"My Cars is full ({MaxMyCars} cars).";
+            }
+            if (FreeCarSlot() < 0 || FreeCustomization() < 0)
+            {
+                return "This save has no free car records left.";
+            }
         }
-        if (_cars.Count >= MaxCars)
+        else
         {
-            return $"The garage is full ({MaxCars} cars).";
-        }
-        if (FreeCarSlot() < 0 || FreeCustomization() < 0 || FreeCareer() < 0)
-        {
-            return "This save has no free car records left.";
+            if (!_career.HasStarted)
+            {
+                return "Start a career in the game before adding cars.";
+            }
+            if (_cars.Count >= MaxCars)
+            {
+                return $"The garage is full ({MaxCars} cars).";
+            }
+            if (FreeCarSlot() < 0 || FreeCustomization() < 0 || FreeCareer() < 0)
+            {
+                return "This save has no free car records left.";
+            }
         }
         return CarCatalog.Choose(AllParts()) is null ? "This save uses a modded car list the editor doesn't recognize." : null;
     }
 
-    public CareerCar AddVehicle(CatalogVehicle vehicle)
+    public CareerCar AddVehicle(CatalogVehicle vehicle, bool myCars = false)
     {
-        var problem = AddProblem();
+        var problem = AddProblem(myCars);
         if (problem is not null)
         {
             throw new InvalidOperationException(problem);
         }
         var slot = FreeCarSlot();
         var customIndex = FreeCustomization();
-        var careerIndex = FreeCareer();
+        var careerIndex = myCars ? -1 : FreeCareer();
 
         var record = CustomAt(customIndex);
         var isPreset = vehicle.PresetHash != 0;
@@ -1220,24 +1238,27 @@ public sealed class CarStable
         }
         _d[record + Layout.CustomizationHandle] = (byte)customIndex;
 
-        var career = CareerAt(careerIndex);
-        _d.Data.AsSpan(career, Layout.CareerSize).Clear();
-        _d[career] = (byte)careerIndex;
-        _d[career + 2] = DefaultStrikes;
+        if (!myCars)
+        {
+            var career = CareerAt(careerIndex);
+            _d.Data.AsSpan(career, Layout.CareerSize).Clear();
+            _d[career] = (byte)careerIndex;
+            _d[career + 2] = DefaultStrikes;
+        }
 
         var to = CarAt(slot);
         _d.U32(to, (uint)slot);
         _d.U32(to + FeKeyOffset, vehicle.FeKey);
         _d.U32(to + VehicleKeyOffset, vehicle.VehicleKey);
-        _d.U32(to + FilterOffset, isPreset ? Layout.FilterNewCareerCar | FilterPinkSlip : Layout.FilterNewCareerCar);
+        _d.U32(to + FilterOffset, myCars ? FilterNewMyCar : isPreset ? Layout.FilterNewCareerCar | FilterPinkSlip : Layout.FilterNewCareerCar);
         _d[to + CustomizationOffset] = (byte)customIndex;
-        _d[to + CareerOffset] = (byte)careerIndex;
+        _d[to + CareerOffset] = myCars ? Layout.InvalidIndex : (byte)careerIndex;
         if (isPreset)
         {
             _repainted.Add(slot);
         }
         Reload();
-        return _cars.First(c => c.Slot == slot);
+        return (myCars ? _myCars : _cars).First(c => c.Slot == slot);
     }
 
     private void Reload()

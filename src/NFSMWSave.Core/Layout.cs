@@ -107,6 +107,8 @@ public sealed record SaveLayout(
         CanAddCars = false,
         HasEndgameFlags = false,
         HasConfirmedStats = false,
+        Playlist = 0x59EB,
+        HasPlayMode = false,
     };
 
     public int SectionShift { get; init; }
@@ -123,6 +125,8 @@ public sealed record SaveLayout(
     public bool CanAddCars { get; init; } = true;
     public bool HasEndgameFlags { get; init; } = true;
     public bool HasConfirmedStats { get; init; } = true;
+    public int Playlist { get; init; } = 0x5A51;
+    public bool HasPlayMode { get; init; } = true;
 
     public int CaseFileName => Layout.CaseFileName + SectionShift;
     public int RaceCount => Layout.RaceCount + SectionShift;

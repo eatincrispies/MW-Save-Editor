@@ -117,7 +117,7 @@ public sealed class SaveImport
         var bountyBefore = save.Stable.TotalBounty;
         if (sections.HasFlag(ImportSections.Alias))
         {
-            if (!save.Map.CanRenameAlias)
+            if (!save.CanRenameAlias)
             {
                 notes.Add("Original Xbox saves keep their alias, because the save's folder uses it too.");
             }

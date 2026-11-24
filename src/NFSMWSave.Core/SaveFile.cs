@@ -29,6 +29,8 @@ public sealed class SaveFile
     public string? Path { get; private set; }
     public string OriginalAlias { get; private set; }
     public SaveLayout Map => _buffer.Map;
+
+    public bool CanRenameAlias => Map.CanRenameAlias && _container.CanRename;
     public string PlatformName => _buffer.Map.PlatformName;
     public string FormatName => _container.FormatName;
     public string? ResignNotice => _container.ResignNotice;

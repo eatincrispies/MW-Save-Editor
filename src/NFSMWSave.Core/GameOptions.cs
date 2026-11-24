@@ -2,12 +2,18 @@ namespace NFSMWSave.Core;
 
 public sealed record VolumeField(string Name, int Index);
 
+public sealed record TraxSong(string Title, string Artist);
+
+public sealed record PlaylistEntry(int Song, int Play);
+
 public sealed class PlayerOptions
 {
     private const int GaugesBool = 0;
     private const int PositionBool = 1;
     private const int ScoreBool = 3;
+    private const int VibrationBool = 4;
     private const int LeaderboardBool = 5;
+    public const int ControlTypes = 5;
     private const int BoolCount = 8;
     private const int CameraAfterBools = 4;
     private const int SplitAfterBools = 8;
@@ -50,6 +56,18 @@ public sealed class PlayerOptions
         set => _d.Bool(_at + LeaderboardBool * _boolSize, _boolSize, value);
     }
 
+    public bool Vibration
+    {
+        get => _d.Bool(_at + VibrationBool * _boolSize, _boolSize);
+        set => _d.Bool(_at + VibrationBool * _boolSize, _boolSize, value);
+    }
+
+    public int ControlType
+    {
+        get => _d.I32(_at + BoolCount * _boolSize);
+        set => _d.I32(_at + BoolCount * _boolSize, Math.Clamp(value, 0, ControlTypes - 1));
+    }
+
     public int Camera
     {
         get => _d.I32(_at + BoolCount * _boolSize + CameraAfterBools);
@@ -78,7 +96,43 @@ public sealed class GameOptions(SaveBuffer d)
     private const int AudioModeOffset = 0x24;
     private const int InteractiveOffset = 0x28;
     private const int EaTraxOffset = 0x2C;
+    private const int PlayModeOffset = 0x30;
     private const int AudioSize = 0x34;
+    private const int PlaylistEntrySize = 8;
+    private const int PlaylistPlay = 4;
+
+    public static readonly IReadOnlyList<string> PlayModes = ["Sequential", "Random"];
+    public static readonly IReadOnlyList<string> SongPlay = ["Off", "Menu", "Racing", "All"];
+
+    public static readonly IReadOnlyList<TraxSong> Songs =
+    [
+        new("Nine Thou (Superstars Remix)", "Styles Of Beyond"),
+        new("Do Ya Thang", "T.I. Presents The P$C"),
+        new("I Am Rock", "Rock"),
+        new("In A Hood Near You", "Suni Clay"),
+        new("Let's Move", "The Perceptionists"),
+        new("Sets Go Up", "Juvenile"),
+        new("Fired Up", "Hush"),
+        new("B-Side Wins Again feat. Chuck D", "DJ Spooky and Dave Lombardo"),
+        new("Shapeshifter", "Celldweller feat. Styles Of Beyond"),
+        new("Tilted", "Lupe Fiasco"),
+        new("Feed The Addiction", "Ils"),
+        new("One Good Reason", "Celldweller"),
+        new("We Control", "Hyper"),
+        new("Skinnyman", "Static-X"),
+        new("Barrier Break", "Diesel Boy + Kaos"),
+        new("Decadence", "Disturbed"),
+        new("You'll Be Under My Wheels", "The Prodigy"),
+        new("Tao Of The Machine (Scott Humphrey's Remix)", "The Roots and BT"),
+        new("You Must Follow (Evol Intent VIP)", "Stratus"),
+        new("Blood And Thunder", "Mastodon"),
+        new("Broken Sword", "Evol Intent, Mayhem & Thinktank"),
+        new("Hand Of Blood", "Bullet For My Valentine"),
+        new("The Mann", "Paul Linford and Chris Vrenna"),
+        new("Blinded In Chains", "Avenged Sevenfold"),
+        new("Feels Just Like It Should (Timo Maas Remix)", "Jamiroquai"),
+        new("Most Wanted Mash Up", "Paul Linford and Chris Vrenna"),
+    ];
     private const int PlayerBoolCount = 8;
     private const int PlayerTailSize = 0xC;
 
@@ -183,6 +237,46 @@ public sealed class GameOptions(SaveBuffer d)
     {
         get => d.I32(Map.OptionsBase + Map.Audio + EaTraxOffset) != 0;
         set => d.I32(Map.OptionsBase + Map.Audio + EaTraxOffset, value ? 1 : 0);
+    }
+
+    public bool HasPlayMode => Map.HasPlayMode;
+
+    public int PlayMode
+    {
+        get => HasPlayMode ? d.I32(Map.OptionsBase + Map.Audio + PlayModeOffset) : 0;
+        set
+        {
+            if (HasPlayMode)
+            {
+                d.I32(Map.OptionsBase + Map.Audio + PlayModeOffset, Math.Clamp(value, 0, PlayModes.Count - 1));
+            }
+        }
+    }
+
+    public IReadOnlyList<PlaylistEntry> Playlist => Enumerable.Range(0, Songs.Count)
+        .Select(i => new PlaylistEntry((int)d.U32(Map.Playlist + i * PlaylistEntrySize), d[Map.Playlist + i * PlaylistEntrySize + PlaylistPlay]))
+        .ToList();
+
+    public bool HasPlaylist
+    {
+        get
+        {
+            var entries = Playlist;
+            return entries.Select(e => e.Song).Distinct().Count() == Songs.Count && entries.All(e => e.Song >= 0 && e.Song < Songs.Count && e.Play < SongPlay.Count);
+        }
+    }
+
+    public void SetPlaylist(IReadOnlyList<PlaylistEntry> entries)
+    {
+        if (entries.Count != Songs.Count || entries.Select(e => e.Song).Distinct().Count() != Songs.Count || entries.Any(e => e.Song < 0 || e.Song >= Songs.Count))
+        {
+            throw new ArgumentException("The playlist must hold every song once.");
+        }
+        for (var i = 0; i < entries.Count; i++)
+        {
+            d.U32(Map.Playlist + i * PlaylistEntrySize, (uint)entries[i].Song);
+            d[Map.Playlist + i * PlaylistEntrySize + PlaylistPlay] = (byte)Math.Clamp(entries[i].Play, 0, SongPlay.Count - 1);
+        }
     }
 
     public PlayerOptions Player(int index)
