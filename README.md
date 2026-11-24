@@ -1,8 +1,18 @@
 # NFSMW Save Editor
 
-Save editor for **Need for Speed: Most Wanted (2005)**. Supports PC, PS2, GameCube, Xbox 360, and original Xbox saves.
+Save editor for **Need for Speed: Most Wanted (2005)**. Supports PC, PS2, PS3 (PS2 saves), GameCube, Xbox 360, and original Xbox saves.
 
-Lets you edit cash and bounty, jump to any Blacklist rank, add or customize cars, and port your career progress between different versions of the game.
+Lets you edit cash and bounty, jump to any Blacklist rank, add or customize cars, tune them, finish races and milestones, set up your EA Trax playlist, and port your career progress between different versions of the game.
+
+## What's new in 1.1.0
+
+- **PS3 saves:** Open and save PS2 saves exported from a PS3 as `.psv` files. The editor re-signs them, so the PS3 accepts them.
+- **EA Trax:** A new tab in Options with all 26 songs in the game's order. Set each song to Off, Menu, Racing, or All, pick Sequential or Random, and reorder the playlist.
+- **Controls:** Control Type and Vibration for each player.
+- **My Cars:** Add Car now asks whether the car goes to your Career Cars or to My Cars on the main menu.
+- **Hashes:** The `hashes` folder now covers milestones, Race Wins, infractions and fines, EA Trax songs, tuning, player settings, and the Top 5 pursuits.
+
+Earlier updates added Performance Tuning, the Milestones tab, the new Rap Sheet layout, and the Unlock All Parts button. See the [releases](../../releases) for the full list.
 
 ## Supported saves
 
@@ -10,6 +20,7 @@ Lets you edit cash and bounty, jump to any Blacklist rank, add or customize cars
 |---|---|
 | PC | Your profile in `Documents\NFS Most Wanted\<alias>\<alias>` |
 | PS2 | `.psu` (uLaunchELF), `.max`, or `.cbs` |
+| PS3 | `.psv` from the Memory Card Utility, in `PS3\EXPORT\PSV` on your USB drive |
 | GameCube | `.gci` |
 | Xbox 360 | CON packages and raw Xenia saves |
 | Original Xbox | The save file named after your alias |
@@ -25,19 +36,22 @@ If you need help pulling a save off a console, there are step-by-step instructio
 
 ## What you can edit
 
-- **Career:** Alias, cash, bounty, current car, and the completion stats shown on the main menu.
-- **Blacklist:** Jump to any rank—rivals, races, and milestones adjust automatically.
+- **Career:** Alias, cash, bounty, current car, and the completion stats shown on the main menu. **Unlock All Parts** opens every part, decal, and number in the shop.
+- **Blacklist:** Jump to any rank—rivals, races, milestones, and the Rap Sheet unlock adjust automatically.
 - **Cars:** Add, delete, and customize cars (parts, paint, hidden vinyls, rims, tint, decals, numbers, gauges, upgrades, Junkman parts, heat, bounty, and impounds).
-- **Races:** Career and Quick Race status.
+  - **Tuning:** All three Performance Tuning setups, every slider from -5 to +5. Sliders stay locked until the matching upgrade or body part is installed, just like in the game.
+- **Races:** Two tabs.
+  - **Racing:** Career and Quick Race status. Race Wins on the Blacklist screen updates to match.
+  - **Milestones:** Every milestone and speed trap for each rank, with its goal and status. Mark them complete or not complete.
 - **Markers:** Every marker type.
-- **Rap Sheet:** Pursuit and cost-to-state totals.
-- **Options:** Same settings you get in the in-game menus.
+- **Rap Sheet:** Laid out like the game's rap sheet, with a summary up top and tabs for Summary, Vehicle Database, Infractions, Cost to State, Top 5 Pursuits, and Rankings.
+- **Options:** Same settings you get in the in-game menus, plus Controls and the **EA Trax** playlist.
 
 Most lists have right-click menus, and you can `Ctrl`- or `Shift`-click to select multiple cars at once.
 
 ## Adding cars
 
-**Add Car** has every vehicle in the game—Blacklist bosses, Challenge Series cars, Rog's GTO, Ronnie's Supra, the prologue BMW, and so on. Bosses and presets keep their original setup; everything else spawns stock.
+**Add Car** first asks where the car goes: **Career Cars** (up to 25) or **My Cars** (up to 20). Then it lists every vehicle in the game—Blacklist bosses, Challenge Series cars, Rog's GTO, Ronnie's Supra, the prologue BMW, and so on. Bosses and presets keep their original setup; everything else spawns stock.
 
 Anything labeled **AI vehicle** or **May crash** wasn't made for the player to drive, so definitely test those on a backup.
 
@@ -51,11 +65,11 @@ Anything labeled **AI vehicle** or **May crash** wasn't made for the player to d
 4. Check off whatever you want to bring over and click **Import**.
 5. Hit **Ctrl+S**.
 
-Heads up: importing cars wipes and replaces every car in the target save. If a part doesn't exist in that version of the game, it falls back to stock and the editor will let you know.
+Heads up: importing cars wipes and replaces every car in the target save. If a part doesn't exist in that version of the game, it falls back to stock and the editor will let you know. Tuning comes along with your cars.
 
 ## Hex editing
 
-For manual edits, the [`hashes`](hashes) folder has the hex values for cars, parts, paints, vinyls, races, markers, and flags, along with their offsets.
+For manual edits, the [`hashes`](hashes) folder has the hex values for cars, parts, paints, vinyls, races, markers, milestones, infractions, EA Trax songs, and flags, along with their offsets and what's inside each record.
 
 Editing by hand will invalidate the save's checksums, so open the file in the editor afterward and press **Ctrl+S** to recalculate them.
 
@@ -63,9 +77,12 @@ Editing by hand will invalidate the save's checksums, so open the file in the ed
 
 - **Xbox 360:** Real hardware won't load an edited save unless you rehash and resign it (e.g. with Horizon). Xenia doesn't care.
 - **Original Xbox:** Saves keep whatever signature type they came with, so a save created in xbased stays valid in xbased. You can't change the alias on Xbox saves.
+- **PS3:** `.psv` saves are re-signed every time you save. You can't change the alias, because the PS3 names the file after it.
 - **GameCube (Dolphin):** Fully stop the game in Dolphin before editing. Dolphin loads the memory card on boot, and a running game will overwrite your edits.
 - **PS2 (PAL):** Some PAL saves use an older layout, so Add Car and the Rap Sheet are disabled for those.
 - **PC (modded/shared saves):** If the game refuses to load someone else's save, run **Tools > Match My Game's Car List**. Heavily modded garages still might not line up cleanly.
+- **Marking races complete:** The final boss race and final pursuit stay unmarked until you've beaten the game, and the last prologue race until you've finished the prologue. Marking those early can leave a save stuck on the loading screen. You also get a warning when marking races ahead of your current rank.
+- **Milestones:** They never show up on the in-game map, even when they're unfinished. That's normal. Start them from any pursuit, or from **Blacklist > Milestones** in the game.
 - **Aliases:** Max 7 alphanumeric characters. Changing your alias on PC also renames the profile folder.
 - **Deleting cars:** Works like selling a car without getting the cash—its bounty and Rap Sheet stats stay on your career.
 
@@ -75,3 +92,14 @@ Requires the [.NET 10 SDK](https://dotnet.microsoft.com/download/dotnet/10.0).
 
 ```sh
 dotnet build NFSMWSaveEditor.slnx -c Release
+```
+
+To make a single `.exe`, run `publish.bat`. It goes in `publish\NFSMWSaveEditor`.
+
+## Reporting Bugs:
+
+Open an issue and tell the bug you have a problem with, or something feels broken/not working.
+
+---
+
+Made by eatincrispies. This is a fan project and isn't affiliated with or endorsed by Electronic Arts. Need for Speed and all car names and logos belong to their owners.
