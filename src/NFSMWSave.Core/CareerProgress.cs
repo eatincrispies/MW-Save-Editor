@@ -1,6 +1,18 @@
+using System.Globalization;
+
 namespace NFSMWSave.Core;
 
 public sealed record BinStatus(int Rank, int Challenges, int RaceWins, int MilestonesDone, int MilestonesTotal);
+
+public sealed class ChallengeRecord(int rank, int id, bool isTrap, string name, string goal, Func<bool> isDone)
+{
+    public int Rank { get; } = rank;
+    public int Id { get; } = id;
+    public bool IsTrap { get; } = isTrap;
+    public string Name { get; } = name;
+    public string Goal { get; } = goal;
+    public bool IsDone => isDone();
+}
 
 public sealed class CareerProgress
 {
@@ -23,8 +35,41 @@ public sealed class CareerProgress
     private const byte StateAvailable = 2;
     private const byte StateAwarded = 4;
     private const ushort TrapUnlocked = 1;
+    private const ushort TrapActive = 2;
     private const ushort TrapCompleted = 4;
     private const int MaxBins = 32;
+    private const string FinalBossRace = "1.2.3";
+    private const string FinalPursuitRace = "1.8.1";
+    private const string PrologueEndRace = "16.2.1";
+    private const uint TypeTradePaint = 0x850A64BC;
+    private const uint TypeCostToState = 0xFD989A3A;
+    private const uint TypePursuitEvasion = 0x5392E4FD;
+    private const uint TypePursuitTime = 0x033FA23A;
+    private const uint TypeRoadblocks = 0xEB45F99D;
+    private const uint TypeSpikeStrips = 0xCDF36FC2;
+    private const uint TypeInfractions = 0xA61CAC24;
+    private const uint TypeBounty = 0x2377E50D;
+    private const float MpsToMph = 2.23694f;
+    private const float MpsToKph = 3.6f;
+
+    private static readonly string[][] WorldRaces =
+    [
+        ["1.1.1", "1.2.1", "1.2.2", "1.2.4", "1.3.1", "1.4.1", "1.4.2", "1.5.1", "1.5.3", "2.2.1.r", "2.4.3.r"],
+        ["2.1.1", "2.1.1.r", "2.4.1", "2.4.2", "2.4.3", "2.5.1", "3.2.1.r", "3.3.1.r", "3.3.2.r", "5.1.1.r", "5.5.1.r", "2.7.1"],
+        ["3.2.1", "3.3.1", "3.1.1", "3.4.1", "7.2.1.r", "4.3.1.r", "3.5.1", "3.5.2", "3.4.1.r", "4.4.1.r", "4.2.1.r", "3.7.3"],
+        ["4.4.1", "4.1.1", "4.3.1", "4.5.3", "4.5.1", "5.5.2.r", "7.2.2.r", "6.3.1.r", "9.1.1.r", "5.4.1.r", "7.4.3.r"],
+        ["5.3.1", "5.1.1", "5.2.1", "5.5.1", "5.5.2", "5.4.1", "5.5.3", "5.2.3", "6.4.1.r", "7.4.2.r"],
+        ["6.2.2", "6.4.1", "6.5.1", "6.2.1", "6.4.2", "6.3.1", "14.3.1.r", "6.2.3", "6.5.3", "7.7.1.r", "7.4.1.r"],
+        ["7.2.1", "7.4.3", "7.5.1", "7.4.1", "7.3.1", "16.1.1.r", "8.2.1.r", "7.1.1", "7.4.2", "7.7.4"],
+        ["8.3.1", "8.3.2", "8.5.1", "8.5.2", "8.2.2", "10.4.2.r", "9.4.1.r"],
+        ["9.1.1", "9.7.1", "9.4.1", "9.5.1", "9.5.2", "9.4.2", "12.1.1.r", "9.3.1"],
+        ["10.3.1", "10.3.2", "10.4.2", "10.4.1", "11.2.1.r", "10.2.2", "11.1.2.r", "11.5.1.r"],
+        ["11.2.1", "11.1.1", "11.5.1", "11.4.2", "11.4.1", "12.2.1.r", "11.5.2", "11.7.1"],
+        ["12.1.1", "12.4.1", "12.4.2", "12.5.1", "12.7.3", "13.2.2", "14.2.3"],
+        ["13.2.1", "13.3.1", "13.3.2", "13.4.1", "13.4.2", "13.5.1", "13.5.2"],
+        ["14.1.1", "14.2.1", "14.2.2", "14.3.1", "14.4.1", "14.1.2"],
+        ["15.1.1", "15.2.1", "15.3.1"],
+    ];
 
     private readonly SaveBuffer _d;
     private readonly Career _career;
@@ -110,6 +155,158 @@ public sealed class CareerProgress
     }
 
     public bool CanChangeRank => IsReadable && _career.HasStarted && _career.Rank is >= Career.FirstRank and <= Career.LastRank;
+
+    public string? HeldBackName(RaceRecord race)
+    {
+        if (race.Has(RaceFlags.CareerCompleted))
+        {
+            return null;
+        }
+        var beaten = _career.GetFlag(CareerFlags.BeatenCareer);
+        return race.Id switch
+        {
+            FinalBossRace when !beaten => "Final boss race",
+            FinalPursuitRace when !beaten => "Final pursuit",
+            PrologueEndRace when _career.Rank == Career.PrologueRank => "Last prologue race",
+            _ => null,
+        };
+    }
+
+    public bool IsAheadOfRank(RaceRecord race) =>
+        race.IsBlacklist && race.Group < _career.Rank && !race.Has(RaceFlags.CareerCompleted) && !_career.GetFlag(CareerFlags.BeatenCareer);
+
+    public bool CanEditMilestones(int rank) => CanChangeRank && rank >= _career.Rank && rank <= Career.LastRank && _binRows.ContainsKey(rank);
+
+    public IReadOnlyList<ChallengeRecord> Challenges
+    {
+        get
+        {
+            var list = new List<ChallengeRecord>();
+            if (!IsReadable)
+            {
+                return list;
+            }
+            for (var rank = Career.FirstRank; rank <= Career.LastRank; rank++)
+            {
+                foreach (var at in MilestonesIn(rank))
+                {
+                    var type = _d.U32(at);
+                    list.Add(new ChallengeRecord(rank, at, false, MilestoneName(type), MilestoneGoal(type, _d.F32(at + MilestoneRequired)), () => _d[at + MilestoneState] == StateAwarded));
+                }
+                foreach (var at in TrapsIn(rank))
+                {
+                    list.Add(new ChallengeRecord(rank, at, true, "Photo Ticket", SpeedGoal(_d.F32(at + _d.Map.TrapRequired)), () => (_d.U16(at + _d.Map.TrapFlags) & TrapCompleted) != 0));
+                }
+            }
+            return list;
+        }
+    }
+
+    public void SetChallenges(IEnumerable<ChallengeRecord> challenges, bool complete)
+    {
+        var ranks = new HashSet<int>();
+        foreach (var challenge in challenges.Where(c => CanEditMilestones(c.Rank)))
+        {
+            if (challenge.IsTrap)
+            {
+                SetTrap(challenge.Id, complete);
+            }
+            else
+            {
+                SetMilestone(challenge.Id, complete);
+            }
+            ranks.Add(challenge.Rank);
+        }
+        foreach (var rank in ranks)
+        {
+            _d.U16(_binRows[rank], (ushort)CountChallenges(rank));
+        }
+    }
+
+    private void SetMilestone(int at, bool complete)
+    {
+        var awarded = _d[at + MilestoneState] == StateAwarded;
+        if (complete && !awarded)
+        {
+            _d[at + MilestoneState] = StateAwarded;
+            _d.F32(at + MilestoneRecorded, _d.F32(at + MilestoneRequired));
+        }
+        else if (!complete && awarded)
+        {
+            _d[at + MilestoneState] = StateAvailable;
+            _d.F32(at + MilestoneRecorded, 0f);
+        }
+    }
+
+    private void SetTrap(int at, bool complete)
+    {
+        var finished = (_d.U16(at + _d.Map.TrapFlags) & TrapCompleted) != 0;
+        if (complete && !finished)
+        {
+            _d.U16(at + _d.Map.TrapFlags, TrapUnlocked | TrapCompleted);
+            _d.F32(at + _d.Map.TrapRecorded, _d.F32(at + _d.Map.TrapRequired));
+        }
+        else if (!complete && finished)
+        {
+            _d.U16(at + _d.Map.TrapFlags, TrapUnlocked | TrapActive);
+            _d.F32(at + _d.Map.TrapRecorded, 0f);
+        }
+    }
+
+    private static string MilestoneName(uint type) => type switch
+    {
+        TypeTradePaint => "Trade Paint",
+        TypeCostToState => "Cost to State Challenge",
+        TypePursuitEvasion => "Pursuit Evasion",
+        TypePursuitTime => "Pursuit Time Challenge",
+        TypeRoadblocks => "Roadblock Challenge",
+        TypeSpikeStrips => "Spike Strip Challenge",
+        TypeInfractions => "Infractions Challenge",
+        TypeBounty => "Bounty",
+        _ => "Milestone",
+    };
+
+    private static string MilestoneGoal(uint type, float required)
+    {
+        var amount = required.ToString("N0", CultureInfo.InvariantCulture);
+        var minutes = (required / 60f).ToString("0.#", CultureInfo.InvariantCulture);
+        return type switch
+        {
+            TypeTradePaint => $"Tag {amount} police vehicles",
+            TypeCostToState => $"${amount} cost to state",
+            TypePursuitEvasion => $"Evade in under {minutes} minutes",
+            TypePursuitTime => $"Last {minutes} minutes",
+            TypeRoadblocks => $"Dodge {amount} roadblocks",
+            TypeSpikeStrips => $"Dodge {amount} spike strips",
+            TypeInfractions => $"{amount} infractions",
+            TypeBounty => $"{amount} bounty in one pursuit",
+            _ => amount,
+        };
+    }
+
+    private static string SpeedGoal(float metersPerSecond)
+    {
+        var mph = (metersPerSecond * MpsToMph).ToString("0", CultureInfo.InvariantCulture);
+        var kph = (metersPerSecond * MpsToKph).ToString("0", CultureInfo.InvariantCulture);
+        return $"Over {mph} mph ({kph} km/h)";
+    }
+
+    public void RecountRaceWins(IEnumerable<RaceRecord> changed)
+    {
+        if (!IsReadable)
+        {
+            return;
+        }
+        var ids = changed.Select(r => r.Id).ToHashSet();
+        var done = _races.Races.Where(r => r.Has(RaceFlags.CareerCompleted)).Select(r => r.Id).ToHashSet();
+        for (var i = 0; i < WorldRaces.Length; i++)
+        {
+            if (WorldRaces[i].Any(ids.Contains) && _binRows.TryGetValue(i + Career.FirstRank, out var row))
+            {
+                _d.U16(row + 2, (ushort)WorldRaces[i].Count(done.Contains));
+            }
+        }
+    }
 
     public BinStatus GetBin(int rank)
     {

@@ -31,7 +31,9 @@ internal sealed record ImportedUpgrade(int Level, bool Junkman);
 
 internal sealed record ImportedPolice(float Heat, uint Bounty, int Evaded, int Busted, int Strikes, int MaxStrikes, ImpoundState Impound, int ImpoundDays, int[] Unserved, int[] Served);
 
-internal sealed record ImportedCar(string Name, uint VehicleKey, uint FeKey, uint Filter, bool IsCurrent, ImportedPolice? Police, IReadOnlyList<ImportedUpgrade> Upgrades, IReadOnlyList<ImportedPart> Parts);
+internal sealed record ImportedTuning(int Active, float[] Values);
+
+internal sealed record ImportedCar(string Name, uint VehicleKey, uint FeKey, uint Filter, bool IsCurrent, ImportedPolice? Police, IReadOnlyList<ImportedUpgrade> Upgrades, IReadOnlyList<ImportedPart> Parts, ImportedTuning? Tuning);
 
 internal sealed record CarHistory(uint Bounty, int Evaded, int Busted, int[] Unserved, int[] Served);
 
@@ -42,7 +44,7 @@ public sealed class SaveImport
     private const CareerFlags EndgameFlags = CareerFlags.BeatenCareer | CareerFlags.BeatenChallengeSeries | CareerFlags.BeatenSpecialChallenge;
 
     private static readonly HashSet<string> ListNames =
-        ["blacklist", "careerCars", "myCars", "races", "markers", "unlocks", "upgrades", "parts", "milestones", "traps", "unserved", "served"];
+        ["blacklist", "careerCars", "myCars", "races", "markers", "unlocks", "upgrades", "parts", "milestones", "traps", "unserved", "served", "values"];
 
     private readonly JsonNode _root;
     private readonly JsonNode _career;
@@ -333,8 +335,13 @@ public sealed class SaveImport
             Bool(node, "isCurrent"),
             node["police"] is { } police ? ParsePolice(police) : null,
             upgrades,
-            parts);
+            parts,
+            node["tuning"] is { } tuning ? ParseTuning(tuning) : null);
     }
+
+    private static ImportedTuning ParseTuning(JsonNode node) => new(
+        Int(node, "active"),
+        Items(node["values"]).Select(v => float.Parse(Value(v) ?? "0", NumberStyles.Float, CultureInfo.InvariantCulture)).ToArray());
 
     private static ImportedPart ParsePart(JsonNode node)
     {

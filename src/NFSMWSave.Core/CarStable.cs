@@ -170,7 +170,87 @@ public sealed class CareerCar
         }
     }
 
-    public static readonly IReadOnlyList<string> LevelTitles = ["Stock", "Street", "Super Street", "Race", "Pro", "Super Pro", "Ultimate"];
+    public const int TuningSettings = 3;
+    public const int TuningSliders = 7;
+    public const int TuningLimit = 5;
+    private const int TuningOffset = 0x138;
+    private const int TuningSettingSize = 0x1C;
+    private const int ActiveTuningOffset = 0x18C;
+    private const float TuningStep = 0.2f;
+
+    public static readonly IReadOnlyList<string> TuningNames = ["Steering", "Handling", "Brakes", "Ride Height", "Aerodynamics", "Nitrous", "Turbo / Supercharger"];
+
+    public static readonly IReadOnlyList<string> TuningNeeds =
+    [
+        "Needs a Suspension upgrade",
+        "Needs a Suspension upgrade",
+        "Needs a Brakes upgrade",
+        "Needs a Suspension upgrade",
+        "Needs a body kit or spoiler",
+        "Needs a Nitrous upgrade",
+        "Needs a Turbo upgrade",
+    ];
+
+    public int ActiveTuning
+    {
+        get => HasCustomization ? Math.Clamp(_d.I32(_custom + ActiveTuningOffset), 0, TuningSettings - 1) : 0;
+        set
+        {
+            if (HasCustomization)
+            {
+                _d.I32(_custom + ActiveTuningOffset, Math.Clamp(value, 0, TuningSettings - 1));
+            }
+        }
+    }
+
+    private int TuningAt(int setting, int slider) => _custom + TuningOffset + setting * TuningSettingSize + slider * 4;
+
+    public int GetTuning(int setting, int slider)
+    {
+        if (!HasCustomization)
+        {
+            return 0;
+        }
+        var value = _d.F32(TuningAt(setting, slider));
+        return float.IsFinite(value) ? (int)MathF.Round(Math.Clamp(value, -1f, 1f) / TuningStep) : 0;
+    }
+
+    public void SetTuning(int setting, int slider, int value)
+    {
+        if (HasCustomization)
+        {
+            _d.F32(TuningAt(setting, slider), Math.Clamp(value, -TuningLimit, TuningLimit) * TuningStep);
+        }
+    }
+
+    internal float[] RawTuning
+    {
+        get
+        {
+            var values = new float[TuningSettings * TuningSliders];
+            for (var i = 0; HasCustomization && i < values.Length; i++)
+            {
+                var value = _d.F32(TuningAt(i / TuningSliders, i % TuningSliders));
+                values[i] = float.IsFinite(value) ? Math.Clamp(value, -1f, 1f) : 0f;
+            }
+            return values;
+        }
+    }
+
+    internal void SetRawTuning(int active, IReadOnlyList<float> values)
+    {
+        if (!HasCustomization)
+        {
+            return;
+        }
+        ActiveTuning = active;
+        for (var i = 0; i < TuningSettings * TuningSliders && i < values.Count; i++)
+        {
+            _d.F32(TuningAt(i / TuningSliders, i % TuningSliders), float.IsFinite(values[i]) ? Math.Clamp(values[i], -1f, 1f) : 0f);
+        }
+    }
+
+    public static readonly IReadOnlyList<string> LevelTitles =["Stock", "Street", "Super Street", "Race", "Pro", "Super Pro", "Ultimate"];
 
     internal int[]? Limits { get; init; }
 
@@ -404,6 +484,10 @@ public sealed class CarStable
     private const uint FilterHidden = 0x20;
     private const uint FilterPinkSlip = 0x40;
     private const uint FilterLotAmerica = 0x10000 | FilterLot | FilterHidden;
+    private const int UpgradeBrakes = 1;
+    private const int UpgradeChassis = 2;
+    private const int UpgradeInduction = 5;
+    private const int UpgradeNitrous = 6;
     private const uint RegionMask = 0xF0000;
     private const uint ImportFilterMask = RegionMask | 0x7F;
 
@@ -675,6 +759,10 @@ public sealed class CarStable
             for (var i = 0; i < CareerCar.PerformanceSlots && i < source.Upgrades.Count; i++)
             {
                 target.SetJunkman(i, source.Upgrades[i].Junkman);
+            }
+            if (source.Tuning is { } tuning)
+            {
+                target.SetRawTuning(tuning.Active, tuning.Values);
             }
             if (source.Police is { } police)
             {
@@ -983,6 +1071,30 @@ public sealed class CarStable
             car.SetBodyPart(CarPaints.RimPaintSlot, CarPaints.NoPart);
         }
         _repainted.Add(car.Slot);
+    }
+
+    public bool CanTune(CareerCar car, int slider)
+    {
+        if (!car.HasCustomization)
+        {
+            return false;
+        }
+        return slider switch
+        {
+            0 or 1 or 3 => car.GetLevel(UpgradeChassis) > 0,
+            2 => car.GetLevel(UpgradeBrakes) > 0,
+            4 => IsCustomPart(car, CarParts.SpoilerSlot) || IsCustomPart(car, CarParts.BodySlot),
+            5 => car.GetLevel(UpgradeNitrous) > 0,
+            6 => car.GetLevel(UpgradeInduction) > 0,
+            _ => false,
+        };
+    }
+
+    private bool IsCustomPart(CareerCar car, int slot)
+    {
+        var list = PartsFor(car, slot);
+        var part = car.GetPart(slot);
+        return list.Count > 0 && part != CarPaints.NoPart && part != list[0].Part;
     }
 
     public bool IsStockRim(CareerCar car, ushort rim)

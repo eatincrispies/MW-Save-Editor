@@ -203,6 +203,11 @@ public static class SaveExport
                 ["level"] = car.GetLevel(slot),
                 ["junkman"] = car.GetJunkman(slot),
             }));
+            node["tuning"] = new JsonObject
+            {
+                ["active"] = car.ActiveTuning,
+                ["values"] = ListOf(car.RawTuning.Select(v => (JsonNode)JsonValue.Create(v))),
+            };
             node["parts"] = ListOf(Enumerable.Range(0, Layout.PartSlots)
                 .Where(slot => car.GetPart(slot) != CarPaints.NoPart)
                 .Select(slot => PartNode(save, car, slot, hashes)));
