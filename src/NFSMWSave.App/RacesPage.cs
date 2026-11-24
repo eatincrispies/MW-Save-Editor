@@ -9,6 +9,7 @@ internal sealed class RacesPage : EditorPage
     private readonly ListView _list = Ui.List();
     private readonly Label _selection = new() { AutoSize = true, Anchor = AnchorStyles.Left, Margin = new Padding(Ui.S(4), Ui.S(6), Ui.S(8), Ui.S(2)) };
     private readonly List<Button> _actions = [];
+    private readonly MilestonesPanel _milestones = new();
 
     public RacesPage()
     {
@@ -45,8 +46,16 @@ internal sealed class RacesPage : EditorPage
         var right = new Panel { Dock = DockStyle.Fill, BackColor = Theme.Back, Padding = new Padding(Ui.S(6), Ui.S(6), 0, 0) };
         right.Controls.Add(_list);
         right.Controls.Add(bar);
-        Controls.Add(right);
-        Controls.Add(groupsBox);
+
+        var racing = new TabPage("Racing") { BackColor = Theme.Back, UseVisualStyleBackColor = false, Padding = new Padding(Ui.S(4)) };
+        racing.Controls.Add(right);
+        racing.Controls.Add(groupsBox);
+        var milestones = new TabPage("Milestones") { BackColor = Theme.Back, UseVisualStyleBackColor = false, Padding = new Padding(Ui.S(4)) };
+        milestones.Controls.Add(_milestones);
+        _milestones.Changed += MarkBulkEdited;
+        var sections = new DarkTabControl { Dock = DockStyle.Fill };
+        sections.TabPages.AddRange([racing, milestones]);
+        Controls.Add(sections);
     }
 
     public override string Title => "Races";
@@ -63,6 +72,7 @@ internal sealed class RacesPage : EditorPage
     {
         RefreshGroups();
         Fill();
+        _milestones.ShowSave(File!);
     }
 
     private void BuildMenu(ContextMenuStrip menu, ListViewItem? hit)
@@ -111,6 +121,8 @@ internal sealed class RacesPage : EditorPage
             return;
         }
         var group = (_groups.SelectedItem as GroupChoice)?.Name ?? AllGroups;
+        var selected = _list.SelectedItems.Cast<ListViewItem>().Select(i => ((RaceRecord)i.Tag!).Id).ToHashSet();
+        var top = _list.TopItem?.Index ?? 0;
         _list.BeginUpdate();
         _list.Items.Clear();
         foreach (var race in File.Races.Races.Where(r => group == AllGroups || Career.RaceGroupName(r.Group) == group))
@@ -121,8 +133,13 @@ internal sealed class RacesPage : EditorPage
             item.SubItems.Add(YesNo(race.Has(RaceFlags.QuickRaceCompleted)));
             item.SubItems.Add(YesNo(race.Has(RaceFlags.QuickRaceUnlocked)));
             _list.Items.Add(item);
+            item.Selected = selected.Contains(race.Id);
         }
         _list.EndUpdate();
+        if (top > 0 && top < _list.Items.Count)
+        {
+            _list.TopItem = _list.Items[top];
+        }
         ShowSelection();
     }
 
@@ -148,9 +165,51 @@ internal sealed class RacesPage : EditorPage
         }
     }
 
+    private List<ListViewItem> AllowedCareerMarks(List<ListViewItem> items)
+    {
+        var progress = File!.Progress;
+        var held = items.Select(i => (RaceRecord)i.Tag!).Where(r => progress.HeldBackName(r) is not null).ToList();
+        var allowed = items.Where(i => progress.HeldBackName((RaceRecord)i.Tag!) is null).ToList();
+        var ahead = allowed.Count(i => progress.IsAheadOfRank((RaceRecord)i.Tag!));
+        if (held.Count == 0 && ahead == 0)
+        {
+            return allowed;
+        }
+        var notes = new List<string>();
+        if (ahead > 0)
+        {
+            var rank = File.Career.Rank;
+            var where = rank == Career.PrologueRank ? "the prologue" : $"Blacklist #{rank}";
+            var move = progress.CanChangeRank ? " To move up properly, change your rank on the Blacklist tab." : "";
+            notes.Add($"{ahead} of these events are ahead of where this career is ({where}). Marking them complete won't change your rank and can confuse career progress.{move}");
+        }
+        if (held.Count > 0)
+        {
+            var names = string.Join("\n", held.Select(r => $"{r.Id}  {progress.HeldBackName(r)}"));
+            notes.Add($"These will be left out, because marking them now can leave the save stuck on the loading screen:\n\n{names}");
+        }
+        if (allowed.Count == 0)
+        {
+            MessageBox.Show(this, string.Join("\n\n", notes), "Mark complete", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+            return allowed;
+        }
+        notes.Add(allowed.Count == 1 ? "Mark the other event complete?" : $"Mark the other {allowed.Count} events complete?");
+        var answer = MessageBox.Show(this, string.Join("\n\n", notes), "Mark complete", MessageBoxButtons.YesNo, MessageBoxIcon.Warning, MessageBoxDefaultButton.Button2);
+        return answer == DialogResult.Yes ? allowed : [];
+    }
+
     private void Apply(RaceFlags flags, bool on)
     {
-        foreach (ListViewItem item in _list.SelectedItems)
+        var items = _list.SelectedItems.Cast<ListViewItem>().ToList();
+        if (on && flags.HasFlag(RaceFlags.CareerCompleted))
+        {
+            items = AllowedCareerMarks(items);
+        }
+        if (items.Count == 0)
+        {
+            return;
+        }
+        foreach (var item in items)
         {
             var race = (RaceRecord)item.Tag!;
             race.Set(flags, on);
@@ -159,6 +218,12 @@ internal sealed class RacesPage : EditorPage
             item.SubItems[4].Text = YesNo(race.Has(RaceFlags.QuickRaceUnlocked));
         }
         Bound(RefreshGroups);
+        if (flags.HasFlag(RaceFlags.CareerCompleted))
+        {
+            File!.Progress.RecountRaceWins(items.Select(i => (RaceRecord)i.Tag!));
+            MarkBulkEdited();
+            return;
+        }
         MarkEdited();
     }
 

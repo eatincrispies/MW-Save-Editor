@@ -23,9 +23,12 @@ internal sealed class CareerPage : EditorPage
     private readonly Label _busted = Ui.Text("");
     private readonly Label _infractions = Ui.Text("");
     private readonly Label _pursuitTime = Ui.Text("");
+    private readonly Button _unlockParts;
 
     public CareerPage()
     {
+        _unlockParts = Ui.Action("Unlock All Parts", UnlockParts, 200);
+
         var profile = Ui.Fields(LabelWidth);
         Ui.Row(profile, "Alias", _alias);
         Ui.Row(profile, "Case file", _caseFile);
@@ -48,7 +51,7 @@ internal sealed class CareerPage : EditorPage
         Ui.Row(stats, "Infractions", _infractions);
         Ui.Row(stats, "Time in Pursuit", _pursuitTime);
 
-        var left = Ui.Column(Ui.Section("Profile", profile, ColumnWidth), Ui.Section("Money", money, ColumnWidth));
+        var left = Ui.Column(Ui.Section("Profile", profile, ColumnWidth), Ui.Section("Money", money, ColumnWidth), Ui.Section("Quick Actions", Ui.Column(_unlockParts), ColumnWidth));
         var right = Ui.Column(Ui.Section("Progress", progress, ColumnWidth), Ui.Section("Game Stats", stats, ColumnWidth));
         Controls.Add(Ui.Page(left, right));
 
@@ -95,6 +98,22 @@ internal sealed class CareerPage : EditorPage
 
     private static FlowLayoutPanel WithMax(NumericUpDown number) => Ui.Across(number, Ui.Action("Max", () => number.Value = number.Maximum, 60));
 
+    private void UnlockParts()
+    {
+        if (File is not null && File.Progress.CanChangeRank)
+        {
+            File.Unlocks.UnlockAll();
+            MarkBulkEdited();
+        }
+    }
+
+    private void ShowUnlockState(SaveFile save)
+    {
+        var missing = save.Unlocks.UnlockedCount < save.Unlocks.TotalCount;
+        _unlockParts.Text = !save.Progress.CanChangeRank ? "Finish the prologue first" : missing ? "Unlock All Parts" : "All Parts Unlocked";
+        _unlockParts.Enabled = missing && save.Progress.CanChangeRank;
+    }
+
     protected override void Populate()
     {
         var save = File!;
@@ -131,6 +150,7 @@ internal sealed class CareerPage : EditorPage
         _infractions.Text = save.Stable.TotalInfractions.ToString("N0");
         var time = TimeSpan.FromSeconds(save.Stats.PursuitSeconds);
         _pursuitTime.Text = available ? $"{(int)time.TotalHours}:{time.Minutes:00}:{time.Seconds:00}" : NotAvailable;
+        ShowUnlockState(save);
     }
 
     private sealed record CarChoice(CareerCar Car)

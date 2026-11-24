@@ -24,9 +24,11 @@ internal sealed class CarsPage : EditorPage
     private readonly DarkTabControl _sections = new() { Dock = DockStyle.Fill };
     private readonly TabPage _partsTab = Tab("Parts");
     private readonly TabPage _performanceTab = Tab("Performance");
+    private readonly TabPage _tuningTab = Tab("Tuning");
     private readonly TabPage _visualsTab = Tab("Visuals");
     private readonly TabPage _policeTab = Tab("Police");
     private readonly CarPartsPanel _parts = new();
+    private readonly CarTuningPanel _tuning = new();
     private readonly CarVisualsPanel _visuals = new();
     private readonly NumericUpDown _heat = Ui.Number(0, (decimal)CareerCar.MaxHeat, 120, 2, 0.1m);
     private readonly NumericUpDown _bounty = Ui.Number(0, CarStable.MaxBounty, 120);
@@ -72,16 +74,19 @@ internal sealed class CarsPage : EditorPage
         _visualsTab.Controls.Add(_visuals);
         _performanceTab.Controls.Add(BuildPerformance());
         _policeTab.Controls.Add(BuildPolice());
-        _sections.TabPages.AddRange([_partsTab, _performanceTab, _visualsTab, _policeTab]);
+        _tuningTab.Controls.Add(_tuning);
+        _sections.TabPages.AddRange([_partsTab, _performanceTab, _tuningTab, _visualsTab, _policeTab]);
         _parts.Changed += () =>
         {
             if (_car is not null)
             {
                 _visuals.ShowCar(_car, File!.Stable);
+                _tuning.ShowCar(_car, File.Stable);
             }
             MarkEdited();
         };
         _visuals.Changed += MarkEdited;
+        _tuning.Changed += MarkEdited;
 
         var top = new FlowLayoutPanel { Dock = DockStyle.Top, AutoSize = true, FlowDirection = FlowDirection.TopDown, WrapContents = false, BackColor = Theme.Back };
         top.Controls.AddRange([_heading, _title]);
@@ -144,8 +149,10 @@ internal sealed class CarsPage : EditorPage
                 {
                     return;
                 }
-                _car.SetLevel(index, _levels[index].SelectedIndex);
+                var car = _car;
+                car.SetLevel(index, _levels[index].SelectedIndex);
                 Bound(() => ShowJunkman(index));
+                _tuning.ShowCar(car, File!.Stable);
                 MarkEdited();
             };
             OnCheck(_junkman[slot], v => { _car?.SetJunkman(index, v); });
@@ -234,6 +241,7 @@ internal sealed class CarsPage : EditorPage
         Ui.Line(menu);
         Ui.Item(menu, "Edit Parts", () => _sections.SelectedTab = _partsTab, one is not null);
         Ui.Item(menu, "Edit Performance", () => _sections.SelectedTab = _performanceTab, one is not null);
+        Ui.Item(menu, "Edit Tuning", () => _sections.SelectedTab = _tuningTab, one is not null);
         Ui.Item(menu, "Edit Visuals", () => _sections.SelectedTab = _visualsTab, one is not null);
         Ui.Line(menu);
         Ui.Item(menu, "Max Performance", () => ForSelected(c => c.MaxPerformance()));
@@ -394,6 +402,7 @@ internal sealed class CarsPage : EditorPage
             ShowJunkman(i);
         }
         _parts.ShowCar(car, File!.Stable);
+        _tuning.ShowCar(car, File.Stable);
         _visuals.ShowCar(car, File.Stable);
         var confirmed = car.LimitsConfirmed;
         _note.Text = confirmed ? "" : "Upgrade limits for this car are not confirmed, so they are kept low.";

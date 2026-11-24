@@ -7,7 +7,6 @@ internal sealed class BlacklistPage : EditorPage
     private const int SideWidth = 262;
 
     private readonly ListView _list = Ui.List();
-    private readonly CheckBox _unlock = Ui.Check("Also unlock all parts");
     private readonly Label _hint = Ui.Note(225);
     private readonly PictureBox _portrait = Ui.Picture(236, 190);
     private readonly Label _rival = new() { AutoSize = true, Font = new Font("Segoe UI", 11f, FontStyle.Bold), Margin = new Padding(Ui.S(4), Ui.S(2), Ui.S(2), 0) };
@@ -35,7 +34,6 @@ internal sealed class BlacklistPage : EditorPage
                 Ui.Item(menu, $"Set Rank to #{rival.Rank} {rival.Name}", SetRank, File.Progress.CanChangeRank && rival.Rank != File.Career.Rank);
             }
         });
-        _unlock.Checked = true;
         _set = Ui.Action("Set rank", SetRank, 225);
 
         var needs = Ui.Fields(105);
@@ -43,7 +41,7 @@ internal sealed class BlacklistPage : EditorPage
         Ui.Row(needs, "Races won", _races);
         Ui.Row(needs, "Challenges", _challenges);
 
-        var change = Ui.Column(_set, _unlock, _hint);
+        var change = Ui.Column(_set, _hint);
         var details = Ui.Column(_portrait, _rival, _car, Ui.Section("Requirements", needs, 245), Ui.Section("Change rank", change, 245));
         var side = new Panel { Dock = DockStyle.Right, Width = Ui.S(SideWidth), AutoScroll = true, BackColor = Theme.Back };
         side.Controls.Add(details);
@@ -127,10 +125,6 @@ internal sealed class BlacklistPage : EditorPage
             return;
         }
         File.Progress.SetRank(rival.Rank);
-        if (_unlock.Checked)
-        {
-            File.Unlocks.UnlockAll();
-        }
         MarkBulkEdited();
     }
 }
