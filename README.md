@@ -4,16 +4,6 @@ Save editor for **Need for Speed: Most Wanted (2005)**. Supports PC, PS2, PS3 (P
 
 Lets you edit cash and bounty, jump to any Blacklist rank, add or customize cars, tune them, finish races and milestones, set up your EA Trax playlist, and port your career progress between different versions of the game.
 
-## What's new in 1.1.0
-
-- **PS3 saves:** Open and save PS2 saves exported from a PS3 as `.psv` files. The editor re-signs them, so the PS3 accepts them.
-- **EA Trax:** A new tab in Options with all 26 songs in the game's order. Set each song to Off, Menu, Racing, or All, pick Sequential or Random, and reorder the playlist.
-- **Controls:** Control Type and Vibration for each player.
-- **My Cars:** Add Car now asks whether the car goes to your Career Cars or to My Cars on the main menu.
-- **Hashes:** The `hashes` folder now covers milestones, Race Wins, infractions and fines, EA Trax songs, tuning, player settings, and the Top 5 pursuits.
-
-Earlier updates added Performance Tuning, the Milestones tab, the new Rap Sheet layout, and the Unlock All Parts button. See the [releases](../../releases) for the full list.
-
 ## Supported saves
 
 | Version | File to open |
