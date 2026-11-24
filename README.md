@@ -4,8 +4,6 @@ Save editor for **Need for Speed: Most Wanted (2005)**. Supports PC, PS2, GameCu
 
 Lets you edit cash and bounty, jump to any Blacklist rank, add or customize cars, and port your career progress between different versions of the game.
 
-Since this is v1.0.0, back up any saves you actually care about before messing with them. The editor makes a `.bak` the first time it saves over a file, but keeping your own copy never hurts.
-
 ## Supported saves
 
 | Version | File to open |
