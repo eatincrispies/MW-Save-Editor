@@ -85,10 +85,10 @@ dotnet build NFSMWSaveEditor.slnx -c Release
 
 To make a single `.exe`, run `publish.bat`. It goes in `publish\NFSMWSaveEditor`.
 
-## Reporting Bugs:
+## Known Bugs
 
-Open an issue and tell the bug you have a problem with, or something feels broken/not working.
-
----
+* Speedtraps not appearing when switching Blacklist ranks: 
+* Selecting or switching to a specific Blacklist ranker prevents their associated free-roam Speedtraps from appearing (though the Rap Sheet updates properly).
+* This occurs regardless of whether you start a fresh career and exit the garage normally after buying your first car, or use the "All Races Cleared" test option.
 
 Made by eatincrispies. This is a fan project and isn't affiliated with or endorsed by Electronic Arts. Need for Speed and all car names and logos belong to their owners.
