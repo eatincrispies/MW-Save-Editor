@@ -215,9 +215,11 @@ internal sealed class CarsPage : EditorPage
 
     private void RefreshAddList()
     {
-        var problem = File!.Stable.AddProblem();
-        _add.Enabled = problem is null;
-        _count.Text = problem ?? $"{File.Stable.Cars.Count} of {File.Stable.MaxCars} career cars";
+        var stable = File!.Stable;
+        var career = stable.AddProblem();
+        var mine = stable.AddProblem(true);
+        _add.Enabled = career is null || mine is null;
+        _count.Text = career is not null && mine is not null ? career : $"{stable.Cars.Count} of {stable.MaxCars} career cars";
         _lot.Enabled = File.Stable.LotProblem() is null;
     }
 
@@ -323,12 +325,29 @@ internal sealed class CarsPage : EditorPage
 
     private void AddCar()
     {
-        if (File is null || File.Stable.AddProblem() is not null)
+        if (File is null)
+        {
+            return;
+        }
+        var stable = File.Stable;
+        var careerProblem = stable.AddProblem();
+        var myProblem = stable.AddProblem(true);
+        if (careerProblem is not null && myProblem is not null)
         {
             return;
         }
         Ui.Commit(_detail);
-        using var dialog = new AddCarDialog(File.Stable.AddableVehicles(), File.Stable.FreeGarageSlots, File.Stable.CatalogLabel);
+        using var target = new AddTargetDialog(
+            careerProblem ?? $"{stable.Cars.Count} of {stable.MaxCars} cars. Shows up in your career garage.",
+            careerProblem is null,
+            myProblem ?? $"{stable.MyCars.Count} of {CarStable.MaxMyCars} cars. Shows up in My Cars on the main menu.",
+            myProblem is null);
+        if (target.ShowDialog(this) != DialogResult.OK)
+        {
+            return;
+        }
+        var mine = target.MyCars;
+        using var dialog = new AddCarDialog(stable.AddableVehicles(), mine ? stable.FreeMyCarSlots : stable.FreeGarageSlots, stable.CatalogLabel);
         if (dialog.ShowDialog(this) != DialogResult.OK)
         {
             return;
@@ -336,11 +355,11 @@ internal sealed class CarsPage : EditorPage
         CareerCar? last = null;
         foreach (var vehicle in dialog.Selected)
         {
-            if (File.Stable.AddProblem() is not null)
+            if (stable.AddProblem(mine) is not null)
             {
                 break;
             }
-            last = File.Stable.AddVehicle(vehicle);
+            last = stable.AddVehicle(vehicle, mine);
         }
         if (last is not null)
         {

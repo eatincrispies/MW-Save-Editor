@@ -120,7 +120,7 @@ internal sealed class CareerPage : EditorPage
         _alias.CharacterCasing = save.Map.UppercaseAlias ? CharacterCasing.Upper : CharacterCasing.Normal;
         _alias.Text = save.Career.ProfileName;
         _alias.BackColor = Theme.Field;
-        _alias.ReadOnly = !save.Map.CanRenameAlias;
+        _alias.ReadOnly = !save.CanRenameAlias;
         _caseFile.Text = save.Career.CaseFile;
         var rival = GameData.Rivals.FirstOrDefault(r => r.Rank == save.Career.Rank);
         _rank.Text = rival is null ? "Prologue" : $"#{rival.Rank} {rival.Name}";

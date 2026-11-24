@@ -29,7 +29,7 @@ internal sealed class ImportDialog : Form
         AutoSizeMode = AutoSizeMode.GrowAndShrink;
 
         _alias = Ui.Check(target.Map.Platform == SavePlatform.PC ? $"Alias: {source.Alias} (renames the PC profile folder)" : $"Alias: {source.Alias}");
-        _alias.Enabled = target.Map.CanRenameAlias;
+        _alias.Enabled = target.CanRenameAlias;
         _cars = Ui.Check($"Cars: {source.CareerCarCount} career, {source.MyCarCount} My Cars (replaces this save's cars)");
         foreach (var box in new[] { _money, _progress, _cars, _markers, _rapSheet, _options })
         {

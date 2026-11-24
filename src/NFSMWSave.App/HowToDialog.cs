@@ -49,6 +49,7 @@ internal sealed class HowToDialog : Form
             GOOD TO KNOW
 
             - On PCSX2, use a memory card tool such as mymc to export the save and import it back.
+            - On a PS3, copy the save to USB from the Memory Card Utility (PS/PS2). It lands in PS3\EXPORT\PSV as a .psv file. The editor signs it again when you save, so the PS3 accepts it. The alias can't be changed in a .psv save.
             - Some PAL saves use an earlier layout. They open with Add Car and the Rap Sheet turned off.
             """),
         new("Xbox 360", """

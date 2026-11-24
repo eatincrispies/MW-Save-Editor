@@ -6,7 +6,7 @@ namespace NFSMWSave.App;
 public sealed class MainForm : Form
 {
     private const string AppName = "NFSMW Save Editor";
-    private const string SaveFilter = "All Most Wanted saves|*.*|GameCube save (*.gci)|*.gci|PS2 save (*.psu;*.max;*.cbs)|*.psu;*.max;*.cbs";
+    private const string SaveFilter = "All Most Wanted saves|*.*|GameCube save (*.gci)|*.gci|PS2 save (*.psu;*.max;*.cbs;*.psv)|*.psu;*.max;*.cbs;*.psv";
     private readonly DarkTabControl _tabs = new() { Dock = DockStyle.Fill };
     private readonly List<EditorPage> _pages = [new CareerPage(), new BlacklistPage(), new CarsPage(), new RacesPage(), new MarkersPage(), new RapSheetPage(), new OptionsPage()];
     private readonly ToolStripStatusLabel _status = new() { Spring = true, TextAlign = ContentAlignment.MiddleLeft };

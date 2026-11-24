@@ -15,6 +15,8 @@ internal sealed class OptionsPage : EditorPage
     private readonly List<Action<PlayerOptions>> _refreshPlayer = [];
     private readonly ComboBox _audioMode = Choice();
     private readonly ComboBox _player = Choice();
+    private readonly ComboBox _controlsPlayer = Choice();
+    private readonly EaTraxPanel _trax = new();
     private readonly GroupBox _video;
     private int _playerIndex;
 
@@ -44,16 +46,19 @@ internal sealed class OptionsPage : EditorPage
         Pick(gameplay, "Race Map Mode", GameOptions.MapModes, o => o.RaceMap, (o, v) => o.RaceMap = v);
 
         var player = Ui.Fields(LabelWidth);
-        _player.Items.AddRange(["Player 1", "Player 2"]);
-        _player.SelectedIndex = 0;
-        _player.SelectedIndexChanged += (_, _) =>
+        foreach (var box in new[] { _player, _controlsPlayer })
         {
-            _playerIndex = Math.Max(0, _player.SelectedIndex);
-            if (!IsBinding && File is not null)
+            var source = box;
+            source.Items.AddRange(["Player 1", "Player 2"]);
+            source.SelectedIndex = 0;
+            source.SelectedIndexChanged += (_, _) =>
             {
-                Bound(ShowPlayer);
-            }
-        };
+                if (!IsBinding)
+                {
+                    SelectPlayer(Math.Max(0, source.SelectedIndex));
+                }
+            };
+        }
         Ui.Row(player, "Settings for", _player);
         PickPlayer(player, "Transmission", ["Auto", "Manual"], p => p.ManualTransmission ? 1 : 0, (p, v) => p.ManualTransmission = v == 1);
         PickPlayer(player, "Camera", GameOptions.Cameras, p => p.Camera, (p, v) => p.Camera = v);
@@ -63,9 +68,36 @@ internal sealed class OptionsPage : EditorPage
         TogglePlayer(player, "Score", p => p.Score, (p, v) => p.Score = v);
         TogglePlayer(player, "Leaderboard", p => p.Leaderboard, (p, v) => p.Leaderboard = v);
 
-        var left = Ui.Column(Ui.Section("Audio", audio, SectionWidth), _video);
+        var controls = Ui.Fields(LabelWidth);
+        Ui.Row(controls, "Settings for", _controlsPlayer);
+        PickPlayer(controls, "Control Type", Enumerable.Range(1, PlayerOptions.ControlTypes).Select(n => n.ToString()).ToList(), p => p.ControlType, (p, v) => p.ControlType = v);
+        TogglePlayer(controls, "Vibration", p => p.Vibration, (p, v) => p.Vibration = v);
+
+        var left = Ui.Column(Ui.Section("Audio", audio, SectionWidth), Ui.Section("Controls", controls, SectionWidth), _video);
         var right = Ui.Column(Ui.Section("Gameplay", gameplay, SectionWidth), Ui.Section("Player", player, SectionWidth));
-        Controls.Add(Ui.Page(left, right));
+
+        var settings = new TabPage("Settings") { BackColor = Theme.Back, UseVisualStyleBackColor = false, Padding = new Padding(Ui.S(4)) };
+        settings.Controls.Add(Ui.Page(left, right));
+        var trax = new TabPage("EA Trax") { BackColor = Theme.Back, UseVisualStyleBackColor = false, Padding = new Padding(Ui.S(4)) };
+        trax.Controls.Add(_trax);
+        _trax.Changed += MarkEdited;
+        var sections = new DarkTabControl { Dock = DockStyle.Fill };
+        sections.TabPages.AddRange([settings, trax]);
+        Controls.Add(sections);
+    }
+
+    private void SelectPlayer(int index)
+    {
+        _playerIndex = index;
+        Bound(() =>
+        {
+            _player.SelectedIndex = index;
+            _controlsPlayer.SelectedIndex = index;
+            if (File is not null)
+            {
+                ShowPlayer();
+            }
+        });
     }
 
     public override string Title => "Options";
@@ -164,5 +196,6 @@ internal sealed class OptionsPage : EditorPage
         _audioMode.SelectedIndex = options.AudioMode >= 0 && options.AudioMode < _audioMode.Items.Count ? options.AudioMode : -1;
         _video.Visible = options.HasWidescreen;
         ShowPlayer();
+        _trax.ShowSave(File);
     }
 }
