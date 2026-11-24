@@ -152,6 +152,19 @@ public static class CarCatalog
 
     public static string? VehicleName(uint vehicleKey) => NamesByKey.GetValueOrDefault(vehicleKey);
 
+    private static readonly Lazy<Dictionary<uint, string>> FrontendNames = new(() =>
+    {
+        var names = new Dictionary<uint, string>();
+        foreach (var vehicle in Data.Value.Families.SelectMany(WithPresets).Where(v => v.FeKey != GenericFrontendKey))
+        {
+            names.TryAdd(vehicle.FeKey, vehicle.Name);
+        }
+        return names;
+    });
+
+    internal static string? FrontendName(uint frontendKey) =>
+        GameData.FindCar(frontendKey)?.Name ?? FrontendNames.Value.GetValueOrDefault(frontendKey) ?? (frontendKey == GenericFrontendKey ? "Special vehicle" : null);
+
     private static readonly Lazy<Dictionary<uint, string>> StockNames = new(() => Data.Value.Families
         .SelectMany(f => f.Rows)
         .Where(r => r.Usage == 0)

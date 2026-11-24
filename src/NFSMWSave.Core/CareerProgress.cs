@@ -41,6 +41,7 @@ public sealed class CareerProgress
     private const string FinalBossRace = "1.2.3";
     private const string FinalPursuitRace = "1.8.1";
     private const string PrologueEndRace = "16.2.1";
+    private const int RapSheetRank = 13;
     private const uint TypeTradePaint = 0x850A64BC;
     private const uint TypeCostToState = 0xFD989A3A;
     private const uint TypePursuitEvasion = 0x5392E4FD;
@@ -348,8 +349,21 @@ public sealed class CareerProgress
         if (movingBack)
         {
             _career.Flags &= ~(CareerFlags.BeatenCareer | CareerFlags.GameOver);
+            if (target > RapSheetRank && _d.Map.HasEndgameFlags)
+            {
+                _career.Flags &= ~CareerFlags.HasRapSheet;
+            }
         }
         _career.Rank = target;
+        MatchRapSheet();
+    }
+
+    public void MatchRapSheet()
+    {
+        if (CanChangeRank && _career.Rank <= RapSheetRank && _d.Map.HasEndgameFlags)
+        {
+            _career.Flags |= CareerFlags.HasRapSheet;
+        }
     }
 
     internal (IReadOnlyList<ProgressState> Milestones, IReadOnlyList<ProgressState> Traps) BinStates(int rank)

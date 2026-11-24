@@ -118,6 +118,7 @@ public sealed class SaveFile
 
     public string? Save(string path, bool backup)
     {
+        Progress.MatchRapSheet();
         var bytes = ToBytes();
         string? backupPath = null;
         if (backup && File.Exists(path))

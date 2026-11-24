@@ -15,7 +15,7 @@ public static class CompletionStats
     private const string BurgerKingRace = "19.8.31";
     private const string BlackEditionRace = "19.9.70";
 
-    private static readonly int[][] RapSheetRanks =
+    internal static readonly int[][] RapSheetRanks =
     [
         [14400, 13200, 12000, 10800, 9600, 8400, 7200, 6000, 4800, 3600, 3000, 2400, 1800, 1200, 600],
         [1200, 1000, 900, 800, 700, 600, 500, 400, 300, 200, 150, 100, 75, 50, 25],

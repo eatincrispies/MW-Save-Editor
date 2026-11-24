@@ -38,6 +38,12 @@ public sealed class RapSheet(SaveBuffer d)
 
     internal int CareerValue(int index) => IsAvailable ? d.I32(d.Map.HighScores + CareerDetails + index * 4) : 0;
 
+    internal int Score(int offset) => IsAvailable ? d.I32(d.Map.HighScores + offset) : 0;
+
+    internal uint ScoreKey(int offset) => IsAvailable ? d.U32(d.Map.HighScores + offset) : 0;
+
+    internal string ScoreText(int offset, int length) => IsAvailable ? d.Text(d.Map.HighScores + offset, length) : "";
+
     public int Get(StatField field) => IsAvailable ? d.I32(d.Map.HighScores + field.Offset) : 0;
 
     public void Set(StatField field, int value)
